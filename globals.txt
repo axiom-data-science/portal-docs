@@ -1,0 +1,13 @@
+.. This file is just along for the ride to provide a place to store things referenced in more than one RST file. It's a TXT file so that Sphinx doesn't count it as a file it needs to worry about processing.
+
+.. ICON ALIASES
+
+.. |example_icon| image:: images/icons/example_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. GIF ALIASES
+
+.. |example_gif| image:: images/gifs/example.gif
+
+

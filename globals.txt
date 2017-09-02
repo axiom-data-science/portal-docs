@@ -6,8 +6,24 @@
 	:width: 20pt
 	:height: 20pt
 
+.. |plus_minus_icon| image:: images/icons/plus_minus_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. |magnify_icon| image:: images/icons/magnify_icon.png
+	:width: 20pt
+	:height: 20pt
+
+
+
 .. GIF ALIASES
 
 .. |example_gif| image:: images/gifs/example.gif
 
+.. OTHER IMAGE ALIASES
 
+.. |ESM_initial_view| image:: images/ESM_initial_view.png
+
+.. |sensor_hover| image:: images/sensor_hover.png
+
+.. |sensor_select| image:: images/sensor_select.png

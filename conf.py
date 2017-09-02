@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u''
+project = u'Environmental Sensor Map Documentation'
 copyright = u'2017, The U.S. Integrated Ocean Observing System'
 author = u'Axiom Data Science'
 
@@ -88,7 +88,7 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-html_favicon = 'images/IOOS_favicon.ico'
+#html_favicon = 'images/IOOS_favicon.ico'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -101,7 +101,7 @@ html_favicon = 'images/IOOS_favicon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
 
-html_logo = 'images/IOOS_logo_sm_white.png'
+#html_logo = 'images/IOOS_logo_sm_white.png'
 
 html_static_path = ['custom']
 html_style = 'css/my_theme.css'

@@ -3,28 +3,36 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-#####################################################
-Documentation for the IOOS Next Generation Sensor Map
-#####################################################
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents:
-
-   PortalOverview
-   DataCatalog
-   DisplayDataLayers
-   DownloadData
-   DataComparison
-   DataScenarios
-   Feedback
-
+######################################
+Environmental Sensor Map Documentation
+######################################
 
 ************
 Introduction
 ************
 
-These pages describe the next-generation sensor map developed by Axiom Data Science for the `U.S. Integrated Ocean Observing System (IOOS) <https://ioos.noaa.gov>`_, which was released on September 1, 2017. The so-called "next-gen" sensor map offers many new features and makes it even easier to explore, analyze, and download data from the extensive IOOS sensor network.
+Welcome to the documentation for the beta version of the next generation Environmental Sensor Map (ESM). The ESM integrates regional, national, and global real-time (past 4-hours) data from observing systems operated by `U.S. Integrated Ocean Observing System (IOOS) <https://ioos.noaa.gov>`_, `IOOS Regional Associations <https://ioos.noaa.gov/about/regional-associations/>`_, and local data providers. This map offers many new updated features that build upon existing data system, including the following:
 
+* Data comparison and charting functions
+* Customizable data sharing among users
+* Featured data scenario highlights
+* Advanced charting features, including climatology and anomaly charts
+* Station- and source-level metadata pages
+* Data dashboards created from user selections
 
+You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question that is not answered, please contact us at noaa.ioos.webmaster@noaa.gov. Your feedback will help us improve this documentation for later users!
+
+********
+Contents
+********
+
+.. toctree::
+   :maxdepth: 1
+
+   Overview
+   DataCatalog
+   DisplayingData
+   ComparingData
+   DownloadingData
+   DataDashboards
 

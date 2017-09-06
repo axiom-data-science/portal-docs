@@ -15,12 +15,40 @@
 	:height: 20pt
 
 .. |feedback_button_icon| image:: images/icons/feedback_button_icon.png
-	:width: 60
+	:width: 60pt
 	:height: 30pt
+
+.. |scenarios_button_icon| image:: images/icons/scenarios_button_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |portal_button_icon| image:: images/icons/portal_button_icon.png
+	:width: 40pt
+	:height: 20pt
+
+.. |settings_button_icon| image:: images/icons/settings_button_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |share_button_icon| image:: images/icons/share_button_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |add_scenario_icon| image:: images/icons/add_scenario_icon.png
+
+.. |data_display_scenario_icon| image:: images/icons/data_display_scenario_icon.png
+
+.. |gear_icon| image:: images/icons/gear_icon.png
+
+.. |plus_icon| image:: images/icons/plus_icon.png
+
 
 .. GIF ALIASES
 
 .. |example_gif| image:: images/gifs/example.gif
+
+.. |add_new_scenario_gif| image:: images/gifs/add_new_scenario_gif.gif
+
 
 .. OTHER IMAGE ALIASES
 
@@ -29,3 +57,5 @@
 .. |sensor_hover| image:: images/sensor_hover.png
 
 .. |sensor_select| image:: images/sensor_select.png
+
+.. |scenarios_view| image:: images/scenarios_view.png

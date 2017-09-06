@@ -14,7 +14,9 @@
 	:width: 20pt
 	:height: 20pt
 
-
+.. |feedback_button_icon| image:: images/icons/feedback_button_icon.png
+	:width: 60
+	:height: 30pt
 
 .. GIF ALIASES
 
@@ -22,7 +24,7 @@
 
 .. OTHER IMAGE ALIASES
 
-.. |ESM_initial_view| image:: images/ESM_initial_view.png
+.. |initial_view| image:: images/initial_view.png
 
 .. |sensor_hover| image:: images/sensor_hover.png
 

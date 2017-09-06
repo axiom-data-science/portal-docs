@@ -6,7 +6,7 @@
 Data Catalog
 ############
 
-This section of our documentation is still under development. For assistance, please contact us at noaa.ioos.webmaster@noaa.gov.
+This section of our documentation is still under development. For assistance, please contact usvia the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
 
 .. _search-catalog:
 

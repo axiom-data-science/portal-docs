@@ -14,11 +14,11 @@ The Environmental Sensor Map (ESM) is built on a familiar interactive map interf
 * Data display window in the bottom left corner
 * Zoom navigation tools in the top left corner
 
-When you begin to explore the EMS, it defaults to a zoomed-out view centered on the Americas. Hexagonal tiles that represent areas covered by individual sensors are layered over the basemap. By default, tiles for sensors in and around the Gulf of Mexico are displayed.
+When you begin to explore the EMS, it defaults to a zoomed-out view centered on the Americas. Hexagonal tiles that represent areas covered by sensors are layered over the basemap.
 
-|ESM_initial_view|
+|initial_view|
 
-.. _portal-overview-header-two:
+.. _map-navigation:
 
 **************
 Map Navigation
@@ -28,6 +28,8 @@ As with other interactive maps, you can pan and zoom to adjust the view to your 
 
 #. You can use the plus/minus icons |plus_minus_icon|
 #. Or you can use the magnifying lens icon |magnify_icon| to select an area of the map, which the viewer will then zoom to
+
+.. _data-exploration:
 
 ****************
 Data Exploration

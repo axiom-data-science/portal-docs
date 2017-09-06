@@ -6,7 +6,7 @@
 Comparing Data
 ##############
 
-This section of our documentation is still under development. For assistance, please contact us at noaa.ioos.webmaster@noaa.gov.
+This section of our documentation is still under development. For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
 
 .. _add-data-layers:
 

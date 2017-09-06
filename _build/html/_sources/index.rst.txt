@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. include:: globals.txt
+
 ######################################
 Environmental Sensor Map Documentation
 ######################################
@@ -20,7 +22,7 @@ Welcome to the documentation for the beta version of the next generation Environ
 * Station- and source-level metadata pages
 * Data dashboards created from user selections
 
-You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question that is not answered, please contact us at noaa.ioos.webmaster@noaa.gov. Your feedback will help us improve this documentation for later users!
+You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question that is not answered, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page. Your feedback will help us improve this documentation for later users!
 
 ********
 Contents
@@ -34,5 +36,5 @@ Contents
    DisplayingData
    ComparingData
    DownloadingData
-   DataDashboards
+   DataScenarios
 

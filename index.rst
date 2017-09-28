@@ -1,19 +1,14 @@
-.. IOOS Next Gen Sensor Map documentation master file, created by
-   sphinx-quickstart on Mon Aug 28 11:05:37 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 .. include:: globals.txt
 
-######################################
-Environmental Sensor Map Documentation
-######################################
+###############
+Next Gen Portal
+###############
 
 ************
 Introduction
 ************
 
-Welcome to the documentation for the beta version of the next generation Environmental Sensor Map (ESM). The ESM integrates regional, national, and global real-time (past 4-hours) data from observing systems operated by `U.S. Integrated Ocean Observing System (IOOS) <https://ioos.noaa.gov>`_, `IOOS Regional Associations <https://ioos.noaa.gov/about/regional-associations/>`_, and local data providers. This map offers many new updated features that build upon existing data system, including the following:
+Welcome to the documentation for the next gen portal. This portal is a data exploration tool developed by `Axiom Data Science <http://www.axiomdatascience.com/>`_ and shared among map-based portals of the `U.S. Integrated Ocean Observing System (IOOS) <https://ioos.noaa.gov/>`_ and the `IOOS Regional Associations <https://ioos.noaa.gov/about/regional-associations/>`_. The portal integrates diverse environmental data from observing systems operated by IOOS, IOOS Regional Associations, and local data providers. The latest version of the portal offers many new and updated features that build upon existing data systems, including the following:
 
 * Data comparison and charting functions
 * Customizable data sharing among users
@@ -22,7 +17,9 @@ Welcome to the documentation for the beta version of the next generation Environ
 * Station- and source-level metadata pages
 * Data dashboards created from user selections
 
-You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question that is not answered, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page. Your feedback will help us improve this documentation for later users!
+You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question not answered by this documentation, please contact us via the Feedback button |feedback_button_icon| in the top right corner of the portal.
+
+Your feedback is important and will help us improve this documentation for future users.
 
 ********
 Contents
@@ -32,9 +29,12 @@ Contents
    :maxdepth: 1
 
    Overview
-   DataCatalog
-   DisplayingData
-   ComparingData
    DownloadingData
    DataScenarios
+
+
+.. eventually the pages below will go up in the TOC between overview and downloadingdata
+..    DataCatalog
+..    DisplayingData
+..    ComparingData
 

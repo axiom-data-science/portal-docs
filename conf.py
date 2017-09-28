@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Environmental Sensor Map Documentation'
+project = u'Next Gen Portal'
 copyright = u'2017, The U.S. Integrated Ocean Observing System'
 author = u'Axiom Data Science'
 

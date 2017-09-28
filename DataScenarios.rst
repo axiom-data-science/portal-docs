@@ -87,10 +87,12 @@ Additionally, you can explore the selected station and its data more in depth in
 Adding Data to a Comparison Chart
 =================================
 
-Comparison charts appear below the map and allow you to plot similar data from different sensors. To add data from a station to a comparison chart, follow these steps:
+Comparison charts appear below the map and allow you to plot similar data from different sensors. To add data from a saved chart to a comparison chart, follow these steps:
 
 #. Click the |data_display_scenario_icon|
 #. Click the ``Add to compare chart`` box under your scenario's name
+
+The new data will appear in the comparison chart in a contrasting color, and the station will be added to a list below the comparison chart.
 
 .. note::
 	Comparison charts have the same options for displaying data as saved charts, which are described above under **Displaying Your Data**.

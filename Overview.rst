@@ -6,7 +6,7 @@
 Overview
 ########
 
-The Environmental Sensor Map (ESM) is built on a familiar interactive map interface, with several featured elements arranged around the screen:
+The portal is built on a familiar interactive map interface, with several featured elements arranged around the screen:
 
 * Blue toolbar across the top
 * Legend displayed on the right
@@ -14,7 +14,7 @@ The Environmental Sensor Map (ESM) is built on a familiar interactive map interf
 * Data display window in the bottom left corner
 * Zoom navigation tools in the top left corner
 
-When you begin to explore the EMS, it defaults to a zoomed-out view centered on the Americas. Hexagonal tiles that represent areas covered by sensors are layered over the basemap.
+When you begin to explore the portal, it defaults to a zoomed-out view centered on the Americas. Hexagonal tiles that represent areas covered by sensors are layered over the basemap.
 
 |initial_view|
 

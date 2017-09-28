@@ -29,7 +29,7 @@ Hex-Binned Data
 Model Data
 ==========
 
-.. _4d-profile-data:
+_4d-profile-data:
 
 4D Profile Data
 ===============

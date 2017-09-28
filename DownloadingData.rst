@@ -6,7 +6,7 @@
 Downloading Data
 ################
 
-Many types of data are available for download through the Environmental Sensor Map (ESM). Some of the most common data types are described below.
+Many types of data are available for download through the portal. Some of the most common data types are described below.
 
 .. _downloading-gridded-data:
 

@@ -50,4 +50,4 @@ deploy_prod:
   only:
     - master
   script:
-    - docker run --rm registry.axiom/ansible ap apps-prod $CI_PROJECT_NAME
+    - docker run --rm registry.axiom/ansible ap apps-prod $CI_PROJECT_NAME --tags deploy

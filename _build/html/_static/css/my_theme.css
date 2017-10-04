@@ -1,5 +1,0 @@
-@import url("theme.css");
-
-a.icon.icon-home::before {
-	display: none !important;
-}

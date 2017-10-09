@@ -116,7 +116,7 @@ def setup(app):
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'IOOSNextGenSensorMapdoc'
+htmlhelp_basename = 'DataPortaldoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------

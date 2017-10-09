@@ -46,8 +46,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Next Gen Portal'
-copyright = u'2017, The U.S. Integrated Ocean Observing System'
+project = u'Portal Help Document'
+copyright = u'2017, Axiom Data Science'
 author = u'Axiom Data Science'
 
 # The version info for the project you're documenting, acts as replacement for

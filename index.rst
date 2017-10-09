@@ -1,21 +1,13 @@
 .. include:: globals.txt
 
-###############
-Next Gen Portal
-###############
-
 ************
 Introduction
 ************
 
-Welcome to the documentation for the next gen portal. This portal is a data exploration tool developed by `Axiom Data Science <http://www.axiomdatascience.com/>`_ and shared among map-based portals of the `U.S. Integrated Ocean Observing System (IOOS) <https://ioos.noaa.gov/>`_ and the `IOOS Regional Associations <https://ioos.noaa.gov/about/regional-associations/>`_. The portal integrates diverse environmental data from observing systems operated by IOOS, IOOS Regional Associations, and local data providers. The latest version of the portal offers many new and updated features that build upon existing data systems, including the following:
+This portal is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and have access to public data from many sources. Within the data portal, users can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical and physical characteristics. Data in the portals can be interactively mapped or charted using advnaced features such as, comparisons between data sources, binning by time, and plotting of climatologies and anomalies. Users can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations. Using the portal, users can access metadata and project contacts, as well as download data in a variety of formats.
 
-* Data comparison and charting functions
-* Customizable data sharing among users
-* Featured data scenario highlights
-* Advanced charting features, including climatology and anomaly charts
-* Station- and source-level metadata pages
-* Data dashboards created from user selections
+For the notes about the latest portal version visit: http://axiomdatascience.com/portal-updates/
+
 
 You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question not answered by this documentation, please contact us via the Feedback button |feedback_button_icon| in the top right corner of the portal.
 

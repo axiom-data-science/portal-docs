@@ -6,7 +6,7 @@
 Displaying Data
 ###############
 
-This section of our documentation is still under development. For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
+This section of our documentation is still under development. For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner.
 
 .. _view-data-in-the-map-portal:
 

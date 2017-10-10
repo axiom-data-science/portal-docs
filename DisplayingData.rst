@@ -24,10 +24,10 @@ Real-Time Data
 Hex-Binned Data
 ===============
 
-<--!
+
 .. _model-data:
 
-Model Data
+<--! Model Data -->
 ==========
 
 _4d-profile-data:

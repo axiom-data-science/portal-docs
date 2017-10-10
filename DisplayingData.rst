@@ -23,7 +23,8 @@ Real-Time Data
 
 Hex-Binned Data
 ===============
-[comment]: <
+
+<--!
 .. _model-data:
 
 Model Data
@@ -93,5 +94,5 @@ Virtual Sensors
 ***********
 Map Sharing
 ***********
->
+-->
 

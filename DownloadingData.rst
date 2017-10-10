@@ -16,10 +16,10 @@ Downloading Gridded Data
 
 .. _thematic-realtime-environmental-distributed-data-servies:
 
-Thematic Realtime Environmental Distributed Data Services
-=========================================================
+Thematic Realtime Environmental Distributed Data Services (THREDDS)
+===================================================================
 
-hematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
+Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
 
 .. _netcdf-subset:
 
@@ -42,8 +42,8 @@ The NetCDF Subset protocol looks through all the datasets NetCDF files stored on
 
 .. _open-source-project-for-a-network-data-access-protocol:
 
-Open-source Project for a Network Data Access Protocol
-------------------------------------------------------
+Open-source Project for a Network Data Access Protocol (OPeNDAP)
+----------------------------------------------------------------
 
 OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
 
@@ -58,8 +58,8 @@ OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or
 
 .. _web-mapping-services:
 
-Web Mapping Services
-====================
+Web Mapping Services (WMS)
+==========================
 
 Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
 
@@ -69,8 +69,8 @@ Web mapping services (WMS) are used to provide machine access to images used by 
 
 .. _environmental-research-division-data-access-program:
 
-Environmental Research Division Data Access Program
-===================================================
+Environmental Research Division Data Access Program (ERDDAP)
+============================================================
 
 The Environmental Research Division Data Access Program (ERDDAP) is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. AOOS hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more).
 
@@ -85,9 +85,9 @@ The Environmental Research Division Data Access Program (ERDDAP) is a NOAA-spons
 Downloading a Time Series
 =========================
 
-The EMS provides access to time-series extraction of gridded data, also known as a "Virtual Sensor."
+The portal provides access to time-series extraction of gridded data, also known as a "Virtual Sensor."
 
-#. From the AOOS catalog or portal map, click on an area of interest.
+#. Click on an area of interest in the map.
 #. A symbol at the location will appear, and a window will launch requesting all the data at that latitude and longitude throughout the dataset.
 #. Select ``Download`` to receive a zip file containing data.csv and metadata.txt for that station and sensor.
 

@@ -6,7 +6,7 @@
 Data Scenarios
 ##############
 
-With the new version of the ESM you can save a collection of data from different sensors and visualize them together for comparison and analysis. The ESM calls these collections "data scenarios," and they are accessed by clicking on the scenarios button |scenarios_button_icon| near the top right corner of the blue toolbar along the top of the window.
+You can save a collection of data from different sensors and visualize them together for comparison and analysis. These collections are called "data scenarios," and they are accessed by clicking on the scenarios button |scenarios_button_icon| near the top right corner of the blue toolbar along the top of the window.
 
 .. _viewing-an-existing-scenario:
 
@@ -14,17 +14,17 @@ With the new version of the ESM you can save a collection of data from different
 Viewing an Existing Scenario
 ****************************
 
-The ESM loads several premade data scenarios that you might like to explore. You can access these premade scenarios by following these steps:
+Within the portal there are several premade data scenarios that highlight environmental events or locations of interest. You can access these premade scenarios by following these steps:
 
 #. Click on the scenarios button |scenarios_button_icon|
 #. Select the scenario you'd like to view from the dropdown menu
 
-The scenario view will open, displaying its data for you to explore. In the image below, you can see the scenario view of the ``Hurricane Harvey Water Level`` scenario.
+The scenario view will open, displaying its data for you to explore. In the example image below, you can see the scenario view of the ``Hurricane Harvey Water Level`` scenario.
 
 |scenarios_view|
 
 .. note::
-	Depending on the version of the ESM you're viewing, different scenarios will be available. If you'd like access to a particular scenario, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
+	If you need assistance creating a particular scenario, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
 
 .. _creating-a-new-scenario:
 

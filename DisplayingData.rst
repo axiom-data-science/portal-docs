@@ -22,8 +22,11 @@ Observation Definitions
 For the purposes of this help document, the following are defined:
 
 Hexagonal bin= a group of stations that are aggregated into a hexagon for visual summary
+
 Station= a device that collects data related to the weather and environment using many different sensors (e.g. weather station)
+
 Sensor= an individual measurement device affixed or associated with a station (e.g. thermometer, barometer)
+
 Parameter= the type of value measured by the sensor (e.g. temperature, pressure)
 
 .. _real-time-data:

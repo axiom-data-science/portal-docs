@@ -21,6 +21,7 @@ Contents
    :maxdepth: 1
 
    Overview
+   DisplayingData
    DownloadingData
    DataScenarios
 

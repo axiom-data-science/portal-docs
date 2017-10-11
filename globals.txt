@@ -52,7 +52,7 @@
 
 .. OTHER IMAGE ALIASES
 
-.. |initial_view| image:: images/initial_view.png
+.. |initial_view| image:: images/initial_1.png
 
 .. |sensor_hover| image:: images/sensor_hover.png
 

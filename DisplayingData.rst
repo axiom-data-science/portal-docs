@@ -49,7 +49,7 @@ To view station data, click on the point. As shown in the image below, data from
 More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
 
 
-<--! .. _hex-binned-data:
+.. .. _hex-binned-data:
 
 Hex-Binned Data
 ===============
@@ -125,5 +125,5 @@ Virtual Sensors
 ***********
 Map Sharing
 ***********
--->
+..
 

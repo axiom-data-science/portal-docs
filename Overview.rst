@@ -16,7 +16,7 @@ The portal is built on a familiar interactive map interface, with several featur
 
 When you begin to explore the portal, it defaults to a zoomed-out view centered on the region. Hexagonal tiles that represent areas covered by sensors are layered over the basemap.
 
-<img src="/blob/master/images/initial_1.png" />
+|initial_view|
 
 .. _map-navigation:
 

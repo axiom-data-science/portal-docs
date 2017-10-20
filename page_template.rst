@@ -14,7 +14,7 @@ This is your text. Don't forget `tick marks` around the names of things that app
 Your Header Two
 ***************
 
-This is some more text. Don't forget this is what a link looks like: `link text <htpp://www.thelinkitself.com>`_ (yes, you need the space before the first carat).
+This is some more text. Don't forget this is what an external link looks like: `link text <htpp://www.thelinkitself.com>`_ (yes, you need the space before the first carat). And this is what an internal link looks like: :ref:`metadata editor <metadata-editor>`.
 
 .. _your-header-three:
 

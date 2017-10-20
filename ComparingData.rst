@@ -6,18 +6,29 @@
 Comparing Data
 ##############
 
-This section of our documentation is still under development. For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
+The catalog and portal offer multiple ways of comparing data within both the mapped interface and within a :ref:`data scenario <data-scenarios>`.
 
-.. _add-data-layers:
+For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
 
-***************
-Add Data Layers
-***************
+.. _add-data-layers-to-the-map:
+
+**************************
+Add Data Layers to the Map
+**************************
+There are multiple ways of adding data layers to the map.
+
+
+From the :ref:`data catalog <data-catalog>`
+
+
 
 .. _compare-data-layers:
 
 Compare Data Layers
 ===================
+
+
+
 
 .. _climatology_charts:
 
@@ -25,17 +36,27 @@ Compare Data Layers
 Climatology Charts
 ******************
 
+
+
+
 .. _query-and-save-vector-layer:
 
 ***************************
 Query and Save Vector Layer
 ***************************
 
+
+
+
 .. _customize-data-charts:
 
 *********************
 Customize Data Charts
 *********************
+
+
+
+
 
 .. _time-slider:
 

@@ -54,6 +54,8 @@ Customizing a Scenario
 
 Once you've created a scenario, you can view it the same way you'd view a premade scenario described above. There are several ways you can customize your scenario. These are described below.
 
+.. _describing-a-scenario:
+
 Describing Your Scenario
 ========================
 
@@ -67,6 +69,8 @@ You can add a description to your scenario, which will appear directly underneat
 
 .. note::
 	You can also edit the title of your scenario in the same popup window.
+
+.. _displaying-your-data:
 
 Displaying Your Data
 ====================
@@ -83,6 +87,8 @@ Additionally, you can explore the selected station and its data more in depth in
 #. Download the data
 #. View the station's historical data
 #. View information about the station itself from the organization that maintains it
+
+.. _adding-data-to-a-comparison-chart
 
 Adding Data to a Comparison Chart
 =================================

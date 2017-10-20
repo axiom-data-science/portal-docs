@@ -22,12 +22,11 @@ Contents
 
    Overview
    DisplayingData
+   ComparingData
    DownloadingData
    DataScenarios
 
 
 .. eventually the pages below will go up in the TOC between overview and downloadingdata
 ..    DataCatalog
-..    DisplayingData
-..    ComparingData
 

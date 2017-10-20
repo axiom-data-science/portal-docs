@@ -31,33 +31,49 @@ From the Portal
 2. From the results popup, use the ``+`` icon next to the layer you want to add to the map.
 
 
-.. _compare-data-layers:
-
-Compare Data Layers
-===================
-
-
-
-
-.. _climatology_charts:
+.. _climatology-charts:
 
 ******************
 Climatology Charts
 ******************
-If there are more than three years of data coverage, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30+ years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
+If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
 
-Historical weather patterns for stations
-========================================
+
+Historical patterns in station observations
+===========================================
 1. From the real-time sensor map or historical sensor map, click on any station that has more than three years of data.
 2. The default graph will show binned data, with the dark gray line indicating the mean and the gray envelope representing the min and max values within the current year.
-3. Selecting the ``Legend`` icon gives you access to turn on and off historical statistics
+
+
+Historical patterns in gridded data
+===================================
+1. Clicking on any gridded dataset will open a :ref:`virtual sensor <virtual-sensor`.
+2. If the dataset has more than three years of data, the default graph will show binned data.
+3. The dark gray line indicating the mean and the gray envelope representing the min and max values within the current year.
+
+
+.. _customize-data-charts:
+
+*********************
+Customize Data Charts
+*********************
+- Selecting the ``Legend`` icon gives you access to turn on and off historical statistics.
 	- minimum of the entire time-series within each bin is represented by the dashed blue line 
 	- mean to the 10th percentile of the data is represented by the blue shaded area
 	- mean of the entire time-series within each bin is represented by the dashed gray line
 	- mean to the 90th percentile of the data is represented by the red shaded area
 	- maximum of the entire time-series within each bin is represented by a dashed red line
+- Use the time-slider on the bottom of the chart to set a time range, or use the gear icon next to the slider to type in bounds
+- The gear above the graph allows you to set chart options, including which of the following is displayed:
+	- Line chart: A chart of the current values with historical statistics
+	- Climatology: Year-to-date monthly mean values of the current year compared to historical statistics
+	- Anomaly: The data values minus the mean values across all years
+	- Curtain: If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
 
-Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end.
+.. note::
+	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end.
+
+
 
 .. _query-and-save-vector-layer:
 
@@ -68,11 +84,7 @@ Query and Save Vector Layer
 
 
 
-.. _customize-data-charts:
 
-*********************
-Customize Data Charts
-*********************
 
 
 

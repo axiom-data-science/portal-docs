@@ -6,7 +6,7 @@
 Comparing Data
 ##############
 
-The catalog and portal offer multiple ways of comparing data within both the mapped interface and within a :ref:`data scenario <data-scenarios>`.
+The catalog and portal offer multiple ways of comparing data within both the mapped interface and within a :ref:`data view <data-views>`.
 
 For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
 
@@ -58,7 +58,7 @@ Historical patterns in gridded data
 Customize Data Charts
 *********************
 - Selecting the ``Legend`` icon gives you access to turn on and off historical statistics.
-	- **Minimum** of the entire time-series within each bin is represented by the dashed blue line 
+	- **Minimum** of the entire time-series within each bin is represented by the dashed blue line
 	- **Mean to the 10th percentile** of the data is represented by the blue shaded area
 	- **Mean** of the entire time-series within each bin is represented by the dashed gray line
 	- **Mean to the 90th percentile** of the data is represented by the red shaded area

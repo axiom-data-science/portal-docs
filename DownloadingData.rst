@@ -106,26 +106,24 @@ Downloading Station Data
 Historical Sensor Catalog
 =========================
 
-The Alaska Ocean Observing System (AOOS) historical sensor catalog aggregates and shows all the station data that AOOS has in its database. Data can be downloaded by selecting an individual station and then choosing ``Download``.
+Historical sensor catalogs aggregate and show all relevant station data. Data can be downloaded by selecting an individual station and then choosing ``Download``.
 
-#. Visit the `AOOS historical sensor catalog <http://erddap.aoos.org/>`_
+#. Visit the the historical sensor catalog's website.
 #. Use the station filters to show stations by parameter, source, or platform.
-#. Use the map to zoom to an area of interest, select an individual station, and select "Download" to receive a zip file containing data.csv and metadata.txt for that station and sensor.
-#. Use the "ERDDAP" link to go to the ERDDAP page for that sensor (explained below, skip to step 4).
-
+#. Use the map to zoom to an area of interest, select an individual station, and the data for that station and sensor.
 
 .. _erddap-sensor-catalog:
 
 ERDDAP Sensor Catalog
 =====================
 
-ERDDAP is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. AOOS hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more).
+ERDDAP is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. The portal hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more).
 
-#. Go to http://erddap.aoos.org
-#. Search for a station name (e.g., "Wiseman).
+#. Go to the ERDDAP sensor catalog's website.
+#. Search for a station name (e.g., "Wiseman").
 #. Select the data link under Table DAP.
 #. Select the range in each dimension (e.g., start time, stride, end time) and what variables you want to download.
-#. Select the output file type desired and submit the request to the server. When the data is bundled, it will download automatically.
+#. Select the output file type desired and submit the request to the server. When the data are bundled, they will download automatically.
 
 .. _downloading-queried-data:
 

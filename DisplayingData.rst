@@ -17,7 +17,7 @@ View Data in the Map Portal
 .. _observation_definitions:
 
 Observation Definitions
-==============
+=======================
 
 For the purposes of this help document, the following are defined:
 
@@ -34,7 +34,7 @@ Parameter= the type of value measured by the sensor (e.g. temperature, pressure)
 Real-Time Data
 ==============
 
-Real-time stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the select sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin. 
+Real-time stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the select sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
 To view a summary of the station data contain within a hexagon, hover over the hexagon. The number of stations aggregated within that hexagon will be displayed as "n stations". The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the "n more sensors" in the lower left of the window.
 

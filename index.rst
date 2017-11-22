@@ -24,7 +24,7 @@ Contents
    DisplayingData
    ComparingData
    DownloadingData
-   DataScenarios
+   DataViews
 
 
 .. eventually the pages below will go up in the TOC between overview and downloadingdata

@@ -3,3 +3,22 @@
 a.icon.icon-home::before {
 	display: none !important;
 }
+
+/* .wy-nav-content{
+  max-width:1000px !important;
+} */
+/* this was from best practices site for wider tables just leaving here in case*/
+
+.wy-nav-content th.head,
+.wy-nav-content td {
+    white-space: normal !important;
+    vertical-align: top !important;
+}
+
+.wy-table thead th,.rst-content table.docutils thead th,.rst-content table.field-list thead th {
+	border:solid 1px #e1e4e5 !important;
+}
+
+/* .wy-plain-list-disc,.rst-content .section ul,.rst-content .toctree-wrapper ul,article ul {
+	margin-bottom:0px !important;
+} */

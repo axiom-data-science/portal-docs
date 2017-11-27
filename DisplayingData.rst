@@ -19,15 +19,16 @@ View Data in the Map Portal
 Observation Definitions
 =======================
 
-For the purposes of this help document, the following are defined:
+For the purposes of this documentation, it's helpful to understand how the following terms are defined:
 
-Hexagonal bin= a group of stations that are aggregated into a hexagon for visual summary
+.. csv-table::
+	:header: "Term", "Definition"
+	:widths: 15, 50
 
-Station= a device that collects data related to the weather and environment using many different sensors (e.g. weather station)
-
-Sensor= an individual measurement device affixed or associated with a station (e.g. thermometer, barometer)
-
-Parameter= the type of value measured by the sensor (e.g. temperature, pressure)
+	"**Haxagonal bin**", "A group of stations that are aggregated into a hexagon for visual summary."
+	"**Station**", "A device that collects data related to the weather and environment using many different sensors (e.g. weather station)."
+	"**Sensor**", "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
+	"**Parameter**", "The type of value measured by the sensor (e.g. temperature, pressure)."
 
 .. _real-time-data:
 

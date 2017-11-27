@@ -42,6 +42,10 @@
 
 .. |plus_icon| image:: images/icons/plus_icon.png
 
+.. |glider_data_download_icon| image:: images/icons/glider_data_download_icon.png
+	:width: 60pt
+	:height: 30pt
+
 
 .. GIF ALIASES
 
@@ -59,3 +63,5 @@
 .. |sensor_select| image:: images/sensor_select.png
 
 .. |views_view| image:: images/views_view.png
+
+.. |glider_data_viz| image:: images/glider_data_viz.png

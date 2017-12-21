@@ -25,7 +25,7 @@ For the purposes of this documentation, it's helpful to understand how the follo
 	:header: "Term", "Definition"
 	:widths: 15, 50
 
-	"**Haxagonal bin**", "A group of stations that are aggregated into a hexagon for visual summary."
+	"**Hexagonal bin**", "A group of stations that are aggregated into a hexagon for visual summary."
 	"**Station**", "A device that collects data related to the weather and environment using many different sensors (e.g. weather station)."
 	"**Sensor**", "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
 	"**Parameter**", "The type of value measured by the sensor (e.g. temperature, pressure)."

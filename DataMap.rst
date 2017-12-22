@@ -8,6 +8,8 @@ Data Map
 Displaying Data Layers
 **********************
 
+*Several features under this heading are currently under development. Please check back soon for updates.*
+
 Viewing Data in the Map Portal
 ==============================
 
@@ -76,11 +78,60 @@ Additionally, the dataset can be downloaded in several different formats by usin
 
 These features and more will be explored more thoroughly in upcoming updates to this documentation.
 
-***********
-Data Charts
-***********
+.. Hex-Binned Data
+.. ===============
 
-*This feature underdevelopment. Check back soon for updates.*
+.. Model Data 
+.. ==========
+
+.. 4D Profile Data
+.. ===============
+
+.. *******************************
+.. Add More Data Layers to the Map
+.. *******************************
+
+.. ***************************
+.. Customize Individual Layers
+.. ***************************
+
+.. ***************************************
+.. Station and Source Level Metadata Pages
+.. ***************************************
+
+.. *********************
+.. Customize Portal View
+.. *********************
+
+.. ***********
+.. Data Sharts
+.. ***********
+
+.. ********
+.. Time Slider
+.. ***********
+
+.. ***************************
+.. Profile Data Visualizations
+.. ***************************
+
+.. ************
+.. Polygon Tool
+.. ************
+
+.. ***************
+.. Virtual Sensors
+.. ***************
+
+.. ***********
+.. Map Sharing
+.. ***********
+
+.. ***********
+.. Data Charts
+.. ***********
+
+.. *This feature underdevelopment. Check back soon for updates.*
 
 ****************
 Downloading Data

@@ -33,9 +33,9 @@ Data Catalog
 .. Data DOIs
 .. *********
 
-.. ***************************
-.. Downloading Visualized Data
-.. ***************************
+***************************
+Downloading Visualized Data
+***************************
 
 Gridded Data
 ============

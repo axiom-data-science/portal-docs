@@ -23,6 +23,7 @@ Contents
 
    PortalOverview
    DataCatalog
+   DataMap
    DisplayingData
    ComparingData
    DataViews

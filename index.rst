@@ -8,7 +8,6 @@ This portal is a data exploration tool with a customized public web interface th
 
 For the notes about the latest portal version visit: http://axiomdatascience.com/portal-updates/
 
-
 You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question not answered by this documentation, please contact us via the Feedback button |feedback_button_icon| in the top right corner of the portal.
 
 Your feedback is important and will help us improve this documentation for future users.
@@ -20,13 +19,9 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   Overview
+   PortalOverview
    DisplayingData
    ComparingData
    DownloadingData
    DataViews
-
-
-.. eventually the pages below will go up in the TOC between overview and downloadingdata
-..    DataCatalog
 

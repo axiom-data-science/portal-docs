@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Portal Help Documentation'
+project = u'Axiom Data Portal Help Documentation'
 copyright = u'2017, Axiom Data Science'
 author = u'Axiom Data Science'
 

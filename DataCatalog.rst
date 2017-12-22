@@ -6,45 +6,36 @@ Data Catalog
 
 *This feature is under development. Check back soon for updates.*
 
-**************
-Search Catalog
-**************
+.. **************
+.. Search Catalog
+.. **************
 
-*This feature is under development. Check back soon for updates.*
 
-****
-Tags
-****
+.. ****
+.. Tags
+.. ****
 
-*This feature is under development. Check back soon for updates.*
 
-**************
-Search Filters
-**************
+.. **************
+.. Search Filters
+.. **************
 
-*This feature is under development. Check back soon for updates.*
 
-********************
-About the Data Layer
-********************
+.. ********************
+.. About the Data Layer
+.. ********************
 
-*This feature is under development. Check back soon for updates.*
+.. ********
+.. Metadata
+.. ********
 
-********
-Metadata
-********
+.. *********
+.. Data DOIs
+.. *********
 
-*This feature is under development. Check back soon for updates.*
-
-*********
-Data DOIs
-*********
-
-*This feature is under development. Check back soon for updates.*
-
-***************************
-Downloading Visualized Data
-***************************
+.. ***************************
+.. Downloading Visualized Data
+.. ***************************
 
 Gridded Data
 ============

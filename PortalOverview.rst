@@ -12,6 +12,12 @@ Understanding the Data Portal
 
 The data portal is made up of a catalog and a map interface. The catalog provides a way to explore available datasets using text searches and filters, as well as the ability to download datasets of interest. Some datasets in the catalog can be visualized automatically through the data portal's map interface, which provides a rich suite of tools for creating charts, comparing data, and visualizing datasets in context.
 
+*********************
+Using the Data Portal
+*********************
+
+This section describes the basics of the data portal's catalog and map.
+
 Data Catalog
 ============
 

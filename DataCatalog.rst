@@ -1,47 +1,50 @@
 .. include:: globals.txt
 
-.. _data-catalog:
-
 ############
 Data Catalog
 ############
 
-This section of our documentation is still under development. For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
-
-.. _search-catalog:
+*This feature is under development. Check back soon for updates.*
 
 **************
 Search Catalog
 **************
 
-.. _tags:
+*This feature is under development. Check back soon for updates.*
 
 ****
 Tags
 ****
 
-.. _search-filters:
+*This feature is under development. Check back soon for updates.*
 
 **************
 Search Filters
 **************
 
-.. _about-the-data-layer:
+*This feature is under development. Check back soon for updates.*
 
 ********************
 About the Data Layer
 ********************
 
-.. _metadata:
+*This feature is under development. Check back soon for updates.*
 
 ********
 Metadata
 ********
 
-.. _data-doi:
+*This feature is under development. Check back soon for updates.*
 
 *********
 Data DOIs
 *********
+
+*This feature is under development. Check back soon for updates.*
+
+****************
+Downloading Data
+****************
+
 
 

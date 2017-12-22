@@ -22,8 +22,8 @@ Contents
    :maxdepth: 1
 
    PortalOverview
+   DataCatalog
    DisplayingData
    ComparingData
-   DownloadingData
    DataViews
 

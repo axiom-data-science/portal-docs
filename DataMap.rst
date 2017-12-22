@@ -1,23 +1,18 @@
 .. include:: globals.txt
 
-.. _displaying-data:
+########
+Data Map
+########
 
-###############
-Displaying Data
-###############
+**********************
+Displaying Data Layers
+**********************
 
-This section of our documentation is still under development. For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner.
-
-.. _viewing-data-in-the-map-portal:
-
-******************************
 Viewing Data in the Map Portal
-******************************
-
-.. _observation_definitions:
+==============================
 
 Observation Definitions
-=======================
+-----------------------
 
 For the purposes of this documentation, it's helpful to understand how the following terms are defined:
 
@@ -30,10 +25,8 @@ For the purposes of this documentation, it's helpful to understand how the follo
 	"**Sensor**", "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
 	"**Parameter**", "The type of value measured by the sensor (e.g. temperature, pressure)."
 
-.. _real-time-data:
-
 Real-Time Data
-==============
+--------------
 
 Real-time stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the select sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
@@ -50,7 +43,7 @@ To view station data, click on the point. As shown in the image below, data from
 More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
 
 Glider Data
-===========
+-----------
 
 Ocean gliders are autonomous underwater vehicles used to collect ocean data, including temperature, salinity, conductivity, and other important measures. Unlike stationary sensor platforms such as buoys, gliders move through the water column and collect data at different locations over time.
 
@@ -82,5 +75,23 @@ From here there are several ways to explore the glider dataset:
 Additionally, the dataset can be downloaded in several different formats by using the blue downloads button in the top right |glider_data_download_icon|.
 
 These features and more will be explored more thoroughly in upcoming updates to this documentation.
+
+***********
+Data Charts
+***********
+
+*This feature underdevelopment. Check back soon for updates.*
+
+****************
+Downloading Data
+****************
+
+Data may be downloaded through the data catalog.
+
+**********
+Data Views
+**********
+
+*This feature underdevelopment. Check back soon for updates.*
 
 

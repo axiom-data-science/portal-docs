@@ -15,8 +15,8 @@
 	:height: 20pt
 
 .. |feedback_button_icon| image:: images/icons/feedback_button_icon.png
-	:width: 60pt
-	:height: 30pt
+	:width: 40pt
+	:height: 20pt
 
 .. |views_button_icon| image:: images/icons/views_button_icon.png
 	:width: 60pt

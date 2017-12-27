@@ -7,7 +7,7 @@ Data Catalog
 *This feature is under development. Check back soon for updates.*
 
 .. **************
-.. Search Catalog
+.. Search Catalog (what exactly the search engine searches)
 .. **************
 
 
@@ -17,13 +17,13 @@ Data Catalog
 
 
 .. **************
-.. Search Filters
+.. Search Filters (project vs mapped data)
 .. **************
 
 
-.. ********************
-.. About the Data Layer
-.. ********************
+.. *******************************
+.. Learn More About the Data Layer (Modules)
+.. *******************************
 
 .. ********
 .. Metadata
@@ -37,8 +37,8 @@ Data Catalog
 Downloading Visualized Data
 ***************************
 
-Gridded Data
-============
+Downloading Gridded Data
+========================
 
 Thematic Realtime Environmental Distributed Data Services (THREDDS)
 -------------------------------------------------------------------
@@ -100,8 +100,8 @@ The Environmental Research Division Data Access Program (ERDDAP) is a NOAA-spons
 #. Select the range in each dimension (e.g., start time, stride, end time), and uncheck all unneeded variables.
 #. Select the output file type desired and submit the request to the server. When the data is bundled, it will download automatically.
 
-Downloading a Time Series
--------------------------
+Downloading a Time Series from Gridded Data
+-------------------------------------------
 
 The portal provides access to time-series extraction of gridded data, also known as a "Virtual Sensor."
 
@@ -109,11 +109,11 @@ The portal provides access to time-series extraction of gridded data, also known
 #. A symbol at the location will appear, and a window will launch requesting all the data at that latitude and longitude throughout the dataset.
 #. Select ``Download`` to receive a zip file containing data.csv and metadata.txt for that station and sensor.
 
-Station Data
-============
+Downloading Station Data
+------------------------
 
-Historical Sensor Catalog
--------------------------
+Historical Sensor Catalogs
+""""""""""""""""""""""""""
 
 Historical sensor catalogs aggregate and show all relevant station data. Data can be downloaded by selecting an individual station and then choosing ``Download``.
 
@@ -122,7 +122,7 @@ Historical sensor catalogs aggregate and show all relevant station data. Data ca
 #. Use the map to zoom to an area of interest, select an individual station, and the data for that station and sensor.
 
 ERDDAP Sensor Catalog
----------------------
+"""""""""""""""""""""
 
 ERDDAP is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. The portal hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more).
 
@@ -132,8 +132,8 @@ ERDDAP is a NOAA-sponsored common data server that provides access to gridded an
 #. Select the range in each dimension (e.g., start time, stride, end time) and what variables you want to download.
 #. Select the output file type desired and submit the request to the server. When the data are bundled, they will download automatically.
 
-Queried/Parsed Data
-===================
+Downloading Queried/Parsed Data
+===============================
 
 This section of our documentation is still under development. For assistance, please contact us at noaa.ioos.webmaster@noaa.gov.
 
@@ -149,4 +149,8 @@ NetCDF libraries are available for every common scientific programming language 
 *******************************
 Downloading Non-visualized Data
 *******************************
+
+.. Files/Archives from the Research Workspace
+.. ==========================================
+
 *This feature is under development. Check back soon for updates.*

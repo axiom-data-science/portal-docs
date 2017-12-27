@@ -8,7 +8,7 @@ Data Map
 Displaying Data Layers
 **********************
 
-*Several features under this heading are currently under development. Please check back soon for updates.*
+*Several features on this page are currently under development. Check back soon for updates.*
 
 Viewing Data in the Map Portal
 ==============================
@@ -27,8 +27,8 @@ For the purposes of this documentation, it's helpful to understand how the follo
 	"**Sensor**", "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
 	"**Parameter**", "The type of value measured by the sensor (e.g. temperature, pressure)."
 
-Real-Time Data
---------------
+Statistical Overview of Real-Time Data
+--------------------------------------
 
 Real-time stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the select sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
@@ -44,8 +44,20 @@ To view station data, click on the point. As shown in the image below, data from
 
 More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
 
+.. Overview of Hex Binned Data
+.. ---------------------------
+
+.. Overview of Model Data
+.. ----------------------
+
+.. Virtual Sensors
+.. """""""""""""""
+
+Overview of 4D, Mobile Sensor, and Profile Data
+-----------------------------------------------
+
 Glider Data
------------
+"""""""""""
 
 Ocean gliders are autonomous underwater vehicles used to collect ocean data, including temperature, salinity, conductivity, and other important measures. Unlike stationary sensor platforms such as buoys, gliders move through the water column and collect data at different locations over time.
 
@@ -78,16 +90,8 @@ Additionally, the dataset can be downloaded in several different formats by usin
 
 These features and more will be explored more thoroughly in upcoming updates to this documentation.
 
-**************
-Comparing Data
-**************
-
-The catalog and portal offer multiple ways of comparing data within both the mapped interface and within a :ref:`data view <data-views>`.
-
-For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
-
-Add Data Layers to the Map
-==========================
+Add More Data Layers to the Map
+===============================
 
 There are multiple ways of adding data layers to the map.
 
@@ -103,8 +107,43 @@ From the data map:
 1. From within the interactive map, use the `Search for data` bar.
 2. From the results popup, use the ``+`` icon next to the layer you want to add to the map.
 
-Climatology Charts
-==================
+.. Customize Individual Layers
+.. ===========================
+
+.. Station and Source Level Metadata Pages
+.. =======================================
+
+.. Customize Portal View
+.. =====================
+
+.. Time Slider
+.. ===========
+
+.. Profile Data/4D Visualizations/Depth Filter
+.. ===========================================
+
+.. Polygon Tool
+.. ============
+
+.. State Saving/Share Map
+.. ======================
+
+***********
+Data Charts
+***********
+
+The catalog and portal offer multiple ways of comparing data within both the mapped interface and within a :ref:`data view <data-views>`.
+
+For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
+
+.. Different Chart Types
+.. =====================
+
+.. Summary Statistics
+.. ==================
+
+.. Climatology & Anomaly Charts
+.. ============================
 
 If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
 
@@ -121,6 +160,10 @@ Historical patterns in gridded data
 1. Clicking on any gridded dataset will open a :ref:`virtual sensor <virtual-sensor`.
 2. If the dataset has more than three years of data, the default graph will show binned data.
 3. The dark gray line indicating the mean and the gray envelope representing the min and max values within the current year.
+
+
+.. Query & Save Vector Layer for Comparison
+.. ========================================
 
 Customize Data Charts
 =====================
@@ -153,66 +196,8 @@ Customize Data Charts
 .. note::
 	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end.
 
-.. ***************************
-.. Query and Save Vector Layer
-.. ***************************
-
-.. ***********
 .. Time Slider
-.. ***********
-
-.. Hex-Binned Data
-.. ===============
-
-.. Model Data 
-.. ==========
-
-.. 4D Profile Data
-.. ===============
-
-.. *******************************
-.. Add More Data Layers to the Map
-.. *******************************
-
-.. ***************************
-.. Customize Individual Layers
-.. ***************************
-
-.. ***************************************
-.. Station and Source Level Metadata Pages
-.. ***************************************
-
-.. *********************
-.. Customize Portal View
-.. *********************
-
-.. ***********
-.. Data Sharts
-.. ***********
-
-.. ********
-.. Time Slider
-.. ***********
-
-.. ***************************
-.. Profile Data Visualizations
-.. ***************************
-
-.. ************
-.. Polygon Tool
-.. ************
-
-.. ***************
-.. Virtual Sensors
-.. ***************
-
-.. ***********
-.. Map Sharing
-.. ***********
-
-.. ***********
-.. Data Charts
-.. ***********
+.. ===========
 
 .. *This feature underdevelopment. Check back soon for updates.*
 
@@ -228,9 +213,6 @@ Data Views
 
 You can save a collection of data from different sensors and visualize them together for comparison and analysis. These collections are called "data views," and they are accessed by clicking on the views button |views_button_icon| near the top right corner of the blue toolbar along the top of the window.
 
-Accessing an Existing View
-==========================
-
 Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views by following these steps:
 
 #. Click on the views button |views_button_icon|
@@ -243,6 +225,24 @@ The view view will open, displaying its data for you to explore. In the example 
 .. note::
 	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
 
+.. Add Data Layers for Comparison
+.. ==============================
+
+.. What Different Data Layers Can Be Compared
+.. ==========================================
+.. e.g. physical model, biological
+
+.. State Saving/Naming Data Views
+.. ==============================
+
+.. Customizing Data View Narratives
+.. ================================
+
+.. Share Data View
+.. ===============
+
+.. Download Data/Charts
+.. ====================
 
 Creating a New View
 ===================

@@ -57,6 +57,8 @@
 .. OTHER IMAGE ALIASES
 
 .. |catalog_initial_view| image:: images/catalog_initial_view.png
+	:width: 1600pt
+	:height: 800pt
 
 .. |map_initial_view| image:: images/map_initial_view.png
 
@@ -67,3 +69,4 @@
 .. |views_view| image:: images/views_view.png
 
 .. |glider_data_viz| image:: images/glider_data_viz.png
+

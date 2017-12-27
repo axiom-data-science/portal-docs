@@ -6,14 +6,9 @@ Portal Overview
 
 The data portal is made up of a catalog and a map interface. The catalog provides a way to explore available datasets using text searches and filters, as well as the ability to download datasets of interest. Some datasets in the catalog can be visualized automatically through the data portal's map interface, which provides a rich suite of tools for creating charts, comparing data, and visualizing datasets in context.
 
-*********************
-Using the Data Portal
-*********************
-
-This section describes the basics of the data portal's catalog and map.
-
+************
 Data Catalog
-============
+************
 
 The data catalog is built around a familiar search interfact, with several important elements arranged around the screen:
 
@@ -22,8 +17,11 @@ The data catalog is built around a familiar search interfact, with several impor
 * Text search bar across the top
 * A list of datasets that match the desire criteria in the main column
 
+|catalog_initial_view|
+
+********
 Data Map
-========
+********
 
 The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
@@ -33,13 +31,18 @@ The data map is built around a familiar interactive map interface, with several 
 * Data display window in the bottom left corner
 * Zoom navigation tools in the top left corner
 
-When you begin to explore the portal, it defaults to a zoomed-out view centered on the region. Hexagonal tiles that represent areas covered by sensors are layered over the basemap.
-
 |map_initial_view|
+
+***************
+Getting Started
+***************
+
+When you begin to explore the portal, it defaults to a zoomed-out view centered on the region. Hexagonal tiles that represent areas covered by sensors are layered over the basemap.
 
 As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. To pan, click and drag the map with your mouse pointer. There are 2 ways to zoom using icons in the top left of the screen:
 
 #. You can use the plus/minus icons |plus_minus_icon|
 #. Or you can use the magnifying lens icon |magnify_icon| to select an area of the map, which the viewer will then zoom to
 
+*The rest of this section is under development. Check back soon for updates.*
 

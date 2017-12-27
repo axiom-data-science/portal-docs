@@ -31,7 +31,7 @@ The data map is built around a familiar interactive map interface, with several 
 * Data display window in the bottom left corner
 * Zoom navigation tools in the top left corner
 
-|initial_view|
+|map_initial_view|
 
 ***************
 Getting Started

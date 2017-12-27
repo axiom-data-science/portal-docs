@@ -10,13 +10,20 @@ The data portal is made up of a catalog and a map interface. The catalog provide
 Data Catalog
 ************
 
-The data portal features a data catalog, which provides a way to explore available datasets using text searches and filters, as well as the ability to download datasets of interest.
+The data catalog is built around a familiar search interfact, with several important elements arranged around the screen:
+
+* Filter by location map in the upper left
+* Groups of common tags to help filter the catalog quickly in the column on the left
+* Text search bar across the top
+* A list of datasets that match the desire criteria in the main column
+
+|catalog_initial_view|
 
 ********
 Data Map
 ********
 
-The data portal also features a familiar interactive map interface, with several important elements arranged around the screen:
+The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
 * Blue toolbar across the top
 * Legend displayed on the right

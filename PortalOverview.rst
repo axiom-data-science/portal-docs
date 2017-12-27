@@ -15,12 +15,17 @@ This section describes the basics of the data portal's catalog and map.
 Data Catalog
 ============
 
-The data portal features a data catalog, which provides a way to explore available datasets using text searches and filters, as well as the ability to download datasets of interest.
+The data catalog is built around a familiar search interfact, with several important elements arranged around the screen:
+
+* Filter by location map in the upper left
+* Groups of common tags to help filter the catalog quickly in the column on the left
+* Text search bar across the top
+* A list of datasets that match the desire criteria in the main column
 
 Data Map
 ========
 
-The data portal also features a familiar interactive map interface, with several important elements arranged around the screen:
+The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
 * Blue toolbar across the top
 * Legend displayed on the right
@@ -30,7 +35,7 @@ The data portal also features a familiar interactive map interface, with several
 
 When you begin to explore the portal, it defaults to a zoomed-out view centered on the region. Hexagonal tiles that represent areas covered by sensors are layered over the basemap.
 
-|initial_view|
+|map_initial_view|
 
 As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. To pan, click and drag the map with your mouse pointer. There are 2 ways to zoom using icons in the top left of the screen:
 

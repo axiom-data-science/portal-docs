@@ -56,7 +56,9 @@
 
 .. OTHER IMAGE ALIASES
 
-.. |initial_view| image:: images/initial_view.png
+.. |catalog_initial_view| image:: images/catalog_initial_view.png
+
+.. |map_initial_view| image:: images/map_initial_view.png
 
 .. |sensor_hover| image:: images/sensor_hover.png
 

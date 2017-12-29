@@ -4,7 +4,7 @@
 Data Catalog
 ############
 
-The catalog provides search access for all datasets within the portal. The Catalog can be used to discover, browse, and download data files. Additionally, the Cctalog can be used to add visualizable data layers to the map. ThecCatalog contains several observational data types:
+The catalog provides search access for all datasets within the portal. The catalog can be used to discover, browse, and download data files. Additionally, the Cctalog can be used to add visualizable data layers to the map. The catalog contains several observational data types:
 
 * *Real-time data* are ingested, served, and displayed by the MBON Data Portal at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
 

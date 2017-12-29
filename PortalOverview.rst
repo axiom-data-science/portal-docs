@@ -52,7 +52,8 @@ Getting Started
 
 Follow these steps to get started using the portal.
 
-**Step 1. Find Data Layers.**
+Step 1: Find Data Layers
+========================
 
   1a) *Search the data catalog*. From the portal home page, click on 'Explore Data Layers' to navigate to the catalog.
   
@@ -60,7 +61,8 @@ Follow these steps to get started using the portal.
   
   1c) *Learn more about the data layer*. By clicking on the title in the catalog, you will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer.  
   
-  **Step 2. Display Data Layers.**
+Step 2: Display Data Layers
+===========================
   
   2a) *Select a data layer to add to the map*. Data layers can be viewed and explored in the interactive map. To add a data layer to a map, click the '+' icon from the metadata page or directly from the catalog. Then click on 'portal' at the top right of the screen to be taken to the map.
   
@@ -68,7 +70,8 @@ Follow these steps to get started using the portal.
   
   2c) *Search for more data to add to the map*. From the map, you can search for and add additional data layers to the map. Cliuck on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click 'Portal' to return to the map.
   
-  **Step 3. Download Data from the Portal.**
+Step 3: Download Data from the Portal
+=====================================
   
   3a) *Download vector data*. For vector data (e.g. lines, points, polygons) you can find a 'download data' button by scrolling to the bottom of the metadata page in the catalog. Format options include CSV, WMS, WFS, and Shapefile. Formats vary by dataset.
   

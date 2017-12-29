@@ -4,13 +4,18 @@
 Data Map
 ########
 
+The map provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. All real-time and near real-time data within the portal are accessible as interactive visualizations in the map view (as indicated with a map preview image in the catalog). Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace.
+
+The map is highly customizable (“Settings” and “Legend”), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom Data Views to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations. 
+
+
 **********************
-Displaying Data Layers
+Display Data Layers
 **********************
 
 *Several features on this page are currently under development. Check back soon for updates.*
 
-Viewing Data in the Map Portal
+View Data in the Map Portal
 ==============================
 
 Observation Definitions
@@ -27,8 +32,8 @@ For the purposes of this documentation, it's helpful to understand how the follo
 	"**Sensor**", "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
 	"**Parameter**", "The type of value measured by the sensor (e.g. temperature, pressure)."
 
-Statistical Overview of Real-Time Data
---------------------------------------
+Overview of Real-Time Data
+---------------------------
 
 Real-time stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the select sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
@@ -44,7 +49,7 @@ To view station data, click on the point. As shown in the image below, data from
 
 More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
 
-.. Overview of Hex Binned Data
+.. Overview of Near-Real Time Data
 .. ---------------------------
 
 .. Overview of Model Data
@@ -107,26 +112,25 @@ From the data map:
 1. From within the interactive map, use the `Search for data` bar.
 2. From the results popup, use the ``+`` icon next to the layer you want to add to the map.
 
+.. Learn More About Data Layers 
+.. =============================
+.. Station and Source Metadata Pages
+.. """"""""""""""""""""""""""""""""""""""""
+
+
+.. Interact with and Customize Data Layers in the Map
+.. ===================================================
 .. Customize Individual Layers
-.. ===========================
-
-.. Station and Source Level Metadata Pages
-.. =======================================
-
-.. Customize Portal View
-.. =====================
-
+.. """""""""""""""""""""""""""
 .. Time Slider
-.. ===========
-
-.. Profile Data/4D Visualizations/Depth Filter
-.. ===========================================
-
+.. """""""""""
+.. Depth Filter
+.. """""""""""
 .. Polygon Tool
-.. ============
+.. """""""""""
 
-.. State Saving/Share Map
-.. ======================
+.. Save and Share Map
+.. ===================
 
 ***********
 Data Charts
@@ -202,7 +206,7 @@ Customize Data Charts
 .. *This feature underdevelopment. Check back soon for updates.*
 
 ****************
-Downloading Data
+Download Data
 ****************
 
 Data may be downloaded through the data catalog, as described in `this <http://help.axds.co/portals/DataCatalog.html#downloading-visualized-data>`_ section.
@@ -244,7 +248,7 @@ The view view will open, displaying its data for you to explore. In the example 
 .. Download Data/Charts
 .. ====================
 
-Creating a New View
+Create a New View
 ===================
 
 While the premade data views are interesting, the real fun starts when you begin making your own views. To do so, follow these steps and consult the GIF below:
@@ -261,12 +265,12 @@ In the GIF below, we've zoomed in on Hawai'i and selected a sensor to view. We t
 
 |add_new_view_gif|
 
-Customizing a View
+Customize a View
 ==================
 
 Once you've created a view, you can access it the same way you'd access a premade view described above. There are several ways you can customize your view. These are described below.
 
-Describing Your View
+Describe Your View
 --------------------
 
 You can add a description to your view, which will appear directly underneath your view's title. Your description can include valid HTML, which allows you to include links and images, as well as some basic text formatting. To add a description, follow these steps:
@@ -280,7 +284,7 @@ You can add a description to your view, which will appear directly underneath yo
 .. note::
 	You can also edit the title of your view in the same popup window.
 
-Displaying Your Data
+Display Your Data
 --------------------
 
 You can adjust the way the sensor data are displayed in the chart on the right-hand side of the window, including but not limited to the following:
@@ -296,7 +300,7 @@ Additionally, you can explore the selected station and its data more in depth in
 #. View the station's historical data
 #. View information about the station itself from the organization that maintains it
 
-Adding Data to a Comparison Chart
+Add Data to a Comparison Chart
 ---------------------------------
 
 Comparison charts appear below the map and allow you to plot similar data from different sensors. To add data from a saved chart to a comparison chart, follow these steps:
@@ -309,7 +313,7 @@ The new data will appear in the comparison chart in a contrasting color, and the
 .. note::
 	Comparison charts have the same options for displaying data as saved charts, which are described above under **Displaying Your Data**.
 
-Sharing a View
+Share a View
 ==============
 
 Once you've created, customized, and explored your data view, you'll probably want to share it with your friends and colleagues. To get a shareable link, follow these steps:

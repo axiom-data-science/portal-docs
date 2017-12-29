@@ -5,6 +5,7 @@ Data Catalog
 ############
 
 The catalog provides search access for all datasets within the portal. The Catalog can be used to discover, browse, and download data files. Additionally, the Cctalog can be used to add visualizable data layers to the map. ThecCatalog contains several observational data types:
+
 * *Real-time data* are ingested, served, and displayed by the MBON Data Portal at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
 
 * *Near real-time data* are ingested by the MBON Data Portal at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include satellite images and derived satellite products.
@@ -43,7 +44,7 @@ The catalog provides search access for all datasets within the portal. The Catal
 .. Data files can be added to the Catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
 
 .. 1. Data are managed by a project researcher using his/her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
-For assistance using the Research Workspace and its metadata editor visit: https://workspace.aoos.org/help/
+.. For assistance using the Research Workspace and its metadata editor visit: https://workspace.aoos.org/help/
 
 .. 2. Once the data have been loaded and/or its embargo period ends, the researcher may then select the 'Publish' option for their project in the Research Workspace.
 

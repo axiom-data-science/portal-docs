@@ -4,24 +4,14 @@
 Data Map
 ########
 
-The map provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. All real-time and near real-time data within the portal are accessible as interactive visualizations in the map view (as indicated with a map preview image in the catalog). Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace.
-
-The map is highly customizable (“Settings” and “Legend”), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom Data Views to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations. 
+The map provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. The map is highly customizable, enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom Data Views to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations. 
 
 
 **********************
 Display Data Layers
 **********************
 
-*Several features on this page are currently under development. Check back soon for updates.*
-
-View Data in the Map Portal
-==============================
-
-Observation Definitions
------------------------
-
-For the purposes of this documentation, it's helpful to understand how the following terms are defined:
+This section provides information on how to view, learn more, and interact with data layers in the map. For the purposes of this documentation, it's helpful to understand how the following terms are defined:
 
 .. csv-table::
 	:header: "Term", "Definition"
@@ -32,10 +22,19 @@ For the purposes of this documentation, it's helpful to understand how the follo
 	"**Sensor**", "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
 	"**Parameter**", "The type of value measured by the sensor (e.g. temperature, pressure)."
 
+*Several features on this page are currently under development. Check back soon for updates.*
+
+View Data in the Map Portal
+===========================
+
+All real-time and near real-time data within the portal are accessible as interactive visualizations in the map view. Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace. More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
+
 Overview of Real-Time Data
 ---------------------------
 
-Real-time stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the select sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
+Real-time data are ingested, served, and displayed in the portal at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
+
+Real-time data from observation stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the select sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
 To view a summary of the station data contain within a hexagon, hover over the hexagon. The number of stations aggregated within that hexagon will be displayed as "n stations." The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the "n more sensors" in the lower left of the window.
 
@@ -47,22 +46,32 @@ To view station data, click on the point. As shown in the image below, data from
 
 |sensor_select|
 
-More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
 
-.. Overview of Near-Real Time Data
-.. ---------------------------
+Overview of Near-Real Time Data
+-------------------------------
 
-.. Overview of Model Data
-.. ----------------------
+Near real-time data are ingested by the portal at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
 
-.. Virtual Sensors
-.. """""""""""""""
+Model and Satellite Data
+""""""""""""""""""""""""
 
-Overview of 4D, Mobile Sensor, and Profile Data
------------------------------------------------
+Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing).The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
 
-Glider Data
-"""""""""""
+To select your area of interest use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the Data Charts section of this document.
+
+The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are view. More information about using the time slider can be found in the Time Slide section of this document. Depending on your zoom level and internet speed, these time intervals layers could take a little to appear so be patient as these layers load…once you do have them in the image cache (you have to go through and view each) they will load more quickly as you step forward and backwards through the time.
+
+The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ‘Autoset for data view’ button. 
+
+
+Overview of Historical Data
+---------------------------
+
+Historical data are data that are one month old or older. Historical data available through the portal were sometimes collected in real-time and subsequently archived; other historical data are ingested from local or national archives upon stakeholder request.
+
+
+Mobile Platforms (Gliders)
+""""""""""""""""""""""""""
 
 Ocean gliders are autonomous underwater vehicles used to collect ocean data, including temperature, salinity, conductivity, and other important measures. Unlike stationary sensor platforms such as buoys, gliders move through the water column and collect data at different locations over time.
 

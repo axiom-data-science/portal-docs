@@ -194,7 +194,7 @@ Download Non-visualized Data
 Data Files from the Research Workspace
 ======================================
 
-The [Research Workspace](https://researchworkspace.com/intro/) is a gateway to make project-based research data available publicly through the portal. Project data accessible through the catalog can be searched using the Advanced search options. 
+The _'Research Workspace <https://researchworkspace.com/intro/>'_ is a gateway to make project-based research data available publicly through the portal. Project data accessible through the catalog can be searched using the Advanced search options. 
 
 #. Click on the title of interest in the catalog. 
 #. Choose the ``Project Data`` tab.
@@ -202,6 +202,6 @@ The [Research Workspace](https://researchworkspace.com/intro/) is a gateway to m
 #. Click the name of the data file of interest to download it to your computer. 
 #. Click on the "Metadata" icon to the right of the data resource title to view the associated metadata.
 
-For more information about publishing data to the portal from the Research Workspace read [here](https://workspace.aoos.org/help/PublishingData.html). 
+For more information about publishing data to the portal from the Research Workspace read _'here <https://workspace.aoos.org/help/PublishingData.html>'_. 
 
 *This feature is under development. Check back soon for updates.*

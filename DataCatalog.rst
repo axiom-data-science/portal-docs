@@ -13,55 +13,72 @@ The catalog provides search access for all datasets within the portal. The catal
 * *Historical data* are data that are one month old or older. Historical data are ingested from the associated Research Workspace or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts. 
 
 
-*This feature is under development. Check back soon for updates.*
+**************
+Search Catalog
+**************
 
+From the portal home page, click on ‘Explore Data Layers’ to navigate to the catalog.
+
+Within the catalog, you will find a listing of all the data layers accessible through the portal. By default, the data layers are shown in alphabetical order. There are several ways the data layers can be browsed or searched. 
+
+* Click a category tag in the left sidebar. The data layers that are associated with the tag will be displayed. More than one category tag can be selected at the same time.
+
+* Enter a search term. Just type the data you are interested in finding into the search box in the upper left toolbar. As you type, you may see matching terms (e.g. 'Hints') and actual data layers (e.g. 'Results') appear below the toolbar's search box. Click on the Hints or Results of interest and the search results will appear in the data catalog.
+
+* Filter the result types in the left sidebar. All data layers in the catalog are categorized as 'Map layers' (e.g. static GIS layers), 'Projects' (e.g. research project data files displayed from the Research Workspace), or 'Sensor stations' (e.g. real-time sensor observations). Select the checkboxes to display or narrow the data layers by these Results types. 
+
+* Do an advanced search by space, time, or method. Click on 'Advanced search options' in the left sidebar. 
+
+	* Using the 'Spatial filter' option, you can click on the rectangle icon to draw a bounding box on the map, or you can type the latitude/longitude coordinates. The data layers occuring in that spatial area will appear in the data catalog.
+	
+	* Using the 'Filter time' option, you can adjust the time slider or type the start/end date range. The data layers occuring during that temporal period will appear in the data catalog.
+	
+	* Using the 'Access method' option, you can select data service method from which data layers can be downloaded from the catalog. 
+	
+	
 .. **************
-.. Search Catalog
+.. Search Filters 
 .. **************
 
 
-.. ****
-.. Tags
-.. ****
+*****************************
+Learn More About Data Layers
+*****************************
 
+To learn more about the data layer, click on the title in the catalog. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layers is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
 
-.. **************
-.. Search Filters (project vs mapped data)
-.. **************
-
-
-.. *****************************
-.. Learn More About Data Layers
-.. *****************************
+Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
 
 .. ********
 .. Metadata
 .. ********
 
-.. ********************************************
-.. Contributing Data via the Research Workspace
-.. ********************************************
-.. Data files can be added to the Catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
+*This feature is under development. Check back soon for updates.*
 
-.. 1. Data are managed by a project researcher using his/her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
-.. For assistance using the Research Workspace and its metadata editor visit: https://workspace.aoos.org/help/
+********************************************
+Contribute Data via the Research Workspace
+********************************************
+Data files can be added to the Catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
 
-.. 2. Once the data have been loaded and/or its embargo period ends, the researcher may then select the 'Publish' option for their project in the Research Workspace.
+1. Data are managed by a project researcher using his/her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
 
-.. 3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the Catalog of the portal, where public users can view and download the data and associated metadata. 
+For assistance using the Research Workspace and its metadata editor visit: https://workspace.aoos.org/help/
 
-.. Note: Visualizing these data files within the Portal Map View requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity. 
+2. Once the data have been loaded and/or its embargo period ends, the researcher may then select the 'Publish' option for their project in the Research Workspace.
 
+3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the Catalog of the portal, where public users can view and download the data and associated metadata. 
+
+Note: Visualizing these data files within the Portal Map View requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity. 
 
 .. *********
 .. Data DOIs
 .. *********
 
 ***************************
-Downloading Visualized Data
+Download Visualized Data
 ***************************
 
-Downloading Gridded Data
+Download Gridded Data
 ========================
 
 Thematic Realtime Environmental Distributed Data Services (THREDDS)
@@ -124,7 +141,7 @@ The Environmental Research Division Data Access Program (ERDDAP) is a NOAA-spons
 #. Select the range in each dimension (e.g., start time, stride, end time), and uncheck all unneeded variables.
 #. Select the output file type desired and submit the request to the server. When the data is bundled, it will download automatically.
 
-Downloading a Time Series from Gridded Data
+Download a Time Series from Gridded Data
 -------------------------------------------
 
 The portal provides access to time-series extraction of gridded data, also known as a "Virtual Sensor."
@@ -133,7 +150,7 @@ The portal provides access to time-series extraction of gridded data, also known
 #. A symbol at the location will appear, and a window will launch requesting all the data at that latitude and longitude throughout the dataset.
 #. Select ``Download`` to receive a zip file containing data.csv and metadata.txt for that station and sensor.
 
-Downloading Station Data
+Download Station Data
 ------------------------
 
 Historical Sensor Catalogs
@@ -156,7 +173,7 @@ ERDDAP is a NOAA-sponsored common data server that provides access to gridded an
 #. Select the range in each dimension (e.g., start time, stride, end time) and what variables you want to download.
 #. Select the output file type desired and submit the request to the server. When the data are bundled, they will download automatically.
 
-Downloading Queried/Parsed Data
+Download Queried/Parsed Data
 ===============================
 
 This section of our documentation is still under development. For assistance, please contact us at noaa.ioos.webmaster@noaa.gov.
@@ -171,10 +188,20 @@ In addition, NetCDF files can contain metadata attributes that describe any time
 NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains a list of free software for manipulating or displaying NetCDF data. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Panoply, hosted by NASA, is a free, relatively easy way to display gridded data, though it's not as straightforward to use as a scientific programming language.
 
 *******************************
-Downloading Non-visualized Data
+Download Non-visualized Data
 *******************************
 
-.. Files/Archives from the Research Workspace
-.. ==========================================
+Data Files from the Research Workspace
+======================================
+
+The [Research Workspace](https://researchworkspace.com/intro/) is a gateway to make project-based research data available publicly through the portal. Project data accessible through the catalog can be searched using the Advanced search options. 
+
+#. Click on the title of interest in the catalog. 
+#. Choose the ``Project Data`` tab.
+#. Browse through the individual data files that are displayed. By default, data files are organized by the folder directory from the Research Workspace.
+#. Click the name of the data file of interest to download it to your computer. 
+#. Click on the "Metadata" icon to the right of the data resource title to view the associated metadata.
+
+For more information about publishing data to the portal from the Research Workspace read [here](https://workspace.aoos.org/help/PublishingData.html). 
 
 *This feature is under development. Check back soon for updates.*

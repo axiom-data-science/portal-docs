@@ -12,28 +12,27 @@ The catalog provides search access for all datasets within the portal. The catal
 
 * *Historical data* are data that are one month old or older. Historical data are ingested from the associated Research Workspace or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts. 
 
-
 **************
 Search Catalog
 **************
 
-From the portal home page, click on ‘Explore Data Layers’ to navigate to the catalog.
+From the portal home page, click on ``Explore Data Layers`` to navigate to the catalog.
 
 Within the catalog, you will find a listing of all the data layers accessible through the portal. By default, the data layers are shown in alphabetical order. There are several ways the data layers can be browsed or searched. 
 
 * Click a category tag in the left sidebar. The data layers that are associated with the tag will be displayed. More than one category tag can be selected at the same time.
 
-* Enter a search term. Just type the data you are interested in finding into the search box in the upper left toolbar. As you type, you may see matching terms (e.g. 'Hints') and actual data layers (e.g. 'Results') appear below the toolbar's search box. Click on the Hints or Results of interest and the search results will appear in the data catalog.
+* Enter a search term. Just type the data you are interested in finding into the search box in the upper left toolbar. As you type, you may see matching terms (e.g. *Hints*) and actual data layers (e.g. *Results*) appear below the toolbar's search box. Click on the *Hints* or *Results* of interest and the search results will appear in the data catalog.
 
-* Filter the result types in the left sidebar. All data layers in the catalog are categorized as 'Map layers' (e.g. static GIS layers), 'Projects' (e.g. research project data files displayed from the Research Workspace), or 'Sensor stations' (e.g. real-time sensor observations). Select the checkboxes to display or narrow the data layers by these Results types. 
+* Filter the result types in the left sidebar. All data layers in the catalog are categorized as *Map layers* (e.g. static GIS layers), *Projects* (e.g. research project data files displayed from the Research Workspace), or *Sensor stations* (e.g. real-time sensor observations). Select the checkboxes to display or narrow the data layers by these Results types. 
 
-* Do an advanced search by space, time, or method. Click on 'Advanced search options' in the left sidebar. 
+* Do an advanced search by space, time, or method. Click on ``Advanced search options`` in the left sidebar. 
 
-	* Using the 'Spatial filter' option, you can click on the rectangle icon to draw a bounding box on the map, or you can type the latitude/longitude coordinates. The data layers occuring in that spatial area will appear in the data catalog.
+	* Using the ``Spatial filter`` option, you can click on the rectangle icon to draw a bounding box on the map, or you can type the latitude/longitude coordinates. The data layers occuring in that spatial area will appear in the data catalog.
 	
-	* Using the 'Filter time' option, you can adjust the time slider or type the start/end date range. The data layers occuring during that temporal period will appear in the data catalog.
+	* Using the ``Filter time`` option, you can adjust the time slider or type the start/end date range. The data layers occuring during that temporal period will appear in the data catalog.
 	
-	* Using the 'Access method' option, you can select data service method from which data layers can be downloaded from the catalog. 
+	* Using the ``Access method`` option, you can select data service method from which data layers can be downloaded from the catalog. 
 	
 	
 .. **************
@@ -58,17 +57,18 @@ Some data layers in the catalog have more than one variable associated with them
 ********************************************
 Contribute Data via the Research Workspace
 ********************************************
-Data files can be added to the Catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
 
-1. Data are managed by a project researcher using his/her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
+Data files can be added to the catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
 
-For assistance using the Research Workspace and its metadata editor visit: https://workspace.aoos.org/help/
+1. Data are managed by a project researcher using her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
 
-2. Once the data have been loaded and/or its embargo period ends, the researcher may then select the 'Publish' option for their project in the Research Workspace.
+For assistance using the Research Workspace and its metadata editor visit: https://researchworkspace.com/help/
 
-3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the Catalog of the portal, where public users can view and download the data and associated metadata. 
+2. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the Research Workspace.
 
-Note: Visualizing these data files within the Portal Map View requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity. 
+3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata. 
+
+.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity. 
 
 .. *********
 .. Data DOIs
@@ -194,7 +194,7 @@ Download Non-visualized Data
 Data Files from the Research Workspace
 ======================================
 
-The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal. Project data accessible through the catalog can be searched using the Advanced search options. 
+The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal. Project data accessible through the catalog can be searched using the ``Advanced search options``. 
 
 #. Click on the title of interest in the catalog. 
 #. Choose the ``Project Data`` tab.

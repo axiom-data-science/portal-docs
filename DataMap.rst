@@ -59,7 +59,7 @@ Model outputs or satellite imagery have been visually abstracted in the portal t
 
 To select your area of interest use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the Data Charts section of this document.
 
-The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are view. More information about using the time slider can be found in the Time Slide section of this document. Depending on your zoom level and internet speed, these time intervals layers could take a little to appear so be patient as these layers load…once you do have them in the image cache (you have to go through and view each) they will load more quickly as you step forward and backwards through the time.
+The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are view. More information about using the time slider can be found in the Time Slide section of this document. Depending on your zoom level and internet speed, these time intervals layers could take a little to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
 
 The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ‘Autoset for data view’ button. 
 
@@ -133,48 +133,128 @@ From the data catalog:
 2. On the results page, use the ``+`` icon next to any of the thumbnails, an indicator showing how many layers are currently queued will show up in the black, upper menu.
 3. You can add multiple layers, it's just like a data "shopping cart".
 4. Remove layers by selecting the layer indicator in the black, upper menu, and using the ``X`` icons.
+5. After you are finished adding data layers, click "Map" in the upper toolbar to view those layers in the map. 
 
 From the data map:
 
 1. From within the interactive map, use the `Search for data` bar.
 2. From the results popup, use the ``+`` icon next to the layer you want to add to the map.
 
-.. Learn More About Data Layers 
-.. =============================
-.. Station and Source Metadata Pages
-.. """"""""""""""""""""""""""""""""""""""""
+Learn More About Data Layers 
+=============================
+
+Within in the map, there are several ways to learn more about the data layer being displayed.
+
+#. In the map legend to the right, you may see the "i" icon next to the data layer title. Click here to view the metadata page.
+#. Click on a point in the map. A data display window will appear showing a chart of the data. In the bottom right of the chart click on "Source". You will be directed to the data provider's webpage, if available.
+#. For real-time sensor data, click on the station in the map. A data display window will appear showing a chart of the data. 
+
+	* In the bottom left of the chart you can click on "Station". Summary information about the station will be shown, including the instrument location, temporal coverage, platform type, station URN or WMO ID, and the source information for the data provider. Interactive data charts for each of the sensors associated with that station will be shown on the right hand side. You can interact with these similar to other Data Charts. Under Sources, you can click on the name of the data provider to discover a list and links to all stations available in the map from that provider. 
+	
+	* In the bottom left of the chart you can also click on "Sensor". Summary information about the sensor will be shown, including parameter information, temporal coverage, and the sensor and parameter source URNs. Under parameter information, you can click the "Download" button to download the sensor data. You can also interact with the summary data chart for that sensor.  
 
 
-.. Interact with and Customize Data Layers in the Map
-.. ===================================================
-.. Customize Individual Layers
-.. """""""""""""""""""""""""""
-.. Time Slider
-.. """""""""""
-.. Depth Filter
-.. """""""""""
-.. Polygon Tool
-.. """""""""""
+Interact with and Customize Data Layers in the Map
+===================================================
 
-.. Save and Share Map
-.. ===================
+Once you have found a layer through the data catalog, you can view and interact with the data in a number of ways. As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. Additionally, you can click on a data point of interest to open a chart that summarizes the data. A time slider at the bottom of the map can be used to move back and forth through time for timeseries data. More information about these features is provided below.
+
+From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ‘Map’ to return to the map.
+
+Customize Individual Layers
+"""""""""""""""""""""""""""
+In the map, your selected layers will appear in a legend on the right. The filters in the legend can be used to change the parameters on the map. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
+
+Individual data layers can be toggled on and off using the "Eyeball" icon to the right of the data layer name. To delete the data layer from the map, select the "X" icon. 
+
+The order in which data layers appear in the map can be changed. By default, the data layer that appears at the top of the map legend will be displayed forward in the map. To move data layers backward in the map, select the "Up/Down Arrow" to the left of the data layer name. 
+
+The data layer legend on the right hand side shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ‘Autoset for data view’ button.
+
+.. Customize Map View
+""""""""""""""""""""""""""
+
+Time Slider
+"""""""""""
+
+The timer slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar in unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer. 
+
+Tip: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legend beneath the data layer title.  
+
+The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name of the data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map.  
+
+There are several ways to interact with temporal data.
+#. Click and drag both the time slider control to the right and left to step through the temporal data interactively. Or, click and drag both ends of the time slidr control to adjust the time bounds. Then, click and drag the middle of the time slider control bar to step through the temporal data. For finer control of the time slider, pull down on your mouse while dragging. Hover your mouse over the time slider bar to see the temporal range of the data that has been selected.
+#. Click on the gear icon to the left of the time slider for finer time controls. The bounding time interval can be entered by clicking the calendar bar. Using the calendar, enter a custom range by selecting both the start and end dates from both calendars. Or, click the preset time ranges from the list on the left to view real time, past 24 hours, past week, past 30 days, etc. of data. Select "Apply" to view the selected time range of data in the map.
+#. Click on the gear icon to open the time control menu. Select the "Next Time Stamp" button to step forward to the next time stamp. For example, if the data view has been set to show data from the prior month, the next time stamp would advance to show data from the current month. Click the "Prvious Time Stamp" buttom to step back to the previous time stamp. To show the full start or end time extent click on the "Step Forward" or "Step Backward" to move the time control to the full start or end extent. 
+
+
+Depth Filter
+""""""""""""
+
+The depth slider bar located in the bottom right of the map allows you to filter data across the water column. The depth intervals available will vary depending on which data layer you are viewing. The bar in unavailable if there is not any depth-enabled data layers loaded. By default, the depth slider is set to display all data across the water column. 
+
+Tip: For quick reference, the depth range for data being viewed in the map is shown in the right-hand map legend beneath the time extent.
+
+To filter data by depth: 
+#. Click on the Depth icon in the bottom right of the map. Click and drag both ends of the depth slider control to adjust the vertical bounds. Note that the depth values represent meters beneath the water surface. Click and drag the middle of the depth slider control bar to step through the vertical data. Hover your mouse over the depth slider bar to see the vertical range of the data that has been selected.
+
+
+Polygon Tool
+""""""""""""
+To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest. To use the polygon tool:
+
+#. Click on the Polygon tool icon. Draw a polygon on the map around the area of interest using mouse clicks at each corner or bend of your shape. When you're finished drawing, double-click to complete the shape.
+#. A data display window will open showing a summary chart of the data within the polygon. Beneath the data layer title at the top of the data display window, the number of observations contained within the polygon will be shown.
+#. To delete the shape, click the "Trash can" icon next to the polygon tool.
+
+
+Save and Share Map
+===================
+
+The custom map you have created can be shared with others. To share, in the upper toolbar click "Share". You will receive a custom url to your saved map state. Copy the link to share with others. 
+
+.. Instance State Saving
+.. =====================
+
 
 ***********
 Data Charts
 ***********
 
-The catalog and portal offer multiple ways of comparing data within both the mapped interface and within a :ref:`data view <data-views>`.
+The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`data view <data-views>`.
 
-For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the ESM page.
+For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
-.. Different Chart Types
-.. =====================
+Different Chart Types
+=====================
+
+This section includes descriptions for the common charts used to display data in the portal. Data charts can be accessed both by clicking a point on a data layer in the map, or by using the custom Data Views interface.  
+
+Categorical Variables
+"""""""""""""""""""""
+* **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
+
+Quantitative Variables
+"""""""""""""""""""""
+* **Line charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals. 
+
+* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies. 
+
+**Tip: In the portal, histogram charts can be created across custom areas of interest using the polygon tool. 
+
+* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
+
+* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
+
+* **Curtain plots:** show a visual summary of vertical profiling data. f data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
+
 
 .. Summary Statistics
 .. ==================
 
-.. Climatology & Anomaly Charts
-.. ============================
+Climatology & Anomaly Charts
+============================
 
 If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
 
@@ -227,10 +307,7 @@ Customize Data Charts
 .. note::
 	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end.
 
-.. Time Slider
-.. ===========
-
-.. *This feature underdevelopment. Check back soon for updates.*
+**
 
 ****************
 Download Data
@@ -280,9 +357,9 @@ Create a New View
 
 While the premade data views are interesting, the real fun starts when you begin making your own views. To do so, follow these steps and consult the GIF below:
 
-#. If you're not in the portal view, click on the portal button |portal_button_icon| to get there.
+#. If you're not in the map view, click on the map button |portal_button_icon| to get there.
 #. Zoom and pan to your desired map view.
-#. Click on the hex that represents the sensor you're interested in.
+#. Click on the point that represents the data you're interested in.
 #. Its data will show up in the data display window in the bottom left corner of the window.
 #. Within the data display window, click on the |data_display_view_icon|.
 #. To add the data to an existing view, choose it from the dropdown menu.
@@ -314,28 +391,28 @@ You can add a description to your view, which will appear directly underneath yo
 Display Your Data
 --------------------
 
-You can adjust the way the sensor data are displayed in the chart on the right-hand side of the window, including but not limited to the following:
+You can adjust the way  data are displayed in the chart on the right-hand side of the window, including but not limited to the following:
 
 #. Scale the Y-axis (data values)
 #. Scale the X-axis (time)
 #. Re-bin the data
 #. Display min/max values and/or mean values
 
-Additionally, you can explore the selected station and its data more in depth in the following ways:
+Additionally, you can explore the selected data more in depth in the following ways:
 
 #. Download the data
-#. View the station's historical data
-#. View information about the station itself from the organization that maintains it
+#. View the station or sensor information page 
+#. View information about the data source from the data provider or organization that maintains it
 
 Add Data to a Comparison Chart
 ---------------------------------
 
-Comparison charts appear below the map and allow you to plot similar data from different sensors. To add data from a saved chart to a comparison chart, follow these steps:
+Comparison charts appear below the map and allow you to plot similar data from different sources. To add data from a saved chart to a comparison chart, follow these steps:
 
 #. Click the |data_display_view_icon|.
 #. Click the ``Add to compare chart`` box under your view's name.
 
-The new data will appear in the comparison chart in a contrasting color, and the station will be added to a list below the comparison chart.
+The new data will appear in the comparison chart in a contrasting color, and the name of the data layer will also be added to a list below the comparison chart.
 
 .. note::
 	Comparison charts have the same options for displaying data as saved charts, which are described above under **Displaying Your Data**.
@@ -350,4 +427,4 @@ Once you've created, customized, and explored your data view, you'll probably wa
 #. Copy that link and paste it anywhere you'd like to share it.
 
 .. note::
-	Anyone you share a view with will essentially see their own version of the view you have created and customized. Their edits and additions will not affect your view of the view.
+	Anyone you share a view with will essentially see their own version of the view you have created and customized. Their edits and additions will not affect your saved view.

@@ -163,6 +163,7 @@ From the map, you can search for and add additional data layers to the map. Clic
 
 Customize Individual Layers
 """""""""""""""""""""""""""
+
 In the map, your selected layers will appear in a legend on the right. The filters in the legend can be used to change the parameters on the map. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
 
 Individual data layers can be toggled on and off using the "Eyeball" icon to the right of the data layer name. To delete the data layer from the map, select the "X" icon. 
@@ -172,7 +173,7 @@ The order in which data layers appear in the map can be changed. By default, the
 The data layer legend on the right hand side shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ‘Autoset for data view’ button.
 
 .. Customize Map View
-""""""""""""""""""""""""""
+.. """"""""""""""""""""""""""
 
 Time Slider
 """""""""""
@@ -184,8 +185,11 @@ Tip: For quick reference, the time range for data being viewed in the map is sho
 The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name of the data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map.  
 
 There are several ways to interact with temporal data.
+
 #. Click and drag both the time slider control to the right and left to step through the temporal data interactively. Or, click and drag both ends of the time slidr control to adjust the time bounds. Then, click and drag the middle of the time slider control bar to step through the temporal data. For finer control of the time slider, pull down on your mouse while dragging. Hover your mouse over the time slider bar to see the temporal range of the data that has been selected.
+
 #. Click on the gear icon to the left of the time slider for finer time controls. The bounding time interval can be entered by clicking the calendar bar. Using the calendar, enter a custom range by selecting both the start and end dates from both calendars. Or, click the preset time ranges from the list on the left to view real time, past 24 hours, past week, past 30 days, etc. of data. Select "Apply" to view the selected time range of data in the map.
+
 #. Click on the gear icon to open the time control menu. Select the "Next Time Stamp" button to step forward to the next time stamp. For example, if the data view has been set to show data from the prior month, the next time stamp would advance to show data from the current month. Click the "Prvious Time Stamp" buttom to step back to the previous time stamp. To show the full start or end time extent click on the "Step Forward" or "Step Backward" to move the time control to the full start or end extent. 
 
 
@@ -197,6 +201,7 @@ The depth slider bar located in the bottom right of the map allows you to filter
 Tip: For quick reference, the depth range for data being viewed in the map is shown in the right-hand map legend beneath the time extent.
 
 To filter data by depth: 
+
 #. Click on the Depth icon in the bottom right of the map. Click and drag both ends of the depth slider control to adjust the vertical bounds. Note that the depth values represent meters beneath the water surface. Click and drag the middle of the depth slider control bar to step through the vertical data. Hover your mouse over the depth slider bar to see the vertical range of the data that has been selected.
 
 
@@ -205,7 +210,9 @@ Polygon Tool
 To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest. To use the polygon tool:
 
 #. Click on the Polygon tool icon. Draw a polygon on the map around the area of interest using mouse clicks at each corner or bend of your shape. When you're finished drawing, double-click to complete the shape.
+
 #. A data display window will open showing a summary chart of the data within the polygon. Beneath the data layer title at the top of the data display window, the number of observations contained within the polygon will be shown.
+
 #. To delete the shape, click the "Trash can" icon next to the polygon tool.
 
 
@@ -233,10 +240,12 @@ This section includes descriptions for the common charts used to display data in
 
 Categorical Variables
 """""""""""""""""""""
+
 * **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
 
 Quantitative Variables
 """""""""""""""""""""
+
 * **Line charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals. 
 
 * **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies. 

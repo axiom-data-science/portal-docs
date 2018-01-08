@@ -43,7 +43,7 @@ To view data for an individual station, zoom in on the map. The hexagons will so
 
 |sensor_hover|
 
-To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the _`time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ to adjust the time period of the data.
+To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>` to adjust the time period of the data.
 
 |sensor_select|
 
@@ -458,7 +458,7 @@ Once you've created a view it will save automatically to your local Data Views c
 
 
 #. Click on the views button |views_button_icon|
-#. Select the view you'd like to access from the dropdown menu. The menu will display both the default views for the portal, in addition to the custome ones you have created.
+#. Select the view you'd like to access from the dropdown menu. The menu will display both the default views for the portal, in addition to the custom ones you have created.
 
 .. Delete a View..
 .. ==============..

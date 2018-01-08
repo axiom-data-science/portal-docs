@@ -60,9 +60,9 @@ Model outputs or satellite imagery have been visually abstracted in the portal t
 
 To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the `Data Charts <http://help.axds.co/portals/DataMap.html#data-charts>`_  section of this document.
 
-The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the _`time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ section of this document. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
+The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ section of this document. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
 
-The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ‘Autoset for data view’ button. 
+The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button. 
 
 Overview of Historical Data
 ---------------------------
@@ -115,7 +115,7 @@ To view data for an individual location or observation, zoom in on the map. The 
 
 To change the data parameters in the map, the filters can be used in the legend on the right side. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown. 
 
-To further interact with the data in the map, the _`polygon tool <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ can be used to create summary statistics across spatial areas of interest. Or, the _`time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ bar can be used to view the various time intervals of data available.
+To further interact with the data in the map, the `polygon tool <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ can be used to create summary statistics across spatial areas of interest. Or, the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ bar can be used to view the various time intervals of data available.
 
 If when zoomed in the hexagons do not soften into points, the individual locations or observations have been intentionally aggregated for data use or confidentiality purposes. 
 
@@ -141,7 +141,7 @@ From the Data Map
 1. From within the interactive map, use the ``Search for data`` bar.
 2. From the results popup, use the ``+`` icon next to the layer you want to add to the map.
 
-Or, follow _`these steps <http://help.axds.co/portals/DataCatalog.html#search-catalog>`_ for how to add data layers directly from the catalog. 
+Or, follow `these steps <http://help.axds.co/portals/DataCatalog.html#search-catalog>`_ for how to add data layers directly from the catalog. 
 
 Learn More About Data Layers 
 =============================
@@ -152,7 +152,7 @@ Within in the map, there are several ways to learn more about the data layer bei
 #. Click on a point in the map. A data display window will appear showing a chart of the data. In the bottom right of the chart click on ``Source``. You will be directed to the data provider's webpage, if available.
 #. For real-time sensor data, click on the station in the map. A data display window will appear showing a chart of the data. Here you have two options:
 
-	* **Station and Source Pages:** In the bottom left of the chart you can click on ``Station``. Summary information about the station will be shown, including the instrument location, temporal coverage, platform type, station URN or WMO ID, and the source information for the data provider. Interactive data charts for each of the sensors associated with that station will be shown on the right hand side. You can interact with these similar to other _`data charts <http://help.axds.co/portals/DataMap.html#data-charts>`_. Under Sources, you can click on the name of the data provider to discover a list and links to all stations available in the map from that provider. 
+	* **Station and Source Pages:** In the bottom left of the chart you can click on ``Station``. Summary information about the station will be shown, including the instrument location, temporal coverage, platform type, station URN or WMO ID, and the source information for the data provider. Interactive data charts for each of the sensors associated with that station will be shown on the right hand side. You can interact with these similar to other `data charts <http://help.axds.co/portals/DataMap.html#data-charts>`_. Under Sources, you can click on the name of the data provider to discover a list and links to all stations available in the map from that provider. 
 	
 	* **Sensor page:** In the bottom left of the chart you can also click on ``Sensor``. Summary information about the sensor will be shown, including parameter information, temporal coverage, and the sensor and parameter source URNs. Under parameter information, you can click the ``Download`` button to download the sensor data. You can also interact with the summary data chart for that sensor.  
 

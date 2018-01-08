@@ -22,9 +22,9 @@ Within the catalog, you will find a listing of all the data layers accessible th
 
 * Click a category tag in the left sidebar. The data layers that are associated with the tag will be displayed. More than one category tag can be selected at the same time.
 
-* Enter a search term. Just type the data you are interested in finding into the search box in the upper left toolbar. As you type, you may see matching terms (e.g. *Hints*) and actual data layers (e.g. *Results*) appear below the toolbar's search box. Click on the *Hints* or *Results* of interest and the search results will appear in the data catalog.
+* Enter a search term. Just type the data you are interested in finding into the search box in the upper left toolbar. As you type, you may see matching terms (e.g. ``Hints``) and actual data layers (e.g. ``Results``) appear below the toolbar's search box. Click on the ``Hints`` or ``Results`` of interest and the search results will appear in the data catalog.
 
-* Filter the result types in the left sidebar. All data layers in the catalog are categorized as *Map layers* (e.g. static GIS layers), *Projects* (e.g. research project data files displayed from the Research Workspace), or *Sensor stations* (e.g. real-time sensor observations). Select the checkboxes to display or narrow the data layers by these Results types. 
+* Filter the result types in the left sidebar. All data layers in the catalog are categorized as ``Map layers`` (e.g. static GIS layers), ``Projects`` (e.g. research project data files displayed from the Research Workspace), or ``Sensor stations`` (e.g. real-time sensor observations). Select the checkboxes to display or narrow the data layers by these ``Results`` types. 
 
 * Do an advanced search by space, time, or method. Click on ``Advanced search options`` in the left sidebar. 
 
@@ -60,9 +60,9 @@ Contribute Data via the Research Workspace
 
 Data files can be added to the catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
 
-1. Data are managed by a project researcher using her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
+1. Data are managed by a project researcher using his or her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
 
-For assistance using the Research Workspace and its metadata editor visit: https://researchworkspace.com/help/
+		For assistance using the Research Workspace and its metadata editor visit: https://researchworkspace.com/help/
 
 2. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the Research Workspace.
 
@@ -91,14 +91,14 @@ NetCDF Subset
 
 The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
 
-#. Select "THREDDS NetCDF Subset" under the "Download" button to start the service.
+#. Select "THREDDS NetCDF Subset" under the ``Download`` button to start the service.
 #. Your browser will wait for a response from the server, which builds a library of all the files and metadata in the complete dataset so it can display up-to-date information.
 #. The response page will have a list of available variables — check the variables you want to download.
 #. Subset the dataset by latitude and longitude, and time range with a stride (the default  stride is 1, which downloads all time slices; a stride of 2 will download every second time slice, etc.) Add lat/lon variables if needed in your output, but in most cases this is unnecessary.
 #. The output format will be a single NetCDF file that contains the complete dataset.
 
 .. tip::
-	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reloading. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
+	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
 .. note::
 	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
@@ -108,7 +108,7 @@ Open-source Project for a Network Data Access Protocol (OPeNDAP)
 
 OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
 
-#. Select "THREDDS OPeNDAP" under the "Download" button to start the service.
+#. Select "THREDDS OPeNDAP" under the ``Download`` button to start the service.
 #. Your browser should get a response from the server almost instantaneously.
 #. The response page will have a list of available variables — check the variables you want to download.
 #. If you want, subset each variable by indices. The numbers are minimum:stride:maximum (the default  stride is 1, which downloads all time slices; a stride of 2 will download every second time slice, etc.). Add lat/lon variables if needed in your output, but in most cases this is unnecessary.
@@ -122,18 +122,18 @@ Web Mapping Services (WMS)
 
 Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
 
-#. Select "WMS (Web Mapping Service)" under the "Download" button to start the service.
+#. Select "WMS (Web Mapping Service)" under the ``Download`` button to start the service.
 #. The returned image will be projected according to the parameters set in the URL. For example:
 
 .. parsed-literal::
 	`http://data.axds.co/ncWMS/wms?SERVICE=WMS&REQUEST=GetMap&LAYERS=AQWRFSFC/PSFC&VERSION=1.1.1&FORMAT=image/png&STYLES=boxfill/rainbow&SRS=EPSG:3857&BBOX=-20983724.014532067,8598321.56555337,-13914936.349159194,13370447.645073326&WIDTH=500&HEIGHT=338&COLORSCALERANGE=846.5,1128 <http://data.axds.co/ncWMS/wms?SERVICE=WMS&REQUEST=GetMap&LAYERS=AQWRFSFC/PSFC&VERSION=1.1.1&FORMAT=image/png&STYLES=boxfill/rainbow&SRS=EPSG:3857&BBOX=-20983724.014532067,8598321.56555337,-13914936.349159194,13370447.645073326&WIDTH=500&HEIGHT=338&COLORSCALERANGE=846.5,1128>`_
 
-3. Modifying the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values, or the projection) and reloading the page will redraw the image for your mapping service.
+3. Modifying the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values, or the projection and reloading the page will redraw the image for your mapping service.
 
 Environmental Research Division Data Access Program (ERDDAP)
 ------------------------------------------------------------
 
-The Environmental Research Division Data Access Program (ERDDAP) is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. AOOS hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more).
+The Environmental Research Division Data Access Program (ERDDAP) is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. AOOS hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more.
 
 #. Go to http://erddap.aoos.org
 #. Search for a topic (e.g., in the examples above we searched for "CBHAR")
@@ -153,21 +153,22 @@ The portal provides access to time-series extraction of gridded data, also known
 Download Station Data
 ------------------------
 
-Historical Sensor Catalogs
+Historical Sensor Data
 """"""""""""""""""""""""""
 
-Historical sensor catalogs aggregate and show all relevant station data. Data can be downloaded by selecting an individual station and then choosing ``Download``.
+Real-time stations and their associated pages aggregate and show all relevant station data. Data can be downloaded by selecting an individual station and then choosing ``Download``.
 
-#. Visit the the historical sensor catalog's website.
+#. Within the portal, visit the real-time sensor map.
 #. Use the station filters to show stations by parameter, source, or platform.
-#. Use the map to zoom to an area of interest, select an individual station, and the data for that station and sensor.
+#. Use the map to zoom to an area of interest, select an individual station, and then download data for that station and sensor.
+#. Data can be downloaded by clicking on the station point in the map. In the data display window that opens, select ``Download`` in the bottom left beneath the chart. 
 
 ERDDAP Sensor Catalog
 """""""""""""""""""""
 
-ERDDAP is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. The portal hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more).
+ERDDAP is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. The portal hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more.
 
-#. Go to the ERDDAP sensor catalog's website.
+#. Go to the _`ERDDAP sensor catalog's website:<http://erddap.sensors.ioos.us/erddap/>`_
 #. Search for a station name (e.g., "Wiseman").
 #. Select the data link under Table DAP.
 #. Select the range in each dimension (e.g., start time, stride, end time) and what variables you want to download.
@@ -188,19 +189,20 @@ In addition, NetCDF files can contain metadata attributes that describe any time
 NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains a list of free software for manipulating or displaying NetCDF data. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Panoply, hosted by NASA, is a free, relatively easy way to display gridded data, though it's not as straightforward to use as a scientific programming language.
 
 *******************************
-Download Non-visualized Data
+Download Non-visualized or Project Data
 *******************************
 
 Data Files from the Research Workspace
 ======================================
 
-The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal. Project data accessible through the catalog can be searched using the ``Advanced search options``. 
+The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal. To search for project data in the catalog:
 
+#. Click on ``Advanced search options`` in the left sidebar and filter to ``Project Data``. 
 #. Click on the title of interest in the catalog. 
 #. Choose the ``Project Data`` tab.
 #. Browse through the individual data files that are displayed. By default, data files are organized by the folder directory from the Research Workspace.
 #. Click the name of the data file of interest to download it to your computer. 
-#. Click on the "Metadata" icon to the right of the data resource title to view the associated metadata.
+#. Click on the ``Metadata`` icon to the right of the resource title to view the associated metadata.
 
 For more information about publishing data to the portal from the Research Workspace read `here <https://workspace.aoos.org/help/PublishingData.html>`_. 
 

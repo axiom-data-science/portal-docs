@@ -43,7 +43,7 @@ To view data for an individual station, zoom in on the map. The hexagons will so
 
 |sensor_hover|
 
-To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>` to adjust the time period of the data.
+To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ to adjust the time period of the data.
 
 |sensor_select|
 
@@ -58,7 +58,7 @@ Model and Satellite Data
 
 Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
 
-To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the _`Data Charts <http://help.axds.co/portals/DataMap.html#data-charts>`_  section of this document.
+To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the `Data Charts <http://help.axds.co/portals/DataMap.html#data-charts>`_  section of this document.
 
 The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the _`time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ section of this document. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
 

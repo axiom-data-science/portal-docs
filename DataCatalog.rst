@@ -108,7 +108,7 @@ Open-source Project for a Network Data Access Protocol (OPeNDAP)
 
 OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
 
-#. Select "THREDDS OPeNDAP" under the ``Download`` button to start the service.
+#. Select ``THREDDS OPeNDAP`` under the ``Download`` button to start the service.
 #. Your browser should get a response from the server almost instantaneously.
 #. The response page will have a list of available variables — check the variables you want to download.
 #. If you want, subset each variable by indices. The numbers are minimum:stride:maximum (the default  stride is 1, which downloads all time slices; a stride of 2 will download every second time slice, etc.). Add lat/lon variables if needed in your output, but in most cases this is unnecessary.
@@ -168,7 +168,7 @@ ERDDAP Sensor Catalog
 
 ERDDAP is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. The portal hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more.
 
-#. Go to the _`ERDDAP sensor catalog's website:<http://erddap.sensors.ioos.us/erddap/>`_
+#. Go to the ERDDAP sensor catalog's website: http://erddap.sensors.ioos.us/erddap/ 
 #. Search for a station name (e.g., "Wiseman").
 #. Select the data link under Table DAP.
 #. Select the range in each dimension (e.g., start time, stride, end time) and what variables you want to download.

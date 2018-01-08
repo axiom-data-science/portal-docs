@@ -10,7 +10,7 @@ The catalog provides search access for all datasets within the portal. The catal
 
 * *Near real-time data* are ingested by the portal at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include satellite images and derived satellite products.
 
-* *Historical data* are data that are one month old or older. Historical data are ingested from the associated Research Workspace or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts. 
+* *Historical data* are data that are one month old or older. Historical data are ingested from the associated `Research Workspace <https://github.com/axiom-data-science/portal-docs/blob/master/DataCatalog.rst#data-files-from-the-research-workspace>`_ or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts. 
 
 **************
 Search Catalog

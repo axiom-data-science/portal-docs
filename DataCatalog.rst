@@ -1,5 +1,3 @@
-.. include:: globals.txt
-
 ############
 Data Catalog
 ############
@@ -188,9 +186,9 @@ In addition, NetCDF files can contain metadata attributes that describe any time
 
 NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains a list of free software for manipulating or displaying NetCDF data. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Panoply, hosted by NASA, is a free, relatively easy way to display gridded data, though it's not as straightforward to use as a scientific programming language.
 
-*******************************
+***************************************
 Download Non-visualized or Project Data
-*******************************
+***************************************
 
 Data Files from the Research Workspace
 ======================================

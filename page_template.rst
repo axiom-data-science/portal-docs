@@ -1,5 +1,3 @@
-.. include:: globals.txt
-
 .. _your-header-one:
 
 ###############

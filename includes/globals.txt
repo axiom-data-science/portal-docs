@@ -60,8 +60,6 @@
 	:width: 1600pt
 	:height: 800pt
 
-.. |map_initial_view| image:: images/map_initial_view.png
-
 .. |sensor_hover| image:: images/sensor_hover.png
 
 .. |sensor_select| image:: images/sensor_select.png

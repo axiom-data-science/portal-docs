@@ -1,10 +1,12 @@
-.. include:: globals.txt
-
 ************
 Introduction
 ************
 
 Welcome. These pages provide help documentation for the shared cyberinfrastructure that underlies several environmental data portals used by several different agencies across North America. For simplicity, the help docs refer to this set of tools as the **data portal**.
+
+.. only:: aoos
+
+  Welcome to the AOOS data portal documentation site!
 
 This portal is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public datasets from many sources. Within the data portal, users can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics. Datasets in the portals can be interactively mapped or charted using advanced features, such as comparisons between data sources, binning by time, and plotting of climatologies and anomalies. Users can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations. Using the data portal, users can also access metadata and project contacts and download datasets in a variety of formats.
 
@@ -20,9 +22,10 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
    PortalOverview
    DataCatalog
    DataMap
    Feedback
-
+   content/**

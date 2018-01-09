@@ -1,5 +1,3 @@
-.. include:: globals.txt
-
 ########
 Data Map
 ########

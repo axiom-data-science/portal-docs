@@ -36,6 +36,7 @@ USER app
 
 RUN rm -rf _build
 
+ARG PORTAL
 RUN make html
 
 EXPOSE 8888

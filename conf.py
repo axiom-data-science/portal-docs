@@ -103,7 +103,9 @@ def setup(app):
         portal = os.environ["PORTAL"]
         tags.add(portal)
 
-        app.config.exclude_patterns.append("content/*[!%s]/pages")
+        for contentdir in os.listdir("content"):
+            if contentdir != portal:
+                app.config.exclude_patterns.append("content/%s/pages" % contentdir)
 
         #include portal include file if one exists
         portal_include_file = "includes/%s.txt" % portal

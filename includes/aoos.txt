@@ -1,1 +1,1 @@
-.. |map_initial_view| image:: content/aoos/images/map_initial_view_aoos.png
+.. |map_initial_view| image:: /content/aoos/images/map_initial_view_aoos.png

@@ -106,9 +106,9 @@ def setup(app):
         app.config.exclude_patterns.append("content/*[!%s]/pages")
 
         #include portal include file if one exists
-        portal_include_file = "/includes/%s.txt" % portal
+        portal_include_file = "includes/%s.txt" % portal
         if os.path.exists(portal_include_file):
-            app.config.rst_prolog += "\n.. include:: %s" % portal_include_file
+            app.config.rst_prolog += "\n.. include:: /%s" % portal_include_file
         else:
             app.config.rst_prolog += "\n.. include:: /includes/defaults.txt"
 
@@ -120,7 +120,7 @@ def setup(app):
         if portal == "aoos":
             app.add_stylesheet('css/aoos.css')
     else:
-        app.config.rst_prolog += "\n.. include:: includes/defaults.txt"
+        app.config.rst_prolog += "\n.. include:: /includes/defaults.txt"
         app.config.exclude_patterns.append("content/**/pages")
 
 # -- Options for HTMLHelp output ------------------------------------------

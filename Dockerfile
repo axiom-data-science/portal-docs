@@ -14,9 +14,10 @@ RUN apt-get update \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip install --upgrade \
-    sphinx_rtd_theme \
+    sphinx_rtd_theme==0.2.5b2 \
     hieroglyph \
-    rst2pdf
+    rst2pdf \
+    pyyaml
 
 RUN npm install -g http-server
 

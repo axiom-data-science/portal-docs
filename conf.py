@@ -20,8 +20,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import sphinx_rtd_theme
+import datetime
 import os
+import sphinx_rtd_theme
+import yaml
 
 # -- General configuration ------------------------------------------------
 
@@ -47,8 +49,6 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Axiom Data Portal Help Documentation'
-copyright = u'2017, Axiom Data Science'
 author = u'Axiom Data Science'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -94,36 +94,51 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # Set app config including static paths, stylesheets, and includes
 # These settings are reactive to the PORTAL environment variable
 def setup(app):
+    #set config defaults
+    config = {
+        'title': 'Axiom Data Portal'
+    }
+
     app.add_stylesheet('css/my_theme.css')
     app.config.html_static_path = ['custom']
-    app.config.rst_prolog = ".. include:: /includes/globals.txt"
+    app.config.rst_prolog = '.. include:: /includes/globals.txt'
     app.config.exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+    app.config.copyright = '%d, Axiom Data Science' % datetime.datetime.now().year
 
-    if "PORTAL" in os.environ:
-        portal = os.environ["PORTAL"]
+    if 'PORTAL' in os.environ:
+        portal = os.environ['PORTAL']
         tags.add(portal)
 
-        for contentdir in os.listdir("content"):
+        for contentdir in os.listdir('content'):
             if contentdir != portal:
-                app.config.exclude_patterns.append("content/%s/pages" % contentdir)
+                app.config.exclude_patterns.append('content/%s/pages' % contentdir)
 
         #include portal include file if one exists
-        portal_include_file = "includes/%s.txt" % portal
+        portal_include_file = 'includes/%s.txt' % portal
         if os.path.exists(portal_include_file):
-            app.config.rst_prolog += "\n.. include:: /%s" % portal_include_file
+            app.config.rst_prolog += '\n.. include:: /%s' % portal_include_file
         else:
-            app.config.rst_prolog += "\n.. include:: /includes/defaults.txt"
+            app.config.rst_prolog += '\n.. include:: /includes/defaults.txt'
 
         #include custom portal static content
-        portal_content_dir = "content/%s/static" % portal
+        portal_content_dir = 'content/%s/static' % portal
         if os.path.exists(portal_content_dir):
             app.config.html_static_path.append(portal_content_dir)
 
-        if portal == "aoos":
+        #load config file
+        portal_config_file = 'content/%s/config.yml' % portal
+        if os.path.exists(portal_config_file):
+            #override config defaults with yaml config values
+            config.update(yaml.load(open(portal_config_file)))
+
+        if portal == 'aoos':
             app.add_stylesheet('css/aoos.css')
     else:
-        app.config.rst_prolog += "\n.. include:: /includes/defaults.txt"
-        app.config.exclude_patterns.append("content/**/pages")
+        app.config.rst_prolog += '\n.. include:: /includes/defaults.txt'
+        app.config.exclude_patterns.append('content/**/pages')
+
+    app.config.project = config['title']
+    app.config.html_title = config['title']
 
 # -- Options for HTMLHelp output ------------------------------------------
 

@@ -1,1 +1,0 @@
-.. |map_initial_view| image:: /images/map_initial_view.png

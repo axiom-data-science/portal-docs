@@ -101,7 +101,7 @@ def setup(app):
 
     app.add_stylesheet('css/my_theme.css')
     app.config.html_static_path = ['custom']
-    app.config.rst_prolog = '.. include:: /includes/globals.txt'
+    app.config.rst_prolog = '.. include:: /content/axiom/global_substitutions.txt'
     app.config.exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
     app.config.copyright = '%d, Axiom Data Science' % datetime.datetime.now().year
 
@@ -114,11 +114,11 @@ def setup(app):
                 app.config.exclude_patterns.append('content/%s/pages' % contentdir)
 
         #include portal include file if one exists
-        portal_include_file = 'includes/%s.txt' % portal
+        portal_include_file = 'content/%s/substitutions.txt' % portal
         if os.path.exists(portal_include_file):
             app.config.rst_prolog += '\n.. include:: /%s' % portal_include_file
         else:
-            app.config.rst_prolog += '\n.. include:: /includes/defaults.txt'
+            app.config.rst_prolog += '\n.. include:: /content/axiom/default_substitutions.txt'
 
         #include custom portal static content
         portal_content_dir = 'content/%s/static' % portal
@@ -134,11 +134,13 @@ def setup(app):
         if portal == 'aoos':
             app.add_stylesheet('css/aoos.css')
     else:
-        app.config.rst_prolog += '\n.. include:: /includes/defaults.txt'
+        app.config.rst_prolog += '\n.. include:: /content/axiom/default_substitutions.txt'
         app.config.exclude_patterns.append('content/**/pages')
 
     app.config.project = config['title']
     app.config.html_title = config['title']
+    app.config.html_logo = config['logo']
+    app.config.html_favicon = config['favicon']
 
 # -- Options for HTMLHelp output ------------------------------------------
 

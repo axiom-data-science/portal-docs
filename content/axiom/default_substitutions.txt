@@ -1,0 +1,1 @@
+.. |map_initial_view| image:: content/axiom/images/map_initial_view.png

@@ -1,0 +1,22 @@
+.. TEXT
+
+.. |brand| replace:: IOOS
+
+.. |title| replace:: Environmental Sensor Map
+
+.. SCREENSHOTS
+
+.. |map_initial_view| image:: /partner_content/ioos/images/map_initial_view_ioos.png
+
+.. |catalog_initial_view| image:: /partner_content/ioos/images/catalog_initial_view_ioos.png
+
+.. |sensor_hover| image:: /partner_content/ioos/images/sensor_hover_ioos.png
+
+.. |sensor_select| image:: /partner_content/ioos/images/sensor_select_ioos.png
+
+.. |data_view| image:: /partner_content/ioos/images/data_view_ioos.png
+
+.. GIFS
+
+.. |add_new_view_gif| image:: /partner_content/ioos/images/add_new_view_gif_ioos.gif
+

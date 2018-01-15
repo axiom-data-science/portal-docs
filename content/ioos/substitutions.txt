@@ -1,1 +1,0 @@
-.. |map_initial_view| image:: /content/ioos/images/map_initial_view_ioos.png

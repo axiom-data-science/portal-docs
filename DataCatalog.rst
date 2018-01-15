@@ -2,39 +2,39 @@
 Data Catalog
 ############
 
-The catalog provides search access for all datasets within the portal. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add visualizable data layers to the map. The catalog contains several observational data types:
+The catalog provides search access for all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add visualizable data layers to the map. The catalog contains several observational data types:
 
 * *Real-time data* are ingested, served, and displayed by the portal at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
 
 * *Near real-time data* are ingested by the portal at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include satellite images and derived satellite products.
 
-* *Historical data* are data that are one month old or older. Historical data are ingested from the associated `Research Workspace <https://github.com/axiom-data-science/portal-docs/blob/master/DataCatalog.rst#data-files-from-the-research-workspace>`_ or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts. 
+* *Historical data* are data that are one month old or older. Historical data are ingested from the associated `Research Workspace <https://github.com/axiom-data-science/portal-docs/blob/master/DataCatalog.rst#data-files-from-the-research-workspace>`_ or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts.
 
 **************
 Search Catalog
 **************
 
-From the portal home page, click on ``Explore Data Layers`` to navigate to the catalog.
+From the |title| home page, click on ``Explore Data Layers`` to navigate to the catalog.
 
-Within the catalog, you will find a listing of all the data layers accessible through the portal. By default, the data layers are shown in alphabetical order. There are several ways the data layers can be browsed or searched. 
+Within the catalog, you will find a listing of all the data layers accessible through the |title|. By default, the data layers are shown in alphabetical order. There are several ways the data layers can be browsed or searched.
 
 * Click a category tag in the left sidebar. The data layers that are associated with the tag will be displayed. More than one category tag can be selected at the same time.
 
 * Enter a search term. Just type the data you are interested in finding into the search box in the upper left toolbar. As you type, you may see matching terms (e.g. ``Hints``) and actual data layers (e.g. ``Results``) appear below the toolbar's search box. Click on the ``Hints`` or ``Results`` of interest and the search results will appear in the data catalog.
 
-* Filter the result types in the left sidebar. All data layers in the catalog are categorized as ``Map layers`` (e.g. static GIS layers), ``Projects`` (e.g. research project data files displayed from the Research Workspace), or ``Sensor stations`` (e.g. real-time sensor observations). Select the checkboxes to display or narrow the data layers by these ``Results`` types. 
+* Filter the result types in the left sidebar. All data layers in the catalog are categorized as ``Map layers`` (e.g. static GIS layers), ``Projects`` (e.g. research project data files displayed from the Research Workspace), or ``Sensor stations`` (e.g. real-time sensor observations). Select the checkboxes to display or narrow the data layers by these ``Results`` types.
 
-* Do an advanced search by space, time, or method. Click on ``Advanced search options`` in the left sidebar. 
+* Do an advanced search by space, time, or method. Click on ``Advanced search options`` in the left sidebar.
 
 	* Using the ``Spatial filter`` option, you can click on the rectangle icon to draw a bounding box on the map, or you can type the latitude/longitude coordinates. The data layers occuring in that spatial area will appear in the data catalog.
-	
+
 	* Using the ``Filter time`` option, you can adjust the time slider or type the start/end date range. The data layers occuring during that temporal period will appear in the data catalog.
-	
-	* Using the ``Access method`` option, you can select data service method from which data layers can be downloaded from the catalog. 
-	
-	
+
+	* Using the ``Access method`` option, you can select data service method from which data layers can be downloaded from the catalog.
+
+
 .. **************
-.. Search Filters 
+.. Search Filters
 .. **************
 
 
@@ -60,13 +60,13 @@ Data files can be added to the catalog automatically by project researchers usin
 
 1. Data are managed by a project researcher using his or her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
 
-		For assistance using the Research Workspace and its metadata editor visit: https://researchworkspace.com/help/
+For assistance using the Research Workspace and its metadata editor visit: https://researchworkspace.com/help/
 
 2. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the Research Workspace.
 
-3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata. 
+3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
 
-.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity. 
+.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
 
 .. *********
 .. Data DOIs
@@ -159,14 +159,14 @@ Real-time stations and their associated pages aggregate and show all relevant st
 #. Within the portal, visit the real-time sensor map.
 #. Use the station filters to show stations by parameter, source, or platform.
 #. Use the map to zoom to an area of interest, select an individual station, and then download data for that station and sensor.
-#. Data can be downloaded by clicking on the station point in the map. In the data display window that opens, select ``Download`` in the bottom left beneath the chart. 
+#. Data can be downloaded by clicking on the station point in the map. In the data display window that opens, select ``Download`` in the bottom left beneath the chart.
 
 ERDDAP Sensor Catalog
 """""""""""""""""""""
 
 ERDDAP is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. The portal hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more.
 
-#. Go to the ERDDAP sensor catalog's website: http://erddap.sensors.ioos.us/erddap/ 
+#. Go to the ERDDAP sensor catalog's website: http://erddap.sensors.ioos.us/erddap/
 #. Search for a station name (e.g., "Wiseman").
 #. Select the data link under Table DAP.
 #. Select the range in each dimension (e.g., start time, stride, end time) and what variables you want to download.
@@ -195,13 +195,13 @@ Data Files from the Research Workspace
 
 The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal. To search for project data in the catalog:
 
-#. Click on ``Advanced search options`` in the left sidebar and filter to ``Project Data``. 
-#. Click on the title of interest in the catalog. 
+#. Click on ``Advanced search options`` in the left sidebar and filter to ``Project Data``.
+#. Click on the title of interest in the catalog.
 #. Choose the ``Project Data`` tab.
 #. Browse through the individual data files that are displayed. By default, data files are organized by the folder directory from the Research Workspace.
-#. Click the name of the data file of interest to download it to your computer. 
+#. Click the name of the data file of interest to download it to your computer.
 #. Click on the ``Metadata`` icon to the right of the resource title to view the associated metadata.
 
-For more information about publishing data to the portal from the Research Workspace read `here <https://workspace.aoos.org/help/PublishingData.html>`_. 
+For more information about publishing data to the portal from the Research Workspace read `here <https://workspace.aoos.org/help/PublishingData.html>`_.
 
 *This feature is under development. Check back soon for updates.*

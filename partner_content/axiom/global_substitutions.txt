@@ -1,0 +1,72 @@
+.. This file is just along for the ride to provide a place to store things referenced in more than one RST file. It's a TXT file so that Sphinx doesn't count it as a file it needs to worry about processing.
+
+.. ICON ALIASES
+
+.. |example_icon| image:: /partner_content/axiom/images/icons/example_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. |plus_minus_icon| image:: /partner_content/axiom/images/icons/plus_minus_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. |magnify_icon| image:: /partner_content/axiom/images/icons/magnify_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. |feedback_button_icon| image:: /partner_content/axiom/images/icons/feedback_button_icon.png
+	:width: 40pt
+	:height: 20pt
+
+.. |views_button_icon| image:: /partner_content/axiom/images/icons/views_button_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |portal_button_icon| image:: /partner_content/axiom/images/icons/portal_button_icon.png
+	:width: 40pt
+	:height: 20pt
+
+.. |settings_button_icon| image:: /partner_content/axiom/images/icons/settings_button_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |share_button_icon| image:: /partner_content/axiom/images/icons/share_button_icon.png
+	:width: 40pt
+	:height: 20pt
+
+.. |add_view_icon| image:: /partner_content/axiom/images/icons/add_view_icon.png
+
+.. |data_display_view_icon| image:: /partner_content/axiom/images/icons/data_display_view_icon.png
+
+.. |gear_icon| image:: /partner_content/axiom/images/icons/gear_icon.png
+
+.. |plus_icon| image:: /partner_content/axiom/images/icons/plus_icon.png
+
+.. |glider_data_download_icon| image:: /partner_content/axiom/images/icons/glider_data_download_icon.png
+	:width: 60pt
+	:height: 30pt
+
+
+.. GIF ALIASES
+
+.. |example_gif| image:: /partner_content/axiom/images/gifs/example.gif
+
+.. |add_new_view_gif| image:: /partner_content/axiom/images/gifs/add_new_view_gif.gif
+
+
+.. OTHER IMAGE ALIASES
+
+.. |map_initial_view| image:: partner_content/axiom/images/map_initial_view.png
+
+.. |catalog_initial_view| image:: /partner_content/axiom/images/catalog_initial_view.png
+	:width: 1600pt
+	:height: 800pt
+
+.. |sensor_hover| image:: /partner_content/axiom/images/sensor_hover.png
+
+.. |sensor_select| image:: /partner_content/axiom/images/sensor_select.png
+
+.. |data_view| image:: /partner_content/axiom/images/data_view.png
+
+.. |glider_data_viz| image:: /partner_content/axiom/images/glider_data_viz.png
+

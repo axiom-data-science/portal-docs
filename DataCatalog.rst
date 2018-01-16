@@ -131,11 +131,11 @@ Web mapping services (WMS) are used to provide machine access to images used by 
 Environmental Research Division Data Access Program (ERDDAP)
 ------------------------------------------------------------
 
-The Environmental Research Division Data Access Program (ERDDAP) is a NOAA-sponsored common data server that provides access to gridded and device (e.g., weather sensor) data. AOOS hosts an ERDDAP server that provides access to gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more.
+The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsored software that builds a common data server providing access to gridded and device (e.g., weather sensor) data. ERDDAP servers provide access to some gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL, but below is an example of how to access an example gridded dataset via the AOOS ERDAP:
 
 #. Go to http://erddap.aoos.org
-#. Search for a topic (e.g., in the examples above we searched for "CBHAR")
-#. Select the links listed under GrId DAP
+#. From the right-hand bar, search for Datasets by Protocol, select "griddap datasets" to see available layers
+#. Select one of the available links under Grid DAP Data
 #. Select the range in each dimension (e.g., start time, stride, end time), and uncheck all unneeded variables.
 #. Select the output file type desired and submit the request to the server. When the data is bundled, it will download automatically.
 
@@ -184,7 +184,7 @@ NetCDF Resources
 
 In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a "self-describing" data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
 
-NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains a list of free software for manipulating or displaying NetCDF data. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Panoply, hosted by NASA, is a free, relatively easy way to display gridded data, though it's not as straightforward to use as a scientific programming language.
+NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
 
 ***************************************
 Download Non-visualized or Project Data

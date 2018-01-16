@@ -1,29 +1,27 @@
-.. include:: globals.txt
-
 ########
 Data Map
 ########
 
-The map provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. The map is highly-customizable, enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom Data Views to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations. 
+The map provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. The map is highly-customizable, enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom Data Views to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 
 **********************
 Display Data Layers
 **********************
 
-This section provides information on how to view, learn more about, and interact with data layers in the map. 
+This section provides information on how to view, learn more about, and interact with data layers in the map.
 
 *Several features on this page are currently under development. Check back soon for updates.*
 
 View Data in the Map Portal
 ===========================
 
-All real-time and near real-time data within the portal are accessible as interactive visualizations in the map view. Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace. More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
+All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map view. Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace. More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
 
 Overview of Real-Time Data
 ---------------------------
 
-Real-time data are ingested, served, and displayed in the portal at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams. For the purposes of this documentation, it's helpful to understand how the following real-time data terms are defined:
+Real-time data are ingested, served, and displayed in the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams. For the purposes of this documentation, it's helpful to understand how the following real-time data terms are defined:
 
 .. csv-table::
 	:header: "Term", "Definition"
@@ -51,7 +49,7 @@ To view station data, click on the point. As shown in the image below, data from
 Overview of Near-Real Time Data
 -------------------------------
 
-Near real-time data are ingested by the portal at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
+Near real-time data are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
 
 Model and Satellite Data
 """"""""""""""""""""""""
@@ -62,45 +60,46 @@ To select your area of interest, use the pan and zoom features on the map. To di
 
 The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ section of this document. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
 
-The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button. 
+The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
 
 Overview of Historical Data
 ---------------------------
 
 Historical data are data that are one month old or older. Historical data available through the portal were sometimes collected in real-time and subsequently archived; other historical data are ingested from local or national archives upon stakeholder request.
 
+.. only:: axiom
 
-Mobile Platforms (Gliders)
-""""""""""""""""""""""""""
+	Mobile Platforms (Gliders)
+	""""""""""""""""""""""""""
 
-Ocean gliders are autonomous underwater vehicles used to collect ocean data, including temperature, salinity, conductivity, and other important measures. Unlike stationary sensor platforms such as buoys, gliders move through the water column and collect data at different locations over time.
+	Ocean gliders are autonomous underwater vehicles used to collect ocean data, including temperature, salinity, conductivity, and other important measures. Unlike stationary sensor platforms such as buoys, gliders move through the water column and collect data at different locations over time.
 
-.. note::
-	For more information on gliders, see NOAA's `"What is an ocean glider" <https://oceanservice.noaa.gov/facts/ocean-gliders.html>`_ page.
+	.. note::
+		For more information on gliders, see NOAA's `"What is an ocean glider" <https://oceanservice.noaa.gov/facts/ocean-gliders.html>`_ page.
 
-Glider data can be visualized by accessing it from a data catalog. Here's an example of how to visualize glider data from the Central and Northern California Ocean Observing System (CeNCOOS) data portal:
+	Glider data can be visualized by accessing it from a data catalog. Here's an example of how to visualize glider data from the Central and Northern California Ocean Observing System (CeNCOOS) data portal:
 
-#. Go to the CeNCOOS `data portal <http://dev.axiomdatascience.com/?portal_id=20#search?tagId=Gliders>`_.
-#. Filter the catalog by selecting ``Gliders`` tag from the list on the left.
-#. This will display a list of glider datasets collected off the coast of California.
+	#. Go to the CeNCOOS `data portal <http://dev.axiomdatascience.com/?portal_id=20#search?tagId=Gliders>`_.
+	#. Filter the catalog by selecting ``Gliders`` tag from the list on the left.
+	#. This will display a list of glider datasets collected off the coast of California.
 
-To visualize the dataset, click on its name. In our CeNCOOS example, to visualize the first dataset on the list, follow these steps:
+	To visualize the dataset, click on its name. In our CeNCOOS example, to visualize the first dataset on the list, follow these steps:
 
-#. Click on `UCSC260-20150520T0000 <http://dev.axiomdatascience.com/?portal_id=20#search?tagId=Gliders>`_.
-#. Wait for the dataset to load.
+	#. Click on `UCSC260-20150520T0000 <http://dev.axiomdatascience.com/?portal_id=20#search?tagId=Gliders>`_.
+	#. Wait for the dataset to load.
 
-Once the dataset has loaded, you should see the view in the image below:
+	Once the dataset has loaded, you should see the view in the image below:
 
-|glider_data_viz|
+	|glider_data_viz|
 
-From here there are several ways to explore the glider dataset:
+	From here there are several ways to explore the glider dataset:
 
-#. overlaid on imagery on the upper-left,
-#. described by basic metadata on the lower-left,
-#. displayed in a 2-dimensional plot on the upper-right, and
-#. plotted in a 3-dimensional plot on the lower-right.
+	#. overlaid on imagery on the upper-left,
+	#. described by basic metadata on the lower-left,
+	#. displayed in a 2-dimensional plot on the upper-right, and
+	#. plotted in a 3-dimensional plot on the lower-right.
 
-Additionally, the dataset can be downloaded in several different formats by using the blue downloads button in the top right |glider_data_download_icon|.
+	Additionally, the dataset can be downloaded in several different formats by using the blue downloads button in the top right |glider_data_download_icon|.
 
 Biological Observations
 """""""""""""""""""""""
@@ -113,11 +112,11 @@ To view a summary of all the observation data contain within a hexagon, hover ov
 
 To view data for an individual location or observation, zoom in on the map. The hexagons will soften into points that represent the individual sample locations or observations that were aggregated into that hexagon. To view current readings from that location, hover over its point. As shown in the image below, a pop-up window will display some basic information, including the observation or location name, latitude and longitude, and a summary of events or observations by parameters (e.g., count by species, percent abundance, number of events, etc ).
 
-To change the data parameters in the map, the filters can be used in the legend on the right side. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown. 
+To change the data parameters in the map, the filters can be used in the legend on the right side. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
 
 To further interact with the data in the map, the `polygon tool <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ can be used to create summary statistics across spatial areas of interest. Or, the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ bar can be used to view the various time intervals of data available.
 
-If when zoomed in the hexagons do not soften into points, the individual locations or observations have been intentionally aggregated for data use or confidentiality purposes. 
+If when zoomed in the hexagons do not soften into points, the individual locations or observations have been intentionally aggregated for data use or confidentiality purposes.
 
 To view location data, click on the point. Data from that location will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select different parameters for that location (if available), or you can use the time slider to adjust the time period of the data.
 
@@ -133,7 +132,7 @@ From the Data Catalog
 2. On the results page, use the ``+`` icon next to any of the thumbnails, an indicator showing how many layers are currently queued will show up in the black, upper menu.
 3. You can add multiple layers, it's just like a data "shopping cart".
 4. Remove layers by selecting the layer indicator in the black, upper menu, and using the ``X`` icons.
-5. After you are finished adding data layers, click ``Map`` in the upper toolbar to view those layers in the map. 
+5. After you are finished adding data layers, click ``Map`` in the upper toolbar to view those layers in the map.
 
 From the Data Map
 ------------------
@@ -141,9 +140,9 @@ From the Data Map
 1. From within the interactive map, use the ``Search for data`` bar.
 2. From the results popup, use the ``+`` icon next to the layer you want to add to the map.
 
-Or, follow `these steps <http://help.axds.co/portals/DataCatalog.html#search-catalog>`_ for how to add data layers directly from the catalog. 
+Or, follow `these steps <http://help.axds.co/portals/DataCatalog.html#search-catalog>`_ for how to add data layers directly from the catalog.
 
-Learn More About Data Layers 
+Learn More About Data Layers
 =============================
 
 Within in the map, there are several ways to learn more about the data layer being displayed.
@@ -152,9 +151,9 @@ Within in the map, there are several ways to learn more about the data layer bei
 #. Click on a point in the map. A data display window will appear showing a chart of the data. In the bottom right of the chart click on ``Source``. You will be directed to the data provider's webpage, if available.
 #. For real-time sensor data, click on the station in the map. A data display window will appear showing a chart of the data. Here you have two options:
 
-	* **Station and Source Pages:** In the bottom left of the chart you can click on ``Station``. Summary information about the station will be shown, including the instrument location, temporal coverage, platform type, station URN or WMO ID, and the source information for the data provider. Interactive data charts for each of the sensors associated with that station will be shown on the right hand side. You can interact with these similar to other `data charts <http://help.axds.co/portals/DataMap.html#data-charts>`_. Under Sources, you can click on the name of the data provider to discover a list and links to all stations available in the map from that provider. 
-	
-	* **Sensor page:** In the bottom left of the chart you can also click on ``Sensor``. Summary information about the sensor will be shown, including parameter information, temporal coverage, and the sensor and parameter source URNs. Under parameter information, you can click the ``Download`` button to download the sensor data. You can also interact with the summary data chart for that sensor.  
+	* **Station and Source Pages:** In the bottom left of the chart you can click on ``Station``. Summary information about the station will be shown, including the instrument location, temporal coverage, platform type, station URN or WMO ID, and the source information for the data provider. Interactive data charts for each of the sensors associated with that station will be shown on the right hand side. You can interact with these similar to other `data charts <http://help.axds.co/portals/DataMap.html#data-charts>`_. Under Sources, you can click on the name of the data provider to discover a list and links to all stations available in the map from that provider.
+
+	* **Sensor page:** In the bottom left of the chart you can also click on ``Sensor``. Summary information about the sensor will be shown, including parameter information, temporal coverage, and the sensor and parameter source URNs. Under parameter information, you can click the ``Download`` button to download the sensor data. You can also interact with the summary data chart for that sensor.
 
 Interact with and Customize Data Layers in the Map
 ===================================================
@@ -177,12 +176,12 @@ In the map, your selected layers will appear in a legend on the right. The filte
 Toggle Layers On/Off
 """"""""""""""""""""
 
-Individual data layers can be toggled on and off using the``Eyeball`` icon to the right of the data layer name. To delete the data layer from the map, select the ``X`` icon. 
+Individual data layers can be toggled on and off using the``Eyeball`` icon to the right of the data layer name. To delete the data layer from the map, select the ``X`` icon.
 
 Change Layer Order
 """"""""""""""""""
 
-The order in which data layers appear in the map can be changed. By default, the data layer that appears at the top of the map legend will be displayed forward in the map. To move data layers backward in the map, select the ``Up/Down Arrow`` to the left of the data layer name. 
+The order in which data layers appear in the map can be changed. By default, the data layer that appears at the top of the map legend will be displayed forward in the map. To move data layers backward in the map, select the ``Up/Down Arrow`` to the left of the data layer name.
 
 Customize Color and Scale
 """""""""""""""""""""""""
@@ -195,11 +194,11 @@ The data layer legend on the right hand side shows the color scale that is used 
 Time Slider
 """""""""""
 
-The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer. 
+The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer.
 
-.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legend beneath the data layer title.  
+.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legend beneath the data layer title.
 
-The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name of the data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map.  
+The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name of the data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map.
 
 There are several ways to interact with temporal data.
 
@@ -207,16 +206,16 @@ There are several ways to interact with temporal data.
 
 #. Click on the gear icon to the left of the time slider for finer time controls. The bounding time interval can be entered by clicking the calendar bar. Using the calendar, enter a custom range by selecting both the start and end dates from both calendars. Or, click the preset time ranges from the list on the left to view real time, past 24 hours, past week, past 30 days, etc. Select ``Apply`` to view the selected time range of data in the map.
 
-#. Click on the gear icon to open the time control menu. Select the ``Next Time Stamp`` button to step forward to the next time stamp. For example, if the data view has been set to show data from the prior month, the next time stamp would advance to show data from the current month. Click the ``Previous Time Stamp`` buttom to step back to the previous time stamp. To show the full start or end time extent click on the ``Step Forward`` or ``Step Backward`` to move the time control to the full start or end extent. 
+#. Click on the gear icon to open the time control menu. Select the ``Next Time Stamp`` button to step forward to the next time stamp. For example, if the data view has been set to show data from the prior month, the next time stamp would advance to show data from the current month. Click the ``Previous Time Stamp`` buttom to step back to the previous time stamp. To show the full start or end time extent click on the ``Step Forward`` or ``Step Backward`` to move the time control to the full start or end extent.
 
 Depth Filter
 """"""""""""
 
-The depth slider bar located in the bottom right of the map allows you to filter data across the water column. The depth intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any depth-enabled data layers loaded. By default, the depth slider is set to display all data across the water column. 
+The depth slider bar located in the bottom right of the map allows you to filter data across the water column. The depth intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any depth-enabled data layers loaded. By default, the depth slider is set to display all data across the water column.
 
 .. tip:: For quick reference, the depth range for data being viewed in the map is shown in the right-hand map legend beneath the time extent.
 
-To filter data by depth: 
+To filter data by depth:
 
 #. Click on the depth icon in the bottom right of the map. Click and drag both ends of the depth slider control to adjust the vertical bounds. Note that the depth values represent meters beneath the water surface. Click and drag the middle of the depth slider control bar to step through the vertical data. Hover your mouse over the depth slider bar to see the vertical range of the data that has been selected.
 
@@ -234,7 +233,7 @@ To further interact with data in the map, the polygon tool can be used to create
 Save and Share Map
 ===================
 
-The custom map you have created can be shared with others. To share, in the upper toolbar click ``Share``. You will receive a custom URL to your saved map state. Copy the link to share with others. 
+The custom map you have created can be shared with others. To share, in the upper toolbar click ``Share``. You will receive a custom URL to your saved map state. Copy the link to share with others.
 
 .. Instance State Saving
 .. =====================
@@ -250,7 +249,7 @@ For assistance, please contact us via the red Feedback button |feedback_button_i
 Different Chart Types
 =====================
 
-This section includes descriptions for the common charts used to display data in the portal. Data charts can be accessed both by clicking a point on a data layer in the map, or by using the custom Data Views interface.  
+This section includes descriptions for the common charts used to display data in the portal. Data charts can be accessed both by clicking a point on a data layer in the map, or by using the custom Data Views interface.
 
 Categorical Variables
 ---------------------
@@ -260,11 +259,11 @@ Categorical Variables
 Quantitative Variables
 ----------------------
 
-* **Line charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals. 
+* **Line charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals.
 
-* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies. 
+* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies.
 
-.. tip:: In the portal, histogram charts can be created across custom areas of interest using the polygon tool. 
+.. tip:: In the portal, histogram charts can be created across custom areas of interest using the polygon tool.
 
 * **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
 
@@ -349,7 +348,7 @@ Within the portal there are several premade data views that highlight environmen
 
 The  view will open, displaying data comparion charts for you to explore. In the example image below, you can see the ``Hurricane Sandy`` view.
 
-|views_view|
+|data_view|
 
 .. note::
 	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
@@ -420,10 +419,10 @@ You can adjust the way  data are displayed in the chart on the right-hand side o
 
 Additionally, you can explore the selected data more in depth in the following ways:
 
-.. add links here eventually.. 
+.. add links here eventually..
 
 #. Download the data
-#. View the station or sensor information page 
+#. View the station or sensor information page
 #. View information about the data source from the data provider or organization that maintains it
 
 Add Data to a Comparison Chart
@@ -450,11 +449,11 @@ Once you've created, customized, and explored your data view, you'll probably wa
 
 .. note::
 	Anyone you share a view with will essentially see their own version of the view you have created and customized. Their edits and additions will not affect your saved view.
-	
+
 Save a View
 ==============
 
-Once you've created a view it will save automatically to your local Data Views cache. To access the views you have created,  you can access it the same way you'd access a premade view described above. 
+Once you've created a view it will save automatically to your local Data Views cache. To access the views you have created,  you can access it the same way you'd access a premade view described above.
 
 
 #. Click on the views button |views_button_icon|

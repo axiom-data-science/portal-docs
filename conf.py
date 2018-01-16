@@ -20,7 +20,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import datetime
+import os
 import sphinx_rtd_theme
+import yaml
 
 # -- General configuration ------------------------------------------------
 
@@ -31,7 +34,7 @@ import sphinx_rtd_theme
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.intersphinx', 'hieroglyph','sphinx.ext.autosectionlabel']
+extensions = ['sphinx.ext.intersphinx', 'hieroglyph','sphinx.ext.autosectionlabel', 'sphinx.ext.ifconfig']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -46,8 +49,6 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Axiom Data Portal Help Documentation'
-copyright = u'2017, Axiom Data Science'
 author = u'Axiom Data Science'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -66,17 +67,11 @@ release = u''
 # Usually you set "language" from the command line for these cases.
 language = None
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
-
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -96,22 +91,58 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #
 # html_theme_options = {}
 
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-#html_static_path = ['_static']
-
-#html_logo = 'images/IOOS_logo_sm_white.png'
-
-html_static_path = ['custom']
-html_style = 'css/my_theme.css'
-#html_context = {}
-
-#html_style = ''
-
+# Set app config including static paths, stylesheets, and includes
+# These settings are reactive to the PORTAL environment variable
 def setup(app):
-    app.add_stylesheet('css/theme_overrides.css')
+    #set config defaults
+    config = {
+        'title': 'Axiom Data Portal',
+        'logo':'partner_content/global/images/axiom_logo.png',
+        'favicon':'partner_content/global/images/axiom_favicon.png'
+    }
 
+    app.add_stylesheet('css/my_theme.css')
+    app.config.html_static_path = ['custom']
+    app.config.rst_prolog = '.. include:: /partner_content/global/global_substitutions.txt'
+    app.config.exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+    app.config.copyright = '%d, Axiom Data Science' % datetime.datetime.now().year
+
+    if 'PORTAL' in os.environ:
+        portal = os.environ['PORTAL']
+        tags.add(portal)
+
+        for contentdir in os.listdir('partner_content'):
+            if contentdir != portal:
+                app.config.exclude_patterns.append('partner_content/%s/pages' % contentdir)
+
+        #include portal include file if one exists
+        portal_include_file = 'partner_content/%s/substitutions.txt' % portal
+        if os.path.exists(portal_include_file):
+            app.config.rst_prolog += '\n.. include:: /%s' % portal_include_file
+        else:
+            app.config.rst_prolog += '\n.. include:: /partner_content/global/default_substitutions.txt'
+
+        #include custom portal static content
+        portal_content_dir = 'partner_content/%s/static' % portal
+        if os.path.exists(portal_content_dir):
+            app.config.html_static_path.append(portal_content_dir)
+
+        #load config file
+        portal_config_file = 'partner_content/%s/config.yml' % portal
+        if os.path.exists(portal_config_file):
+            #override config defaults with yaml config values
+            config.update(yaml.load(open(portal_config_file)))
+
+        if portal == 'aoos':
+            app.add_stylesheet('css/aoos.css')
+    else:
+        app.config.rst_prolog += '\n.. include:: /partner_content/global/default_substitutions.txt'
+        app.config.exclude_patterns.append('partner_content/**/pages')
+
+    app.config.project = config['title']
+    app.config.html_title = config['title']
+    app.config.html_logo = config['logo']
+    app.config.html_favicon = config['favicon']
 
 # -- Options for HTMLHelp output ------------------------------------------
 

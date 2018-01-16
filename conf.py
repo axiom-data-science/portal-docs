@@ -96,12 +96,14 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 def setup(app):
     #set config defaults
     config = {
-        'title': 'Axiom Data Portal'
+        'title': 'Axiom Data Portal',
+        'logo':'partner_content/global/images/axiom_logo.png',
+        'favicon':'partner_content/global/images/axiom_favicon.png'
     }
 
     app.add_stylesheet('css/my_theme.css')
     app.config.html_static_path = ['custom']
-    app.config.rst_prolog = '.. include:: /partner_content/axiom/global_substitutions.txt'
+    app.config.rst_prolog = '.. include:: /partner_content/global/global_substitutions.txt'
     app.config.exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
     app.config.copyright = '%d, Axiom Data Science' % datetime.datetime.now().year
 
@@ -118,7 +120,7 @@ def setup(app):
         if os.path.exists(portal_include_file):
             app.config.rst_prolog += '\n.. include:: /%s' % portal_include_file
         else:
-            app.config.rst_prolog += '\n.. include:: /partner_content/axiom/default_substitutions.txt'
+            app.config.rst_prolog += '\n.. include:: /partner_content/global/default_substitutions.txt'
 
         #include custom portal static content
         portal_content_dir = 'partner_content/%s/static' % portal
@@ -134,7 +136,7 @@ def setup(app):
         if portal == 'aoos':
             app.add_stylesheet('css/aoos.css')
     else:
-        app.config.rst_prolog += '\n.. include:: /partner_content/axiom/default_substitutions.txt'
+        app.config.rst_prolog += '\n.. include:: /partner_content/global/default_substitutions.txt'
         app.config.exclude_patterns.append('partner_content/**/pages')
 
     app.config.project = config['title']

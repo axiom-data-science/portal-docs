@@ -1,9 +1,0 @@
-.. TEXT
-
-.. |brand| replace:: Axiom
-
-.. |title| replace:: Data Portal
-
-.. SCREENSHOTS
-
-.. |map_initial_view| image:: partner_content/axiom/images/map_initial_view.png

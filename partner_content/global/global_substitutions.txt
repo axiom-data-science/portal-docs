@@ -1,0 +1,58 @@
+.. This file is just along for the ride to provide a place to store things referenced in more than one RST file. It's a TXT file so that Sphinx doesn't count it as a file it needs to worry about processing.
+
+.. ICON ALIASES
+
+.. |example_icon| image:: /partner_content/global/images/icons/example_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. |plus_minus_icon| image:: /partner_content/global/images/icons/plus_minus_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. |magnify_icon| image:: /partner_content/global/images/icons/magnify_icon.png
+	:width: 20pt
+	:height: 20pt
+
+.. |feedback_button_icon| image:: /partner_content/global/images/icons/feedback_button_icon.png
+	:width: 40pt
+	:height: 20pt
+
+.. |views_button_icon| image:: /partner_content/global/images/icons/views_button_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |portal_button_icon| image:: /partner_content/global/images/icons/portal_button_icon.png
+	:width: 40pt
+	:height: 20pt
+
+.. |settings_button_icon| image:: /partner_content/global/images/icons/settings_button_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |share_button_icon| image:: /partner_content/global/images/icons/share_button_icon.png
+	:width: 40pt
+	:height: 20pt
+
+.. |add_view_icon| image:: /partner_content/global/images/icons/add_view_icon.png
+
+.. |data_display_view_icon| image:: /partner_content/global/images/icons/data_display_view_icon.png
+
+.. |gear_icon| image:: /partner_content/global/images/icons/gear_icon.png
+
+.. |plus_icon| image:: /partner_content/global/images/icons/plus_icon.png
+
+.. |glider_data_download_icon| image:: /partner_content/global/images/icons/glider_data_download_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |glider_data_viz| image:: /partner_content/global/images/glider_data_viz.png
+
+.. GIF ALIASES
+
+.. |example_gif| image:: /partner_content/global/images/gifs/example.gif
+
+
+.. OTHER IMAGE ALIASES
+
+

@@ -25,3 +25,6 @@ Contents
    DataMap
    Feedback
    content/**
+
+These pages were last updated on |today|.
+

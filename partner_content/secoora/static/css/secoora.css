@@ -1,0 +1,19 @@
+/* custom SECOORA css */
+/*body {
+  background:#B0C4DE !important;
+}
+*/
+
+.wy-side-nav-search {
+	background-color:#31889d !important;
+}
+
+.wy-side-nav-search img {
+	background-color:#31889d !important;
+}
+
+.wy-side-nav-search input[type=text] {
+	border-color:#31889d !important;
+}
+
+

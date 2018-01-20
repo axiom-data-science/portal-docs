@@ -96,7 +96,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 def setup(app):
     #set config defaults
     config = {
-        'title': 'Axiom Data Portal',
+        'title': 'Data Portal Documentation',
         'logo':'partner_content/global/images/axiom_logo.png',
         'favicon':'partner_content/global/images/axiom_favicon.png'
     }
@@ -135,6 +135,8 @@ def setup(app):
 
         if portal == 'aoos':
             app.add_stylesheet('css/aoos.css')
+        elif portal == 'secoora':
+            app.add_stylesheet('css/secoora.css')
     else:
         app.config.rst_prolog += '\n.. include:: /partner_content/global/default_substitutions.txt'
         app.config.exclude_patterns.append('partner_content/**/pages')

@@ -133,10 +133,11 @@ def setup(app):
             #override config defaults with yaml config values
             config.update(yaml.load(open(portal_config_file)))
 
-        if portal == 'aoos':
-            app.add_stylesheet('css/aoos.css')
-        elif portal == 'secoora':
-            app.add_stylesheet('css/secoora.css')
+        #load css
+        portal_css_file = 'partner_content/%s/static/css/partner_theme.css' % portal
+        if os.path.exists(portal_css_file):
+            app.add_stylesheet('css/partner_theme.css')
+
     else:
         app.config.rst_prolog += '\n.. include:: /partner_content/global/default_substitutions.txt'
         app.config.exclude_patterns.append('partner_content/**/pages')

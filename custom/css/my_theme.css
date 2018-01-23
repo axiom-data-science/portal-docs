@@ -22,3 +22,15 @@ a.icon.icon-home::before {
 /* .wy-plain-list-disc,.rst-content .section ul,.rst-content .toctree-wrapper ul,article ul {
 	margin-bottom:0px !important;
 } */
+
+.wy-side-nav-search>a{
+    display:relative !important;
+    padding-top:80px !important;
+}
+
+.wy-side-nav-search>a img{
+    position:absolute !important;
+    top:0px !important;
+    left:0px !important;
+    right:0px !important;
+}

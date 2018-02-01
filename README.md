@@ -2,8 +2,6 @@ Abbey Edits
 
 # Axiom data portal help documentation
 
-Kyle's Edit 
-
 This GitHub repository is where the help documentation for data portals developed by [Axiom Data Science](https://www.axiomdatascience.com) (Axiom) lives. Contributions to this documentation are welcome via pull requests. These instructions describe how the repository is structured and how partners can contribute custom content for their data portal.
 
 ## Common terms

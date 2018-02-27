@@ -2,7 +2,7 @@
 Portal Overview
 ###############
 
-The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data from many sources. The |title| has two components: 1) a data catalog and 2) a map interface.
+The  |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data from many sources. The |title| has two components: 1) a data catalog and 2) a map interface.
 The catalog provides a way to explore available datasets using text searches and filters, as well as the ability to download datasets of interest. Some datasets in the catalog can be visualized automatically through the map interface, which provides a rich suite of tools for creating charts, comparing data, and visualizing datasets in context.
 
 ************

@@ -175,7 +175,7 @@ ERDDAP is a NOAA-sponsored common data server that provides access to gridded an
 Download Queried/Parsed Data
 ===============================
 
-This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
+This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_|.
 
 NetCDF Resources
 ================

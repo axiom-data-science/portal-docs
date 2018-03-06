@@ -1,20 +1,6 @@
-########
-Data Map
-########
-
-The map provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. The map is highly-customizable, enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom Data Views to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
-
-
-**********************
-Display Data Layers
-**********************
-
-This section provides information on how to view, learn more about, and interact with data layers in the map.
-
-*Several features on this page are currently under development. Check back soon for updates.*
-
-View Data in the Map Portal
-===========================
+##############
+Visualize Data
+##############
 
 All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map view. Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace. More details about how to explore, visualize, analyze, and download these data can found on the pages that follow.
 

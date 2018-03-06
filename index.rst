@@ -1,6 +1,6 @@
-************
-Introduction
-************
+#######
+Welcome
+#######
 
 Welcome to the help site for the |brand| |title|!
 
@@ -8,22 +8,20 @@ The |title| is a data exploration tool with a customized public web interface th
 
 The |title| is being actively developed by `Axiom Data Science <http://www.axiomdatascience.com/>`_ and is currently in Beta status. Several new features are scheduled for release in 2018, as indicated in the text. For the notes about the latest portal version please visit: http://axiomdatascience.com/portal-updates/
 
-You can navigate these help pages using the links below or in the black sidebar on your left. If you have a question not answered by this documentation, please contact us via the Feedback button |feedback_button_icon|.
+You can navigate these help pages using the links in the black sidebar on your left. If you have a question not answered by this documentation, please contact us via the Feedback button |feedback_button_icon|.
 
 Your feedback is important and will help us improve this documentation for future users!
 
-********
-Contents
-********
-
 .. toctree::
-   :maxdepth: 1
-   :glob:
+   :maxdepth: 0
+   :hidden:
+   :caption: Overview
 
-   PortalOverview
-   DataCatalog
-   DataMap
-   Feedback
+   introduction
+   tutorial
+   catalog/index
+   map/index
+   feedback
    content/**
 
 These pages were last updated on |today|.

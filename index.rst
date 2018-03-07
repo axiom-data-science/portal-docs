@@ -13,15 +13,17 @@ You can navigate these help pages using the links in the black sidebar on your l
 Your feedback is important and will help us improve this documentation for future users!
 
 .. toctree::
-   :maxdepth: 0
    :hidden:
    :caption: Overview
 
-   introduction
-   tutorial
+   overview/index
+
+.. toctree::
+   :hidden:
+   :caption: How-tos
+
    catalog/index
    map/index
-   feedback
    content/**
 
 These pages were last updated on |today|.

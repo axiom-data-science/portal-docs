@@ -11,25 +11,7 @@ The catalog provides search access for all datasets within the |title|. The cata
 * *Historical data* are data that are one month old or older. Historical data are ingested from the associated `Research Workspace <http://help.axds.co/portals/DataCatalog.html#data-files-from-the-research-workspace>`_ or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts.
 
 .. toctree::
+   :maxdepth: 1
    :glob:
-   :caption: Download Data
 
    *
-
-.. toctree::
-   :glob:
-   :caption: Gridded Data
-
-   download-gridded-data/*
-
-.. toctree::
-   :glob:
-   :caption: Project Data
-
-   download-project-data/*
-
-.. toctree::
-   :glob:
-   :caption: Queried Data
-
-   download-queried-data/*

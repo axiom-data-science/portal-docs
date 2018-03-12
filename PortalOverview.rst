@@ -1,3 +1,5 @@
+.. _portal-overview:
+
 ###############
 Portal Overview
 ###############
@@ -8,6 +10,8 @@ The |title| is a data exploration tool with a customized public web interface th
 #. a map interface.
 
 The catalog provides a way to explore available datasets using text searches and filters, as well as the ability to download datasets of interest. Some datasets in the catalog can be visualized automatically through the map interface, which provides a rich suite of tools for creating charts, comparing data, and visualizing datasets in context.
+
+.. _data-catalog-overview:
 
 ************
 Data Catalog
@@ -30,13 +34,15 @@ The data catalog is built around a familiar search interface, with several impor
 
 |catalog_initial_view|
 
+.. _data-map-overview:
+
 ********
 Data Map
 ********
 
 The data map interface provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map view (as indicated with a map preview image in the catalog). Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace.
 
-The map is highly customizable (``Settings`` and ``Legend``), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom `Data Views <http://help.axds.co/portals/DataMap.html#data-views>`_ to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
+The map is highly customizable (``Settings`` and ``Legend``), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom :ref:`data-views-map` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
@@ -47,6 +53,8 @@ The data map is built around a familiar interactive map interface, with several 
 * Zoom navigation tools in the top left corner
 
 |map_initial_view|
+
+.. _getting-started-overview:
 
 ***************
 Getting Started

@@ -1,3 +1,5 @@
+.. _data-catalog:
+
 ############
 Data Catalog
 ############
@@ -8,7 +10,9 @@ The catalog provides search access for all datasets within the |title|. The cata
 
 * *Near real-time data* are ingested by the portal at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include satellite images and derived satellite products.
 
-* *Historical data* are data that are one month old or older. Historical data are ingested from the associated `Research Workspace <http://help.axds.co/portals/DataCatalog.html#data-files-from-the-research-workspace>`_ or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts.
+* *Historical data* are data that are one month old or older. Historical data are ingested from the associated :ref:`data-files-from-workspace-catalog` or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts.
+
+.. _search-catalog:
 
 **************
 Search Catalog
@@ -37,10 +41,11 @@ Within the catalog, you will find a listing of all the data layers accessible th
 .. Search Filters
 .. **************
 
+.. _learn-more-about-data-layers-catalog:
 
-*****************************
+****************************
 Learn More About Data Layers
-*****************************
+****************************
 
 To learn more about the data layer, click on the title in the catalog. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layers is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
 
@@ -52,9 +57,11 @@ Some data layers in the catalog have more than one variable associated with them
 
 *This feature is under development. Check back soon for updates.*
 
-********************************************
+.. _contribute-data-catalog:
+
+******************************************
 Contribute Data via the Research Workspace
-********************************************
+******************************************
 
 Data files can be added to the catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
 
@@ -72,12 +79,16 @@ For assistance using the Research Workspace and its metadata editor visit: https
 .. Data DOIs
 .. *********
 
-***************************
+.. _download-visualized-data-catalog:
+
+************************
 Download Visualized Data
-***************************
+************************
+
+.. _download-gridded-data:
 
 Download Gridded Data
-========================
+=====================
 
 Thematic Realtime Environmental Distributed Data Services (THREDDS)
 -------------------------------------------------------------------
@@ -139,8 +150,10 @@ The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsor
 #. Select the range in each dimension (e.g., start time, stride, end time), and uncheck all unneeded variables.
 #. Select the output file type desired and submit the request to the server. When the data is bundled, it will download automatically.
 
+.. _download-time-series-gridded-catalog:
+
 Download a Time Series from Gridded Data
--------------------------------------------
+----------------------------------------
 
 The portal provides access to time-series extraction of gridded data, also known as a "Virtual Sensor."
 
@@ -149,10 +162,10 @@ The portal provides access to time-series extraction of gridded data, also known
 #. Select ``Download`` to receive a zip file containing data.csv and metadata.txt for that station and sensor.
 
 Download Station Data
-------------------------
+---------------------
 
 Historical Sensor Data
-""""""""""""""""""""""""""
+""""""""""""""""""""""
 
 Real-time stations and their associated pages aggregate and show all relevant station data. Data can be downloaded by selecting an individual station and then choosing ``Download``.
 
@@ -172,10 +185,14 @@ ERDDAP is a NOAA-sponsored common data server that provides access to gridded an
 #. Select the range in each dimension (e.g., start time, stride, end time) and what variables you want to download.
 #. Select the output file type desired and submit the request to the server. When the data are bundled, they will download automatically.
 
-Download Queried/Parsed Data
-===============================
+.. _download-queried-data-catalog:
 
-This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_|.
+Download Queried/Parsed Data
+============================
+
+This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
+
+.. _netcdf-resources-catalog:
 
 NetCDF Resources
 ================
@@ -186,9 +203,13 @@ In addition, NetCDF files can contain metadata attributes that describe any time
 
 NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
 
+.. _download-project-data-catalog:
+
 ***************************************
 Download Non-visualized or Project Data
 ***************************************
+
+.. _data-files-from-workspace-catalog:
 
 Data Files from the Research Workspace
 ======================================
@@ -202,6 +223,6 @@ The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to
 #. Click the name of the data file of interest to download it to your computer.
 #. Click on the ``Metadata`` icon to the right of the resource title to view the associated metadata.
 
-For more information about publishing data to the portal from the Research Workspace read `here <https://workspace.aoos.org/help/PublishingData.html>`_.
+For more information about publishing data to the portal from the Research Workspace read `here <https://researchworkspace.com/help/PublishingData.html>`_.
 
 *This feature is under development. Check back soon for updates.*

@@ -1,3 +1,5 @@
+.. _create-new-view-how-to:
+
 ###############
 Create New View
 ###############

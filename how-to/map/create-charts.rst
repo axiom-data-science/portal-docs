@@ -1,6 +1,8 @@
-######
-Charts
-######
+.. _create-charts-how-to:
+
+#############
+Create Charts
+#############
 
 The catalog and map offer multiple ways of comparing data within both the mapped interface and within a `data view <http://help.axds.co/portals/DataCatalog.html>`_.
 

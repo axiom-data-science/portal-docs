@@ -1,6 +1,8 @@
-############
-Polygon Tool
-############
+.. _use-polygon-tool-how-to:
+
+################
+Use Polygon Tool
+################
 
 To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest. To use the polygon tool:
 

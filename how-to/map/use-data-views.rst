@@ -1,6 +1,8 @@
-##########
-Data Views
-##########
+.. _use-data-views-how-to:
+
+##############
+Use Data Views
+##############
 
 You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called "data views," and they are accessed by clicking on the views button |views_button_icon| near the top right corner of the blue toolbar along the top of the window.
 

@@ -1,6 +1,8 @@
-###############
-Virtual Sensors
-###############
+.. _download-virtual-sensor-data-how-to:
+
+############################
+Download Virtual Sensor Data
+############################
 
 The portal provides access to time-series extraction of gridded data, also known as a "Virtual Sensor."
 

@@ -1,6 +1,8 @@
-############
-Data Display
-############
+.. _edit-data-display-how-to:
+
+#################
+Edit Data Display
+#################
 
 You can adjust the way  data are displayed in the chart on the right-hand side of the window, including but not limited to the following:
 

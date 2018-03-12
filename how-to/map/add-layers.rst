@@ -1,3 +1,5 @@
+.. _add-layers-how-to:
+
 ##########
 Add Layers
 ##########

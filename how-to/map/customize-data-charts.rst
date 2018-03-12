@@ -1,6 +1,8 @@
-#######################
-Customizing Data Charts
-#######################
+.. _customize-data-charts-how-to:
+
+#####################
+Customize Data Charts
+#####################
 
 * Selecting the ``Legend`` icon gives you access to turn on and off historical statistics.
 	- **Minimum** of the entire time-series within each bin is represented by the dashed blue line

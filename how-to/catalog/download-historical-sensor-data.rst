@@ -1,6 +1,8 @@
-######################
-Historical Sensor Data
-######################
+.. _download-historical-sensor-data-how-to:
+
+###############################
+Download Historical Sensor Data
+###############################
 
 Real-time stations and their associated pages aggregate and show all relevant station data. Data can be downloaded by selecting an individual station and then choosing ``Download``.
 

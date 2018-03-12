@@ -141,7 +141,7 @@ The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsor
 Parsed Data
 ===========
 
-This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_|.
+This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
 
 .. _netcdf-resources-overview:
 

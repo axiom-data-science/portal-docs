@@ -1,6 +1,8 @@
-############
-Project Data
-############
+.. _search-project-data-how-to:
+
+###################
+Search Project Data
+###################
 
 The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal. To search for project data in the catalog:
 

@@ -1,6 +1,8 @@
-############
-Depth Filter
-############
+.. _filter-by-depth-how-to:
+
+###############
+Filter by Depth
+###############
 
 The depth slider bar located in the bottom right of the map allows you to filter data across the water column. The depth intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any depth-enabled data layers loaded. By default, the depth slider is set to display all data across the water column.
 

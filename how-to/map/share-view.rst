@@ -1,3 +1,5 @@
+.. _share-view-how-to:
+
 ##########
 Share View
 ##########

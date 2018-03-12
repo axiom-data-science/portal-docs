@@ -1,6 +1,8 @@
-##############
-Layer Metadata
-##############
+.. _view-layer-metadata-from-map-how-to:
+
+############################
+View Layer Metadata from Map
+############################
 
 Within in the map, there are several ways to learn more about the data layer being displayed.
 
@@ -12,4 +14,5 @@ Within in the map, there are several ways to learn more about the data layer bei
 
 	* **Sensor page:** In the bottom left of the chart you can also click on ``Sensor``. Summary information about the sensor will be shown, including parameter information, temporal coverage, and the sensor and parameter source URNs. Under parameter information, you can click the ``Download`` button to download the sensor data. You can also interact with the summary data chart for that sensor.
 
+.. link to .. _customize-data-in-the-map-overview:
 

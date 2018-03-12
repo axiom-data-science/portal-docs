@@ -1,6 +1,8 @@
-################
-Comparison Chart
-################
+.. _use-comparison-charts-how-to:
+
+#####################
+Use Comparison Charts
+#####################
 
 Comparison charts appear below the map and allow you to plot similar data from different sources. To add data from a saved chart to a comparison chart, follow these steps:
 

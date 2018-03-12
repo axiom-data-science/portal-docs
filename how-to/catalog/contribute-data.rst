@@ -1,3 +1,5 @@
+.. _contribute-data-how-to:
+
 ###############
 Contribute Data
 ###############

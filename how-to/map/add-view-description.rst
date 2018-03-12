@@ -1,3 +1,5 @@
+.. _add-view-description-how-to:
+
 ################
 View Description
 ################

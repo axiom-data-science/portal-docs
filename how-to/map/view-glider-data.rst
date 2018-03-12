@@ -1,8 +1,10 @@
 .. only:: axiom
 
-	#######
-	Gliders
-	#######
+	.. _view-glider-data-how-to:
+
+	################
+	View Glider Data
+	################
 
 	Ocean gliders are autonomous underwater vehicles used to collect ocean data, including temperature, salinity, conductivity, and other important measures. Unlike stationary sensor platforms such as buoys, gliders move through the water column and collect data at different locations over time.
 

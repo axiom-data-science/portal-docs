@@ -1,3 +1,5 @@
+.. _download-queried-data-how-to:
+
 #####################
 Download Queried Data
 #####################

@@ -1,8 +1,10 @@
-###
-Map
-###
+.. _map-how-tos:
 
-The map provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. The map is highly-customizable, enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom Data Views to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
+###########
+Map How-Tos
+###########
+
+The pages below contain detailed instructions for using the |title|'s data catalog. If you need more information or don't see what you're looking for in the list below, please contact us using the Feedback button |feedback_button_icon|.
 
 .. toctree::
    :maxdepth: 1

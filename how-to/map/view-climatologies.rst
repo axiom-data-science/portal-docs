@@ -1,6 +1,8 @@
-############################
-Climatology & Anomaly Charts
-############################
+.. _view-climatology-charts-how-to:
+
+#######################
+View Climatology Charts
+#######################
 
 If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
 

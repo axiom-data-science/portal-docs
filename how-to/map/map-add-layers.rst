@@ -9,7 +9,7 @@ From the map, you can search for and add additional data layers to the map. Clic
 From the Data Catalog
 =====================
 
-1. From the `data catalog <http://help.axds.co/portals/DataCatalog.html>`_, browse or search for the layers you want to add.
+1. From the :ref:`catalog-overview`, browse or search for the layers you want to add.
 2. On the results page, use the ``+`` icon next to any of the thumbnails, an indicator showing how many layers are currently queued will show up in the black, upper menu.
 3. You can add multiple layers, it's just like a data "shopping cart".
 4. Remove layers by selecting the layer indicator in the black, upper menu, and using the ``X`` icons.

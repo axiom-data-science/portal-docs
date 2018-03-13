@@ -154,7 +154,7 @@ Map
 
 The data map interface provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map view (as indicated with a map preview image in the catalog). Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace.
 
-The map is highly customizable (``Settings`` and ``Legend``), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom `Data Views <http://help.axds.co/portals/DataMap.html#data-views>`_ to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
+The map is highly customizable (``Settings`` and ``Legend``), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
@@ -191,7 +191,7 @@ To view data for an individual station, zoom in on the map. The hexagons will so
 
 |sensor_hover|
 
-To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ to adjust the time period of the data.
+To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the :ref:`time-slider-overview` to adjust the time period of the data.
 
 |sensor_select|
 
@@ -210,9 +210,9 @@ Model and Satellite Data
 
 Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
 
-To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the `Data Charts <http://help.axds.co/portals/DataMap.html#data-charts>`_  section of this document.
+To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`data-charts-overview` section of this document.
 
-The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ section of this document. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
+The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`time-slider-overview` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
 
 The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
 
@@ -253,7 +253,7 @@ To view data for an individual location or observation, zoom in on the map. The 
 
 To change the data parameters in the map, the filters can be used in the legend on the right side. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
 
-To further interact with the data in the map, the `polygon tool <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ can be used to create summary statistics across spatial areas of interest. Or, the `time slider <http://help.axds.co/portals/DataMap.html#interact-with-and-customize-data-layers-in-the-map>`_ bar can be used to view the various time intervals of data available.
+To further interact with the data in the map, the :ref:`polygon-tool-overview` can be used to create summary statistics across spatial areas of interest. Or, the :ref:`time-slider-overview` bar can be used to view the various time intervals of data available.
 
 If when zoomed in the hexagons do not soften into points, the individual locations or observations have been intentionally aggregated for data use or confidentiality purposes.
 
@@ -317,7 +317,7 @@ To further interact with data in the map, the polygon tool can be used to create
 
 #. A data display window will open showing a summary chart of the data within the polygon. Beneath the data layer title at the top of the data display window, the number of observations contained within the polygon will be shown.
 
-#. To delete the shape, click the "Trash can" icon next to the polygon tool.
+#. To delete the shape, click the ``Trash can`` icon next to the polygon tool.
 
 .. Instance State Saving
 .. =====================
@@ -328,7 +328,7 @@ To further interact with data in the map, the polygon tool can be used to create
 Data Charts
 ***********
 
-The catalog and map offer multiple ways of comparing data within both the mapped interface and within a `data view <http://help.axds.co/portals/DataCatalog.html>`_.
+The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`data-views-overview`.
 
 For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
@@ -411,7 +411,7 @@ Customize Data Charts
 Download Data
 *************
 
-Data may be downloaded through the data catalog, as described in `this <http://help.axds.co/portals/DataCatalog.html#downloading-visualized-data>`_ section.
+Data may be downloaded through the data catalog, as described in :ref:`downloading-data-overview` section.
 
 .. _data-views-overview:
 
@@ -429,26 +429,5 @@ The  view will open, displaying data comparion charts for you to explore. In the
 
 .. note::
 	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
-
-.. Add Data Layers for Comparison
-.. ==============================
-
-.. What Different Data Layers Can Be Compared
-.. ==========================================
-.. e.g. physical model, biological
-
-.. State Saving/Naming Data Views
-.. ==============================
-
-.. Customizing Data View Narratives
-.. ================================
-
-.. Share Data View
-.. ===============
-
-.. Download Data/Charts
-.. ====================
-
-
 
 

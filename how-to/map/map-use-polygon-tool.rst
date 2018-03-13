@@ -10,6 +10,6 @@ To further interact with data in the map, the polygon tool can be used to create
 
 #. A data display window will open showing a summary chart of the data within the polygon. Beneath the data layer title at the top of the data display window, the number of observations contained within the polygon will be shown.
 
-#. To delete the shape, click the "Trash can" icon next to the polygon tool.
+#. To delete the shape, click the ``Trash can`` icon next to the polygon tool.
 
 

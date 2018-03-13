@@ -1,7 +1,7 @@
 .. _access-gridded-data-via-erddap-how-to:
 
 ##############################
-Access Gridded Data via ERDEAP
+Access Gridded Data via ERDDAP
 ##############################
 
 #. Go to http://erddap.aoos.org

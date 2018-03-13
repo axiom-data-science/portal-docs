@@ -53,8 +53,9 @@ Some data layers in the catalog have more than one variable associated with them
 
 .. _contributing-data-overview:
 
+*****************
 Contributing Data
-=================
+*****************
 
 Data files can be added to the catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
 
@@ -68,13 +69,13 @@ For assistance using the Research Workspace and its metadata editor visit: https
 
 .. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
 
-.. _data-dois-overview:
+.. .. _data-dois-overview:
 
-*********
-Data DOIs
-*********
+.. *********
+.. Data DOIs
+.. *********
 
-*This feature is under development. Check back soon for updates.*
+.. *This feature is under development. Check back soon for updates.*
 
 .. _downloading-data-overview:
 
@@ -89,29 +90,23 @@ In addition to visualizing a dataset in the |title|'s map interface, you can dow
 Gridded Data
 ============
 
-See below for details about downloading gridded data.
+There are two ways to download gridded data from the |title|: using THREDDS or using NetCDF Subset.
 
 THREDDS
 -------
 
 Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
 
+.. note::
+	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
+
 NetCDF Subset
 """""""""""""
 
 The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
 
-#. Select "THREDDS NetCDF Subset" under the ``Download`` button to start the service.
-#. Your browser will wait for a response from the server, which builds a library of all the files and metadata in the complete dataset so it can display up-to-date information.
-#. The response page will have a list of available variables — check the variables you want to download.
-#. Subset the dataset by latitude and longitude, and time range with a stride (the default  stride is 1, which downloads all time slices; a stride of 2 will download every second time slice, etc.) Add lat/lon variables if needed in your output, but in most cases this is unnecessary.
-#. The output format will be a single NetCDF file that contains the complete dataset.
-
 .. tip::
 	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
-
-.. note::
-	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
 
 OPeNDAP
 """""""
@@ -127,9 +122,6 @@ WMS
 Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
 
 Selecting "WMS (Web Mapping Service)" under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
-
-.. parsed-literal::
-	`http://data.axds.co/ncWMS/wms?SERVICE=WMS&REQUEST=GetMap&LAYERS=AQWRFSFC/PSFC&VERSION=1.1.1&FORMAT=image/png&STYLES=boxfill/rainbow&SRS=EPSG:3857&BBOX=-20983724.014532067,8598321.56555337,-13914936.349159194,13370447.645073326&WIDTH=500&HEIGHT=338&COLORSCALERANGE=846.5,1128 <http://data.axds.co/ncWMS/wms?SERVICE=WMS&REQUEST=GetMap&LAYERS=AQWRFSFC/PSFC&VERSION=1.1.1&FORMAT=image/png&STYLES=boxfill/rainbow&SRS=EPSG:3857&BBOX=-20983724.014532067,8598321.56555337,-13914936.349159194,13370447.645073326&WIDTH=500&HEIGHT=338&COLORSCALERANGE=846.5,1128>`_
 
 ERDDAP
 ------
@@ -247,8 +239,9 @@ Historical data are data that are one month old or older. Historical data availa
 
 .. _biological-ovbservations-overview:
 
+***********************
 Biological Observations
-=======================
+***********************
 
 *These features and more will be explored more thoroughly in upcoming updates to this documentation.*
 

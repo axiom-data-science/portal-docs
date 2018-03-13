@@ -1,8 +1,8 @@
-.. _use-opendap-how-to:
+.. _download-using-opendap-how-to:
 
-###########
-Use OpenDAP
-###########
+######################
+Download Using OpenDAP
+######################
 
 #. Select ``THREDDS OPeNDAP`` under the ``Download`` button to start the service.
 #. Your browser should get a response from the server almost instantaneously.

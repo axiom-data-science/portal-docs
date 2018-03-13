@@ -13,7 +13,7 @@ You can navigate these help pages using the links in the black sidebar on your l
 Your feedback is important and will help us improve this documentation for future users!
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 0
    :hidden:
    :caption: Overview
 

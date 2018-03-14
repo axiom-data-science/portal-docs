@@ -13,5 +13,7 @@ The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to
 #. Click the name of the data file of interest to download it to your computer.
 #. Click on the ``Metadata`` icon to the right of the resource title to view the associated metadata.
 
-For more information about publishing data to the portal from the Research Workspace read `here <https://workspace.aoos.org/help/PublishingData.html>`_.
+For more information about publishing data to the portal from the Research Workspace read `here <https://researchworkspace.com/help/PublishingData.html>`_.
+
+For more information about searching datasets contributed through the Research Workspace, please see the :ref:`contributing-data-overview` section.
 

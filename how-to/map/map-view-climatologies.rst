@@ -23,4 +23,4 @@ Historical patterns in gridded data
 .. Query & Save Vector Layer for Comparison
 .. ========================================
 
-
+For more information, please see the :ref:`climatology-and-anomaly-charts` section.

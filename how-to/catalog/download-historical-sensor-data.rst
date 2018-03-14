@@ -11,3 +11,4 @@ Real-time stations and their associated pages aggregate and show all relevant st
 #. Use the map to zoom to an area of interest, select an individual station, and then download data for that station and sensor.
 #. Data can be downloaded by clicking on the station point in the map. In the data display window that opens, select ``Download`` in the bottom left beneath the chart.
 
+For more information, please see the :ref:`catalog-overview` section.

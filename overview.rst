@@ -25,12 +25,16 @@ The catalog provides search access for all datasets within the |title|. The cata
 
 * *Historical data* are data that are one month old or older. Historical data are ingested from the associated Research Workspace or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts.
 
+For more details, please see the :ref:`download-historical-sensor-data-how-to` page.
+
 The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
 
 * Filter by location map in the upper left
 * Groups of common tags to help filter the catalog quickly in the column on the left
 * Text search bar across the top
 * A list of datasets that match your search criteria in the main column
+
+For more details on how to search the catalog, please see the :ref:`search-the-catalog-how-to` page.
 
 |catalog_initial_view|
 
@@ -68,6 +72,10 @@ For assistance using the Research Workspace and its metadata editor visit: https
 3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
 
 .. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
+
+For more details on how to contribute data via the Research Workspace, please see the :ref:`contribute-data-how-to` page.
+
+For more details on how to search datasets from the Research Workspace, please see the :ref:`search-project-data-how-to` page.
 
 .. .. _data-dois-overview:
 
@@ -108,6 +116,8 @@ The NetCDF Subset protocol looks through all the datasets NetCDF files stored on
 .. tip::
 	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
+For more details, please see the :ref:`netcdf-subset-how-to` page.
+
 OPeNDAP
 """""""
 
@@ -116,6 +126,8 @@ OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or
 .. note::
 	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., try downloading half a variable first, then the second half, or one variable at a time, etc.).
 
+For more details, please see the :ref:`download-using-opendap-how-to` page.
+
 WMS
 ---
 
@@ -123,10 +135,19 @@ Web mapping services (WMS) are used to provide machine access to images used by 
 
 Selecting "WMS (Web Mapping Service)" under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
 
+For more details, please see the :ref:`download-using-wms-how-to` page.
+
 ERDDAP
 ------
 
 The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsored software that builds a common data server providing access to gridded and device (e.g., weather sensor) data. ERDDAP servers provide access to some gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL.
+
+For more details, please see the :ref:`download-using-erddap-how-to` page.
+
+Virtual Sensors
+---------------
+
+For details on how to download data from virtual sensors, please see the :ref:`download-virtual-sensor-data-how-to` page.
 
 .. _parsed-data:
 
@@ -154,7 +175,11 @@ Map
 
 The data map interface provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map view (as indicated with a map preview image in the catalog). Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace.
 
+For more details, please see the :ref:`view-historical-data-how-to` page.
+
 The map is highly customizable (``Settings`` and ``Legend``), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
+
+For more details, please see the :ref:`view-layer-metadata-from-map-how-to` page.
 
 The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
@@ -236,6 +261,8 @@ Historical data are data that are one month old or older. Historical data availa
 	.. note::
 		For more information on gliders, see NOAA's `"What is an ocean glider" <https://oceanservice.noaa.gov/facts/ocean-gliders.html>`_ page.
 
+	For more details, please see the :ref:`view-glider-data-how-to` page.
+
 
 .. _biological-ovbservations-overview:
 
@@ -267,12 +294,16 @@ Customize Data in the Map
 
 Once you have found a layer through the data catalog, you can view and interact with the data in a number of ways. As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. Additionally, you can click on a data point of interest to open a chart that summarizes the data. A time slider at the bottom of the map can be used to move back and forth through time for timeseries data. More information about these features is provided below.
 
+For more details, please see the :ref:`customize-layers-how-to` page.
+
 .. _search-and-add-layers-overview:
 
 Search and Add Layers
 =====================
 
 From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
+
+For more details, please see the :ref:`add-layers-how-to` page.
 
 .. _time-slider-overview:
 
@@ -302,22 +333,18 @@ The depth slider bar located in the bottom right of the map allows you to filter
 
 .. tip:: For quick reference, the depth range for data being viewed in the map is shown in the right-hand map legend beneath the time extent.
 
-To filter data by depth:
+For more details, please see the :ref:`filter-by-depth-how-to` page.
 
-#. Click on the depth icon in the bottom right of the map. Click and drag both ends of the depth slider control to adjust the vertical bounds. Note that the depth values represent meters beneath the water surface. Click and drag the middle of the depth slider control bar to step through the vertical data. Hover your mouse over the depth slider bar to see the vertical range of the data that has been selected.
+For other ways to filter data in the map, please see the :ref:`filter-data-how-to` page.
 
 .. _polygon-tool-overview:
 
 Polygon Tool
 ============
 
-To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest. To use the polygon tool:
+To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
 
-#. Click on the polygon tool icon. Draw a polygon on the map around the area of interest using mouse clicks at each corner or bend in your shape. When you're finished drawing, double-click to complete the shape.
-
-#. A data display window will open showing a summary chart of the data within the polygon. Beneath the data layer title at the top of the data display window, the number of observations contained within the polygon will be shown.
-
-#. To delete the shape, click the ``Trash can`` icon next to the polygon tool.
+For more details, please see the :ref:`use-polygon-tool-how-to` page.
 
 .. Instance State Saving
 .. =====================
@@ -359,6 +386,8 @@ Quantitative Variables
 
 * **Curtain plots:** show a visual summary of vertical profiling data. f data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
 
+For more details, please see the :ref:`customize-data-charts-how-to` page.
+
 .. Summary Statistics
 .. ==================
 
@@ -368,6 +397,8 @@ Climatology and  Anomaly Charts
 ===============================
 
 If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
+
+For more details, please see the :ref:`view-climatology-charts-how-to` page.
 
 .. Query & Save Vector Layer for Comparison
 .. ========================================
@@ -430,4 +461,4 @@ The  view will open, displaying data comparion charts for you to explore. In the
 .. note::
 	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
 
-
+For more details, please see the Data Views section of the :ref:`map-how-tos` How-To page.

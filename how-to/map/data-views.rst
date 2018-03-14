@@ -18,6 +18,7 @@ The  view will open, displaying data comparion charts for you to explore. In the
 .. note::
 	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
 
+
 .. Add Data Layers for Comparison
 .. ==============================
 

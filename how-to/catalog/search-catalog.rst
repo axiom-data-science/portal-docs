@@ -22,3 +22,5 @@ Within the catalog, you will find a listing of all the data layers accessible th
 
 	* Using the ``Access method`` option, you can select data service method from which data layers can be downloaded from the catalog.
 
+For more information about what kinds of data can be searched from the catalog, please see the :ref:`catalog-overview` page.
+

@@ -32,3 +32,5 @@ Customize Data Charts
 .. note::
 	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end.
 
+For more information about charts, please see the :ref:`data-charts-overview` section.
+

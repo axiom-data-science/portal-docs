@@ -26,7 +26,6 @@ The pages below contain detailed instructions for using the |title|'s data catal
    :maxdepth: 1
    :caption: Data Charts
 
-   charts-create-new
    charts-customize
 
 .. toctree::
@@ -45,7 +44,6 @@ The pages below contain detailed instructions for using the |title|'s data catal
    :maxdepth: 1
    :caption: Miscellaneous
 
-   download-data
    view-glider-data
    view-historical-gridded-data
 

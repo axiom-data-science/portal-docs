@@ -12,4 +12,4 @@ To further interact with data in the map, the polygon tool can be used to create
 
 #. To delete the shape, click the ``Trash can`` icon next to the polygon tool.
 
-
+For more information, please see the :ref:`polygon-tool-overview` section.

@@ -21,4 +21,5 @@ From the Data Map
 1. From within the interactive map, use the ``Search for data`` bar.
 2. From the results popup, use the ``+`` icon next to the layer you want to add to the map.
 
+For more information, please see the :ref:`search-and-add-layers-overview` section.
 

@@ -12,7 +12,6 @@ The pages below contain detailed instructions for using the |title|'s data catal
 
    search-catalog
    search-project-data
-   search-erddap
 
 .. toctree::
    :maxdepth: 1
@@ -30,5 +29,4 @@ The pages below contain detailed instructions for using the |title|'s data catal
    :maxdepth: 1
    :caption: Miscellaneous
 
-   access-gridded-data-via-erddap
    contribute-data

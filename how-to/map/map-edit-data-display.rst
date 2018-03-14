@@ -19,4 +19,4 @@ Additionally, you can explore the selected data more in depth in the following w
 #. View the station or sensor information page
 #. View information about the data source from the data provider or organization that maintains it
 
-
+For more information, please see the :ref:`customize-data-in-the-map-overview` section.

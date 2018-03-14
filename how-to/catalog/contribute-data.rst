@@ -16,3 +16,5 @@ Data files can be added to the catalog automatically by project researchers usin
 
 .. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
 
+For more information about contributing data via the Research Workspace, please see the :ref:`contributing-data-overview` page.
+

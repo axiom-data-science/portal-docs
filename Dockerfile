@@ -38,7 +38,9 @@ USER app
 RUN rm -rf _build
 
 ARG PORTAL
-RUN make html
+RUN make html json \
+      && mv _build/json _build/html/json \
+      && rename "s/\.fjson/.json/" _build/html/json/*.fjson
 
 EXPOSE 8888
 

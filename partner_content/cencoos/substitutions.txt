@@ -1,0 +1,22 @@
+.. TEXT
+
+.. |brand| replace:: CenCOOS
+
+.. |title| replace:: Data Portal
+
+.. SCREENSHOTS
+
+.. |map_initial_view| image:: /partner_content/cencoos/images/map_initial_view_cencoos.png
+
+.. |catalog_initial_view| image:: /partner_content/cencoos/images/catalog_initial_view_cencoos.png
+
+.. |sensor_hover| image:: /partner_content/cencoos/images/sensor_hover_cencoos.png
+
+.. |sensor_select| image:: /partner_content/cencoos/images/sensor_select_cencoos.png
+
+.. |data_view| image:: /partner_content/cencoos/images/data_view_cencoos.png
+
+.. GIFS
+
+.. |add_new_view_gif| image:: /partner_content/cencoos/images/add_new_view_gif_cencoos.gif
+

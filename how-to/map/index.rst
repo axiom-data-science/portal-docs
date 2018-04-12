@@ -39,6 +39,7 @@ The pages below contain detailed instructions for using the |title|'s data catal
    data-views-save
    data-views-share
    data-views-delete
+   data-views-download-data
 
 .. toctree::
    :maxdepth: 1

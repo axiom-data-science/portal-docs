@@ -2,7 +2,7 @@
 
 .. |brand| replace:: MBON
 
-.. |title| replace:: MBON Data Portal
+.. |title| replace:: Data Portal
 
 .. SCREENSHOTS
 

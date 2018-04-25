@@ -398,7 +398,42 @@ Climatology and  Anomaly Charts
 
 If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
 
-For more details, please see the :ref:`view-climatology-charts-how-to` page.
+Observational Statistics
+------------------------
+
+By default, if there are too many observations to easily show on the time-series, the observations binned by default for display. Graphs may show the following:
+
+	* **Mean**: The mean line represents the average value of all observations within each time bin.
+
+	* **Min/max envelope**: The envelope represents the extent of observations within each time bin.
+
+Interannual Statistics
+----------------------
+
+Interannual statistics are calculated on physical time-series where available data coverage in the system is longer than three years. Statistics are derived for days, weeks, months, seasons, and years based on the Gregorian calendar by:
+
+#. binning the observations into the selected time periods,
+#. combining the time bins across years (e.g, for daily bins, combining all data from April 13th regardless of year; for monthly bins, combine all data from all Aprils), and
+#. calculating statistics for each interannual time bin.
+
+For interannual statistics, we calculate the following:
+
+	* **Mean**: The mean represents the average value of all observations within each time bin, across all recorded years.
+
+	* **Low**: The low represents the minimum value of all observations within each time bin, across all recorded years.
+
+	* **High**: The high represents the maximum value of all observations within each time bin, across years.
+
+	* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
+
+Anomaly plots
+-------------
+
+Anomalies are available wherever interannual statistics are available (i.e., in all time-series where available data coverage in the system is longer than three years, but are only available on data binned on days or more).
+
+Anomalies are calculated by calculating the mean value of the observational bin and subtracting the interannual statistical bin for that time period. For example, the daily anomaly for April 13th, 2016 is calculated by taking the average temperature for that day minus the mean interannual April 13th temperature.
+
+For details on how to view climatology charts in the |title|, please see the :ref:`view-climatology-charts-how-to` page.
 
 .. Query & Save Vector Layer for Comparison
 .. ========================================

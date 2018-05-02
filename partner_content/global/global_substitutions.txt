@@ -48,6 +48,8 @@
 
 .. |glider_data_viz| image:: /partner_content/global/images/glider_data_viz.png
 
+.. |catalog_globe_icon| image:: /partner_content/global/images/icons/catalog_globe_icon.png
+
 .. GIF ALIASES
 
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif

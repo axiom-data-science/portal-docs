@@ -4,12 +4,13 @@
 Introduction
 ############
 
-The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data from many sources. The |title| has two components:
+The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data from many sources. The |title| has 3 major components:
 
-#. catalog
-#. map
+#. the Catalog
+#. the Map
+#. Data Views
 
-See the :ref:`catalog-overview` and :ref:`map-overview` sections below to learn more.
+See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overview` sections below to learn more.
 
 .. _catalog-overview:
 
@@ -17,26 +18,36 @@ See the :ref:`catalog-overview` and :ref:`map-overview` sections below to learn 
 Catalog
 #######
 
-The catalog provides search access for all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add visualizable data layers to the data map. The catalog contains several observational data types:
+The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add some data layers to the data map.
 
-* *Real-time data* are ingested, served, and displayed by the portal at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
+**********
+Data Types
+**********
 
-* *Near real-time data* are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include satellite images and derived satellite products.
+The catalog contains several observational data types:
 
-* *Historical data* are data that are one month old or older. Historical data are ingested from the associated Research Workspace or from national archives upon stakeholder request. Examples include species abundance surveys and similar research efforts.
+* **Real-time data** are ingested, served, and displayed by the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
+
+* **Near real-time data** are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data are collected and when the data are made available by the provider. Examples of near real-time assets include satellite images and derived satellite products.
+
+* **Historical data** are data that are one month old or older. Historical data are ingested by the |title| upon stakeholder request, either from an associated campaign in the `Research Workspace <https://researchworkspace.com/>`_, or from national archives. Examples of historical data include species abundance surveys and similar research efforts.
 
 For more details, please see the :ref:`download-historical-sensor-data-how-to` page.
 
-The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
-
-* Filter by location map in the upper left
-* Groups of common tags to help filter the catalog quickly in the column on the left
-* Text search bar across the top
-* A list of datasets that match your search criteria in the main column
-
-For more details on how to search the catalog, please see the :ref:`search-the-catalog-how-to` page.
+*********
+Interface
+*********
 
 |catalog_initial_view|
+
+The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+
+* Filter by location map in the upper left.
+* Groups of common tags to help filter the catalog quickly in the column on the left.
+* Text search bar across the top.
+* A list of datasets that match your search criteria in the main column.
+
+For more details on how to search the catalog, please see the :ref:`search-the-catalog-how-to` page.
 
 .. _visualizing-data-overview:
 
@@ -44,14 +55,16 @@ For more details on how to search the catalog, please see the :ref:`search-the-c
 Visualizing Data
 ****************
 
-Some datasets can be visualized in the |title|'s map interface. You can also lean more about a dataset by clicking on the title to view its metadata page.
+If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the dataset's name will load it as a layer in the map.
+
+Before visualizing, you can lean more about a dataset by clicking on the title to view its metadata page.
 
 .. _layer-metadata-overview:
 
 Layer Metadata
 ==============
 
-A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layers is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
+A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
 
 Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
 
@@ -61,21 +74,21 @@ Some data layers in the catalog have more than one variable associated with them
 Contributing Data
 *****************
 
-Data files can be added to the catalog automatically by project researchers using the Research Workspace. The general process for data submission is outlined below:
+Datasets can be added to the catalog automatically by project researchers using the `Research Workspace <https://researchworkspace.com/>`_. The general process for data submission is outlined below:
 
-1. Data are managed by a project researcher using his or her user account in the Research Workspace (https://researchworkspace.com). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
+#. Data are managed by a project researcher using his or her user account in the `Research Workspace <https://researchworkspace.com/>`_). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
 
-For assistance using the Research Workspace and its metadata editor visit: https://researchworkspace.com/help/
+#. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the `Research Workspace <https://researchworkspace.com/>`_.
 
-2. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the Research Workspace.
+#. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
 
-3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
+.. tip:: For assistance using the metadata editor please visit the `Research Workspace help documentation <https://researchworkspace.com/help/>`_.
 
 .. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
 
-For more details on how to contribute data via the Research Workspace, please see the :ref:`contribute-data-how-to` page.
+For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`contribute-data-how-to` page.
 
-For more details on how to search datasets from the Research Workspace, please see the :ref:`search-project-data-how-to` page.
+For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`search-project-data-how-to` page.
 
 .. .. _data-dois-overview:
 
@@ -98,7 +111,13 @@ In addition to visualizing a dataset in the |title|'s map interface, you can dow
 Gridded Data
 ============
 
-There are two ways to download gridded data from the |title|: using THREDDS or using NetCDF Subset.
+There are several ways to download gridded data from the |title|:
+
+* THREDDS
+* NetCDF Subset
+* OpeNDAP
+* WMS
+* ERDDAP
 
 THREDDS
 -------
@@ -109,7 +128,7 @@ Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of 
 	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
 
 NetCDF Subset
-"""""""""""""
+-------------
 
 The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
 
@@ -119,7 +138,7 @@ The NetCDF Subset protocol looks through all the datasets NetCDF files stored on
 For more details, please see the :ref:`netcdf-subset-how-to` page.
 
 OPeNDAP
-"""""""
+-------
 
 OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
 
@@ -145,7 +164,7 @@ The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsor
 For more details, please see the :ref:`download-using-erddap-how-to` page.
 
 Virtual Sensors
----------------
+===============
 
 For details on how to download data from virtual sensors, please see the :ref:`download-virtual-sensor-data-how-to` page.
 

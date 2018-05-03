@@ -11,7 +11,7 @@ The |title| is a data exploration tool with a customized public web interface th
 	The |title| has 3 major components:
 
 	#. Data Catalog
-	#. Map Map
+	#. Data Map
 	#. Data Views
 
 .. only:: ioos

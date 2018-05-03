@@ -40,12 +40,12 @@ Interface
 
 |catalog_initial_view|
 
-The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+Within the catalog, you will find a listing of all the data layers accessible through the |title|. By default, the data layers are shown in alphabetical order. The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
 
-* Filter by location map in the upper left.
-* Groups of common tags to help filter the catalog quickly in the column on the left.
-* Text search bar across the top.
-* A list of datasets that match your search criteria in the main column.
+* Filter by result type icons in the upper left (Data Layers, Projects, and Sensor Stations).
+* Advanced search options below that (Spatial filter, Filter time, Access method).
+* Filter by tag in the column on the left.
+* A list of datasets that match your search criteria in the center of the page.
 
 For more details on how to search the catalog, please see the :ref:`search-the-catalog-how-to` page.
 

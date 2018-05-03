@@ -54,6 +54,8 @@
 
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif
 
+.. |how_to_search_catalog_gif| image:: /partner_content/global/images/gifs/how_to_search_catalog.gif
+
 
 .. OTHER IMAGE ALIASES
 

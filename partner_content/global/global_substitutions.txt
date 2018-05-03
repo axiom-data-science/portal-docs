@@ -50,6 +50,11 @@
 
 .. |catalog_globe_icon| image:: /partner_content/global/images/icons/catalog_globe_icon.png
 
+.. |catalog_data_download_icon| image:: /partner_content/global/images/icons/catalog_data_download_icon.png
+	:width: 60pt
+	:height: 30pt
+
+
 .. GIF ALIASES
 
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif

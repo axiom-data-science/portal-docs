@@ -4,187 +4,200 @@
 Introduction
 ############
 
-The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data from many sources. The |title| has 3 major components:
+The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data from many sources.
 
-#. the Catalog
-#. the Map
-#. Data Views
+.. only:: not ioos
+
+	The |title| has 3 major components:
+
+	#. Data Catalog
+	#. Map Map
+	#. Data Views
+
+.. only:: ioos
+
+	The |title| has 2 major components:
+
+	#. Data Map
+	#. Data Views
 
 See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overview` sections below to learn more.
 
-.. _catalog-overview:
+.. only:: not ioos
 
-#######
-Catalog
-#######
+	.. _catalog-overview:
 
-The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add some data layers to the data map.
+	#######
+	Catalog
+	#######
 
-**********
-Data Types
-**********
+	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add some data layers to the data map.
 
-The catalog contains several observational data types:
+	**********
+	Data Types
+	**********
 
-* **Real-time data** are ingested, served, and displayed by the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
+	The catalog contains several observational data types:
 
-* **Near real-time data** are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data are collected and when the data are made available by the provider. Examples of near real-time assets include satellite images and derived satellite products.
+	* **Real-time data** are ingested, served, and displayed by the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
 
-* **Historical data** are data that are one month old or older. Historical data are ingested by the |title| upon stakeholder request, either from an associated campaign in the `Research Workspace <https://researchworkspace.com/>`_, or from national archives. Examples of historical data include species abundance surveys and similar research efforts.
+	* **Near real-time data** are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data are collected and when the data are made available by the provider. Examples of near real-time assets include satellite images and derived satellite products.
 
-For more details, please see the :ref:`download-historical-sensor-data-how-to` page.
+	* **Historical data** are data that are one month old or older. Historical data are ingested by the |title| upon stakeholder request, either from an associated campaign in the `Research Workspace <https://researchworkspace.com/>`_, or from national archives. Examples of historical data include species abundance surveys and similar research efforts.
 
-*********
-Interface
-*********
+	For more details, please see the :ref:`download-historical-sensor-data-how-to` page.
 
-|catalog_initial_view|
+	*********
+	Interface
+	*********
 
-Within the catalog, you will find a listing of all the data layers accessible through the |title|. By default, the data layers are shown in alphabetical order. The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+	|catalog_initial_view|
 
-* Filter by result type icons in the upper left (Data Layers, Projects, and Sensor Stations).
-* Advanced search options below that (Spatial filter, Filter time, Access method).
-* Filter by tag in the column on the left.
-* A list of datasets that match your search criteria in the center of the page.
+	Within the catalog, you will find a listing of all the data layers accessible through the |title|. By default, the data layers are shown in alphabetical order. The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
 
-For more details on how to search the catalog, please see the :ref:`search-the-catalog-how-to` page.
+	* Filter by result type icons in the upper left (Data Layers, Projects, and Sensor Stations).
+	* Advanced search options below that (Spatial filter, Filter time, Access method).
+	* Filter by tag in the column on the left.
+	* A list of datasets that match your search criteria in the center of the page.
 
-.. _visualizing-data-overview:
+	For more details on how to search the catalog, please see the :ref:`search-the-catalog-how-to` page.
 
-****************
-Visualizing Data
-****************
+	.. _visualizing-data-overview:
 
-If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the dataset's name will load it as a layer in the map.
+	****************
+	Visualizing Data
+	****************
 
-Before visualizing, you can lean more about a dataset by clicking on the title to view its metadata page.
+	If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the dataset's name will load it as a layer in the map.
 
-.. _layer-metadata-overview:
+	Before visualizing, you can lean more about a dataset by clicking on the title to view its metadata page.
 
-Layer Metadata
-==============
+	.. _layer-metadata-overview:
 
-A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
+	Layer Metadata
+	==============
 
-Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
+	A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
 
-.. _contributing-data-overview:
+	Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
 
-*****************
-Contributing Data
-*****************
+	.. _contributing-data-overview:
 
-Datasets can be added to the catalog automatically by project researchers using the `Research Workspace <https://researchworkspace.com/>`_. The general process for data submission is outlined below:
+	*****************
+	Contributing Data
+	*****************
 
-#. Data are managed by a project researcher using his or her user account in the `Research Workspace <https://researchworkspace.com/>`_). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
+	Datasets can be added to the catalog automatically by project researchers using the `Research Workspace <https://researchworkspace.com/>`_. The general process for data submission is outlined below:
 
-#. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the `Research Workspace <https://researchworkspace.com/>`_.
+	#. Data are managed by a project researcher using his or her user account in the `Research Workspace <https://researchworkspace.com/>`_). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
 
-#. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
+	#. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the `Research Workspace <https://researchworkspace.com/>`_.
 
-.. tip:: For assistance using the metadata editor please visit the `Research Workspace help documentation <https://researchworkspace.com/help/>`_.
+	#. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
 
-.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
+	.. tip:: For assistance using the metadata editor please visit the `Research Workspace help documentation <https://researchworkspace.com/help/>`_.
 
-For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`contribute-data-how-to` page.
+	.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
 
-For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`search-project-data-how-to` page.
+	For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`contribute-data-how-to` page.
 
-.. .. _data-dois-overview:
+	For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`search-project-data-how-to` page.
 
-.. *********
-.. Data DOIs
-.. *********
+	.. .. _data-dois-overview:
 
-.. *This feature is under development. Check back soon for updates.*
+	.. *********
+	.. Data DOIs
+	.. *********
 
-.. _downloading-data-overview:
+	.. *This feature is under development. Check back soon for updates.*
 
-****************
-Downloading Data
-****************
+	.. _downloading-data-overview:
 
-In addition to visualizing a dataset in the |title|'s map interface, you can download datasets directly from the catalog and explore them on your own. See the sections below for more information about this.
+	****************
+	Downloading Data
+	****************
 
-.. _gridded-data-overview:
+	In addition to visualizing a dataset in the |title|'s map interface, you can download datasets directly from the catalog and explore them on your own by clicking the download button |catalog_data_download_icon| and selecting the best option from the popup window. See the sections below for more information.
 
-Gridded Data
-============
+	.. _gridded-data-overview:
 
-There are several ways to download gridded data from the |title|:
+	Gridded Data
+	============
 
-* THREDDS
-* NetCDF Subset
-* OpeNDAP
-* WMS
-* ERDDAP
+	There are several ways to download gridded data from the |title|:
 
-THREDDS
--------
+	* THREDDS
+	* NetCDF Subset
+	* OpeNDAP
+	* WMS
+	* ERDDAP
 
-Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
+	THREDDS
+	-------
 
-.. note::
-	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
+	Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
 
-NetCDF Subset
--------------
+	.. note::
+		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
 
-The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
+	NetCDF Subset
+	-------------
 
-.. tip::
-	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
+	The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
 
-For more details, please see the :ref:`netcdf-subset-how-to` page.
+	.. tip::
+		When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
-OPeNDAP
--------
+	For more details, please see the :ref:`netcdf-subset-how-to` page.
 
-OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
+	OPeNDAP
+	-------
 
-.. note::
-	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., try downloading half a variable first, then the second half, or one variable at a time, etc.).
+	OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
 
-For more details, please see the :ref:`download-using-opendap-how-to` page.
+	.. note::
+		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., try downloading half a variable first, then the second half, or one variable at a time, etc.).
 
-WMS
----
+	For more details, please see the :ref:`download-using-opendap-how-to` page.
 
-Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
+	WMS
+	---
 
-Selecting "WMS (Web Mapping Service)" under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
+	Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
 
-For more details, please see the :ref:`download-using-wms-how-to` page.
+	Selecting "WMS (Web Mapping Service)" under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
 
-ERDDAP
-------
+	For more details, please see the :ref:`download-using-wms-how-to` page.
 
-The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsored software that builds a common data server providing access to gridded and device (e.g., weather sensor) data. ERDDAP servers provide access to some gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL.
+	ERDDAP
+	------
 
-For more details, please see the :ref:`download-using-erddap-how-to` page.
+	The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsored software that builds a common data server providing access to gridded and device (e.g., weather sensor) data. ERDDAP servers provide access to some gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL.
 
-Virtual Sensors
-===============
+	For more details, please see the :ref:`download-using-erddap-how-to` page.
 
-For details on how to download data from virtual sensors, please see the :ref:`download-virtual-sensor-data-how-to` page.
+	Virtual Sensors
+	===============
 
-.. _parsed-data:
+	For details on how to download data from virtual sensors, please see the :ref:`download-virtual-sensor-data-how-to` page.
 
-Parsed Data
-===========
+	.. _parsed-data:
 
-This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
+	Parsed Data
+	===========
 
-.. _netcdf-resources-overview:
+	This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
 
-NetCDF Resources
-================
+	.. _netcdf-resources-overview:
 
-`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
+	NetCDF Resources
+	================
 
-In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a "self-describing" data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
+	`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
 
-NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
+	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a "self-describing" data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
+
+	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
 
 .. _map-overview:
 

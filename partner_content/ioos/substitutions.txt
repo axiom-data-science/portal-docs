@@ -8,11 +8,6 @@
 
 .. |map_initial_view| image:: /partner_content/ioos/images/map_initial_view_ioos.png
 
-.. |catalog_initial_view| image:: /partner_content/global/images/catalog_initial_view.png
-	:width: 1600pt
-	:height: 800pt
-
-
 .. |sensor_hover| image:: /partner_content/ioos/images/sensor_hover_ioos.png
 
 .. |sensor_select| image:: /partner_content/ioos/images/sensor_select_ioos.png

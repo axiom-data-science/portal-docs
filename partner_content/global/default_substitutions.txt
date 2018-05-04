@@ -4,8 +4,6 @@
 
 .. |title| replace:: Data Portal
 
-.. |catalog| replace:: how-to/catalog/index
-
 .. SCREENSHOTS
 
 .. |map_initial_view| image:: /partner_content/global/images/map_initial_view.png

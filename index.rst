@@ -43,10 +43,13 @@ If you have a question not answered by this documentation, please contact us via
 .. toctree::
    :hidden:
    :caption: How-to
+   :glob:
 
-   how-to/catalog/index
-   how-to/map/index
-   content/**
+   how-to/**/index
+   partner_content/**/
+
+..   how-to/catalog/index
+
 
 These pages were last updated on |today|.
 

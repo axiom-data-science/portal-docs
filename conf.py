@@ -115,6 +115,10 @@ def setup(app):
             if contentdir != portal:
                 app.config.exclude_patterns.append('partner_content/%s/pages' % contentdir)
 
+        #exclude catalog how-to pages from ioos build toc
+        if portal == 'ioos':
+            app.config.exclude_patterns.append('how-to/catalog')
+
         #include portal include file if one exists
         portal_include_file = 'partner_content/%s/substitutions.txt' % portal
         if os.path.exists(portal_include_file):

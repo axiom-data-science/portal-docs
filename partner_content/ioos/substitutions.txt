@@ -4,6 +4,8 @@
 
 .. |title| replace:: Environmental Sensor Map
 
+.. |catalog| replace::
+
 .. SCREENSHOTS
 
 .. |map_initial_view| image:: /partner_content/ioos/images/map_initial_view_ioos.png

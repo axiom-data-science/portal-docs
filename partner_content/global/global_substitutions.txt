@@ -10,6 +10,10 @@
 	:width: 20pt
 	:height: 20pt
 
+.. |minus_icon| image:: /partner_content/global/images/icons/minus_icon.png
+	:width: 20pt
+	:height: 20pt
+
 .. |magnify_icon| image:: /partner_content/global/images/icons/magnify_icon.png
 	:width: 20pt
 	:height: 20pt
@@ -60,6 +64,8 @@
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif
 
 .. |how_to_search_catalog_gif| image:: /partner_content/global/images/gifs/how_to_search_catalog.gif
+
+.. |search_project_data_gif| image:: /partner_content/global/images/gifs/search_project_data.gif
 
 
 .. OTHER IMAGE ALIASES

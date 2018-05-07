@@ -4,7 +4,7 @@
 Introduction
 ############
 
-The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data from many sources.
+The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data.
 
 .. only:: not ioos
 
@@ -205,11 +205,15 @@ See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overv
 Map
 ###
 
-The data map interface provides interactive data exploration, mapping, and charting for visualizable layers available in the catalog. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map view (as indicated with a map preview image in the catalog). Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace.
+The map interface provides interactive data exploration, mapping, and charting. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map.
 
-For more details, please see the :ref:`view-historical-data-how-to` page.
+.. only:: not ioos
 
-The map is highly customizable (``Settings`` and ``Legend``), enabling deep exploration of the data. Advanced charting features allow users to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. Users can create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
+	Datasets listed in the catalog that can be viewed in the map are indicated by the globe icon |catalog_globe_icon|.
+
+Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace. For more details, please see the :ref:`view-historical-data-how-to` page.
+
+The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. You can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 For more details, please see the :ref:`view-layer-metadata-from-map-how-to` page.
 

@@ -4,16 +4,12 @@
 Search Project Data
 ###################
 
-The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal. To search for project data in the catalog:
+|search_project_data_gif|
 
-#. Click on ``Advanced search options`` in the left sidebar and filter to ``Project Data``.
-#. Click on the title of interest in the catalog.
-#. Choose the ``Project Data`` tab.
-#. Browse through the individual data files that are displayed. By default, data files are organized by the folder directory from the Research Workspace.
-#. Click the name of the data file of interest to download it to your computer.
-#. Click on the ``Metadata`` icon to the right of the resource title to view the associated metadata.
+The `Research Workspace <https://researchworkspace.com/intro/>`_ is a gateway to make project-based research data available publicly through the portal.
 
-For more information about publishing data to the portal from the Research Workspace read `here <https://researchworkspace.com/help/PublishingData.html>`_.
+To search for project data in the catalog, click on the ``Result types`` icons to remove Data Layers and Sensor Stations and show only Projects. Both the Data Layers and Sensor Stations icons will be grayed out and show a plus sign |plus_icon|. The Projects icon will remain dark and show a minus sign |minus_icon|.
 
-For more information about searching datasets contributed through the Research Workspace, please see the :ref:`contributing-data-overview` section.
+From here, select the dataset you'd like to view or download by clicking on its title.
 
+For more information about publishing data to the portal from the Research Workspace, please see the :ref:`contributing-data-overview` section and the `Research Workspace help documentation <https://researchworkspace.com/help/PublishingData.html>`_.

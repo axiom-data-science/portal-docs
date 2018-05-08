@@ -67,6 +67,10 @@
 
 .. |search_project_data_gif| image:: /partner_content/global/images/gifs/search_project_data.gif
 
+.. |catalog_download_data_netcdf_subset_gif| image:: /partner_content/global/images/gifs/catalog_download_data_netcdf_subset.gif
+
+.. |catalog_download_data_opendap_gif| image:: /partner_content/global/images/gifs/catalog_download_data_opendap.gif
+
 
 .. OTHER IMAGE ALIASES
 

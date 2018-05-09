@@ -68,7 +68,7 @@ See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overv
 	Visualizing Data
 	****************
 
-	If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the dataset's name will load it as a layer in the map.
+	If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the |catalog_add_to_map_icon| button will add it to the map.
 
 	Before visualizing, you can lean more about a dataset by clicking on the title to view its metadata page.
 

@@ -58,6 +58,10 @@
 	:width: 60pt
 	:height: 30pt
 
+.. |catalog_add_to_map_icon| image:: /partner_content/global/images/icons/catalog_add_to_map_icon.png
+	:width: 60pt
+	:height: 30pt
+
 
 .. GIF ALIASES
 

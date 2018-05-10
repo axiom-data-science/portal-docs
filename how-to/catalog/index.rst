@@ -20,7 +20,6 @@ The pages below contain detailed instructions for using the |title|'s data catal
    download-netcdf-subset
    download-using-opendap
    download-using-wms
-   download-using-erddap
    download-queried-data
    download-historical-sensor-data
    download-virtual-sensor-data

@@ -169,12 +169,12 @@ See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overv
 
 	For more details, please see the :ref:`download-using-wms-how-to` page.
 
-	ERDDAP
-	------
+	.. only:: aoos
 
-	The Environmental Research Division Data Access Program (ERDDAP) is NOAA-sponsored software that builds a common data server providing access to gridded and device (e.g., weather sensor) data. ERDDAP servers provide access to some gridded data in a multitude of formats including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL.
+		ERDDAP
+		------
 
-	For more details, please see the :ref:`download-using-erddap-how-to` page.
+		Datasets in the AOOS catalog can also be accessed using the Environmental Research Division Data Access Program (ERDDAP), which is a NOAA-sponsored service that provides access to gridded data in a multitude of formats, including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL. Visit https://erddap.aoos.org to access ERDDAP.
 
 	Virtual Sensors
 	===============

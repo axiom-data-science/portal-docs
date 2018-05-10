@@ -27,7 +27,7 @@
 	:height: 30pt
 
 .. |map_icon| image:: /partner_content/global/images/icons/map_icon.png
-	:width: 40pt
+	:width: 30pt
 	:height: 20pt
 
 .. |settings_button_icon| image:: /partner_content/global/images/icons/settings_button_icon.png
@@ -70,6 +70,11 @@
 	:width: 60pt
 	:height: 30pt
 
+.. |map_station_info_icon| image:: /partner_content/global/images/icons/map_station_info_icon.png
+	:width: 60pt
+	:height: 30pt
+
+
 .. GIF ALIASES
 
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif
@@ -88,6 +93,9 @@
 
 .. |map_add_layers_gif| image:: /partner_content/global/images/gifs/map_add_layers.gif
 
+.. |map_view_layer_metadata_gif| image:: /partner_content/global/images/gifs/map_view_layer_metadata.gif
+
+.. |map_view_station_metadata_gif| image:: /partner_content/global/images/gifs/map_view_station_metadata.gif
 
 .. OTHER IMAGE ALIASES
 

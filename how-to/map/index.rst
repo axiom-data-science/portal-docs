@@ -12,6 +12,7 @@ The pages below contain detailed instructions for using the |title|'s data catal
 
    map-add-layers
    map-view-layer-metadata
+   map-view-station-metadata
    map-customize-layers
    map-customize-map-view
    map-edit-data-display

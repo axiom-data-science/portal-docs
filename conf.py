@@ -118,6 +118,7 @@ def setup(app):
         #exclude catalog how-to pages from ioos build toc
         if portal == 'ioos':
             app.config.exclude_patterns.append('how-to/catalog')
+            app.config.exclude_patterns.append('how-to/map/map-add-layers.rst')
 
         #include portal include file if one exists
         portal_include_file = 'partner_content/%s/substitutions.txt' % portal

@@ -75,6 +75,8 @@
 
 .. |catalog_download_data_opendap_gif| image:: /partner_content/global/images/gifs/catalog_download_data_opendap.gif
 
+.. |catalog_download_data_wms_gif| image:: /partner_content/global/images/gifs/catalog_download_data_wms.gif
+
 
 .. OTHER IMAGE ALIASES
 

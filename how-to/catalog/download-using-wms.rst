@@ -4,12 +4,16 @@
 Download Using WMS
 ##################
 
-#. Select “WMS (Web Mapping Service)” under the Download button to start the service.
-#. The returned image will be projected according to the parameters set in the URL. For example:
+|catalog_download_data_wms_gif|
 
-.. parsed-literal::
-	`http://data.axds.co/ncWMS/wms?SERVICE=WMS&REQUEST=GetMap&LAYERS=AQWRFSFC/PSFC&VERSION=1.1.1&FORMAT=image/png&STYLES=boxfill/rainbow&SRS=EPSG:3857&BBOX=-20983724.014532067,8598321.56555337,-13914936.349159194,13370447.645073326&WIDTH=500&HEIGHT=338&COLORSCALERANGE=846.5,1128 <http://data.axds.co/ncWMS/wms?SERVICE=WMS&REQUEST=GetMap&LAYERS=AQWRFSFC/PSFC&VERSION=1.1.1&FORMAT=image/png&STYLES=boxfill/rainbow&SRS=EPSG:3857&BBOX=-20983724.014532067,8598321.56555337,-13914936.349159194,13370447.645073326&WIDTH=500&HEIGHT=338&COLORSCALERANGE=846.5,1128>`_
+#. Click on the Download button |catalog_data_download_icon|.
+#. Select ``WMS (Web Mapping Service)``.
+#. The service will open in a new browser tab and the results will display.
 
-#. Modifying the parameters (e.g., changing the WIDTH, COLORSCALERANGE values, or the projection and reloading the page will redraw the image for your mapping service.
+The returned image will be projected according to the parameters set in the URL. For example:
+
+	https://data.axds.co/ncWMS/wms?SERVICE=WMS&REQUEST=GetMap&LAYERS=MUR2/analysed_sst&VERSION=1.1.1&FORMAT=image/png&STYLES=boxfill/rainbow&SRS=EPSG:3857&BBOX=-20036395.759359274,-7.081154551613622e-10,20037508.342789244,19971868.880408563&WIDTH=500&HEIGHT=249&COLORSCALERANGE=271.15,311.15
+
+Modifying the parameters (e.g., changing the WIDTH, COLORSCALERANGE values, or the projection and reloading the page will redraw the image for your mapping service.
 
 For more information, please see the :ref:`gridded-data-overview` section.

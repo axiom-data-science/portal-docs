@@ -176,12 +176,14 @@ See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overv
 
 		Datasets in the AOOS catalog can also be accessed using the Environmental Research Division Data Access Program (ERDDAP), which is a NOAA-sponsored service that provides access to gridded data in a multitude of formats, including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL. Visit https://erddap.aoos.org to access ERDDAP.
 
+	.. _virtual-sensors-overview:
+
 	Virtual Sensors
 	===============
 
 	For details on how to download data from virtual sensors, please see the :ref:`download-virtual-sensor-data-how-to` page.
 
-	.. _parsed-data:
+	.. _parsed-data-overview:
 
 	Parsed Data
 	===========

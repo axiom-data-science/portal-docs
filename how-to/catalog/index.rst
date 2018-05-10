@@ -20,9 +20,9 @@ The pages below contain detailed instructions for using the |title|'s data catal
    download-netcdf-subset
    download-using-opendap
    download-using-wms
-   download-queried-data
-   download-historical-sensor-data
    download-virtual-sensor-data
+..    download-queried-data
+..    download-historical-sensor-data
 
 .. toctree::
    :maxdepth: 1

@@ -62,6 +62,9 @@
 	:width: 60pt
 	:height: 30pt
 
+.. |catalog_virtual_sensor_icon| image:: /partner_content/global/images/icons/catalog_virtual_sensor_icon.png
+	:width: 60pt
+	:height: 30pt
 
 .. GIF ALIASES
 
@@ -76,6 +79,8 @@
 .. |catalog_download_data_opendap_gif| image:: /partner_content/global/images/gifs/catalog_download_data_opendap.gif
 
 .. |catalog_download_data_wms_gif| image:: /partner_content/global/images/gifs/catalog_download_data_wms.gif
+
+.. |catalog_download_virtual_sensor_gif| image:: /partner_content/global/images/gifs/catalog_download_virtual_sensor.gif
 
 
 .. OTHER IMAGE ALIASES

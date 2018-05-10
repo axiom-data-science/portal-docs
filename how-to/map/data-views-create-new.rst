@@ -6,7 +6,7 @@ Create New View
 
 While the premade data views are interesting, the real fun starts when you begin making and sharing your own views. To do so, follow these steps and consult the GIF below:
 
-#. If you're not in the map view, click on the map button |portal_button_icon| to get there.
+#. If you're not in the map view, click on the map button |map_icon| to get there.
 #. Zoom and pan to your desired map view.
 #. Click on the point that represents the data you're interested in.
 #. Its data will show up in the data display window in the bottom left corner of the window.

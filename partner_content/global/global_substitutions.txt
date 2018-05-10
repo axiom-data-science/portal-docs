@@ -26,7 +26,7 @@
 	:width: 60pt
 	:height: 30pt
 
-.. |portal_button_icon| image:: /partner_content/global/images/icons/portal_button_icon.png
+.. |map_icon| image:: /partner_content/global/images/icons/map_icon.png
 	:width: 40pt
 	:height: 20pt
 
@@ -66,6 +66,10 @@
 	:width: 60pt
 	:height: 30pt
 
+.. |catalog_layers_icon| image:: /partner_content/global/images/icons/catalog_layers_icon.png
+	:width: 60pt
+	:height: 30pt
+
 .. GIF ALIASES
 
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif
@@ -81,6 +85,8 @@
 .. |catalog_download_data_wms_gif| image:: /partner_content/global/images/gifs/catalog_download_data_wms.gif
 
 .. |catalog_download_virtual_sensor_gif| image:: /partner_content/global/images/gifs/catalog_download_virtual_sensor.gif
+
+.. |map_add_layers_gif| image:: /partner_content/global/images/gifs/map_add_layers.gif
 
 
 .. OTHER IMAGE ALIASES

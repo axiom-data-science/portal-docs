@@ -97,6 +97,15 @@
 
 .. |map_view_station_metadata_gif| image:: /partner_content/global/images/gifs/map_view_station_metadata.gif
 
+.. |map_customize_layers_gif_01| image:: /partner_content/global/images/gifs/map_customize_layers_gif_01.gif
+
+.. |map_customize_layers_gif_02| image:: /partner_content/global/images/gifs/map_customize_layers_gif_02.gif
+
+.. |map_customize_layers_gif_03| image:: /partner_content/global/images/gifs/map_customize_layers_gif_03.gif
+
+.. |map_customize_layers_gif_04| image:: /partner_content/global/images/gifs/map_customize_layers_gif_04.gif
+
+
 .. OTHER IMAGE ALIASES
 
 

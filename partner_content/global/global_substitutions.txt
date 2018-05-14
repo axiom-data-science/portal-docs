@@ -70,10 +70,21 @@
 	:width: 60pt
 	:height: 30pt
 
+.. |map_data_download_icon| image:: /partner_content/global/images/icons/map_data_download_icon.png
+	:width: 60pt
+	:height: 30pt
+
 .. |map_station_info_icon| image:: /partner_content/global/images/icons/map_station_info_icon.png
 	:width: 60pt
 	:height: 30pt
 
+.. |map_sensor_info_icon| image:: /partner_content/global/images/icons/map_sensor_info_icon.png
+	:width: 60pt
+	:height: 30pt
+
+.. |map_source_info_icon| image:: /partner_content/global/images/icons/map_source_info_icon.png
+	:width: 60pt
+	:height: 30pt
 
 .. GIF ALIASES
 
@@ -104,6 +115,15 @@
 .. |map_customize_layers_gif_03| image:: /partner_content/global/images/gifs/map_customize_layers_gif_03.gif
 
 .. |map_customize_layers_gif_04| image:: /partner_content/global/images/gifs/map_customize_layers_gif_04.gif
+
+.. |map_edit_data_display_gif_01| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_01.gif
+
+.. |map_edit_data_display_gif_02| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_02.gif
+
+.. |map_edit_data_display_gif_03| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_03.gif
+
+.. |map_edit_data_display_gif_04| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_04.gif
+
 
 
 .. OTHER IMAGE ALIASES

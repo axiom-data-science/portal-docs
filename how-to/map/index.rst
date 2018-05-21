@@ -16,11 +16,11 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    map-customize-layers
    map-edit-data-display
    map-filter-by-depth
-   map-use-polygon-tool
    map-view-climatologies
    map-view-historical-data
    map-save-and-share
 ..    map-customize-map-view
+..    map-use-polygon-tool
 
 .. toctree::
    :maxdepth: 1

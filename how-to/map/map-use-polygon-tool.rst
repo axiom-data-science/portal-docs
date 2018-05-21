@@ -4,7 +4,7 @@
 Use Polygon Tool
 ################
 
-To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest. To use the polygon tool:
+The polygon tool can be used to create summary statistics across spatial areas of interest. To use the polygon tool follow these steps:
 
 #. Click on the polygon tool icon. Draw a polygon on the map around the area of interest using mouse clicks at each corner or bend in your shape. When you're finished drawing, double-click to complete the shape.
 

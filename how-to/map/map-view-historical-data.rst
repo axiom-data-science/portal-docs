@@ -4,8 +4,10 @@
 View Historical Data
 ####################
 
-#. From the real-time sensor map or historical sensor map, click on any station that has more than 3 years of data.
+|map_view_historical_data_gif|
 
-#. The default graph will show binned data, with the dark gray line indicating the mean and the gray envelope representing the min and max values within the current year.
+#. Click on a station.
+#. In the data display window, select ``Historical``.
+#. Any historical data available for that station will disply in the chart.
 
 For more information, please see the :ref:`map-overview` section.

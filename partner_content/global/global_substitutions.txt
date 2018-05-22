@@ -124,6 +124,9 @@
 
 .. |map_edit_data_display_gif_04| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_04.gif
 
+.. |map_filter_by_depth_gif| image:: /partner_content/global/images/gifs/map_filter_by_depth.gif
+
+.. |map_view_historical_data_gif| image:: /partner_content/global/images/gifs/map_view_historical_data.gif
 
 
 .. OTHER IMAGE ALIASES

@@ -4,6 +4,8 @@
 Filter by Depth
 ###############
 
+|map_filter_by_depth_gif|
+
 #. Click on the depth icon in the bottom right of the map.
 #. Click and drag both ends of the depth slider control to adjust the vertical bounds. Note that the depth values represent meters beneath the water surface.
 #. Click and drag the middle of the depth slider control bar to step through the vertical data.

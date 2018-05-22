@@ -258,26 +258,28 @@ To view station data, click on the point. As shown in the image below, data from
 
 |sensor_select|
 
-.. _near-real-time-data-overview:
+.. only:: not ioos
 
-*******************
-Near-Real-Time Data
-*******************
+	.. _near-real-time-data-overview:
 
-Near-real-time data are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
+	*******************
+	Near-Real-Time Data
+	*******************
 
-.. _model-and-satellite-data:
+	Near-real-time data are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
 
-Model and Satellite Data
-========================
+	.. _model-and-satellite-data:
 
-Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
+	Model and Satellite Data
+	========================
 
-To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`data-charts-overview` section of this document.
+	Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
 
-The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`time-slider-overview` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
+	To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`data-charts-overview` section of this document.
 
-The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
+	The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`time-slider-overview` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
+
+	The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
 
 .. _historical-data-overview:
 
@@ -301,28 +303,29 @@ Historical data are data that are one month old or older. Historical data availa
 
 	For more details, please see the :ref:`view-glider-data-how-to` page.
 
+.. only:: not ioos
 
-.. _biological-ovbservations-overview:
+	.. _biological-observations-overview:
 
-***********************
-Biological Observations
-***********************
+	***********************
+	Biological Observations
+	***********************
 
-*These features and more will be explored more thoroughly in upcoming updates to this documentation.*
+	*These features and more will be explored more thoroughly in upcoming updates to this documentation.*
 
-Data from most research-based biological observations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one location or observation may be displayed within a hexagon. The color of the hexagon represents the average value of the selected data parameter within that hexagon. For example, if count or abundance is the selected parameter, then the hexagon color will reflect the average count of all individuals or observations within that bin.
+	Data from most research-based biological observations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one location or observation may be displayed within a hexagon. The color of the hexagon represents the average value of the selected data parameter within that hexagon. For example, if count or abundance is the selected parameter, then the hexagon color will reflect the average count of all individuals or observations within that bin.
 
-To view a summary of all the observation data contain within a hexagon, hover over the hexagon. A window will appear showing the summary of all observations by parameter. Additionally, the time range for which those values were measured will be shown. If you click on the hexagon, a data display window will appear showing a histogram chart summarizing the data. The number of locations or observations aggregated within that hexagon will appear below the parameter name in the data display chart.
+	To view a summary of all the observation data contain within a hexagon, hover over the hexagon. A window will appear showing the summary of all observations by parameter. Additionally, the time range for which those values were measured will be shown. If you click on the hexagon, a data display window will appear showing a histogram chart summarizing the data. The number of locations or observations aggregated within that hexagon will appear below the parameter name in the data display chart.
 
-To view data for an individual location or observation, zoom in on the map. The hexagons will soften into points that represent the individual sample locations or observations that were aggregated into that hexagon. To view current readings from that location, hover over its point. As shown in the image below, a pop-up window will display some basic information, including the observation or location name, latitude and longitude, and a summary of events or observations by parameters (e.g., count by species, percent abundance, number of events, etc ).
+	To view data for an individual location or observation, zoom in on the map. The hexagons will soften into points that represent the individual sample locations or observations that were aggregated into that hexagon. To view current readings from that location, hover over its point. As shown in the image below, a pop-up window will display some basic information, including the observation or location name, latitude and longitude, and a summary of events or observations by parameters (e.g., count by species, percent abundance, number of events, etc ).
 
-To change the data parameters in the map, the filters can be used in the legend on the right side. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
+	To change the data parameters in the map, the filters can be used in the legend on the right side. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
 
-To further interact with the data in the map, the :ref:`polygon-tool-overview` can be used to create summary statistics across spatial areas of interest. Or, the :ref:`time-slider-overview` bar can be used to view the various time intervals of data available.
+	To further interact with the data in the map, the :ref:`polygon-tool-overview` can be used to create summary statistics across spatial areas of interest. Or, the :ref:`time-slider-overview` bar can be used to view the various time intervals of data available.
 
-If when zoomed in the hexagons do not soften into points, the individual locations or observations have been intentionally aggregated for data use or confidentiality purposes.
+	If when zoomed in the hexagons do not soften into points, the individual locations or observations have been intentionally aggregated for data use or confidentiality purposes.
 
-To view location data, click on the point. Data from that location will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select different parameters for that location (if available), or you can use the time slider to adjust the time period of the data.
+	To view location data, click on the point. Data from that location will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select different parameters for that location (if available), or you can use the time slider to adjust the time period of the data.
 
 .. _customize-data-in-the-map-overview:
 
@@ -330,7 +333,7 @@ To view location data, click on the point. Data from that location will appear i
 Customize Data in the Map
 *************************
 
-Once you have found a layer through the data catalog, you can view and interact with the data in a number of ways. As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. Additionally, you can click on a data point of interest to open a chart that summarizes the data. A time slider at the bottom of the map can be used to move back and forth through time for timeseries data. More information about these features is provided below.
+You can view and interact with the data in a number of ways. As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. Additionally, you can click on a data point of interest to open a chart that summarizes the data. A time slider at the bottom of the map can be used to move back and forth through time for timeseries data. More information about these features is provided below.
 
 Filter Data
 ===========
@@ -354,14 +357,16 @@ The data layer legend on the right hand side shows the color scale that is used 
 
 For more details, please see the :ref:`customize-layers-how-to` page.
 
-.. _search-and-add-layers-overview:
+.. only:: not ioos
 
-Search and Add Layers
-=====================
+	.. _search-and-add-layers-overview:
 
-From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
+	Search and Add Layers
+	=====================
 
-For more details, please see the :ref:`add-layers-how-to` page.
+	From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
+
+	For more details, please see the :ref:`add-layers-how-to` page.
 
 .. _time-slider-overview:
 
@@ -395,14 +400,16 @@ For more details, please see the :ref:`filter-by-depth-how-to` page.
 
 For other ways to filter data in the map, please see the :ref:`filter-data-how-to` page.
 
-.. _polygon-tool-overview:
+.. only:: not ioos
 
-Polygon Tool
-============
+	.. _polygon-tool-overview:
 
-To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
+	Polygon Tool
+	============
 
-For more details, please see the :ref:`use-polygon-tool-how-to` page.
+	To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
+
+	For more details, please see the :ref:`use-polygon-tool-how-to` page.
 
 .. Instance State Saving
 .. =====================

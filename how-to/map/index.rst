@@ -16,7 +16,6 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    map-customize-layers
    map-edit-data-display
    map-filter-by-depth
-   map-view-climatologies
    map-view-historical-data
    map-save-and-share
 ..    map-customize-map-view

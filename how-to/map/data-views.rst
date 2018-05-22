@@ -4,6 +4,8 @@
 Access Data Views
 #################
 
+|map_access_data_views_gif|
+
 To access data views from the map interface, follow these steps:
 
 #. Click on the views button |views_button_icon|.

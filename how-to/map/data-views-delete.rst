@@ -4,6 +4,9 @@
 Delete a View
 #############
 
-*This section is currently under development. Check back soon for updates!*
+#. From within the data view, click on the gear icon |gear_icon| in the top right corner of the window.
+#. Click ``Delete`` in the popup window that appears.
+
+.. note:: You cannot delete pre-defined data views. If the ``Delete`` button doesn't appear then you don't have permission to remove that data view from the |title|.
 
 

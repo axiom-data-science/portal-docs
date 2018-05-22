@@ -36,7 +36,6 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    data-views-create-new
    data-views-use-comparison-chart
    data-views-description
-   data-views-save
    data-views-share
    data-views-delete
    data-views-download-data

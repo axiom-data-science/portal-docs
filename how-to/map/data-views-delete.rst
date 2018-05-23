@@ -4,6 +4,8 @@
 Delete a View
 #############
 
+|map_delete_data_view_gif|
+
 #. From within the data view, click on the gear icon |gear_icon| in the top right corner of the window.
 #. Click ``Delete`` in the popup window that appears.
 

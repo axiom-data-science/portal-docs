@@ -128,11 +128,20 @@
 
 .. |map_view_historical_data_gif| image:: /partner_content/global/images/gifs/map_view_historical_data.gif
 
+.. |map_download_data_gif| image:: /partner_content/global/images/gifs/map_download_data.gif
+
 .. |map_save_and_share_gif| image:: /partner_content/global/images/gifs/map_save_and_share.gif
 
 .. |map_access_data_views_gif| image:: /partner_content/global/images/gifs/map_access_data_views.gif
 
 .. |map_comparison_chart_gif| image:: /partner_content/global/images/gifs/map_comparison_chart.gif
+
+.. |map_edit_view_description_gif| image:: /partner_content/global/images/gifs/map_edit_view_description.gif
+
+.. |map_share_data_view_gif| image:: /partner_content/global/images/gifs/map_share_data_view.gif
+
+.. |map_delete_data_view_gif| image:: /partner_content/global/images/gifs/map_delete_data_view.gif
+
 
 .. OTHER IMAGE ALIASES
 

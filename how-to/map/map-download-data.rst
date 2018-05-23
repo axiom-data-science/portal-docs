@@ -4,6 +4,8 @@
 Download Data
 #############
 
+|map_download_data_gif|
+
 Follow these steps to download data from within the data view window:
 
 #. Click ``Downloads`` in the lower left corner of the chart that displays the data you're interested in.

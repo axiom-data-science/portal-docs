@@ -4,6 +4,8 @@
 Share View
 ##########
 
+|map_share_data_view_gif|
+
 To get a shareable link, follow these steps:
 
 #. Click on the share button |share_button_icon| near the top right corner of the blue toolbar.

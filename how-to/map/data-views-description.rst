@@ -4,6 +4,8 @@
 View Description
 ################
 
+|map_edit_view_description_gif|
+
 To edit a view's description, follow these steps:
 
 #. Click on the gear icon |gear_icon| near the top right corner of the window.

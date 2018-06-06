@@ -26,7 +26,7 @@ The |title| is a data exploration tool with a customized public web interface th
 
 	For information about how to contribute biological data to the MBON Data Portal, visit https://ioos.github.io/mbon-docs/.
 
-The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_ and is currently in Beta status. Several new features are scheduled for release in 2018, as indicated in the text. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
+The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
 **********************
 Documentation Overview

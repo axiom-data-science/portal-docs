@@ -213,8 +213,6 @@ The map interface provides interactive data exploration, mapping, and charting. 
 
 	Datasets listed in the catalog that can be viewed in the map are indicated by the globe icon |catalog_globe_icon|.
 
-Historical data are also accessible as interactive visualizations in the map, with the exception of datasets that may be published directly to the catalog from the Research Workspace. For more details, please see the :ref:`view-historical-data-how-to` page.
-
 The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. You can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 For more details, please see the :ref:`view-layer-metadata-from-map-how-to` page.

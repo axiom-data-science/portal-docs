@@ -22,7 +22,8 @@ The |title| is a data exploration tool with a customized public web interface th
 	#. Data Views
 
 See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overview` sections below to learn more.
-
+#map-overview link above is not working
+#Catalog link appears in the IOOS sensor map help language (though the below help text does not). This link should be removed, if possible.
 .. only:: not ioos
 
 	.. _catalog-overview:
@@ -53,7 +54,7 @@ See the :ref:`catalog-overview`, :ref:`map-overview`, and :ref:`data-views-overv
 
 	|catalog_initial_view|
 
-	Within the catalog, you will find a listing of all the data layers accessible through the |title|. By default, the data layers are shown in alphabetical order. The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+	Within the catalog, you will find a listing of all the data layers accessible through the |title|. The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
 
 	* Filter by result type icons in the upper left (Data Layers, Projects, and Sensor Stations).
 	* Advanced search options below that (Spatial filter, Filter time, Access method).
@@ -218,7 +219,7 @@ Historical data are also accessible as interactive visualizations in the map, wi
 The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. You can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 For more details, please see the :ref:`view-layer-metadata-from-map-how-to` page.
-
+# THIS LINK IS NOT WORKING
 The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
 * Blue toolbar across the top
@@ -499,6 +500,7 @@ Anomalies are available wherever interannual statistics are available (i.e., in 
 Anomalies are calculated by calculating the mean value of the observational bin and subtracting the interannual statistical bin for that time period. For example, the daily anomaly for April 13th, 2016 is calculated by taking the average temperature for that day minus the mean interannual April 13th temperature.
 
 For details on how to view climatology charts in the |title|, please see the :ref:`view-climatology-charts-how-to` page.
+# THIS LINK IS NOT WORKING
 
 .. Query & Save Vector Layer for Comparison
 .. ========================================

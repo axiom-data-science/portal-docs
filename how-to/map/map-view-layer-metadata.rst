@@ -10,3 +10,4 @@ View Layer Metadata
 #. The layer's metadata page will display in a catalog view.
 
 For more information, please see the :ref:`map-overview` section.
+

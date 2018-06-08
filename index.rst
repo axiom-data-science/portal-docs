@@ -4,9 +4,9 @@ Welcome
 
 Welcome to the help site for the |brand| |title|!
 
-************************
+****************
 |title| Overview
-************************
+****************
 
 The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data.
 

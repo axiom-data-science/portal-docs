@@ -9,5 +9,5 @@ View Layer Metadata
 #. In the toolbar on the right, click on the name of the layer.
 #. The layer's metadata page will display in a catalog view.
 
-For more information, please see the :ref:`map-overview` section.
+For more information, please see the `Map Overview <https://sensors.ioos.us/help/overview.html#map>`_ section.
 

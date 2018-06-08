@@ -4,7 +4,7 @@
 Introduction
 ############
 
-The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data.
+The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data. x
 
 .. only:: not ioos
 

@@ -82,7 +82,9 @@ See the following sections of this help documentation for more information about
 
 	If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the |catalog_add_to_map_icon| button will add it to the map.
 
-	Before visualizing, you can learn more about a dataset by clicking on the title to view its metadata page.
+	For datasets with multiple layers, click the catalog_layers_icon button then select individual layers using the catalog_add_to_map_icon.
+
+	Before visualizing, you can learn more about a dataset by clicking on the title to view the metadata page.
 
 	.. _layer-metadata-overview:
 

@@ -39,9 +39,9 @@ See the following sections of this help documentation for more information about
 
 	.. _catalog-overview:
 
-	#######
-	Catalog
-	#######
+	################
+	Catalog Overview
+	################
 
 	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add some data layers to the data map.
 
@@ -125,7 +125,7 @@ See the following sections of this help documentation for more information about
 
 	.. *This feature is under development. Check back soon for updates.*
 
-	.. _downloading-data-overview:
+	.. _download-data-catalog-overview:
 
 	****************
 	Downloading Data
@@ -227,7 +227,11 @@ The map interface provides interactive data exploration, mapping, and charting. 
 
 	Datasets listed in the catalog that can be viewed in the map are indicated by the globe icon |catalog_globe_icon|.
 
-The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets. You can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
+The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
+
+.. only:: not ioos
+
+	Additionally, uou can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 For more details, please see the :ref:`view-layer-metadata-how-to` page.
 
@@ -558,13 +562,19 @@ Data can be binned across years within the following time periods:
 .. note::
 	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end.
 
-.. _download-data-overview:
+.. _download-data-map-overview:
 
 *************
 Download Data
 *************
 
-Data may be downloaded through the data catalog, as described in :ref:`downloading-data-overview` section.
+.. only:: not ioos
+
+	Data may be downloaded through the data catalog, as described in the :ref:`download-data-catalog-overview` section.
+
+.. only:: ioos
+
+	Data may be downloaded as described in the :ref:`download-data-how-to` how-to page.
 
 .. _data-views-overview:
 

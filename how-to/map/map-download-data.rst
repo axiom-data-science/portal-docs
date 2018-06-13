@@ -1,4 +1,4 @@
-.. _download-data:
+.. _download-data-how-to:
 
 #############
 Download Data

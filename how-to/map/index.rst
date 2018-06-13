@@ -11,15 +11,19 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    :caption: Mapping
 
    map-add-layers
+   map-change-default-settings
    map-view-layer-metadata
    map-view-station-metadata
    map-customize-layers
+   map-edit-data-display
    map-filter-by-depth
+   map-filter-by-time
    map-view-historical-data
+   map-time-slider
    map-save-and-share
    map-download-data
-..    map-customize-map-view
-..    map-use-polygon-tool
+   map-customize-map-view
+   map-use-polygon-tool
 
 .. toctree::
    :maxdepth: 1

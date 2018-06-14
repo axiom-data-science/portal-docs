@@ -116,13 +116,13 @@
 
 .. |map_customize_layers_gif_04| image:: /partner_content/global/images/gifs/map_customize_layers_gif_04.gif
 
-.. |customize_charts_gif_01| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_01.gif
+.. |customize_charts_gif_01| image:: /partner_content/global/images/gifs/map_customize_charts_gif_01.gif
 
-.. |customize_charts_gif_02| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_02.gif
+.. |customize_charts_gif_02| image:: /partner_content/global/images/gifs/map_customize_charts_gif_02.gif
 
-.. |customize_charts_gif_03| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_03.gif
+.. |customize_charts_gif_03| image:: /partner_content/global/images/gifs/map_customize_charts_gif_03.gif
 
-.. |customize_charts_gif_04| image:: /partner_content/global/images/gifs/map_edit_data_display_gif_04.gif
+.. |customize_charts_gif_04| image:: /partner_content/global/images/gifs/map_customize_charts_gif_04.gif
 
 .. |map_filter_by_depth_gif| image:: /partner_content/global/images/gifs/map_filter_by_depth.gif
 

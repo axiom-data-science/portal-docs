@@ -343,9 +343,8 @@ Historical data are data that are one month old or older. Historical data availa
 
 	To view location data, click on the point. Data from that location will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select different parameters for that location (if available), or you can use the time slider to adjust the time period of the data.
 
-.. _customize-data-in-the-map-overview:
+.. _customize-data-map-overview:
 
-*************************
 Customize Data in the Map
 *************************
 

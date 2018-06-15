@@ -1,6 +1,6 @@
 # Axiom data portal help documentation
 
-This GitHub repository is where the help documentation for data portals developed by [Axiom Data Science](https://www.axiomdatascience.com) (Axiom) lives. Contributions to this documentation are welcome via pull requests. These instructions describe how the repository is structured and how partners can contribute custom content for their data portal.
+This GitHub repository is where the help documentation lives for data portals developed by [Axiom Data Science](https://www.axiomdatascience.com) (Axiom). Contributions to this documentation by our partner organizations are welcome via pull requests. These instructions describe how the repository is structured and how partners can contribute custom content for their data portal.
 
 ## Common terms
 
@@ -12,7 +12,7 @@ This GitHub repository is where the help documentation for data portals develope
 
 *Fork*: to make a copy of (specifically, to make a copy of a GitHub repo that you can work on without affecting the master copy).
 
-*Pull request*: a way to let a project owner (in this case, Kyle Wilcox (@kwilcox) know that you've made edits you would like to be added to the master copy.
+*Pull request*: a way to let a project owner (in this case, Kyle Wilcox (@kwilcox)) know that you've made edits you would like to be added to the master copy.
 
 *Edits*: any kind of change to the content of a file in the repo. Edits can include adding, changing, or deleting text, images, or code. Basically anything that changes any single character of any file in the repo is considered an edit by GitHub.
 
@@ -29,37 +29,40 @@ As Sphinx is turning those RST files into HTML, it applies cascading style sheet
 The data portal help docs repository is organized into 3 directories, which you can think of as folders:
 
 1. The main folder, where 2 types of files live:
-	1. RST files, where our primary content lives
+	1. RST files, where our primary content lives:
+		* ``index.rst``, which is the home page of the docs site
+		* ``overview.rst``, which is the main overview page with most of the narrative content describing the data portal's features
 	1. Admin type files, such as ``conf.py`` and ``make.bat``, which we can safely ignore
-1. The ``partner_content`` folder, where a subdirectory for each brand's special content lives (in addition to a ``global`` folder). Each partner's folder contains the following:
+1. The ``partner_content`` subfolder, where a subdirectory for each brand's special content lives (in addition to a ``global`` folder). Each partner's folder contains the following:
 	1. An ``images`` folder for custom screenshots and GIFs
 	1. A ``static`` folder for custom CSS
 	1. A ``config.yml`` file for brand-specific details (e.g., data portal title, partner logo file name)
 	1. A ``substitutions.txt`` file for defining short-cut names for brand-specific images
-1. The ``custom`` folder, where a global CSS file lives that we don't have to worry about
+1. The ``custom`` subfolder, where a global CSS file lives that we don't have to worry about
+1. The ``how-to`` subfolder, which has ``catalog`` and ``map`` subdirectories where individual files for the how-to pages live
 
 ## How to add content for your data portal
 
-If your organization has a data portal with its own branding (e.g., logo, data portal name), you can add custom content for your data portal's help docs. To do this, you must first fork (make a copy of) the master portal docs repo (https://github.com/axiom-data-science/portal-docs).
+If your organization has a data portal with its own branding (e.g., logo, data portal name), you can add custom content for your data portal's help docs. To do this, you must first **fork** (make a copy of) the master [portal docs repo](https://github.com/axiom-data-science/portal-docs).
 
 You can find the official GitHub help docs on forking a repo [here](https://help.github.com/articles/fork-a-repo/).
 
 **Please note that you only need to fork the master portal docs repo once.** Once you've forked the repo you effectively have your own working copy. You can continue editing your copy in the future without having to "re-fork" each time.
 
-Once you've made your edits, you can request that those edits be added to the master portal docs repo by making a pull request.
+Once you've made your edits, you can request that those edits be added to the master portal docs repo by making a **pull request**.
 
 You can find the official GitHub help docs on pull requests [here](https://help.github.com/articles/about-pull-requests/).
 
 ## How to format screenshots and GIFs
 
-The data portal help docs will look continue to look clean and professional if all images (screenshots and GIFs) are created using the same basic guidelines.
+The data portal help docs will continue to look clean and professional if all images (screenshots and GIFs) are created using the same basic guidelines.
 
 **For screenshots:**
 
 * Take screenshots with your browser window at 100% magnification
 * Adjust your browser window to get the best view of what you're trying to illustrate
-* Crop out your broswer window title bar
-* In your ``substituions.txt`` file, define your screenshot to have width = ``1600px`` and height = ``800px``
+* Crop out your browser window title bar so you can't see the address or any extra tabs you have open
+* In your ``substitutions.txt`` file, define your screenshot to have width = ``1600px`` and height = ``800px``
 
 **For GIFs:**
 
@@ -69,7 +72,7 @@ The data portal help docs will look continue to look clean and professional if a
 * Use 10 frames per second caputre rate
 * Compress GIFs before adding them (e.g., use the "slight" setting on a GIF optimizer like [this one](http://gifgifs.com/optimizer/).
 
-### How to add a new page
+### How to add a new page for your portal only
 
 1. Go to the ``partner_content`` folder
 1. Go to your brand's subfolder
@@ -78,6 +81,10 @@ The data portal help docs will look continue to look clean and professional if a
 1. Add your content to that file using the [RST](http://www.sphinx-doc.org/en/stable/rest.html) conventions
 1. Save your file
 1. Make a pull request
+
+### How to add a new how-to page for all portals
+
+1. Check with Kyle Wilcox (kyle@axiomdatascience.com)
 
 ### How to edit an existing page
 

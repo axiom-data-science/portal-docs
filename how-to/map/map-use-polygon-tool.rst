@@ -12,4 +12,4 @@ The polygon tool can be used to create summary statistics across spatial areas o
 
 #. To delete the shape, click the ``Trash can`` icon next to the polygon tool.
 
-For more information, please see the :ref:`polygon-tool-overview` section.
+For more information, please see the :ref:`Polygon Tool <polygon-tool-overview>` section.

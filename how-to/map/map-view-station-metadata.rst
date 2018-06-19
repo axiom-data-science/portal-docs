@@ -11,4 +11,4 @@ View Station Metadata
 #. This opens a data view specific to the station.
 #. In the table on the left, click on the ``Metadata`` link.
 
-For more information, please see the :ref:`map-overview` section.
+For more information, please see the :ref:`Map Overview <map-overview>` section.

@@ -11,4 +11,4 @@ Filter by Depth
 #. Click and drag the middle of the depth slider control bar to step through the vertical data.
 #. Hover your mouse over the depth slider bar to see the vertical range of the data that has been selected.
 
-For more information, please see the :ref:`depth-filter-overview` section.
+For more information, please see the :ref:`Depth Filter <depth-filter-overview>` section.

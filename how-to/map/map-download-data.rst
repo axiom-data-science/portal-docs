@@ -15,3 +15,11 @@ Follow these steps to download data from within the data view window:
 
 .. note:: For some datasets you may be offered a choice to download calculated or raw data.
 
+.. only:: not ioos
+
+	For more information, please see the :ref:`Download Data <download-data-catalog-overview>` section.
+
+.. only:: ioos
+
+	For more information, please see the :ref:`Download Data <download-data-map-overview>` section.
+

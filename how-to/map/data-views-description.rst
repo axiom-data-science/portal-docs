@@ -17,4 +17,5 @@ To edit a view's description, follow these steps:
 .. note::
 	You can also edit the title of your view in the same popup window.
 
+For more information, please see the :ref:`Data Views <data-views-overview>` section.
 

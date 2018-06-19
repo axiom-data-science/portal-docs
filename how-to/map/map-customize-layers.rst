@@ -29,4 +29,4 @@ Customize Color and Scale
 
 |map_customize_layers_gif_04|
 
-For more information, please see the :ref:`customize-data-map-overview` section.
+For more information, please see the :ref:`Customize Data in the Map <customize-data-map-overview>` section.

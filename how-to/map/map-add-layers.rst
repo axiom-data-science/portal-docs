@@ -13,5 +13,5 @@ Add Layers
 
 .. note:: For datasets with multiple layers, click the |catalog_layers_icon| button then select individual layers using the |catalog_add_to_map_icon|.
 
-For more information, please see the :ref:`search-and-add-layers-overview` section.
+For more information, please see the :ref:`Search and Add Layers <search-and-add-layers-overview>` section.
 

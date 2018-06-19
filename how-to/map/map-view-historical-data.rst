@@ -10,4 +10,4 @@ View Historical Data
 #. In the data display window, select ``Historical``.
 #. Any historical data available for that station will disply in the chart.
 
-For more information, please see the :ref:`map-overview` section.
+For more information, please see the :ref:`Map Overview <map-overview>` section.

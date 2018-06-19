@@ -11,4 +11,5 @@ Delete a View
 
 .. note:: You cannot delete pre-defined data views. If the ``Delete`` button doesn't appear then you don't have permission to remove that data view from the |title|.
 
+For more information, please see the :ref:`Data Views <data-views-overview>` section.
 

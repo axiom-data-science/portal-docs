@@ -25,14 +25,14 @@ See the following sections of this help documentation for more information about
 
 .. only:: not ioos
 
-	* :ref:`catalog-overview`
-	* `Map-overview`_
-	* :ref:`data-views-overview`
+	* :ref:`Data Catalog <catalog-overview>`
+	* :ref:`Data Map <map-overview>`
+	* :ref:`Data Views <data-views-overview>`
 
 .. only:: ioos
 
-	* `Map Overview`_
-	* :ref:`data-views-overview`
+	* :ref:`Data Map <map-overview>`
+	* :ref:`Data Views <data-views-overview>`
 
 
 .. only:: not ioos
@@ -119,11 +119,10 @@ See the following sections of this help documentation for more information about
 
 	.. .. _data-dois-overview:
 
-	.. *********
 	.. Data DOIs
-	.. *********
+	.. ---------
 
-	.. *This feature is under development. Check back soon for updates.*
+	.. -This feature is under development. Check back soon for updates.-
 
 	.. _download-data-catalog-overview:
 
@@ -179,7 +178,7 @@ See the following sections of this help documentation for more information about
 
 	Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
 
-	Selecting "WMS (Web Mapping Service)" under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
+	Selecting -WMS (Web Mapping Service)- under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
 
 	For more details, please see the :ref:`download-using-wms-how-to` page.
 
@@ -211,7 +210,7 @@ See the following sections of this help documentation for more information about
 
 	`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
 
-	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a "self-describing" data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
+	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a -self-describing- data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
 
 	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
 
@@ -254,17 +253,17 @@ Real-Time Data
 Real-time data are ingested, served, and displayed in the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams. For the purposes of this documentation, it's helpful to understand how the following real-time data terms are defined:
 
 .. csv-table::
-	:header: "Term", "Definition"
+	:header: -Term-, -Definition-
 	:widths: 15, 50
 
-	"**Hexagonal bin**", "A group of stations that are aggregated into a hexagon for visual summary."
-	"**Station**", "A device that collects data related to the weather and environment using many different sensors (e.g. weather station)."
-	"**Sensor**", "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
-	"**Parameter**", "The type of value measured by the sensor (e.g. temperature, pressure)."
+	-**Hexagonal bin**-, -A group of stations that are aggregated into a hexagon for visual summary.-
+	-**Station**-, -A device that collects data related to the weather and environment using many different sensors (e.g. weather station).-
+	-**Sensor**-, -An individual measurement device affixed or associated with a station (e.g. thermometer, barometer).-
+	-**Parameter**-, -The type of value measured by the sensor (e.g. temperature, pressure).-
 
 Real-time data from observation stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the selected sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
-To view a summary of the station data contained within a hexagon, hover your mouse over the hexagon. The number of stations aggregated within that hexagon will be displayed as "n stations." The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the "n more sensors" in the lower left of the window.
+To view a summary of the station data contained within a hexagon, hover your mouse over the hexagon. The number of stations aggregated within that hexagon will be displayed as -n stations.- The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the -n more sensors- in the lower left of the window.
 
 To view data for an individual station, zoom in on the map. The hexagons will soften into points that represent the individual stations that were aggregated into that hexagon. To view current readings from that station, hover over its point. As shown in the image below, a pop-up window will display some basic information about the station, including its name, data source affilitation(s), latitude and longitude, current readings, and available sensor parameters (e.g., air temperature, water level, and water temperature as in the example below).
 
@@ -315,7 +314,7 @@ Historical data are data that are one month old or older. Historical data availa
 	Ocean gliders are autonomous underwater vehicles used to collect ocean data, including temperature, salinity, conductivity, and other important measures. Unlike stationary sensor platforms such as buoys, gliders move through the water column and collect data at different locations over time.
 
 	.. note::
-		For more information on gliders, see NOAA's `"What is an ocean glider" <https://oceanservice.noaa.gov/facts/ocean-gliders.html>`_ page.
+		For more information on gliders, see NOAA's `-What is an ocean glider- <https://oceanservice.noaa.gov/facts/ocean-gliders.html>`_ page.
 
 	For more details, please see the :ref:`view-glider-data-how-to` page.
 
@@ -345,6 +344,7 @@ Historical data are data that are one month old or older. Historical data availa
 
 .. _customize-data-map-overview:
 
+*************************
 Customize Data in the Map
 *************************
 
@@ -496,7 +496,7 @@ For interannual statistics, we calculate the following:
 
 	* **High**: The high represents the maximum value of all observations within each time bin, across years.
 
-	* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
+	* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the -typical- temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
 
 Anomaly plots
 -------------
@@ -516,18 +516,18 @@ Customize Data Charts
 The table below contains a key to several of the important terms used in describing the |title|'s chartin capabilities:
 
 .. csv-table::
-	:header: "Term", "Description"
+	:header: -Term-, -Description-
 	:widths: 15, 50
 
-	"**Minimum**", "The minimum value of the entire time-series within each bin, represented by a dashed blue line."
-	"**Mean to the 10th percentile**", " The range from the mean to the 10th percentile of the data is represented by a blue shaded area."
-	"**Mean**", "The mean of the entire time-series within each bin, represented by a dashed gray line."
-	"**Mean to the 90th percentile**", "The range from the mean to the 90th percentile of the data is represented by a red shaded area."
-	"**Maximum**", "The maximum value of the entire time-series within each bin is represented by a dashed red line."
-	"**Line chart**", "A chart of the current values with historical statistics."
-	"**Climatology**", "Year-to-date monthly mean values of the current year compared to historical statistics."
-	"**Anomaly**", "The data values minus the mean values across all years."
-	"**Curtain**", "If data is available at depth, the chart will show depth on the y-axis with the values represented by colors."
+	-**Minimum**-, -The minimum value of the entire time-series within each bin, represented by a dashed blue line.-
+	-**Mean to the 10th percentile**-, - The range from the mean to the 10th percentile of the data is represented by a blue shaded area.-
+	-**Mean**-, -The mean of the entire time-series within each bin, represented by a dashed gray line.-
+	-**Mean to the 90th percentile**-, -The range from the mean to the 90th percentile of the data is represented by a red shaded area.-
+	-**Maximum**-, -The maximum value of the entire time-series within each bin is represented by a dashed red line.-
+	-**Line chart**-, -A chart of the current values with historical statistics.-
+	-**Climatology**-, -Year-to-date monthly mean values of the current year compared to historical statistics.-
+	-**Anomaly**-, -The data values minus the mean values across all years.-
+	-**Curtain**-, -If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.-
 
 Time bins
 ---------
@@ -535,23 +535,23 @@ Time bins
 Data can be binned across years within the following time periods:
 
 .. csv-table::
-	:header: "Time period", "Definition"
+	:header: -Time period-, -Definition-
 	:widths: 15, 50
 
-	"**All**", "No binning."
-	"**Days**", "Data are binned by day and statistics are by day number across years."
-	"**Weeks**", "Data are binned by week, and statistics are by week number across years."
-	"**Months**", "Data are binned by month, and statistics are by month number across years."
-	"**Seasons**", "Data are binned by northern hemisphere seasons defined as the following:
+	-**All**-, -No binning.-
+	-**Days**-, -Data are binned by day and statistics are by day number across years.-
+	-**Weeks**-, -Data are binned by week, and statistics are by week number across years.-
+	-**Months**-, -Data are binned by month, and statistics are by month number across years.-
+	-**Seasons**-, -Data are binned by northern hemisphere seasons defined as the following:
 
 	* *Winter*: December, January, February
 	* *Spring*: March, April, May
 	* *Summer*: June, July, August
-	* *Fall*: September, October, November"
-	"**Years**", "Data are binned by years, and statistics are across years."
+	* *Fall*: September, October, November-
+	-**Years**-, -Data are binned by years, and statistics are across years.-
 
 .. note::
-	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the "typical" temperature is at that time of year excluding the 10% most extreme values on either end.
+	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the -typical- temperature is at that time of year excluding the 10% most extreme values on either end.
 
 .. _download-data-map-overview:
 
@@ -573,7 +573,7 @@ Download Data
 Data Views
 ##########
 
-You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called "data views," and they are accessed by clicking on the views button |views_button_icon| near the top right corner of the blue toolbar along the top of the window.
+You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called -data views,- and they are accessed by clicking on the views button |views_button_icon| near the top right corner of the blue toolbar along the top of the window.
 
 Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
 

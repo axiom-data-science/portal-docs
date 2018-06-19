@@ -86,6 +86,8 @@
 	:width: 60pt
 	:height: 30pt
 
+.. |add_to_comparison_chart_icon| image:: /partner_content/global/images/icons/add_to_comparison_chart_icon.png
+
 .. GIF ALIASES
 
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif
@@ -151,6 +153,8 @@
 .. |map_polygon_tool_create_gif| image:: /partner_content/global/images/gifs/map_polygon_tool_create.gif
 
 .. |map_polygon_tool_data_view_gif| image:: /partner_content/global/images/gifs/map_polygon_tool_data_view.gif
+
+.. |map_comparison_chart_data_view_gif| image:: /partner_content/global/images/gifs/map_comparison_chart_data_view.gif
 
 
 .. OTHER IMAGE ALIASES

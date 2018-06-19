@@ -148,6 +148,11 @@
 
 .. |map_time_slider_finer_gif| image:: /partner_content/global/images/gifs/map_time_slider_finer.gif
 
+.. |map_polygon_tool_create_gif| image:: /partner_content/global/images/gifs/map_polygon_tool_create.gif
+
+.. |map_polygon_tool_data_view_gif| image:: /partner_content/global/images/gifs/map_polygon_tool_data_view.gif
+
+
 .. OTHER IMAGE ALIASES
 
 

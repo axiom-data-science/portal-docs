@@ -16,4 +16,4 @@ The returned image will be projected according to the parameters set in the URL.
 
 Modifying the parameters (e.g., changing the WIDTH, COLORSCALERANGE values, or the projection and reloading the page will redraw the image for your mapping service.
 
-For more information, please see the :ref:`gridded-data-overview` section.
+For more information, please see the :ref:`Gridded Data <gridded-data-overview>` section.

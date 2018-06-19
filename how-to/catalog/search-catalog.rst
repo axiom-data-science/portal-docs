@@ -14,5 +14,5 @@ To filter search results spatially, temporally, or by access method, click on ``
 
 To filter search results by tag, select that tag from the list on the left. To unfilter search results, click on the ``X`` next to the name of the tag.
 
-For more information about what kinds of data can be searched from the catalog, please see the :ref:`catalog-overview` page.
+For more information about what kinds of data can be searched from the catalog, please see the :ref:`Catalog Overview <catalog-overview>` page.
 

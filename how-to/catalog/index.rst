@@ -21,8 +21,8 @@ The pages below contain detailed instructions for using the |title|'s data catal
    download-using-opendap
    download-using-wms
    download-virtual-sensor-data
-..    download-queried-data
-..    download-historical-sensor-data
+   download-queried-data
+   download-historical-sensor-data
 
 .. toctree::
    :maxdepth: 1

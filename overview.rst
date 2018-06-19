@@ -57,7 +57,7 @@ See the following sections of this help documentation for more information about
 
 	* **Historical data** are data that are one month old or older. Historical data are ingested by the |title| upon stakeholder request, either from an associated campaign in the `Research Workspace <https://researchworkspace.com/>`_, or from national archives. Examples of historical data include species abundance surveys and similar research efforts.
 
-	For more details, please see the :ref:`download-historical-sensor-data-how-to` page.
+	For more details, please see the :ref:`Download Historical Sensor <download-historical-sensor-data-how-to>` page.
 
 	*********
 	Interface
@@ -72,7 +72,7 @@ See the following sections of this help documentation for more information about
 	* Filter by tag in the column on the left.
 	* A list of datasets that match your search criteria in the center of the page.
 
-	For more details on how to search the catalog, please see the :ref:`search-the-catalog-how-to` page.
+	For more details on how to search the catalog, please see the :ref:`Search the Catalog <search-the-catalog-how-to>` page.
 
 	.. _visualizing-data-overview:
 
@@ -113,9 +113,9 @@ See the following sections of this help documentation for more information about
 
 	.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
 
-	For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`contribute-data-how-to` page.
+	For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Contribute Data <contribute-data-how-to>` page.
 
-	For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`search-project-data-how-to` page.
+	For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Search Project Data <search-project-data-how-to>` page.
 
 	.. .. _data-dois-overview:
 
@@ -161,7 +161,7 @@ See the following sections of this help documentation for more information about
 	.. tip::
 		When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
-	For more details, please see the :ref:`netcdf-subset-how-to` page.
+	For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
 
 	OPeNDAP
 	-------
@@ -171,16 +171,16 @@ See the following sections of this help documentation for more information about
 	.. note::
 		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., try downloading half a variable first, then the second half, or one variable at a time, etc.).
 
-	For more details, please see the :ref:`download-using-opendap-how-to` page.
+	For more details, please see the :ref:`Download Using OpeNDAP <download-using-opendap-how-to>` page.
 
 	WMS
 	---
 
 	Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
 
-	Selecting -WMS (Web Mapping Service)- under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
+	Selecting *WMS (Web Mapping Service)* under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
 
-	For more details, please see the :ref:`download-using-wms-how-to` page.
+	For more details, please see the :ref:`Download Using WMS <download-using-wms-how-to>` page.
 
 	.. only:: aoos
 
@@ -194,7 +194,7 @@ See the following sections of this help documentation for more information about
 	Virtual Sensors
 	===============
 
-	For details on how to download data from virtual sensors, please see the :ref:`download-virtual-sensor-data-how-to` page.
+	For details on how to download data from virtual sensors, please see the :ref:`Download Virtual Sensor Data <download-virtual-sensor-data-how-to>` page.
 
 	.. _parsed-data-overview:
 
@@ -210,7 +210,7 @@ See the following sections of this help documentation for more information about
 
 	`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
 
-	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a -self-describing- data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
+	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a *self-describing* data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
 
 	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
 
@@ -226,13 +226,13 @@ The map interface provides interactive data exploration, mapping, and charting. 
 
 	Datasets listed in the catalog that can be viewed in the map are indicated by the globe icon |catalog_globe_icon|.
 
-The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`data-views-overview` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
+The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`Data Views <data-views-overview>` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
 
 .. only:: not ioos
 
 	Additionally, uou can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
-For more details, please see the :ref:`view-layer-metadata-how-to` page.
+For more details, please see the :ref:`View Layer Metadata <view-layer-metadata-how-to>` page.
 
 The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
@@ -263,13 +263,13 @@ Real-time data are ingested, served, and displayed in the |title| at the same fr
 
 Real-time data from observation stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the selected sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
-To view a summary of the station data contained within a hexagon, hover your mouse over the hexagon. The number of stations aggregated within that hexagon will be displayed as -n stations.- The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the -n more sensors- in the lower left of the window.
+To view a summary of the station data contained within a hexagon, hover your mouse over the hexagon. The number of stations aggregated within that hexagon will be displayed as *n stations*. The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the *n more sensors* in the lower left of the window.
 
 To view data for an individual station, zoom in on the map. The hexagons will soften into points that represent the individual stations that were aggregated into that hexagon. To view current readings from that station, hover over its point. As shown in the image below, a pop-up window will display some basic information about the station, including its name, data source affilitation(s), latitude and longitude, current readings, and available sensor parameters (e.g., air temperature, water level, and water temperature as in the example below).
 
 |sensor_hover|
 
-To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the :ref:`time-slider-overview` to adjust the time period of the data.
+To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the :ref:`Time Slider <time-slider-overview>` to adjust the time period of the data.
 
 |sensor_select|
 
@@ -290,9 +290,9 @@ To view station data, click on the point. As shown in the image below, data from
 
 	Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
 
-	To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`data-charts-overview` section of this document.
+	To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`Data Charts <data-charts-overview>` section of this document.
 
-	The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`time-slider-overview` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
+	The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`Time Slider <time-slider-overview>` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
 
 	The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
 
@@ -316,7 +316,7 @@ Historical data are data that are one month old or older. Historical data availa
 	.. note::
 		For more information on gliders, see NOAA's `-What is an ocean glider- <https://oceanservice.noaa.gov/facts/ocean-gliders.html>`_ page.
 
-	For more details, please see the :ref:`view-glider-data-how-to` page.
+	For more details, please see the :ref:`View Glider Data <view-glider-data-how-to>` page.
 
 .. only:: not ioos
 
@@ -336,7 +336,7 @@ Historical data are data that are one month old or older. Historical data availa
 
 	To change the data parameters in the map, the filters can be used in the legend on the right side. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
 
-	To further interact with the data in the map, the :ref:`polygon-tool-overview` can be used to create summary statistics across spatial areas of interest. Or, the :ref:`time-slider-overview` bar can be used to view the various time intervals of data available.
+	To further interact with the data in the map, the :ref:`Polygon Tool <polygon-tool-overview>` can be used to create summary statistics across spatial areas of interest. Or, the :ref:`Time Slider <time-slider-overview>` bar can be used to view the various time intervals of data available.
 
 	If when zoomed in the hexagons do not soften into points, the individual locations or observations have been intentionally aggregated for data use or confidentiality purposes.
 
@@ -370,7 +370,7 @@ Customize Color and Scale
 
 The data layer legend on the right hand side shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ``Autoset for data view`` button.
 
-For more details, please see the :ref:`customize-layers-how-to` page.
+For more details, please see the :ref:`Customize Layers <customize-layers-how-to>` page.
 
 .. only:: not ioos
 
@@ -381,7 +381,7 @@ For more details, please see the :ref:`customize-layers-how-to` page.
 
 	From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
 
-	For more details, please see the :ref:`add-layers-how-to` page.
+	For more details, please see the :ref:`Add Layers <add-layers-how-to>` page.
 
 .. _time-slider-overview:
 
@@ -403,9 +403,9 @@ The depth slider bar located in the bottom right of the map allows you to filter
 
 .. tip:: For quick reference, the depth range for data being viewed in the map is shown in the right-hand map legend beneath the time extent.
 
-For more details, please see the :ref:`filter-by-depth-how-to` page.
+For more details, please see the :ref:`Filter by Depth <filter-by-depth-how-to>` page.
 
-For other ways to filter data in the map, please see the :ref:`filter-data-how-to` page.
+For other ways to filter data in the map, please see the :ref:`Filter Data <filter-data-how-to>` page.
 
 .. only:: not ioos
 
@@ -416,7 +416,7 @@ For other ways to filter data in the map, please see the :ref:`filter-data-how-t
 
 	To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
 
-	For more details, please see the :ref:`use-polygon-tool-how-to` page.
+	For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
 
 .. Instance State Saving
 .. =====================
@@ -427,7 +427,7 @@ For other ways to filter data in the map, please see the :ref:`filter-data-how-t
 Data Charts
 ***********
 
-The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`data-views-overview`.
+The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
 For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
@@ -458,7 +458,7 @@ Quantitative Variables
 
 * **Curtain plots:** show a visual summary of vertical profiling data. f data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
 
-For more details, please see the :ref:`customize-data-charts-how-to` page.
+For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
 
 .. Summary Statistics
 .. ==================
@@ -496,7 +496,7 @@ For interannual statistics, we calculate the following:
 
 	* **High**: The high represents the maximum value of all observations within each time bin, across years.
 
-	* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the -typical- temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
+	* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
 
 Anomaly plots
 -------------
@@ -551,7 +551,7 @@ Data can be binned across years within the following time periods:
 	-**Years**-, -Data are binned by years, and statistics are across years.-
 
 .. note::
-	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the -typical- temperature is at that time of year excluding the 10% most extreme values on either end.
+	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
 
 .. _download-data-map-overview:
 
@@ -561,11 +561,11 @@ Download Data
 
 .. only:: not ioos
 
-	Data may be downloaded through the data catalog, as described in the :ref:`download-data-catalog-overview` section.
+	Data may be downloaded through the data catalog, as described in the :ref:`Download Data <download-data-catalog-overview>` section.
 
 .. only:: ioos
 
-	Data may be downloaded as described in the :ref:`download-data-how-to` how-to page.
+	Data may be downloaded as described in the :ref:`Download Data <download-data-how-to>` how-to page.
 
 .. _data-views-overview:
 
@@ -573,7 +573,7 @@ Download Data
 Data Views
 ##########
 
-You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called -data views,- and they are accessed by clicking on the views button |views_button_icon| near the top right corner of the blue toolbar along the top of the window.
+You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called *data views*, and they are accessed by clicking on the views button |views_button_icon| near the top right corner of the blue toolbar along the top of the window.
 
 Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
 
@@ -584,5 +584,5 @@ The  view will open, displaying data comparion charts for you to explore. In the
 .. note::
 	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
 
-For more details, please see the Data Views section of the :ref:`map-how-tos` How-To page.
+For more details, please see the Data Views section of the :ref:`Map How-Tos <map-how-tos>` How-To page.
 

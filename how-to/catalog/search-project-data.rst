@@ -12,4 +12,4 @@ To search for project data in the catalog, click on the ``Result types`` icons t
 
 From here, select the dataset you'd like to view or download by clicking on its title.
 
-For more information about publishing data to the portal from the Research Workspace, please see the :ref:`contributing-data-overview` section and the `Research Workspace help documentation <https://researchworkspace.com/help/PublishingData.html>`_.
+For more information about publishing data to the portal from the Research Workspace, please see the :ref:`Contributing Data <contributing-data-overview>` section and the `Research Workspace help documentation <https://researchworkspace.com/help/PublishingData.html>`_.

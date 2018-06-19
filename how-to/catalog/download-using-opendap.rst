@@ -16,5 +16,5 @@ Download Using OpenDAP
 
 .. note::  The default time stride is 1, which downloads all time slices in the dataset; a stride of 2 will download every second time slice, and so forth.
 
-For more information about NetCDF Subset, please see the :ref:`gridded-data-overview` section.
+For more information about NetCDF Subset, please see the :ref:`Gridded Data <gridded-data-overview>` section.
 

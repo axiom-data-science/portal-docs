@@ -14,4 +14,4 @@ The |title| provides access to time-series extraction of gridded data, also know
 #. A data view will open.
 #. Once the data load into the chart on the left, scroll down and click ``Downloads`` to receive a zipped file containing data.csv and metadata.txt for that station and sensor.
 
-For more information, please see the :ref:`virtual-sensors-overview` section.
+For more information, please see the :ref:`Virtual Sensors <virtual-sensors-overview>` section.

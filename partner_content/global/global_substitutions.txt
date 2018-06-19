@@ -142,6 +142,11 @@
 
 .. |map_delete_data_view_gif| image:: /partner_content/global/images/gifs/map_delete_data_view.gif
 
+.. |map_change_default_settings_gif| image:: /partner_content/global/images/gifs/map_change_default_settings.gif
+
+.. |map_time_slider_basic_gif| image:: /partner_content/global/images/gifs/map_time_slider_basic.gif
+
+.. |map_time_slider_finer_gif| image:: /partner_content/global/images/gifs/map_time_slider_finer.gif
 
 .. OTHER IMAGE ALIASES
 

@@ -4,6 +4,8 @@
 Change Default Map Settings
 ###########################
 
+|map_change_default_settings_gif|
+
 Within the map, there are several options for changing the map default settings:
 
 #. Click on settings in the upper right hand toolbar.

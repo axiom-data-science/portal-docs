@@ -10,9 +10,10 @@ There are several ways to use the time slider to interact with temporal data.
 Basic tools
 ***********
 
+|map_time_slider_basic_gif|
+
 To navigate a dataset using the time slider, try these steps:
 
-#. Click and drag both the time slider control to the right and left to step through the temporal data interactively.
 #. Click and drag both ends of the time slider control to adjust the time bounds.
 #. Click and drag the middle of the time slider control bar to step through the temporal data.
 #. Pull down on your mouse while dragging.
@@ -21,6 +22,8 @@ To navigate a dataset using the time slider, try these steps:
 *************
 Finer control
 *************
+
+|map_time_slider_finer_gif|
 
 To interact with a dataset in a more granular way, try these steps:
 

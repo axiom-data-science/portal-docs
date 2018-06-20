@@ -16,12 +16,10 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    map-view-station-metadata
    map-customize-layers
    map-filter-by-depth
-   map-filter-by-time
    map-view-historical-data
    map-time-slider
    map-save-and-share
    map-download-data
-   map-customize-map-view
    map-use-polygon-tool
 
 .. toctree::

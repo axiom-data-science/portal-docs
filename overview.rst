@@ -253,13 +253,13 @@ Real-Time Data
 Real-time data are ingested, served, and displayed in the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams. For the purposes of this documentation, it's helpful to understand how the following real-time data terms are defined:
 
 .. csv-table::
-	:header: -Term-, -Definition-
+	:header: Term, Definition
 	:widths: 15, 50
 
-	-**Hexagonal bin**-, -A group of stations that are aggregated into a hexagon for visual summary.-
-	-**Station**-, -A device that collects data related to the weather and environment using many different sensors (e.g. weather station).-
-	-**Sensor**-, -An individual measurement device affixed or associated with a station (e.g. thermometer, barometer).-
-	-**Parameter**-, -The type of value measured by the sensor (e.g. temperature, pressure).-
+	**Hexagonal bin**, "A group of stations that are aggregated into a hexagon for visual summary."
+	**Station**, "A device that collects data related to the weather and environment using many different sensors (e.g. weather station)."
+	**Sensor**, "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
+	**Parameter**, "The type of value measured by the sensor (e.g. temperature, pressure)."
 
 Real-time data from observation stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the selected sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
 
@@ -516,18 +516,18 @@ Customize Data Charts
 The table below contains a key to several of the important terms used in describing the |title|'s chartin capabilities:
 
 .. csv-table::
-	:header: -Term-, -Description-
+	:header: Term, Description
 	:widths: 15, 50
 
-	-**Minimum**-, -The minimum value of the entire time-series within each bin, represented by a dashed blue line.-
-	-**Mean to the 10th percentile**-, - The range from the mean to the 10th percentile of the data is represented by a blue shaded area.-
-	-**Mean**-, -The mean of the entire time-series within each bin, represented by a dashed gray line.-
-	-**Mean to the 90th percentile**-, -The range from the mean to the 90th percentile of the data is represented by a red shaded area.-
-	-**Maximum**-, -The maximum value of the entire time-series within each bin is represented by a dashed red line.-
-	-**Line chart**-, -A chart of the current values with historical statistics.-
-	-**Climatology**-, -Year-to-date monthly mean values of the current year compared to historical statistics.-
-	-**Anomaly**-, -The data values minus the mean values across all years.-
-	-**Curtain**-, -If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.-
+	**Minimum**, "The minimum value of the entire time-series within each bin, represented by a dashed blue line."
+	**Mean to the 10th percentile**, "The range from the mean to the 10th percentile of the data is represented by a blue shaded area."
+	**Mean**, "The mean of the entire time-series within each bin, represented by a dashed gray line."
+	**Mean to the 90th percentile**, "The range from the mean to the 90th percentile of the data is represented by a red shaded area."
+	**Maximum**, "The maximum value of the entire time-series within each bin is represented by a dashed red line."
+	**Line chart**, "A chart of the current values with historical statistics."
+	**Climatology**, "Year-to-date monthly mean values of the current year compared to historical statistics."
+	**Anomaly**, "The data values minus the mean values across all years."
+	**Curtain**, "If data is available at depth, the chart will show depth on the y-axis with the values represented by colors."
 
 Time bins
 ---------
@@ -535,20 +535,20 @@ Time bins
 Data can be binned across years within the following time periods:
 
 .. csv-table::
-	:header: -Time period-, -Definition-
+	:header: Time period, Definition
 	:widths: 15, 50
 
-	-**All**-, -No binning.-
-	-**Days**-, -Data are binned by day and statistics are by day number across years.-
-	-**Weeks**-, -Data are binned by week, and statistics are by week number across years.-
-	-**Months**-, -Data are binned by month, and statistics are by month number across years.-
-	-**Seasons**-, -Data are binned by northern hemisphere seasons defined as the following:
+	**All**, "No binning."
+	**Days**, "Data are binned by day and statistics are by day number across years."
+	**Weeks**, "Data are binned by week, and statistics are by week number across years."
+	**Months**, "Data are binned by month, and statistics are by month number across years."
+	**Seasons**, "Data are binned by northern hemisphere seasons defined as the following:
 
 	* *Winter*: December, January, February
 	* *Spring*: March, April, May
 	* *Summer*: June, July, August
-	* *Fall*: September, October, November-
-	-**Years**-, -Data are binned by years, and statistics are across years.-
+	* *Fall*: September, October, November"
+	**Years**, "Data are binned by years, and statistics are across years."
 
 .. note::
 	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.

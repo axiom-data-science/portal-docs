@@ -88,6 +88,15 @@
 
 .. |add_to_comparison_chart_icon| image:: /partner_content/global/images/icons/add_to_comparison_chart_icon.png
 
+.. |catalog_moving_platforms_icon| image:: /partner_content/global/images/icons/catalog_moving_platforms.png
+	:height: 30pt
+
+.. |catalog_visualize_icon| image:: /partner_content/global/images/icons/catalog_visualize_icon.png
+	:width: 60pt
+	:height: 30pt
+
+
+
 .. GIF ALIASES
 
 .. |example_gif| image:: /partner_content/global/images/gifs/example.gif
@@ -155,6 +164,10 @@
 .. |map_polygon_tool_data_view_gif| image:: /partner_content/global/images/gifs/map_polygon_tool_data_view.gif
 
 .. |map_comparison_chart_data_view_gif| image:: /partner_content/global/images/gifs/map_comparison_chart_data_view.gif
+
+.. |map_glider_data_secoora_gif| image:: /partner_content/global/images/gifs/map_glider_data_secoora.gif
+
+.. |map_glider_data_cencoos_gif| image:: /partner_content/global/images/gifs/map_glider_data_cencoos.gif
 
 
 .. OTHER IMAGE ALIASES

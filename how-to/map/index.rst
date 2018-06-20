@@ -21,6 +21,7 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    map-save-and-share
    map-download-data
    map-use-polygon-tool
+   map-view-glider-data
 
 .. toctree::
    :maxdepth: 1
@@ -38,11 +39,4 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    data-views-description
    data-views-share
    data-views-delete
-
-.. toctree:
-   :maxdepth: 1
-   :caption: Miscellaneous
-
-..   view-glider-data
-..   view-historical-gridded-data
 

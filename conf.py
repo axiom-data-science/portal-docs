@@ -120,6 +120,10 @@ def setup(app):
             app.config.exclude_patterns.append('how-to/catalog')
             app.config.exclude_patterns.append('how-to/map/map-add-layers.rst')
             app.config.exclude_patterns.append('how-to/map/view-historical-gridded-data.rst')
+        #include glider data pages only for secoora and cencoos
+
+        if portal != 'secoora' and portal != 'cencoos':
+            app.config.exclude_patterns.append('how-to/map/map-view-glider-data.rst')
 
         #include portal include file if one exists
         portal_include_file = 'partner_content/%s/substitutions.txt' % portal

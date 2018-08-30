@@ -40,7 +40,7 @@ RUN rm -rf _build
 ARG PORTAL
 RUN make html json \
       && mv _build/json _build/html/json \
-      && rename "s/\.fjson/.json/" _build/html/json/*.fjson
+      && find _build/html/json -name '*.fjson' | xargs rename "s|.fjson|.json|"
 
 EXPOSE 8888
 

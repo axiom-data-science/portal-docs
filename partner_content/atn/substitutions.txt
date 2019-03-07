@@ -1,0 +1,23 @@
+.. TEXT
+
+.. |brand| replace:: ATN
+
+.. |title| replace:: Data Portal
+
+
+.. SCREENSHOTS
+
+.. |map_initial_view| image:: /partner_content/atn/images/map_initial_view_atn.png
+
+.. |catalog_initial_view| image:: /partner_content/atn/images/catalog_initial_view_atn.png
+
+.. |sensor_hover| image:: /partner_content/atn/images/sensor_hover_atn.png
+
+.. |sensor_select| image:: /partner_content/atn/images/sensor_select_atn.png
+
+.. |data_view| image:: /partner_content/atn/images/data_view_atn.png
+
+.. GIFS
+
+.. |add_new_view_gif| image:: /partner_content/atn/images/add_new_view_gif_atn.gif
+

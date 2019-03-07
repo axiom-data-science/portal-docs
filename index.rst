@@ -26,6 +26,10 @@ The |title| is a data exploration tool with a customized public web interface th
 
 	For information about how to contribute biological data to the MBON Data Portal, visit https://ioos.github.io/mbon-docs/.
 
+.. only:: atn
+
+	For information about how to contribute data to the ATN Data Portal, visit https://atn.ioos.us/help/.
+
 The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
 **********************

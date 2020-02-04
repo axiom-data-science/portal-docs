@@ -1,0 +1,23 @@
+.. TEXT
+
+.. |brand| replace:: Smartfin
+
+.. |title| replace:: Data Portal
+
+
+.. SCREENSHOTS
+
+.. |map_initial_view| image:: /partner_content/aoos/images/map_initial_view_aoos.png
+
+.. |catalog_initial_view| image:: /partner_content/aoos/images/catalog_initial_view_aoos.png
+
+.. |sensor_hover| image:: /partner_content/aoos/images/sensor_hover_aoos.png
+
+.. |sensor_select| image:: /partner_content/aoos/images/sensor_select_aoos.png
+
+.. |data_view| image:: /partner_content/aoos/images/data_view_aoos.png
+
+.. GIFS
+
+.. |add_new_view_gif| image:: /partner_content/aoos/images/add_new_view_gif_aoos.gif
+

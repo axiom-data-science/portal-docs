@@ -23,7 +23,7 @@ To view observations for a given session, first identify the sessions `uuid` fro
 
 Use this `uuid` in the a url request for data from the Smartfin GeoServer instance::
 
- http://servomatic9000.axiomalaska.com/geoserver/moving_platforms/ows?service=WFS
+ https://servomatic9000.axiomalaska.com/geoserver/moving_platforms/ows?service=WFS
  &version=1.0.0
  &request=GetFeature
  &outputFormat=application%2Fjson
@@ -31,7 +31,7 @@ Use this `uuid` in the a url request for data from the Smartfin GeoServer instan
 
 In this example, replace `uuid` with `8620e391-413e-5840-991a-8ee6f21c6f66`, as follows:
 
-http://servomatic9000.axiomalaska.com/geoserver/moving_platforms/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=application%2Fjson&typeName=moving_platforms:8620e391-413e-5840-991a-8ee6f21c6f66
+https://servomatic9000.axiomalaska.com/geoserver/moving_platforms/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=application%2Fjson&typeName=moving_platforms:8620e391-413e-5840-991a-8ee6f21c6f66
 
 Other available data formats include:
 

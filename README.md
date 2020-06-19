@@ -125,6 +125,18 @@ The data portal help docs will continue to look clean and professional if all im
 1. Delete the old file
 1. Save the file new file in its place and **be sure it has the exact same name as the old file**
 
+## Previewing
+
+If you have Docker installed, you can build an image and preview your changes.
+Note that `<portal>` corresponds to a directory under `partner_content`.
+
+```
+docker build -t portal-docs --build-arg PORTAL=<portal> .
+docker run --rm -p 8888:8888 portal-docs
+```
+
+Then open a browser to <http://localhost:8888>.
+
 ## Conclusion
 
 If you have a question that isn't answered here, or if you find this guidance confusing or otherwise unhelpful, please contact Kyle Wilcox (https://github.com/kwilcox) directly. Your feedback will help us improve this documentation for future users.

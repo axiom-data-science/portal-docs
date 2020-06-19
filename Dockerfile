@@ -1,25 +1,12 @@
-FROM node:4
+FROM sphinxdoc/sphinx:3.1.1
 
 RUN apt-get update \
     && apt-get upgrade -y \
-    && apt-get install -y \
-    python2.7 \
-    python2.7-dev \
-    python-sphinx \
-  && \
-    wget https://bootstrap.pypa.io/get-pip.py && \
-    python get-pip.py && \
-    apt-get install -y python-pip && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    && apt-get install -y rename \
+    &&  apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN pip install --upgrade \
-    sphinx_rtd_theme==0.2.5b2 \
-    hieroglyph \
-    rst2pdf \
-    pyyaml
-
-RUN npm install -g http-server
+RUN pip3 install --upgrade sphinx_rtd_theme pyyaml
 
 RUN mkdir -p /srv/app
 
@@ -44,4 +31,4 @@ RUN make html json \
 
 EXPOSE 8888
 
-CMD ["http-server", "_build/html", "-p", "8888", "-d", "false"]
+CMD ["python", "-m", "http.server", "8888", "--directory", "_build/html"]

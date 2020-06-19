@@ -1,0 +1,21 @@
+.. TEXT
+
+.. |brand| replace:: OOI
+
+.. |title| replace:: Data Explorer
+
+.. SCREENSHOTS
+
+FIXME .. |map_initial_view| image:: /partner_content/ooi/images/map_initial_view_ooi.png
+
+FIXME .. |catalog_initial_view| image:: /partner_content/ooi/images/catalog_initial_view_ooi.png
+
+FIXME .. |sensor_hover| image:: /partner_content/ooi/images/sensor_hover_ooi.png
+
+FIXME .. |sensor_select| image:: /partner_content/ooi/images/sensor_select_ooi.png
+
+FIXME .. |data_view| image:: /partner_content/ooi/images/data_view_ooi.png
+
+.. GIFS
+
+FIXME .. |add_new_view_gif| image:: /partner_content/ooi/images/add_new_view_gif_ooi.gif

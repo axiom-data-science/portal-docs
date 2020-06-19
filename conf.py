@@ -29,12 +29,12 @@ import yaml
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-# needs_sphinx = '1.0'
+needs_sphinx = '3.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.intersphinx', 'hieroglyph','sphinx.ext.autosectionlabel', 'sphinx.ext.ifconfig']
+extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.autosectionlabel', 'sphinx.ext.ifconfig']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

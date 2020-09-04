@@ -19,12 +19,8 @@
 	:height: 20pt
 
 .. |feedback_button_icon| image:: /partner_content/global/images/icons/feedback_button_icon.png
-	:width: 40pt
-	:height: 20pt
 
 .. |views_button_icon| image:: /partner_content/global/images/icons/views_button_icon.png
-	:width: 60pt
-	:height: 30pt
 
 .. |map_icon| image:: /partner_content/global/images/icons/map_icon.png
 	:width: 30pt
@@ -55,8 +51,6 @@
 .. |catalog_globe_icon| image:: /partner_content/global/images/icons/catalog_globe_icon.png
 
 .. |catalog_data_download_icon| image:: /partner_content/global/images/icons/catalog_data_download_icon.png
-	:width: 60pt
-	:height: 30pt
 
 .. |catalog_add_to_map_icon| image:: /partner_content/global/images/icons/catalog_add_to_map_icon.png
 

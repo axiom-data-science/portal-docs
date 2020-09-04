@@ -9,8 +9,7 @@
 .. |map_initial_view| image:: /partner_content/global/images/map_initial_view.png
 
 .. |catalog_initial_view| image:: /partner_content/global/images/catalog_initial_view.png
-	:width: 1600pt
-	:height: 800pt
+
 
 .. GIFS
 

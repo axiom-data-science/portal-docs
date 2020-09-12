@@ -30,6 +30,9 @@ The |title| is a data exploration tool with a customized public web interface th
 
 	For information about how to contribute data to the ATN Data Portal, visit https://atn.ioos.us/help/.
 
+.. only:: ooi
+	The Ocean Observatories Initiative (OOI) is a science-driven ocean observing network that delivers real-time data from more than 800 instruments to address critical science questions regarding the world’s oceans. Funded by the National Science Foundation to encourage scientific investigations, OOI data are freely available online to anyone with an Internet connection.
+
 The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
 **********************

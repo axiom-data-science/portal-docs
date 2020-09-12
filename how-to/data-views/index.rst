@@ -1,4 +1,4 @@
-.. _map-how-tos:
+.. _data-views-how-tos:
 
 ###
 Data Views

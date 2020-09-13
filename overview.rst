@@ -34,6 +34,202 @@ See the following sections of this help documentation for more information about
 	* :ref:`Data Map <map-overview>`
 	* :ref:`Data Views <data-views-overview>`
 
+.. only:: ooi
+
+	.. _catalog-overview:
+
+	################
+	Catalog Overview
+	################
+
+	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. 
+
+	**********
+	Array Types
+	**********
+
+	The Observatory consists of five arrays continuously collecting ocean data:
+
+	* **Regional Cabled Array** submarine fiber optical cables that power three sub-arrays of seafloor instruments and instrumented moorings on the Juan de Fuca plate in the NE Pacific: the Cabled Axial Seamount, the Cabled Continental Margin, and the Cabled Endurance Array of Oregon.
+
+	* **Coastal Endurance Array** moored arrays and autonomous vehicles off the coasts of Washington and Oregon.
+
+	* **Coastal Pioneer Array** moored arrays and autonomous vehicles off the coast of New England.
+	
+	* **Global Irminger Sea Array** moored arrays and autonomous vehicles off the coast of Greenland.
+	
+	* **Global Station Papa** moored arrays and autonomous vehicles in the Gulf of Alaska.
+
+	Additionally, there are two historical arrays in the Southern Ocean. 
+	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. ` For further information about the arrays, click here. <https://oceanobservatories.org/research-arrays/>`_
+	
+	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
+	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. `For further information about the OOI infrastructure, click here.<https://oceanobservatories.org/ooi-infrastructure/>`_
+	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. `For further information about OOI instruments, click here. <https://oceanobservatories.org/instruments/>`
+
+	*********
+	Interface
+	*********
+
+	|catalog_initial_view|
+
+	Within the catalog, you can browse or search all OOI instrument data organized by array, platform, node, instrument, or sensor parameter.By default, the data layers are shown in alphabetical order. 
+	The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+	* Browse datasets by category (array, platform, node, glider, instrument, or parameter) in the upper left. 
+	* Filter by cascading result type in the column on the left.
+	* Advanced search options in the center toolbar(Spatial filter, Filter time filter, Keyword search, Depth filter).
+	* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. A list of datasets that match your search criteria in the center of the page.
+
+	.. _ooi_terms_defined:
+
+	********************
+	Common Terms Defined
+	********************
+	.. list-table:: Common Term Definitions
+		:widths: 25 75
+		:header-rows: 1
+		
+		* - Term
+		  - Definition
+		* - Array
+		  - A regional component consisting of fixed and mobile platforms outfitted with scientific instrumentation. There are five active and two historical arrays.
+		* - Platform
+		  - A fixed or mobile device that is outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring and a glider are examples of mobile platforms.
+		* - Node
+		  - A node is a section of a platform that contains one or more computers and power converters. Instruments on a platform are plugged into a node, which collects the instrument data internally and/or transmit the data externally. Some platforms contain a single node, like a glider. Other platforms have several nodes wired together. For example, a mooring that hosts a surface buoy, near-surface instrument frame, and seafloor multi-function node, each with a different set of instruments attached.
+		* - Instrument
+		  - A scientific instrument is a piece of specialized equipment used to sample oceanographic attributes and collect data. There are 36 unique models of specialized instrumentation used throughout the OOI.
+		* - Parameter
+		  - The type of value measured by the instrument (e.g. temperature, pressure).
+
+
+	.. _layer-metadata-overview:
+
+	Layer Metadata
+	==============
+
+	A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
+
+	Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
+
+	.. _contributing-data-overview:
+
+	*****************
+	Contributing Data
+	*****************
+
+	Datasets can be added to the catalog automatically by project researchers using the `Research Workspace <https://researchworkspace.com/>`_. The general process for data submission is outlined below:
+
+	#. Data are managed by a project researcher using his or her user account in the `Research Workspace <https://researchworkspace.com/>`_). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
+
+	#. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the `Research Workspace <https://researchworkspace.com/>`_.
+
+	#. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
+
+	.. tip:: For assistance using the metadata editor please visit the `Research Workspace help documentation <https://researchworkspace.com/help/>`_.
+
+	.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
+
+	For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Contribute Data <contribute-data-how-to>` page.
+
+	For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Search Project Data <search-project-data-how-to>` page.
+
+	.. .. _data-dois-overview:
+
+	.. Data DOIs
+	.. ---------
+
+	.. -This feature is under development. Check back soon for updates.-
+
+	.. _download-data-catalog-overview:
+
+	****************
+	Downloading Data
+	****************
+
+	In addition to visualizing a dataset in the |title|'s map interface, you can download datasets directly from the catalog and explore them on your own by clicking the download button |catalog_data_download_icon| and selecting the best option from the popup window. See the sections below for more information.
+
+	.. _gridded-data-overview:
+
+	Gridded Data
+	============
+
+	There are several ways to download gridded data from the |title|:
+
+	* THREDDS
+	* NetCDF Subset
+	* OpeNDAP
+	* WMS
+	* ERDDAP
+
+	THREDDS
+	-------
+
+	Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
+
+	.. note::
+		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
+
+	NetCDF Subset
+	-------------
+
+	The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
+
+	.. tip::
+		When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
+
+	For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
+
+	OPeNDAP
+	-------
+
+	OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
+
+	.. note::
+		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., try downloading half a variable first, then the second half, or one variable at a time, etc.).
+
+	For more details, please see the :ref:`Download Using OpeNDAP <download-using-opendap-how-to>` page.
+
+	WMS
+	---
+
+	Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
+
+	Selecting *WMS (Web Mapping Service)* under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
+
+	For more details, please see the :ref:`Download Using WMS <download-using-wms-how-to>` page.
+
+	.. only:: aoos
+
+		ERDDAP
+		------
+
+		Datasets in the AOOS catalog can also be accessed using the Environmental Research Division Data Access Program (ERDDAP), which is a NOAA-sponsored service that provides access to gridded data in a multitude of formats, including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL. Visit https://erddap.aoos.org to access ERDDAP.
+
+	.. _virtual-sensors-overview:
+
+	Virtual Sensors
+	===============
+
+	For details on how to download data from virtual sensors, please see the :ref:`Download Virtual Sensor Data <download-virtual-sensor-data-how-to>` page.
+
+	.. _parsed-data-overview:
+
+	Parsed Data
+	===========
+
+	This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
+
+	.. _netcdf-resources-overview:
+
+	NetCDF Resources
+	================
+
+	`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
+
+	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a *self-describing* data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
+
+	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
 
 .. only:: not ioos
 
@@ -94,37 +290,6 @@ See the following sections of this help documentation for more information about
 	A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
 
 	Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
-
-	.. _contributing-data-overview:
-
-	*****************
-	Contributing Data
-	*****************
-
-	Datasets can be added to the catalog automatically by project researchers using the `Research Workspace <https://researchworkspace.com/>`_. The general process for data submission is outlined below:
-
-	#. Data are managed by a project researcher using his or her user account in the `Research Workspace <https://researchworkspace.com/>`_). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
-
-	#. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the `Research Workspace <https://researchworkspace.com/>`_.
-
-	#. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
-
-	.. tip:: For assistance using the metadata editor please visit the `Research Workspace help documentation <https://researchworkspace.com/help/>`_.
-
-	.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
-
-	For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Contribute Data <contribute-data-how-to>` page.
-
-	For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Search Project Data <search-project-data-how-to>` page.
-
-	.. .. _data-dois-overview:
-
-	.. Data DOIs
-	.. ---------
-
-	.. -This feature is under development. Check back soon for updates.-
-
-	.. _download-data-catalog-overview:
 
 	****************
 	Downloading Data

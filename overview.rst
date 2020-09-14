@@ -34,8 +34,7 @@ See the following sections of this help documentation for more information about
 	* :ref:`Data Map <map-overview>`
 	* :ref:`Data Views <data-views-overview>`
 
-
-.. only:: not ioos
+.. only:: ooi
 
 	.. _catalog-overview:
 
@@ -43,21 +42,30 @@ See the following sections of this help documentation for more information about
 	Catalog Overview
 	################
 
-	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add some data layers to the data map.
+	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. 
 
 	**********
-	Data Types
+	Array Types
 	**********
 
-	The catalog contains several observational data types:
+	The Observatory consists of five arrays continuously collecting ocean data:
 
-	* **Real-time data** are ingested, served, and displayed by the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
+	* **Regional Cabled Array** submarine fiber optical cables that power three sub-arrays of seafloor instruments and instrumented moorings on the Juan de Fuca plate in the NE Pacific: the Cabled Axial Seamount, the Cabled Continental Margin, and the Cabled Endurance Array of Oregon.
 
-	* **Near real-time data** are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data are collected and when the data are made available by the provider. Examples of near real-time assets include satellite images and derived satellite products.
+	* **Coastal Endurance Array** moored arrays and autonomous vehicles off the coasts of Washington and Oregon.
 
-	* **Historical data** are data that are one month old or older. Historical data are ingested by the |title| upon stakeholder request, either from an associated campaign in the `Research Workspace <https://researchworkspace.com/>`_, or from national archives. Examples of historical data include species abundance surveys and similar research efforts.
+	* **Coastal Pioneer Array** moored arrays and autonomous vehicles off the coast of New England.
+	
+	* **Global Irminger Sea Array** moored arrays and autonomous vehicles off the coast of Greenland.
+	
+	* **Global Station Papa** moored arrays and autonomous vehicles in the Gulf of Alaska.
 
-	For more details, please see the :ref:`Download Historical Sensor <download-historical-sensor-data-how-to>` page.
+	Additionally, there are two historical arrays in the Southern Ocean. 
+	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. ` For further information about the arrays, click here. <https://oceanobservatories.org/research-arrays/>`_
+	
+	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
+	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. `For further information about the OOI infrastructure, click here.<https://oceanobservatories.org/ooi-infrastructure/>`_
+	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. `For further information about OOI instruments, click here. <https://oceanobservatories.org/instruments/>`
 
 	*********
 	Interface
@@ -65,26 +73,35 @@ See the following sections of this help documentation for more information about
 
 	|catalog_initial_view|
 
-	Within the catalog, you will find a listing of all the data layers accessible through the |title|. By default, the data layers are shown in alphabetical order. The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+	Within the catalog, you can browse or search all OOI instrument data organized by array, platform, node, instrument, or sensor parameter.By default, the data layers are shown in alphabetical order. 
+	The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+	* Browse datasets by category (array, platform, node, glider, instrument, or parameter) in the upper left. 
+	* Filter by cascading result type in the column on the left.
+	* Advanced search options in the center toolbar(Spatial filter, Filter time filter, Keyword search, Depth filter).
+	* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. A list of datasets that match your search criteria in the center of the page.
 
-	* Filter by result type icons in the upper left (Data Layers, Projects, and Sensor Stations).
-	* Advanced search options below that (Spatial filter, Filter time, Access method).
-	* Filter by tag in the column on the left.
-	* A list of datasets that match your search criteria in the center of the page.
+	.. _ooi_terms_defined:
 
-	For more details on how to search the catalog, please see the :ref:`Search the Catalog <search-the-catalog-how-to>` page.
+	********************
+	Common Terms Defined
+	********************
+	.. list-table:: Common Term Definitions
+		:widths: 25 75
+		:header-rows: 1
+		
+		* - Term
+		  - Definition
+		* - Array
+		  - A regional component consisting of fixed and mobile platforms outfitted with scientific instrumentation. There are five active and two historical arrays.
+		* - Platform
+		  - A fixed or mobile device that is outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring and a glider are examples of mobile platforms.
+		* - Node
+		  - A node is a section of a platform that contains one or more computers and power converters. Instruments on a platform are plugged into a node, which collects the instrument data internally and/or transmit the data externally. Some platforms contain a single node, like a glider. Other platforms have several nodes wired together. For example, a mooring that hosts a surface buoy, near-surface instrument frame, and seafloor multi-function node, each with a different set of instruments attached.
+		* - Instrument
+		  - A scientific instrument is a piece of specialized equipment used to sample oceanographic attributes and collect data. There are 36 unique models of specialized instrumentation used throughout the OOI.
+		* - Parameter
+		  - The type of value measured by the instrument (e.g. temperature, pressure).
 
-	.. _visualizing-data-overview:
-
-	****************
-	Visualizing Data
-	****************
-
-	If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the |catalog_add_to_map_icon| button will add it to the map.
-
-	For datasets with multiple layers, click the catalog_layers_icon button then select individual layers using the catalog_add_to_map_icon.
-
-	Before visualizing, you can learn more about a dataset by clicking on the title to view the metadata page.
 
 	.. _layer-metadata-overview:
 
@@ -214,19 +231,170 @@ See the following sections of this help documentation for more information about
 
 	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
 
+.. only:: not ioos
+
+	.. _catalog-overview:
+
+	################
+	Catalog Overview
+	################
+
+	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add some data layers to the data map.
+
+	**********
+	Data Types
+	**********
+
+	The catalog contains several observational data types:
+
+	* **Real-time data** are ingested, served, and displayed by the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams.
+
+	* **Near real-time data** are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data are collected and when the data are made available by the provider. Examples of near real-time assets include satellite images and derived satellite products.
+
+	* **Historical data** are data that are one month old or older. Historical data are ingested by the |title| upon stakeholder request, either from an associated campaign in the `Research Workspace <https://researchworkspace.com/>`_, or from national archives. Examples of historical data include species abundance surveys and similar research efforts.
+
+	For more details, please see the :ref:`Download Historical Sensor <download-historical-sensor-data-how-to>` page.
+
+	*********
+	Interface
+	*********
+
+	|catalog_initial_view|
+
+	Within the catalog, you will find a listing of all the data layers accessible through the |title|. By default, the data layers are shown in alphabetical order. The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+
+	* Filter by result type icons in the upper left (Data Layers, Projects, and Sensor Stations).
+	* Advanced search options below that (Spatial filter, Filter time, Access method).
+	* Filter by tag in the column on the left.
+	* A list of datasets that match your search criteria in the center of the page.
+
+	For more details on how to search the catalog, please see the :ref:`Search the Catalog <search-the-catalog-how-to>` page.
+
+	.. _visualizing-data-overview:
+
+	****************
+	Visualizing Data
+	****************
+
+	If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the |catalog_add_to_map_icon| button will add it to the map.
+
+	For datasets with multiple layers, click the catalog_layers_icon button then select individual layers using the catalog_add_to_map_icon.
+
+	Before visualizing, you can learn more about a dataset by clicking on the title to view the metadata page.
+
+	.. _layer-metadata-overview:
+
+	Layer Metadata
+	==============
+
+	A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
+
+	Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
+
+	****************
+	Downloading Data
+	****************
+
+	In addition to visualizing a dataset in the |title|'s map interface, you can download datasets directly from the catalog and explore them on your own by clicking the download button |catalog_data_download_icon| and selecting the best option from the popup window. See the sections below for more information.
+
+	.. _gridded-data-overview:
+
+	Gridded Data
+	============
+
+	There are several ways to download gridded data from the |title|:
+
+	* THREDDS
+	* NetCDF Subset
+	* OpeNDAP
+	* WMS
+	* ERDDAP
+
+	THREDDS
+	-------
+
+	Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
+
+	.. note::
+		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
+
+	NetCDF Subset
+	-------------
+
+	The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
+
+	.. tip::
+		When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
+
+	For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
+
+	OPeNDAP
+	-------
+
+	OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
+
+	.. note::
+		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., try downloading half a variable first, then the second half, or one variable at a time, etc.).
+
+	For more details, please see the :ref:`Download Using OpeNDAP <download-using-opendap-how-to>` page.
+
+	WMS
+	---
+
+	Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
+
+	Selecting *WMS (Web Mapping Service)* under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
+
+	For more details, please see the :ref:`Download Using WMS <download-using-wms-how-to>` page.
+
+	.. only:: aoos
+
+		ERDDAP
+		------
+
+		Datasets in the AOOS catalog can also be accessed using the Environmental Research Division Data Access Program (ERDDAP), which is a NOAA-sponsored service that provides access to gridded data in a multitude of formats, including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL. Visit https://erddap.aoos.org to access ERDDAP.
+
+	.. _virtual-sensors-overview:
+
+	Virtual Sensors
+	===============
+
+	For details on how to download data from virtual sensors, please see the :ref:`Download Virtual Sensor Data <download-virtual-sensor-data-how-to>` page.
+
+	.. _parsed-data-overview:
+
+	Parsed Data
+	===========
+
+	This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
+
+	.. _netcdf-resources-overview:
+
+	NetCDF Resources
+	================
+
+	`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
+
+	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a *self-describing* data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
+
+	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
+
 .. _map-overview:
 
 ############
 Map Overview
 ############
 
-The map interface provides interactive data exploration, mapping, and charting. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map.
+.. only:: ooi
+	The map interface provides interactive exploration of the OOI infrastructure. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column.
+
+.. only:: not ooi
+	The map interface provides interactive data exploration, mapping, and charting. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map.
+	The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`Data Views <data-views-overview>` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
 
 .. only:: not ioos
 
 	Datasets listed in the catalog that can be viewed in the map are indicated by the globe icon |catalog_globe_icon|.
-
-The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`Data Views <data-views-overview>` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
 
 .. only:: not ioos
 
@@ -273,7 +441,7 @@ To view station data, click on the point. As shown in the image below, data from
 
 |sensor_select|
 
-.. only:: not ioos
+.. only:: not (ioos or ooi)
 
 	.. _near-real-time-data-overview:
 
@@ -298,6 +466,8 @@ To view station data, click on the point. As shown in the image below, data from
 
 .. _historical-data-overview:
 
+.. only:: not ooi
+
 ***************
 Historical Data
 ***************
@@ -318,7 +488,7 @@ Historical data are data that are one month old or older. Historical data availa
 
 	For more details, please see the :ref:`View Glider Data <view-glider-data-how-to>` page.
 
-.. only:: not ioos
+.. only:: not (ioos or ooi)
 
 	.. _biological-observations-overview:
 
@@ -343,6 +513,8 @@ Historical data are data that are one month old or older. Historical data availa
 	To view location data, click on the point. Data from that location will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select different parameters for that location (if available), or you can use the time slider to adjust the time period of the data.
 
 .. _customize-data-map-overview:
+
+.. only:: not ooi
 
 *************************
 Customize Data in the Map
@@ -513,7 +685,7 @@ Anomalies are calculated by calculating the mean value of the observational bin 
 Customize Data Charts
 =====================
 
-The table below contains a key to several of the important terms used in describing the |title|'s chartin capabilities:
+The table below contains a key to several of the important terms used in describing the |title|'s chart in capabilities:
 
 .. csv-table::
 	:header: Term, Description
@@ -577,12 +749,12 @@ You can save a collection of data layers and visualize them together for compari
 
 Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
 
-The  view will open, displaying data comparion charts for you to explore. In the example image below, you can see the ``Hurricane Sandy`` view.
+The  view will open, displaying data comparison charts for you to explore. In the example image below, you can see the ``Hurricane Sandy`` view.
 
 |data_view|
 
 .. note::
 	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
 
-For more details, please see the Data Views section of the :ref:`Map How-Tos <map-how-tos>` How-To page.
+For more details, please see the Data Views section of the :ref:`data-views-how-tos` How-To page.
 

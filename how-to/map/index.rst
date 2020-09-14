@@ -28,15 +28,3 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    :caption: Data Charts
 
    charts-customize
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Data Views
-
-   data-views
-   data-views-create-new
-   data-views-use-comparison-chart
-   data-views-description
-   data-views-share
-   data-views-delete
-

@@ -40,7 +40,11 @@ The |title| is a data exploration tool with a customized public web interface th
  	Datasets can be interactively charted using advanced features, such as the ability to create comparisons between data streams, bin data by time, and plot climatologies and anomalies.
 	Additionally, you can create and share custom comparisons of datasets to spotlight environmental events or geographic locations, access instrument metadata and provenance information, and download datasets in a variety of formats, including ERDDAP.
 
-The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
+
+.. only:: ooi
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://dataexplorer.oceanobservatories.org/portal-updates
+.. only:: not ooi
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
 **********************
 Documentation Overview

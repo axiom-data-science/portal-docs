@@ -34,6 +34,7 @@ See the following sections of this help documentation for more information about
 	* :ref:`Data Map <map-overview>`
 	* :ref:`Data Views <data-views-overview>`
 
+.. this is a comment: Lines 38 - 239 are the OOI specific 'Catalog Overview' information. Lines 240 -338 is the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
 .. only:: ooi
 
 	.. _catalog-overview:
@@ -61,6 +62,10 @@ See the following sections of this help documentation for more information about
 	* **Global Station Papa** moored arrays and autonomous vehicles in the Gulf of Alaska.
 
 	Additionally, there are two historical arrays in the Southern Ocean. 
+	
+	* **Global Southern Ocean Array** was located in the southwest of Chile was in place from February 2015-January 2020, when it was removed. Data from this array remain available for research.
+	* **The Global Argentine Basin Array** was located in the South Atlantic was in place from March 2015 – January 2018, when it was removed. Data from this array remain available for research.
+	
 	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. ` For further information about the arrays, click here. <https://oceanobservatories.org/research-arrays/>`_
 	
 	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
@@ -75,10 +80,10 @@ See the following sections of this help documentation for more information about
 
 	Within the catalog, you can browse or search all OOI instrument data organized by array, platform, node, instrument, or sensor parameter.By default, the data layers are shown in alphabetical order. 
 	The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
+	
 	* Browse datasets by category (array, platform, node, glider, instrument, or parameter) in the upper left. 
 	* Filter by cascading result type in the column on the left.
-	* Advanced search options in the center toolbar(Spatial filter, Filter time filter, Keyword search, Depth filter).
-	* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. A list of datasets that match your search criteria in the center of the page.
+	* A gridded display of data charts that match your search criteria in the center of the page.
 
 	.. _ooi_terms_defined:
 
@@ -97,10 +102,12 @@ See the following sections of this help documentation for more information about
 		  - A fixed or mobile device that is outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring and a glider are examples of mobile platforms.
 		* - Node
 		  - A node is a section of a platform that contains one or more computers and power converters. Instruments on a platform are plugged into a node, which collects the instrument data internally and/or transmit the data externally. Some platforms contain a single node, like a glider. Other platforms have several nodes wired together. For example, a mooring that hosts a surface buoy, near-surface instrument frame, and seafloor multi-function node, each with a different set of instruments attached.
-		* - Instrument
+		* - Instrument types
 		  - A scientific instrument is a piece of specialized equipment used to sample oceanographic attributes and collect data. There are 36 unique models of specialized instrumentation used throughout the OOI.
 		* - Parameter
 		  - The type of value measured by the instrument (e.g. temperature, pressure).
+		* - Platform types
+		  - A custom grouping of instrument types to differentiate whether they are cabled, moored, or mobile, or the general location in the water column (near surface, profiling, or seafloor).
 
 
 	.. _layer-metadata-overview:
@@ -140,14 +147,6 @@ See the following sections of this help documentation for more information about
 	.. ---------
 
 	.. -This feature is under development. Check back soon for updates.-
-
-	.. _download-data-catalog-overview:
-
-	****************
-	Downloading Data
-	****************
-
-	In addition to visualizing a dataset in the |title|'s map interface, you can download datasets directly from the catalog and explore them on your own by clicking the download button |catalog_data_download_icon| and selecting the best option from the popup window. See the sections below for more information.
 
 	.. _gridded-data-overview:
 

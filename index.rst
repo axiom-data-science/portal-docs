@@ -42,7 +42,7 @@ The |title| is a data exploration tool with a customized public web interface th
 
 
 .. only:: ooi
-	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://dataexplorer.oceanobservatories.org/portal-updates
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://dataexplorer.oceanobservatories.org/#portal-updates
 .. only:: not ooi
 	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 

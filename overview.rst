@@ -34,7 +34,7 @@ See the following sections of this help documentation for more information about
 	* :ref:`Data Map <map-overview>`
 	* :ref:`Data Views <data-views-overview>`
 
-.. this is a comment: Lines 38 - 239 are the OOI specific 'Catalog Overview' information. Lines 240 -338 is the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
+.. this is a comment: Lines 38 - about 190 are the OOI specific 'Catalog Overview' information. The Lines afterwords are the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
 .. only:: ooi
 
 	.. _catalog-overview:
@@ -113,8 +113,140 @@ See the following sections of this help documentation for more information about
 	***********
 	Data Charts
 	***********
+	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
+	For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
+	.. _different-chart-types-overview:
+	
+	Gridded Data Display
+	====================
+	The results that match your search criteria will be shown as a gridded display of data charts in the center of the page.
+	There are many options for interacting with the data in this display:
+	* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to Advanced Search Filters section.
+	* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to Metadata and Download section.
+	* Download one or more datasets using the green Download button. Refer to Download section.
+	* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to Customize Data Charts.
+	
+	Different Chart Types
+	=====================
+	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart , or by using the custom Data Views interface.
+	Categorical Variables
+	---------------------
+	* **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
+	Quantitative Variables
+	----------------------
+	* **Line Charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals.
+	* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies.
+	* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
+	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
+	* **Curtain plots:** show a visual summary of vertical profiling data. If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
+	For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
+	
+	.. _climatology-and-anomaly-charts:
+
+	Climatology and Anomaly Charts
+	==============================
+
+	If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
+
+	Observational Statistics
+	------------------------
+
+	By default, if there are too many observations to easily show on the time-series, the observations binned by default for display. Graphs may show the following:
+
+		* **Mean**: The mean line represents the average value of all observations within each time bin.
+
+		* **Min/max envelope**: The envelope represents the extent of observations within each time bin.
+
+	Interannual Statistics
+	----------------------
+
+	Interannual statistics are calculated on physical time-series where available data coverage in the system is longer than three years. Statistics are derived for days, weeks, months, seasons, and years based on the Gregorian calendar by:
+
+	#. binning the observations into the selected time periods,
+	#. combining the time bins across years (e.g, for daily bins, combining all data from April 13th regardless of year; for monthly bins, combine all data from all Aprils), and
+	#. calculating statistics for each interannual time bin.
+
+	For interannual statistics, we calculate the following:
+
+		* **Mean**: The mean represents the average value of all observations within each time bin, across all recorded years.
+
+		* **Low**: The low represents the minimum value of all observations within each time bin, across all recorded years.
+
+		* **High**: The high represents the maximum value of all observations within each time bin, across years.
+
+		* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
+
+	Anomaly plots
+	-------------
+
+	Anomalies are available wherever interannual statistics are available (i.e., in all time-series where available data coverage in the system is longer than three years, but are only available on data binned on days or more).
+
+	Anomalies are calculated by calculating the mean value of the observational bin and subtracting the interannual statistical bin for that time period. For example, the daily anomaly for April 13th, 2016 is calculated by taking the average temperature for that day minus the mean interannual April 13th temperature.
+
+	.. Query & Save Vector Layer for Comparison
+	.. ========================================
+
+	.. _customize-data-charts-overview:
+
+	Customize Data Charts
+	=====================
+
+	The table below contains a key to several of the important terms used in describing the |title|'s chart capabilities:
+
+	.. csv-table::
+		:header: Term, Description
+		:widths: 15, 50
+
+		**Minimum**, "The minimum value of the entire time-series within each bin, represented by a dashed blue line."
+		**Mean to the 10th percentile**, "The range from the mean to the 10th percentile of the data is represented by a blue shaded area."
+		**Mean**, "The mean of the entire time-series within each bin, represented by a dashed gray line."
+		**Mean to the 90th percentile**, "The range from the mean to the 90th percentile of the data is represented by a red shaded area."
+		**Maximum**, "The maximum value of the entire time-series within each bin is represented by a dashed red line."
+		**Line chart**, "A chart of the current values with historical statistics."
+		**Climatology**, "Year-to-date monthly mean values of the current year compared to historical statistics."
+		**Anomaly**, "The data values minus the mean values across all years."
+		**Curtain**, "If data is available at depth, the chart will show depth on the y-axis with the values represented by colors."
+
+	Time Bins
+	---------
+
+	Data can be binned across years within the following time periods:
+
+	.. csv-table::
+		:header: Time period, Definition
+		:widths: 15, 50
+
+		**All**, "No binning."
+		**Hours**, "Data are binned by hour and daily statistic are displayed (see below)."
+		**Days**, "Data are binned by day and statistics are by day number across years."
+		**Weeks**, "Data are binned by week, and statistics are by week number across years."
+		**Months**, "Data are binned by month, and statistics are by month number across years."
+		**Seasons**, "Data are binned by northern hemisphere seasons defined as the following:
+
+		* *Winter*: December, January, February
+		* *Spring*: March, April, May
+		* *Summer*: June, July, August
+		* *Fall*: September, October, November"
+		**Years**, "Data are binned by years, and statistics are across years."
+
+	.. note::
+		Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
+
+	For more information on hot to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
+	*************
+	Data Products
+	*************
+	Through the Data Explorer, data products are processed at various levels for download and visual exploration.
+	Data Product Levels:
+	* Instrument deployment (Level 1): Unprocessed, parsed data parameter that is in instrument/sensor units and resolution. A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.There are multiple deployment files per instrument. Refer to Deployments section.
+	* Full-instrument time series (Level 1+): This time series is created by joining recovered and telemetered streams for non-cabled instrument deployments (see example illustration below). For high-resolution cabled and recovered data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads for users that do not need the full-resolution, goldy copy time series. **This is the primary product for visualization within the Data Explorer.**
+	* 
+	
+	****************
+	Downloading Data
+	****************
 	Gridded Data
 	============
 
@@ -649,7 +781,7 @@ Anomalies are calculated by calculating the mean value of the observational bin 
 Customize Data Charts
 =====================
 
-The table below contains a key to several of the important terms used in describing the |title|'s chart in capabilities:
+The table below contains a key to several of the important terms used in describing the |title|'s chart capabilities:
 
 .. csv-table::
 	:header: Term, Description
@@ -665,7 +797,7 @@ The table below contains a key to several of the important terms used in describ
 	**Anomaly**, "The data values minus the mean values across all years."
 	**Curtain**, "If data is available at depth, the chart will show depth on the y-axis with the values represented by colors."
 
-Time bins
+Time Bins
 ---------
 
 Data can be binned across years within the following time periods:
@@ -675,6 +807,7 @@ Data can be binned across years within the following time periods:
 	:widths: 15, 50
 
 	**All**, "No binning."
+	**Hours**, "Data are binned by hour and daily statistic are displayed (see below)."
 	**Days**, "Data are binned by day and statistics are by day number across years."
 	**Weeks**, "Data are binned by week, and statistics are by week number across years."
 	**Months**, "Data are binned by month, and statistics are by month number across years."
@@ -688,6 +821,8 @@ Data can be binned across years within the following time periods:
 
 .. note::
 	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
+
+For more information on hot to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
 
 .. _download-data-map-overview:
 

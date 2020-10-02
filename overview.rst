@@ -34,15 +34,14 @@ See the following sections of this help documentation for more information about
 	* :ref:`Data Map <map-overview>`
 	* :ref:`Data Views <data-views-overview>`
 
+
+.. _catalog-overview:
+
+################
+Catalog Overview
+################
 .. this is a comment: Lines 38 until 286 (the next comment about it) are the OOI specific 'Catalog Overview' information. The Lines afterwords are the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
 .. only:: ooi
-
-	.. _catalog-overview:
-
-	################
-	Catalog Overview
-	################
-
 	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. 
 
 	**********
@@ -123,11 +122,13 @@ See the following sections of this help documentation for more information about
 	Gridded Data Display
 	====================
 	The results that match your search criteria will be shown as a gridded display of data charts in the center of the page.
+	
 	There are many options for interacting with the data in this display:
-	* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to Advanced Search Filters section.
-	* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to Metadata and Download section.
-	* Download one or more datasets using the green Download button. Refer to Download section.
-	* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to Customize Data Charts.
+	
+		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to Advanced Search Filters section.
+		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to Metadata and Download section.
+		* Download one or more datasets using the green Download button. Refer to Download section.
+		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to Customize Data Charts.
 	
 	Different Chart Types
 	=====================
@@ -253,7 +254,7 @@ See the following sections of this help documentation for more information about
 	************************
 	Quality Control (QARTOD)
 	************************
-	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) :ref:'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>' maintained through the :ref:'IOOS QC library.<https://github.com/ioos/ioos_qc>' The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
+	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) 'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>'_ maintained through the'IOOS QC library.<https://github.com/ioos/ioos_qc>'_ The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
 	Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
 	
@@ -269,7 +270,7 @@ See the following sections of this help documentation for more information about
 	********
 	Metadata
 	********
-	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the :ref:'OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>', which is available under Downloads. Refer to :ref:'Metadata section <view-layer-metadata-how-to>' for more.
+	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the 'OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>'_, which is available under Downloads. Refer to :ref:'Metadata section <view-layer-metadata-how-to>'_ for more.
 	More Information
 	================
 	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
@@ -281,17 +282,11 @@ See the following sections of this help documentation for more information about
 	***********
 	Deployments
 	***********
-	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments section <how-to-data-charts-deployments>' for more.
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments section <how-to-data-charts-deployments>'_ for more.
 	
 .. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 
-.. only:: not ioos
-
-	.. _catalog-overview:
-
-	################
-	Catalog Overview
-	################
+.. only:: not (ioos or ooi)
 
 	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. Additionally, the catalog can be used to add some data layers to the data map.
 

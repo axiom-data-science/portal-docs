@@ -77,7 +77,8 @@ If you have a question not answered by this documentation, please contact us via
    :caption: How-to
    :glob:
 
-   how-to/**/index
+   .. only:: not ooi
+   	how-to/**/index
    partner_content/**/
 
 ..   how-to/catalog/index

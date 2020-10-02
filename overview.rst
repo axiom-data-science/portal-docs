@@ -34,7 +34,7 @@ See the following sections of this help documentation for more information about
 	* :ref:`Data Map <map-overview>`
 	* :ref:`Data Views <data-views-overview>`
 
-.. this is a comment: Lines 38 - 239 are the OOI specific 'Catalog Overview' information. Lines 240 -338 is the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
+.. this is a comment: Lines 38 until 286 (the next comment about it) are the OOI specific 'Catalog Overview' information. The Lines afterwords are the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
 .. only:: ooi
 
 	.. _catalog-overview:
@@ -109,126 +109,181 @@ See the following sections of this help documentation for more information about
 		* - Platform types
 		  - A custom grouping of instrument types to differentiate whether they are cabled, moored, or mobile, or the general location in the water column (near surface, profiling, or seafloor).
 
+	.. this is a comment: in OOI, data charts overview is slightly extended and included here, but in the rest of the documentation it stays with the overview of maps.
 
-	.. _layer-metadata-overview:
+	***********
+	Data Charts
+	***********
+	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
-	Layer Metadata
-	==============
+	For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
-	A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
+	.. _different-chart-types-overview:
+	
+	Gridded Data Display
+	====================
+	The results that match your search criteria will be shown as a gridded display of data charts in the center of the page.
+	There are many options for interacting with the data in this display:
+	* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to Advanced Search Filters section.
+	* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to Metadata and Download section.
+	* Download one or more datasets using the green Download button. Refer to Download section.
+	* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to Customize Data Charts.
+	
+	Different Chart Types
+	=====================
+	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart , or by using the custom Data Views interface.
+	Categorical Variables
+	---------------------
+	* **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
+	Quantitative Variables
+	----------------------
+	* **Line Charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals.
+	* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies.
+	* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
+	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
+	* **Curtain plots:** show a visual summary of vertical profiling data. If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
+	For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
+	
+	.. _climatology-and-anomaly-charts:
 
-	Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
+	Climatology and Anomaly Charts
+	==============================
 
-	.. _contributing-data-overview:
+	If there are more than three years of data coverage, charts show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year compares to the long-term average.
 
-	*****************
-	Contributing Data
-	*****************
+	Observational Statistics
+	------------------------
 
-	Datasets can be added to the catalog automatically by project researchers using the `Research Workspace <https://researchworkspace.com/>`_. The general process for data submission is outlined below:
+	By default, if there are too many observations to easily show on the time-series, the observations binned by default for display. Graphs may show the following:
 
-	#. Data are managed by a project researcher using his or her user account in the `Research Workspace <https://researchworkspace.com/>`_). Such data files are accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2).
+		* **Mean**: The mean line represents the average value of all observations within each time bin.
 
-	#. Once the data have been loaded and/or the embargo period ends, the researcher may then select the ``Make public`` option for their project in the `Research Workspace <https://researchworkspace.com/>`_.
+		* **Min/max envelope**: The envelope represents the extent of observations within each time bin.
 
-	#. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the catalog of the portal, where public users can view and download the data and associated metadata.
+	Interannual Statistics
+	----------------------
 
-	.. tip:: For assistance using the metadata editor please visit the `Research Workspace help documentation <https://researchworkspace.com/help/>`_.
+	Interannual statistics are calculated on physical time-series where available data coverage in the system is longer than three years. Statistics are derived for days, weeks, months, seasons, and years based on the Gregorian calendar by:
 
-	.. note:: Visualizing these data files within the data map requires processing by Axiom Data Science to be made available. Processing time varies as a function of data format and complexity.
+	#. binning the observations into the selected time periods,
+	#. combining the time bins across years (e.g, for daily bins, combining all data from April 13th regardless of year; for monthly bins, combine all data from all Aprils), and
+	#. calculating statistics for each interannual time bin.
 
-	For more details on how to contribute data via the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Contribute Data <contribute-data-how-to>` page.
+	For interannual statistics, we calculate the following:
 
-	For more details on how to search datasets from the `Research Workspace <https://researchworkspace.com/>`_, please see the :ref:`Search Project Data <search-project-data-how-to>` page.
+		* **Mean**: The mean represents the average value of all observations within each time bin, across all recorded years.
 
-	.. .. _data-dois-overview:
+		* **Low**: The low represents the minimum value of all observations within each time bin, across all recorded years.
 
-	.. Data DOIs
-	.. ---------
+		* **High**: The high represents the maximum value of all observations within each time bin, across years.
 
-	.. -This feature is under development. Check back soon for updates.-
+		* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
 
-	.. _gridded-data-overview:
-
-	Gridded Data
-	============
-
-	There are several ways to download gridded data from the |title|:
-
-	* THREDDS
-	* NetCDF Subset
-	* OpeNDAP
-	* WMS
-	* ERDDAP
-
-	THREDDS
-	-------
-
-	Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
-
-	.. note::
-		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
-
-	NetCDF Subset
+	Anomaly Plots
 	-------------
 
-	The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
+	Anomalies are available wherever interannual statistics are available (i.e., in all time-series where available data coverage in the system is longer than three years, but are only available on data binned on days or more).
 
-	.. tip::
-		When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
+	Anomalies are calculated by calculating the mean value of the observational bin and subtracting the interannual statistical bin for that time period. For example, the daily anomaly for April 13th, 2016 is calculated by taking the average temperature for that day minus the mean interannual April 13th temperature.
 
-	For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
+	.. Query & Save Vector Layer for Comparison
+	.. ========================================
 
-	OPeNDAP
-	-------
+	.. _customize-data-charts-overview:
 
-	OPeNDAP is a simpler THREDDS protocol that can provide ASCII (human-readable) or binary files. It loads very quickly, but doesn't do any interpretation for you at all and you will need to be able to calculate or surmise the indices you need to subset the data. For example, if there are 20,000 dates listed in the file, it will give you the option of selecting 0-20,000, but it won't tell you what those dates are. Therefore, OPeNDAP is best in cases where you are already familiar with the dataset's bounds and speed is more important, or in cases where you just want to download the whole thing and don't care much about subsetting.
+	Customize Data Charts
+	=====================
+
+	The table below contains a key to several of the important terms used in describing the |title|'s chart capabilities:
+
+	.. csv-table::
+		:header: Term, Description
+		:widths: 15, 50
+
+		**Minimum**, "The minimum value of the entire time-series within each bin, represented by a dashed blue line."
+		**Mean to the 10th percentile**, "The range from the mean to the 10th percentile of the data is represented by a blue shaded area."
+		**Mean**, "The mean of the entire time-series within each bin, represented by a dashed gray line."
+		**Mean to the 90th percentile**, "The range from the mean to the 90th percentile of the data is represented by a red shaded area."
+		**Maximum**, "The maximum value of the entire time-series within each bin is represented by a dashed red line."
+		**Line chart**, "A chart of the current values with historical statistics."
+		**Climatology**, "Year-to-date monthly mean values of the current year compared to historical statistics."
+		**Anomaly**, "The data values minus the mean values across all years."
+		**Curtain**, "If data is available at depth, the chart will show depth on the y-axis with the values represented by colors."
+
+	Time Bins
+	---------
+
+	Data can be binned across years within the following time periods:
+
+	.. csv-table::
+		:header: Time period, Definition
+		:widths: 15, 50
+
+		**All**, "No binning."
+		**Hours**, "Data are binned by hour and daily statistic are displayed (see below)."
+		**Days**, "Data are binned by day and statistics are by day number across years."
+		**Weeks**, "Data are binned by week, and statistics are by week number across years."
+		**Months**, "Data are binned by month, and statistics are by month number across years."
+		**Seasons**, "Data are binned by northern hemisphere seasons defined as the following:
+
+		* *Winter*: December, January, February
+		* *Spring*: March, April, May
+		* *Summer*: June, July, August
+		* *Fall*: September, October, November"
+		**Years**, "Data are binned by years, and statistics are across years."
 
 	.. note::
-		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., try downloading half a variable first, then the second half, or one variable at a time, etc.).
+		Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
 
-	For more details, please see the :ref:`Download Using OpeNDAP <download-using-opendap-how-to>` page.
+	For more information on hot to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
+	
+	.. _data-products-overview:
+	
+	*************
+	Data Products
+	*************
+	Through the Data Explorer, data products are processed at various levels for download and visual exploration.
+	Data Product Levels:
+	* Instrument deployment (Level 1): Unprocessed, parsed data parameter that is in instrument/sensor units and resolution. A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.There are multiple deployment files per instrument. Refer to Deployments section.
+	* Full-instrument time series (Level 1+): This time series is created by joining recovered and telemetered streams for non-cabled instrument deployments (see example illustration below). For high-resolution cabled and recovered data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads for users that do not need the full-resolution, goldy copy time series. **This is the primary product for visualization within the Data Explorer.**
+	* Full-resolution, gold copy time series (Level 2):  This time series represents the full-resolution dataset that has been calibrated and is in scientific units. The gold copy version has been processed, pre-built, and served to the Data Explorer and end users in a series of ‘gold copy’ netCDF files for each instrument. There is one gold copy file for every instrument, stream, and deployment. Users have access to these ‘gold copy’ netCDF files via THREDDS and ERDDAP. Refer to :ref:'Data Download Section <download-data-map-overview>'
+	
+	.. _qartod-overview:
+	
+	************************
+	Quality Control (QARTOD)
+	************************
+	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) :ref:'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>' maintained through the :ref:'IOOS QC library.<https://github.com/ioos/ioos_qc>' The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
-	WMS
-	---
-
-	Web mapping services (WMS) are used to provide machine access to images used by remote mapping programs (e.g., tiling services). Accessing programs use GetCapabilities requests to ask for image data in whatever format they require, which allows them to gather image tiles over specific areas with the projections, styles, scales and formats (PNG, JPG, etc.) that fits their needs.
-
-	Selecting *WMS (Web Mapping Service)* under the ``Download`` button will start the WMS service. The returned image will be projected according to the parameters set in the URL. In the example below, modifying either the parameters (e.g., changing the ``WIDTH``, ``COLORSCALERANGE`` values) or the projection will redraw the image for your mapping service.
-
-	For more details, please see the :ref:`Download Using WMS <download-using-wms-how-to>` page.
-
-	.. only:: aoos
-
-		ERDDAP
-		------
-
-		Datasets in the AOOS catalog can also be accessed using the Environmental Research Division Data Access Program (ERDDAP), which is a NOAA-sponsored service that provides access to gridded data in a multitude of formats, including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL. Visit https://erddap.aoos.org to access ERDDAP.
-
-	.. _virtual-sensors-overview:
-
-	Virtual Sensors
-	===============
-
-	For details on how to download data from virtual sensors, please see the :ref:`Download Virtual Sensor Data <download-virtual-sensor-data-how-to>` page.
-
-	.. _parsed-data-overview:
-
-	Parsed Data
-	===========
-
-	This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
-
-	.. _netcdf-resources-overview:
-
-	NetCDF Resources
+	Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
+	
+	|qartod_inventory|
+	
+	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to Quality Control (QARTOD) section for interacting with data quality flags.
+	|qartod_data_flags|
+	
+	.. this is a comment: The follow metadata section is specific to OOI
+	
+	.. _metadata-overview:
+	
+	********
+	Metadata
+	********
+	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the :ref:'OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>', which is available under Downloads. Refer to :ref:'Metadata section <view-layer-metadata-how-to>' for more.
+	More Information
 	================
-
-	`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
-
-	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a *self-describing* data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
-
-	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
+	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
+	
+	Annotations
+	===========
+	Annotations are the primary means of communication between the instrument data team (aka ‘data provider’) and end users. Annotations are entered alongside the data by the data provider. Annotations for the instrument are available at the node, instrument, and data stream levels. Annotation time ranges and text summaries are shown in the data charts. In addition, annotation text appears under #Annotations# in the center toolbar, where they can be downloaded as a CSV file. Refer to :ref:' Annotations section <annotate-and-reorder-data-view-charts>' for more.
+	
+	***********
+	Deployments
+	***********
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments section <how-to-data-charts-deployments>' for more.
+	
+.. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 
 .. only:: not ioos
 
@@ -289,43 +344,66 @@ See the following sections of this help documentation for more information about
 	A dataset's metadata page displays the URL to the source data, a data description, and any usage notes. There will also be an inset map where you can explore the dataset as a single layer. If the data layer is a timeseries dataset, you will be able to move back and forth through time using the time slider at the bottom of the inset map.
 
 	Some data layers in the catalog have more than one variable associated with them. In these cases, a thumbnail image will appear below the data layer in the catalog and in the metadata view. To learn more about each of the data layer variables, click on the title below the thumbnail image. You will be taken to a metadata page that shows the URL to the source data, the data description, and any usage notes. The variable will also appear in the inset map where you can explore the data as a single layer.
+	
+	More Information
+	================
+	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
 
-	****************
-	Downloading Data
-	****************
+.. _downloading-data-overview:
+	
+*************
+Download Data
+*************
 
-	In addition to visualizing a dataset in the |title|'s map interface, you can download datasets directly from the catalog and explore them on your own by clicking the download button |catalog_data_download_icon| and selecting the best option from the popup window. See the sections below for more information.
+In addition to visualizing a dataset you can download datasets by clicking the download button |catalog_data_download_icon| and selecting among the options in the popup window. Data files may be accessed using interoperability services (i.e. ERDDAP, THREDDS),  downloaded individually in different file formats, or bundled for download using the Download Queue. See below for more information about data format.
 
-	.. _gridded-data-overview:
+.. _gridded-data-overview:
 
-	Gridded Data
-	============
+Data Formats
+============
 
-	There are several ways to download gridded data from the |title|:
+There are several ways to download gridded data from the |title|:
+
+.. only:: not ooi
 
 	* THREDDS
 	* NetCDF Subset
+	* ERDDAP
 	* OpeNDAP
 	* WMS
+	
+
+.. only:: ooi
+
+	* THREDDS
+	* NetCDF Subset
 	* ERDDAP
 
-	THREDDS
-	-------
+THREDDS
+-------
 
-	Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for AOOS users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
+Thematic Realtime Environmental Distributed Data Services (THREDDS) is a set of services provided by `Unidata <http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html>`_ that allows for machine and human access to raster data stored in NetCDF formats. THREDDS provides spatial, vertical, and temporal subsetting, as well as the ability to select individual dimension or data variables to reduce file transfer sizes. The most commonly used THREDDS services for users are NetCDF Subset, and Open-source Project for a Network Data Access Protocol (OpenDAP).
 
-	.. note::
-		All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
+.. note::
+	All THREDDS servers have a bandwidth limit, and it will not allow you to download more than the cap in one go. So you won't be able to download 1 Tb of data with a single request. If you need a lot of data, you will need to break up your requests to download the dataset incrementally (e.g., one month at a time; one variable at a time, etc.). If you're grabbing a lot of data programmatically, sometimes it's easiest to grab just one time slice at a time using a loop.
 
-	NetCDF Subset
-	-------------
+NetCDF Subset
+-------------
 
-	The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
+The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
 
-	.. tip::
-		When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
+.. tip::
+	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if the dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
-	For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
+For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
+
+
+ERDDAP
+------
+
+	The ERDDAP (National Ocean and Atmospheric Administration’s Environmental Research Division’s Data Access Program) Server is a free and open-source Java “servlet” that converts and serves a variety of scientific datasets using common file formats. ERDDAP gives you a simple, consistent way to download subsets of datasets in common file formats, in addition to making graphs and maps. All information about every ERDAPP request is contained in the URL of each request, which makes it easy to automate searching for and using data in other applications. Proficient users can build their own custom interfaces. Many organizations (including NOAA, NASA, and USGS) run ERDDAP servers to serve their data. Because of its widespread use and accessibility, the ERDDAP principal developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users. For more details, please see the Download Using ERDDAP page.
+
+.. only:: not ooi
 
 	OPeNDAP
 	-------
@@ -346,13 +424,6 @@ See the following sections of this help documentation for more information about
 
 	For more details, please see the :ref:`Download Using WMS <download-using-wms-how-to>` page.
 
-	.. only:: aoos
-
-		ERDDAP
-		------
-
-		Datasets in the AOOS catalog can also be accessed using the Environmental Research Division Data Access Program (ERDDAP), which is a NOAA-sponsored service that provides access to gridded data in a multitude of formats, including CSV, TSV, htmlTable, json, .mat, and more. Each ERDDAP server has its own URL. Visit https://erddap.aoos.org to access ERDDAP.
-
 	.. _virtual-sensors-overview:
 
 	Virtual Sensors
@@ -367,16 +438,17 @@ See the following sections of this help documentation for more information about
 
 	This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
 
-	.. _netcdf-resources-overview:
+.. _netcdf-resources-overview:
 
-	NetCDF Resources
-	================
+NetCDF Resources
+================
 
-	`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
+`NetCDF <https://www.unidata.ucar.edu/software/netcdf/>`_ is the name of a file format as well as a grouping of software libraries that describe that format. The files have the ability to contain multidimensional data in a wide variety of data types, and they are highly optimized for file I/O. This makes them excellent at storing extremely large datasets because they can be quickly and easily sliced without putting the entire dataset into RAM.
 
-	In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a *self-describing* data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
+In addition, NetCDF files can contain metadata attributes that describe any time components, dimensions, units, history, etc. Because of this, NetCDF is often called a *self-describing* data format and they are excellent for holding archived data, and they are the primary format preferred by the National Centers for Environmental Information (NCEI, formerly NODC).
 
-	NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
+NetCDF libraries are available for every common scientific programming language including Python, R, Matlab, ODV, Java, and more. Unidata maintains `a list of free software for manipulating or displaying NetCDF data <https://www.unidata.ucar.edu/software/>`_. A good, simple program to start exploring NetCDF data is Unidata's ncdump, which runs on the command line and can quickly output netCDF data to your screen as ASCII. Unidata's `Integrated Data Viewer <https://www.unidata.ucar.edu/software/idv/>`_ or NASA's `Panoply <https://www.giss.nasa.gov/tools/panoply/>`_ are free, relatively easy programs to use that will display gridded data, though they are not as straightforward to use as a scientific programming language.
+
 
 .. _map-overview:
 
@@ -385,7 +457,7 @@ Map Overview
 ############
 
 .. only:: ooi
-	The map interface provides interactive exploration of the OOI infrastructure. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column.
+	The map interface provides interactive exploration of the OOI infrastructure. The map is available at the Array, Platform, Node and Instrument levels to help orient users to the general locations of the instrumentation. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column. Refer to the :ref:'Map section. <map-how-tos>'
 
 .. only:: not ooi
 	The map interface provides interactive data exploration, mapping, and charting. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map.
@@ -395,9 +467,7 @@ Map Overview
 
 	Datasets listed in the catalog that can be viewed in the map are indicated by the globe icon |catalog_globe_icon|.
 
-.. only:: not ioos
-
-	Additionally, uou can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
+	Additionally, you can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
 For more details, please see the :ref:`View Layer Metadata <view-layer-metadata-how-to>` page.
 
@@ -411,67 +481,67 @@ The data map is built around a familiar interactive map interface, with several 
 
 |map_initial_view|
 
-.. _real-time-data-overview:
-
-**************
-Real-Time Data
-**************
-
-Real-time data are ingested, served, and displayed in the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams. For the purposes of this documentation, it's helpful to understand how the following real-time data terms are defined:
-
-.. csv-table::
-	:header: Term, Definition
-	:widths: 15, 50
-
-	**Hexagonal bin**, "A group of stations that are aggregated into a hexagon for visual summary."
-	**Station**, "A device that collects data related to the weather and environment using many different sensors (e.g. weather station)."
-	**Sensor**, "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
-	**Parameter**, "The type of value measured by the sensor (e.g. temperature, pressure)."
-
-Real-time data from observation stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the selected sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
-
-To view a summary of the station data contained within a hexagon, hover your mouse over the hexagon. The number of stations aggregated within that hexagon will be displayed as *n stations*. The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the *n more sensors* in the lower left of the window.
-
-To view data for an individual station, zoom in on the map. The hexagons will soften into points that represent the individual stations that were aggregated into that hexagon. To view current readings from that station, hover over its point. As shown in the image below, a pop-up window will display some basic information about the station, including its name, data source affilitation(s), latitude and longitude, current readings, and available sensor parameters (e.g., air temperature, water level, and water temperature as in the example below).
-
-|sensor_hover|
-
-To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the :ref:`Time Slider <time-slider-overview>` to adjust the time period of the data.
-
-|sensor_select|
-
-.. only:: not (ioos or ooi)
-
-	.. _near-real-time-data-overview:
-
-	*******************
-	Near-Real-Time Data
-	*******************
-
-	Near-real-time data are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
-
-	.. _model-and-satellite-data:
-
-	Model and Satellite Data
-	========================
-
-	Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
-
-	To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`Data Charts <data-charts-overview>` section of this document.
-
-	The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`Time Slider <time-slider-overview>` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
-
-	The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
-
-.. _historical-data-overview:
-
 .. only:: not ooi
 
-***************
-Historical Data
-***************
+	.. _real-time-data-overview:
 
-Historical data are data that are one month old or older. Historical data available through the portal were sometimes collected in real-time and subsequently archived; other historical data are ingested from local or national archives upon stakeholder request.
+	**************
+	Real-Time Data
+	**************
+
+	Real-time data are ingested, served, and displayed in the |title| at the same frequency the data are collected (and sometimes reported) by the originator with little to no delay. Examples of real-time assets include weather stations, oceanographic buoys, and webcams. For the purposes of this documentation, it's helpful to understand how the following real-time data terms are defined:
+
+	.. csv-table::
+		:header: Term, Definition
+		:widths: 15, 50
+
+		**Hexagonal bin**, "A group of stations that are aggregated into a hexagon for visual summary."
+		**Station**, "A device that collects data related to the weather and environment using many different sensors (e.g. weather station)."
+		**Sensor**, "An individual measurement device affixed or associated with a station (e.g. thermometer, barometer)."
+		**Parameter**, "The type of value measured by the sensor (e.g. temperature, pressure)."
+
+	Real-time data from observation stations are aggregated into hexagonal bins to visually summarize data over a large spatial area when the map is zoomed out. This means that data from more than one station may be displayed within a hexagon. The color of the hexagon represents the average value of the selected sensor parameter within that hexagon. For example, if air temperature is the selected sensor type, then the hexagon color will reflect the average temperature for all stations within that bin.
+
+	To view a summary of the station data contained within a hexagon, hover your mouse over the hexagon. The number of stations aggregated within that hexagon will be displayed as *n stations*. The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the *n more sensors* in the lower left of the window.
+
+	To view data for an individual station, zoom in on the map. The hexagons will soften into points that represent the individual stations that were aggregated into that hexagon. To view current readings from that station, hover over its point. As shown in the image below, a pop-up window will display some basic information about the station, including its name, data source affilitation(s), latitude and longitude, current readings, and available sensor parameters (e.g., air temperature, water level, and water temperature as in the example below).
+
+	|sensor_hover|
+
+	To view station data, click on the point. As shown in the image below, data from the station will appear in the data display window in the lower left corner of the window. You can use the dropdown menu in the data display window to select data from different sensors, and you can use the :ref:`Time Slider <time-slider-overview>` to adjust the time period of the data.
+
+	|sensor_select|
+
+	.. only:: not ioos
+
+		.. _near-real-time-data-overview:
+
+		*******************
+		Near-Real-Time Data
+		*******************
+
+		Near-real-time data are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
+
+		.. _model-and-satellite-data:
+
+		Model and Satellite Data
+		========================
+
+		Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
+
+		To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`Data Charts <data-charts-overview>` section of this document.
+
+		The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`Time Slider <time-slider-overview>` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
+
+		The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
+
+	.. _historical-data-overview:
+
+	***************
+	Historical Data
+	***************
+
+	Historical data are data that are one month old or older. Historical data available through the portal were sometimes collected in real-time and subsequently archived; other historical data are ingested from local or national archives upon stakeholder request.
 
 .. only:: axiom
 
@@ -515,228 +585,245 @@ Historical data are data that are one month old or older. Historical data availa
 
 .. only:: not ooi
 
-*************************
-Customize Data in the Map
-*************************
+	*************************
+	Customize Data in the Map
+	*************************
 
-You can view and interact with the data in a number of ways. As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. Additionally, you can click on a data point of interest to open a chart that summarizes the data. A time slider at the bottom of the map can be used to move back and forth through time for timeseries data. More information about these features is provided below.
+	You can view and interact with the data in a number of ways. As with other interactive maps, you can pan and zoom to adjust the view to your area of interest. Additionally, you can click on a data point of interest to open a chart that summarizes the data. A time slider at the bottom of the map can be used to move back and forth through time for timeseries data. More information about these features is provided below.
 
-Filter Data
-===========
+	Filter Data
+	===========
 
-In the map, your selected layers will appear in a legend on the right. The filters in the legend can be used to change the parameters on the map. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
+	In the map, your selected layers will appear in a legend on the right. The filters in the legend can be used to change the parameters on the map. You can select among the measurements that are available using the caret, or by toggling on/off the checkboxes. The exact filters or measurements available vary by the data layer being shown.
 
-Toggle Layers On/Off
-====================
+	Toggle Layers On/Off
+	====================
 
-Individual data layers can be toggled on and off using the``Eyeball`` icon to the right of the data layer name. To delete the data layer from the map, select the ``X`` icon.
+	Individual data layers can be toggled on and off using the``Eyeball`` icon to the right of the data layer name. To delete the data layer from the map, select the ``X`` icon.
 
-Change Layer Order
-==================
+	Change Layer Order
+	==================
 
-The order in which data layers appear in the map can be changed. By default, the data layer that appears at the top of the map legend will be displayed forward in the map. To move data layers backward in the map, select the ``Up/Down Arrow`` to the left of the data layer name.
+	The order in which data layers appear in the map can be changed. By default, the data layer that appears at the top of the map legend will be displayed forward in the map. To move data layers backward in the map, select the ``Up/Down Arrow`` to the left of the data layer name.
 
-Customize Color and Scale
-=========================
+	Customize Color and Scale
+	=========================
 
-The data layer legend on the right hand side shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ``Autoset for data view`` button.
+	The data layer legend on the right hand side shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the ``Autoset for data view`` button.
 
-For more details, please see the :ref:`Customize Layers <customize-layers-how-to>` page.
+	For more details, please see the :ref:`Customize Layers <customize-layers-how-to>` page.
 
-.. only:: not ioos
+	.. only:: not ioos
 
-	.. _search-and-add-layers-overview:
+		.. _search-and-add-layers-overview:
 
-	Search and Add Layers
-	=====================
+		Search and Add Layers
+		=====================
 
-	From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
+		From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
 
-	For more details, please see the :ref:`Add Layers <add-layers-how-to>` page.
+		For more details, please see the :ref:`Add Layers <add-layers-how-to>` page.
 
-.. _time-slider-overview:
+	.. _time-slider-overview:
 
-Time Slider
-===========
+	Time Slider
+	===========
 
-The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer.
+	The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer.
 
-.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legend beneath the data layer title.
+	.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legend beneath the data layer title.
 
-The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name of the data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map.
+	The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name of the data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map.
 
-.. _depth-filter-overview:
+	.. _depth-filter-overview:
 
-Depth Filter
-============
-
-The depth slider bar located in the bottom right of the map allows you to filter data across the water column. The depth intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any depth-enabled data layers loaded. By default, the depth slider is set to display all data across the water column.
-
-.. tip:: For quick reference, the depth range for data being viewed in the map is shown in the right-hand map legend beneath the time extent.
-
-For more details, please see the :ref:`Filter by Depth <filter-by-depth-how-to>` page.
-
-For other ways to filter data in the map, please see the :ref:`Filter Data <filter-data-how-to>` page.
-
-.. only:: not ioos
-
-	.. _polygon-tool-overview:
-
-	Polygon Tool
+	Depth Filter
 	============
 
-	To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
+	The depth slider bar located in the bottom right of the map allows you to filter data across the water column. The depth intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any depth-enabled data layers loaded. By default, the depth slider is set to display all data across the water column.
 
-	For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
+	.. tip:: For quick reference, the depth range for data being viewed in the map is shown in the right-hand map legend beneath the time extent.
 
-.. Instance State Saving
-.. =====================
+	For more details, please see the :ref:`Filter by Depth <filter-by-depth-how-to>` page.
 
-.. _data-charts-overview:
+	For other ways to filter data in the map, please see the :ref:`Filter Data <filter-data-how-to>` page.
 
-***********
-Data Charts
-***********
+	.. only:: not ioos
 
-The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
+		.. _polygon-tool-overview:
 
-For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
+		Polygon Tool
+		============
 
-.. _different-chart-types-overview:
+		To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
 
-Different Chart Types
-=====================
+		For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
 
-This section includes descriptions for the common charts used to display data in the portal. Data charts can be accessed both by clicking a point on a data layer in the map, or by using the custom Data Views interface.
+	.. Instance State Saving
+	.. =====================
 
-Categorical Variables
----------------------
+	.. _data-charts-overview:
 
-* **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
+	***********
+	Data Charts
+	***********
 
-Quantitative Variables
-----------------------
+	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
-* **Line charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals.
+	For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
-* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies.
+	.. _different-chart-types-overview:
 
-.. tip:: In the |title|, histogram charts can be created across custom areas of interest using the polygon tool.
+	Different Chart Types
+	=====================
 
-* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
+	This section includes descriptions for the common charts used to display data in the portal. Data charts can be accessed both by clicking a point on a data layer in the map, or by using the custom Data Views interface.
 
-* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
+	Categorical Variables
+	---------------------
 
-* **Curtain plots:** show a visual summary of vertical profiling data. f data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
+	* **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
 
-For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
+	Quantitative Variables
+	----------------------
 
-.. Summary Statistics
-.. ==================
+	* **Line charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals.
 
-.. _climatology-and-anomaly-charts:
+	* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies.
 
-Climatology and Anomaly Charts
-==============================
+	.. tip:: In the |title|, histogram charts can be created across custom areas of interest using the polygon tool.
 
-If there are more than three years of data coverage for stations or gridded data, charts on the portal show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year fits into the data that's available at a station.
+	* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
 
-Observational Statistics
-------------------------
+	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
 
-By default, if there are too many observations to easily show on the time-series, the observations binned by default for display. Graphs may show the following:
+	* **Curtain plots:** show a visual summary of vertical profiling data. f data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
 
-	* **Mean**: The mean line represents the average value of all observations within each time bin.
+	For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
 
-	* **Min/max envelope**: The envelope represents the extent of observations within each time bin.
+	.. Summary Statistics
+	.. ==================
 
-Interannual Statistics
-----------------------
+	.. _climatology-and-anomaly-charts:
 
-Interannual statistics are calculated on physical time-series where available data coverage in the system is longer than three years. Statistics are derived for days, weeks, months, seasons, and years based on the Gregorian calendar by:
+	Climatology and Anomaly Charts
+	==============================
 
-#. binning the observations into the selected time periods,
-#. combining the time bins across years (e.g, for daily bins, combining all data from April 13th regardless of year; for monthly bins, combine all data from all Aprils), and
-#. calculating statistics for each interannual time bin.
+	If there are more than three years of data coverage, charts show statistics from past weather patterns along with the current data. These are not officially climatologies, which typically require 30 years of data, but they can still be useful to quickly compare how the current year compares to the long-term average.
 
-For interannual statistics, we calculate the following:
+	Observational Statistics
+	------------------------
 
-	* **Mean**: The mean represents the average value of all observations within each time bin, across all recorded years.
+	By default, if there are too many observations to easily show on the time-series, the observations binned by default for display. Graphs may show the following:
 
-	* **Low**: The low represents the minimum value of all observations within each time bin, across all recorded years.
+		* **Mean**: The mean line represents the average value of all observations within each time bin.
 
-	* **High**: The high represents the maximum value of all observations within each time bin, across years.
+		* **Min/max envelope**: The envelope represents the extent of observations within each time bin.
 
-	* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
+	Interannual Statistics
+	----------------------
 
-Anomaly plots
--------------
+	Interannual statistics are calculated on physical time-series where available data coverage in the system is longer than three years. Statistics are derived for days, weeks, months, seasons, and years based on the Gregorian calendar by:
 
-Anomalies are available wherever interannual statistics are available (i.e., in all time-series where available data coverage in the system is longer than three years, but are only available on data binned on days or more).
+	#. binning the observations into the selected time periods,
+	#. combining the time bins across years (e.g, for daily bins, combining all data from April 13th regardless of year; for monthly bins, combine all data from all Aprils), and
+	#. calculating statistics for each interannual time bin.
 
-Anomalies are calculated by calculating the mean value of the observational bin and subtracting the interannual statistical bin for that time period. For example, the daily anomaly for April 13th, 2016 is calculated by taking the average temperature for that day minus the mean interannual April 13th temperature.
+	For interannual statistics, we calculate the following:
 
-.. Query & Save Vector Layer for Comparison
-.. ========================================
+		* **Mean**: The mean represents the average value of all observations within each time bin, across all recorded years.
 
-.. _customize-data-charts-overview:
+		* **Low**: The low represents the minimum value of all observations within each time bin, across all recorded years.
 
-Customize Data Charts
-=====================
+		* **High**: The high represents the maximum value of all observations within each time bin, across years.
 
-The table below contains a key to several of the important terms used in describing the |title|'s chart in capabilities:
+		* **Mean to 10%, Mean to 90%**: Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array (i.e., the shaded percentile region relays what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end of the distribution).
 
-.. csv-table::
-	:header: Term, Description
-	:widths: 15, 50
+	Anomaly Plots
+	-------------
 
-	**Minimum**, "The minimum value of the entire time-series within each bin, represented by a dashed blue line."
-	**Mean to the 10th percentile**, "The range from the mean to the 10th percentile of the data is represented by a blue shaded area."
-	**Mean**, "The mean of the entire time-series within each bin, represented by a dashed gray line."
-	**Mean to the 90th percentile**, "The range from the mean to the 90th percentile of the data is represented by a red shaded area."
-	**Maximum**, "The maximum value of the entire time-series within each bin is represented by a dashed red line."
-	**Line chart**, "A chart of the current values with historical statistics."
-	**Climatology**, "Year-to-date monthly mean values of the current year compared to historical statistics."
-	**Anomaly**, "The data values minus the mean values across all years."
-	**Curtain**, "If data is available at depth, the chart will show depth on the y-axis with the values represented by colors."
+	Anomalies are available wherever interannual statistics are available (i.e., in all time-series where available data coverage in the system is longer than three years, but are only available on data binned on days or more).
 
-Time bins
----------
+	Anomalies are calculated by calculating the mean value of the observational bin and subtracting the interannual statistical bin for that time period. For example, the daily anomaly for April 13th, 2016 is calculated by taking the average temperature for that day minus the mean interannual April 13th temperature.
 
-Data can be binned across years within the following time periods:
+	.. Query & Save Vector Layer for Comparison
+	.. ========================================
 
-.. csv-table::
-	:header: Time period, Definition
-	:widths: 15, 50
+	.. _customize-data-charts-overview:
 
-	**All**, "No binning."
-	**Days**, "Data are binned by day and statistics are by day number across years."
-	**Weeks**, "Data are binned by week, and statistics are by week number across years."
-	**Months**, "Data are binned by month, and statistics are by month number across years."
-	**Seasons**, "Data are binned by northern hemisphere seasons defined as the following:
+	Customize Data Charts
+	=====================
 
-	* *Winter*: December, January, February
-	* *Spring*: March, April, May
-	* *Summer*: June, July, August
-	* *Fall*: September, October, November"
-	**Years**, "Data are binned by years, and statistics are across years."
+	The table below contains a key to several of the important terms used in describing the |title|'s chart capabilities:
 
-.. note::
-	Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
+	.. csv-table::
+		:header: Term, Description
+		:widths: 15, 50
 
-.. _download-data-map-overview:
+		**Minimum**, "The minimum value of the entire time-series within each bin, represented by a dashed blue line."
+		**Mean to the 10th percentile**, "The range from the mean to the 10th percentile of the data is represented by a blue shaded area."
+		**Mean**, "The mean of the entire time-series within each bin, represented by a dashed gray line."
+		**Mean to the 90th percentile**, "The range from the mean to the 90th percentile of the data is represented by a red shaded area."
+		**Maximum**, "The maximum value of the entire time-series within each bin is represented by a dashed red line."
+		**Line chart**, "A chart of the current values with historical statistics."
+		**Climatology**, "Year-to-date monthly mean values of the current year compared to historical statistics."
+		**Anomaly**, "The data values minus the mean values across all years."
+		**Curtain**, "If data is available at depth, the chart will show depth on the y-axis with the values represented by colors."
 
-*************
-Download Data
-*************
+	Time Bins
+	---------
 
-.. only:: not ioos
+	Data can be binned across years within the following time periods:
 
-	Data may be downloaded through the data catalog, as described in the :ref:`Download Data <download-data-catalog-overview>` section.
+	.. csv-table::
+		:header: Time period, Definition
+		:widths: 15, 50
 
-.. only:: ioos
+		**All**, "No binning."
+		**Hours**, "Data are binned by hour and daily statistic are displayed (see below)."
+		**Days**, "Data are binned by day and statistics are by day number across years."
+		**Weeks**, "Data are binned by week, and statistics are by week number across years."
+		**Months**, "Data are binned by month, and statistics are by month number across years."
+		**Seasons**, "Data are binned by northern hemisphere seasons defined as the following:
 
-	Data may be downloaded as described in the :ref:`Download Data <download-data-how-to>` how-to page.
+		* *Winter*: December, January, February
+		* *Spring*: March, April, May
+		* *Summer*: June, July, August
+		* *Fall*: September, October, November"
+		**Years**, "Data are binned by years, and statistics are across years."
+
+	.. note::
+		Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
+
+	For more information on how to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
+
+	.. _qartod_overview:
+
+	************************
+	Quality Control (QARTOD)
+	************************
+	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) :ref:'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>' maintained through the :ref:'IOOS QC library.<https://github.com/ioos/ioos_qc>' The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
+
+	Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
+
+	|qartod_inventory|
+
+	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to Quality Control (QARTOD) section for interacting with data quality flags.
+	|qartod_data_flags|
+
+	.. _download-data-map-overview:
+
+	*************
+	Download Data
+	*************
+
+	.. only:: not ioos
+
+		Data may be downloaded through the data catalog, as described in the :ref:`Download Data <download-data-catalog-overview>` section.
+
+	.. only:: ioos
+
+		Data may be downloaded as described in the :ref:`Download Data <download-data-how-to>` how-to page.
 
 .. _data-views-overview:
 
@@ -744,7 +831,7 @@ Download Data
 Data Views Overview
 ###################
 
-You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called *data views*, and they are accessed by clicking on the views button |views_button_icon| near the top right corner of the blue toolbar along the top of the window.
+You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called *data views*, and they are accessed by clicking on the views button |views_button_icon| in the toolbar along the top of the window.
 
 Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
 
@@ -753,7 +840,7 @@ The  view will open, displaying data comparison charts for you to explore. In th
 |data_view|
 
 .. note::
-	If you need assistance creating a particular view, please contact us via the red feedback button |feedback_button_icon| in the top right corner of the blue toolbar.
+	If you need assistance creating a particular view, please contact us via the feedback button |feedback_button_icon| in the top right corner of the upper toolbar.
 
 For more details, please see the Data Views section of the :ref:`data-views-how-tos` How-To page.
 

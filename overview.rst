@@ -254,7 +254,7 @@ Catalog Overview
 	************************
 	Quality Control (QARTOD)
 	************************
-	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) 'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>' maintained through the'IOOS QC library.<https://github.com/ioos/ioos_qc>' The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
+	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) 'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>'_ maintained through the'IOOS QC library.<https://github.com/ioos/ioos_qc>'_ The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
 	Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
 	
@@ -270,7 +270,7 @@ Catalog Overview
 	********
 	Metadata
 	********
-	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the :ref:'OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>', which is available under Downloads. Refer to :ref:'Metadata section <view-layer-metadata-how-to>' for more.
+	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the 'OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>'_, which is available under Downloads. Refer to :ref:'Metadata section <view-layer-metadata-how-to>'_ for more.
 	More Information
 	================
 	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
@@ -282,7 +282,7 @@ Catalog Overview
 	***********
 	Deployments
 	***********
-	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments section <how-to-data-charts-deployments>' for more.
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments section <how-to-data-charts-deployments>'_ for more.
 	
 .. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 

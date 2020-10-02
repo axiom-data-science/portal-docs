@@ -19,3 +19,95 @@
 .. GIFS
 
 .. |add_new_view_gif| image:: /partner_content/ooi/images/add_new_view_gif_ooi.gif
+
+.. |ooi_gif_01| image:: /partner_content/ooi/images/ooi_gif_01.gif
+
+.. |ooi_gif_02| image:: /partner_content/ooi/images/ooi_gif_02.gif
+
+.. |ooi_gif_03| image:: /partner_content/ooi/images/ooi_gif_03.gif
+
+.. |ooi_gif_04| image:: /partner_content/ooi/images/ooi_gif_04.gif
+
+.. |ooi_gif_05| image:: /partner_content/ooi/images/ooi_gif_05.gif
+
+.. |ooi_gif_06| image:: /partner_content/ooi/images/ooi_gif_06.gif
+
+.. |ooi_gif_07| image:: /partner_content/ooi/images/ooi_gif_07.gif
+
+.. |ooi_gif_08| image:: /partner_content/ooi/images/ooi_gif_08.gif
+
+.. |ooi_gif_09| image:: /partner_content/ooi/images/ooi_gif_09.gif
+
+.. |ooi_gif_10| image:: /partner_content/ooi/images/ooi_gif_10.gif
+
+.. |ooi_gif_12| image:: /partner_content/ooi/images/ooi_gif_12.gif
+
+.. |ooi_gif_13| image:: /partner_content/ooi/images/ooi_gif_13.gif
+
+.. |ooi_gif_14| image:: /partner_content/ooi/images/ooi_gif_14.gif
+
+.. |ooi_gif_15| image:: /partner_content/ooi/images/ooi_gif_15.gif
+
+.. |ooi_gif_16| image:: /partner_content/ooi/images/ooi_gif_16.gif
+
+.. |ooi_gif_17| image:: /partner_content/ooi/images/ooi_gif_17.gif
+
+.. |ooi_gif_18| image:: /partner_content/ooi/images/ooi_gif_18.gif
+
+.. |ooi_gif_19| image:: /partner_content/ooi/images/ooi_gif_19.gif
+
+.. |ooi_gif_20| image:: /partner_content/ooi/images/ooi_gif_20.gif
+
+.. |ooi_gif_21| image:: /partner_content/ooi/images/ooi_gif_21.gif
+
+.. |ooi_gif_22| image:: /partner_content/ooi/images/ooi_gif_22.gif
+
+.. |ooi_gif_23| image:: /partner_content/ooi/images/ooi_gif_23.gif
+
+.. |ooi_gif_24| image:: /partner_content/ooi/images/ooi_gif_24.gif
+
+.. |ooi_gif_25| image:: /partner_content/ooi/images/ooi_gif_25.gif
+
+.. |ooi_gif_26| image:: /partner_content/ooi/images/ooi_gif_26.gif
+
+.. |ooi_gif_27| image:: /partner_content/ooi/images/ooi_gif_27.gif
+
+.. |ooi_gif_29| image:: /partner_content/ooi/images/ooi_gif_29.gif
+
+.. |ooi_gif_30| image:: /partner_content/ooi/images/ooi_gif_30.gif
+
+.. |ooi_gif_31| image:: /partner_content/ooi/images/ooi_gif_31.gif
+
+.. |ooi_gif_32| image:: /partner_content/ooi/images/ooi_gif_32.gif
+
+.. |ooi_gif_33| image:: /partner_content/ooi/images/ooi_gif_33.gif
+
+.. |ooi_gif_34| image:: /partner_content/ooi/images/ooi_gif_34.gif
+
+.. |ooi_gif_35| image:: /partner_content/ooi/images/ooi_gif_35.gif
+
+.. |ooi_gif_36| image:: /partner_content/ooi/images/ooi_gif_36.gif
+
+.. |ooi_gif_37| image:: /partner_content/ooi/images/ooi_gif_37.gif
+
+.. |ooi_gif_38| image:: /partner_content/ooi/images/ooi_gif_38.gif
+
+.. |ooi_gif_39| image:: /partner_content/ooi/images/ooi_gif_39.gif
+
+.. |ooi_gif_40| image:: /partner_content/ooi/images/ooi_gif_40.gif
+
+.. |ooi_gif_41| image:: /partner_content/ooi/images/ooi_gif_41.gif
+
+.. |ooi_gif_42| image:: /partner_content/ooi/images/ooi_gif_42.gif
+
+.. |ooi_gif_43| image:: /partner_content/ooi/images/ooi_gif_43.gif
+
+.. |ooi_gif_44| image:: /partner_content/ooi/images/ooi_gif_44.gif
+
+.. |ooi_gif_45| image:: /partner_content/ooi/images/ooi_gif_45.gif
+
+.. |ooi_gif_46| image:: /partner_content/ooi/images/ooi_gif_46.gif
+
+.. |ooi_gif_47| image:: /partner_content/ooi/images/ooi_gif_47.gif
+
+.. |ooi_gif_48| image:: /partner_content/ooi/images/ooi_gif_48.gif

@@ -15,6 +15,8 @@ To begin exploring data, try these steps:
         
 |how_to_search_catalog_gif|
       
+.. _navigate-the-catalog:
+
 Navigate the Catalog
 ====================
      
@@ -31,7 +33,8 @@ Browse by Instrument Category
                
     |how_to_search_instrument_avialable_gif|
          
-  .. _advanced_search_filters:
+
+.. _advanced_search_filters:
       
 Advanced Search Filters
 =======================

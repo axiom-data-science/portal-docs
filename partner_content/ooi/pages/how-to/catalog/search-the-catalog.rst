@@ -56,6 +56,7 @@ Advanced Search Filters
         |advanced_search_details_gif|
             
         #. To interact with individual datasets, click on the parameter name to expand the data chart. For more information see the :ref:`Data Charts <data-charts>` section.
+        
         |advanced_search_data_chart_gif|
            
 

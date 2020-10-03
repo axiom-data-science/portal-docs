@@ -74,12 +74,12 @@ If you have a question not answered by this documentation, please contact us via
 	overview
 
 .. toctree::
-	 :hidden:
-	 :caption: How-to
-	 :glob:
+	:hidden:
+	:caption: How-to
+	:glob:
 
-	 how-to/**/index
-	 partner_content/**/
+	how-to/**/index
+	partner_content/**/
 
 ..   how-to/catalog/index
 

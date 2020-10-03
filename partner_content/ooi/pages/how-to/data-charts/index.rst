@@ -14,16 +14,6 @@ The pages below contain detailed instructions for using the |title|'s data shart
    customize-data-charts
    data-charts-time-slider
    data-charts-QARTOD
-   data-inventory
+   data-charts-data-inventory
    data-charts-annotations
    data-charts-deployments
-   data-charts-metadata
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Download Data
-
-   data-charts-download-data
-   data-charts-queue-multiple-files
-   data-charts-downloads-by-deployment

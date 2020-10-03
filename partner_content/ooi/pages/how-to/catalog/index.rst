@@ -11,15 +11,6 @@ The pages below contain detailed instructions for using the |title|'s data catal
    :caption: Searching
 
    search-catalog
-   search-project-data
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Downloading
-
-   download-netcdf-subset
-   download-using-opendap
-   download-using-wms
-   download-virtual-sensor-data
-   download-queried-data
-   download-historical-sensor-data
+   navigate-the-catalog
+   advanced-search-filters
+   advanced-all-data-search

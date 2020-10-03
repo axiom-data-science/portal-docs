@@ -71,7 +71,7 @@ If you have a question not answered by this documentation, please contact us via
 	:hidden:
 	:caption: Overview
 
-	 overview
+	overview
 
 .. toctree::
 	 :hidden:

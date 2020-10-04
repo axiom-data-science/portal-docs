@@ -63,13 +63,15 @@ Catalog Overview
 	Additionally, there are two historical arrays in the Southern Ocean. 
 	
 	* **Global Southern Ocean Array** was located in the southwest of Chile was in place from February 2015-January 2020, when it was removed. Data from this array remain available for research.
-	* **The Global Argentine Basin Array** was located in the South Atlantic was in place from March 2015 – January 2018, when it was removed. Data from this array remain available for research.
+	* **Global Argentine Basin Array** was located in the South Atlantic was in place from March 2015 – January 2018, when it was removed. Data from this array remain available for research.
 	
-	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. ` For further information about the arrays, click here. <https://oceanobservatories.org/research-arrays/>`_
+	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. For further information about the arrays, click [here](https://oceanobservatories.org/research-arrays/).
 	
 	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
-	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. `For further information about the OOI infrastructure, click here.<https://oceanobservatories.org/ooi-infrastructure/>`_
-	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. `For further information about OOI instruments, click here. <https://oceanobservatories.org/instruments/>`
+
+	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. For further information about the OOI infrastructure, click [here](https://oceanobservatories.org/ooi-infrastructure/).
+
+	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. For further information about OOI instruments, click [here](https://oceanobservatories.org/instruments/).
 
 	*********
 	Interface
@@ -80,16 +82,19 @@ Catalog Overview
 	Within the catalog, you can browse or search all OOI instrument data organized by array, platform, node, instrument, or sensor parameter.By default, the data layers are shown in alphabetical order. 
 	The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
 	
-	* Browse datasets by category (array, platform, node, glider, instrument, or parameter) in the upper left. 
+	* Browse datasets by category (array, platform, node, glider, instrument, or parameter) in the upper tabs. 
 	* Filter by cascading result type in the column on the left.
-	* A gridded display of data charts that match your search criteria in the center of the page.
+	* View data charts in a grid display that match your search criteria in the center of the page.
 
 	.. _ooi_terms_defined:
 
 	********************
 	Common Terms Defined
 	********************
-	.. list-table:: Common Term Definitions
+	.. list-table:: 
+	
+	Common terms used to describe datasets are defined in the below table.
+	
 		:widths: 25 75
 		:header-rows: 1
 		
@@ -115,13 +120,13 @@ Catalog Overview
 	***********
 	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
-	For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
+	For assistance, please contact us via the Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
 	.. _different-chart-types-overview:
 	
-	Gridded Data Display
+	Data Grid Display
 	====================
-	The results that match your search criteria will be shown as a gridded display of data charts in the center of the page.
+	The results that match your search criteria will be shown as in a gridded display of data charts in the center of the page.
 	
 	There are many options for interacting with the data in this display:
 	
@@ -133,9 +138,11 @@ Catalog Overview
 	Different Chart Types
 	=====================
 	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart , or by using the custom Data Views interface.
+	
 	Categorical Variables
 	---------------------
 	* **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
+	
 	Quantitative Variables
 	----------------------
 	* **Line Charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals.
@@ -143,6 +150,7 @@ Catalog Overview
 	* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
 	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
 	* **Curtain plots:** show a visual summary of vertical profiling data. If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
+	
 	For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
 	
 	.. _climatology-and-anomaly-charts:

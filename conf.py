@@ -119,7 +119,7 @@ def setup(app):
                 app.config.exclude_patterns.append('partner_content/%s/pages' % contentdir)
 
         #exclude catalog how-to pages from ioos build toc
-        if portal == 'ioos':
+        if portal == 'ioos' or portal == 'ooi':
             app.config.exclude_patterns.append('how-to/catalog')
             app.config.exclude_patterns.append('how-to/map/map-add-layers.rst')
             app.config.exclude_patterns.append('how-to/map/view-historical-gridded-data.rst')

@@ -10,25 +10,27 @@ Welcome to the help site for the |brand| |title|!
 
 The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data.
 
-.. only:: ioos
+.. only:: not ooi
 
-	The |title| integrates regional, national, and global real-time (past 4-hours) data across the IOOS enterprise. Data from observing systems operated by IOOS Regional Associations and local data providers within these regional footprints can be viewed and downloaded through this map.
+	.. only:: ioos
 
-.. only:: not ioos
+		The |title| integrates regional, national, and global real-time (past 4-hours) data across the IOOS enterprise. Data from observing systems operated by IOOS Regional Associations and local data providers within these regional footprints can be viewed and downloaded through this map.
 
-	The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+	.. only:: not ioos
 
-	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
+		The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
 
-	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats. 
+		Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
 
-.. only:: mbon
+		Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats. 
 
-	For information about how to contribute biological data to the |title|, visit https://ioos.github.io/mbon-docs/.
+	.. only:: mbon
 
-.. only:: atn
+		For information about how to contribute biological data to the |title|, visit https://ioos.github.io/mbon-docs/.
 
-	For information about how to contribute data to the |title|, visit https://atn.ioos.us/help/.
+	.. only:: atn
+
+		For information about how to contribute data to the |title|, visit https://atn.ioos.us/help/.
 
 .. only:: ooi
 	

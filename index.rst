@@ -79,7 +79,7 @@ If you have a question not answered by this documentation, please contact us via
 	:glob:
 
 	how-to/**/index
-	partner_content/**/
+	partner_content/**/index
 
 ..   how-to/catalog/index
 

@@ -10,16 +10,16 @@ The deployment time ranges are shown graphically and in a tabular view for explo
     
 |data_charts_deployment_level_gif|
 
-    #. Individual deployment files are available in the tabular view for sorting.
+    2. Individual deployment files are available in the tabular view for sorting.
     
 |data_charts_deployment_individual_sort_gif|
 
-    #. Files can be downloaded individually or bundled in the download queue. Refer to the :ref:`Queue Multiple Files <data-charts-queue-multiple-files>` for Download section.
+    3. Files can be downloaded individually or bundled in the download queue. Refer to the :ref:`Queue Multiple Files for Download <download-queue-multiple-files>`_ section.
 
-    #. At the parameter level, deployment time ranges and text summaries are shown graphically alongside the data chart.
+    4. At the parameter level, deployment time ranges and text summaries are shown graphically alongside the data chart.
     
 |data_charts_deployment_parameter_level_gif|
     
-    #. Deployment field are available in the tabular view under #Annotations list# for sorting or download. In addition, the deployment log and associated annotations can be downloaded in tabular format.
+    5. Deployment field are available in the tabular view under ``Annotations list`` for sorting or download. In addition, the deployment log and associated annotations can be downloaded in tabular format.
     
 |data_charts_deployment_tabular_view_gif|

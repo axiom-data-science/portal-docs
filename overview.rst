@@ -63,13 +63,15 @@ Catalog Overview
 	Additionally, there are two historical arrays in the Southern Ocean. 
 	
 	* **Global Southern Ocean Array** was located in the southwest of Chile was in place from February 2015-January 2020, when it was removed. Data from this array remain available for research.
-	* **The Global Argentine Basin Array** was located in the South Atlantic was in place from March 2015 – January 2018, when it was removed. Data from this array remain available for research.
+	* **Global Argentine Basin Array** was located in the South Atlantic was in place from March 2015 – January 2018, when it was removed. Data from this array remain available for research.
 	
-	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. ` For further information about the arrays, click here. <https://oceanobservatories.org/research-arrays/>`_
+	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. For further information about the arrays, click `here <https://oceanobservatories.org/research-arrays/>`_.
 	
 	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
-	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. `For further information about the OOI infrastructure, click here.<https://oceanobservatories.org/ooi-infrastructure/>`_
-	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. `For further information about OOI instruments, click here. <https://oceanobservatories.org/instruments/>`
+
+	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. For further information about the OOI infrastructure, click `here <https://oceanobservatories.org/ooi-infrastructure/>`_.
+
+	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. For further information about OOI instruments, click `here <https://oceanobservatories.org/instruments/>`_.
 
 	*********
 	Interface
@@ -80,16 +82,18 @@ Catalog Overview
 	Within the catalog, you can browse or search all OOI instrument data organized by array, platform, node, instrument, or sensor parameter.By default, the data layers are shown in alphabetical order. 
 	The data catalog is built around a familiar search interface, with several important elements arranged around the screen:
 	
-	* Browse datasets by category (array, platform, node, glider, instrument, or parameter) in the upper left. 
+	* Browse datasets by category (array, platform, node, glider, instrument, or parameter) in the upper tabs. 
 	* Filter by cascading result type in the column on the left.
-	* A gridded display of data charts that match your search criteria in the center of the page.
+	* View data charts in a grid display that match your search criteria in the center of the page.
 
 	.. _ooi_terms_defined:
 
 	********************
 	Common Terms Defined
 	********************
-	.. list-table:: Common Term Definitions
+	Common terms used to describe datasets are defined in the below table. More information about these terms can be found in the `OOI Glossary <https://oceanobservatories.org/glossary/>`_.
+	
+	.. list-table:: 
 		:widths: 25 75
 		:header-rows: 1
 		
@@ -115,27 +119,28 @@ Catalog Overview
 	***********
 	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
-	For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
 	.. _different-chart-types-overview:
 	
-	Gridded Data Display
+	Data Grid Display
 	====================
-	The results that match your search criteria will be shown as a gridded display of data charts in the center of the page.
+	The results that match your search criteria will be shown as in a gridded display of data charts in the center of the page.
 	
 	There are many options for interacting with the data in this display:
 	
-		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to Advanced Search Filters section.
-		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to Metadata and Download section.
-		* Download one or more datasets using the green Download button. Refer to Download section.
-		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to Customize Data Charts.
+		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to :ref:`Advanced Search Filters <advanced search filters>`.
+		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to :ref:`Metadata <how-to-metadata>`and :ref:`Downloading <download-how-tos>`.
+		* Download one or more datasets using the green Download button. Refer to :ref:`Downloading <download-how-tos>`.
+		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to :ref:`Customize Data Charts <search-project-data>`.
 	
 	Different Chart Types
 	=====================
-	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart , or by using the custom Data Views interface.
+	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart, or by using the custom Data Views interface.
+	
 	Categorical Variables
 	---------------------
 	* **Bar charts:** compare the size or frequency of different categories. Since the values of a categorical variable are labels for the categories, the distribution of a categorical variable gives either the count or the percent of individuals falling into each category.
+	
 	Quantitative Variables
 	----------------------
 	* **Line Charts:** display points connecting the data to show a continuous change over time. In the map, the line chart shows the current values together with historical statistics. The x-axis shows the occurrences and the categories being compared over time and the y-axis represents the scale, which is a set of numbers organized into equal intervals.
@@ -143,7 +148,8 @@ Catalog Overview
 	* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
 	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
 	* **Curtain plots:** show a visual summary of vertical profiling data. If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
-	For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
+	
+	For more details, please see the :ref:`Customize Data Charts <customize-data-charts>` page.
 	
 	.. _climatology-and-anomaly-charts:
 
@@ -236,7 +242,7 @@ Catalog Overview
 	.. note::
 		Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
 
-	For more information on hot to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
+	For more information on how to customize charts, refer to the :ref:`Customize Data Charts <customize-data-charts>` section.
 	
 	.. _data-products-overview:
 	
@@ -244,24 +250,23 @@ Catalog Overview
 	Data Products
 	*************
 	Through the Data Explorer, data products are processed at various levels for download and visual exploration.
-	Data Product Levels:
-	* Instrument deployment (Level 1): Unprocessed, parsed data parameter that is in instrument/sensor units and resolution. A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.There are multiple deployment files per instrument. Refer to Deployments section.
-	* Full-instrument time series (Level 1+): This time series is created by joining recovered and telemetered streams for non-cabled instrument deployments (see example illustration below). For high-resolution cabled and recovered data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads for users that do not need the full-resolution, goldy copy time series. **This is the primary product for visualization within the Data Explorer.**
-	* Full-resolution, gold copy time series (Level 2):  This time series represents the full-resolution dataset that has been calibrated and is in scientific units. The gold copy version has been processed, pre-built, and served to the Data Explorer and end users in a series of ‘gold copy’ netCDF files for each instrument. There is one gold copy file for every instrument, stream, and deployment. Users have access to these ‘gold copy’ netCDF files via THREDDS and ERDDAP. Refer to :ref:'Data Download Section <download-data-map-overview>'
+	
+	* **Instrument deployment (Level 1)**: Unprocessed, parsed data parameter that is in instrument/sensor units and resolution. A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.There are multiple deployment files per instrument. Refer to Deployments section.
+
+	* **Full-instrument time series (Level 1+)**: This time series is created by joining recovered and telemetered streams for non-cabled instrument deployments (see example illustration below). For high-resolution cabled and recovered data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads for users that do not need the full-resolution, goldy copy time series. **This is the primary product for visualization within the Data Explorer.**
+
+	* **Full-resolution, gold copy time series (Level 2)**:  This time series represents the full-resolution dataset that has been calibrated and is in scientific units. The gold copy version has been processed, pre-built, and served to the Data Explorer and end users in a series of ‘gold copy’ netCDF files for each instrument. There is one gold copy file for every instrument, stream, and deployment. Users have access to these ‘gold copy’ netCDF files via THREDDS and ERDDAP. Refer to :ref:'Data Download Section <download-data-map-overview>'
 	
 	.. _qartod-overview:
 	
 	************************
 	Quality Control (QARTOD)
 	************************
-	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) 'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>'_ maintained through the'IOOS QC library.<https://github.com/ioos/ioos_qc>'_ The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
+	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) `Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the `IOOS QC library <https://github.com/ioos/ioos_qc/>`_.The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
-	Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
+	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`_.
 	
-	|qartod_inventory|
-	
-	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to Quality Control (QARTOD) section for interacting with data quality flags.
-	|qartod_data_flags|
+	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <data-charts-qartod>`_ for interacting with data quality flags.
 	
 	.. this is a comment: The follow metadata section is specific to OOI
 	
@@ -270,19 +275,20 @@ Catalog Overview
 	********
 	Metadata
 	********
-	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the 'OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>'_, which is available under Downloads. Refer to :ref:'Metadata section <view-layer-metadata-how-to>'_ for more.
+	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the `OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>`_, which is available under Downloads. Refer to :ref:`Metadata section <_how-to-metadata>'_ for more.
+	
 	More Information
 	================
-	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
+	In addition to metadata, contextual information about the instrumentation may be found under the ``More Information`` tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
 	
 	Annotations
 	===========
-	Annotations are the primary means of communication between the instrument data team (aka ‘data provider’) and end users. Annotations are entered alongside the data by the data provider. Annotations for the instrument are available at the node, instrument, and data stream levels. Annotation time ranges and text summaries are shown in the data charts. In addition, annotation text appears under #Annotations# in the center toolbar, where they can be downloaded as a CSV file. Refer to :ref:' Annotations section <annotate-and-reorder-data-view-charts>' for more.
+	Annotations are the primary means of communication between the instrument data team (aka ‘data provider’) and end users. Annotations are entered alongside the data by the data provider. Annotations for the instrument are available at the node, instrument, and data stream levels. Annotation time ranges and text summaries are shown in the data charts. In addition, annotation text appears under ``Annotations`` in the center toolbar, where they can be downloaded as a CSV file. Refer to :ref:'Annotations section <_data-charts-annotations>' for more.
 	
 	***********
 	Deployments
 	***********
-	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments section <how-to-data-charts-deployments>'_ for more.
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments <_how-to-data-charts-deployments>'_ for more.
 	
 .. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 
@@ -390,13 +396,11 @@ The NetCDF Subset protocol looks through all the datasets NetCDF files stored on
 .. tip::
 	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if the dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
-For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
-
 
 ERDDAP
 ------
 
-	The ERDDAP (National Ocean and Atmospheric Administration’s Environmental Research Division’s Data Access Program) Server is a free and open-source Java “servlet” that converts and serves a variety of scientific datasets using common file formats. ERDDAP gives you a simple, consistent way to download subsets of datasets in common file formats, in addition to making graphs and maps. All information about every ERDAPP request is contained in the URL of each request, which makes it easy to automate searching for and using data in other applications. Proficient users can build their own custom interfaces. Many organizations (including NOAA, NASA, and USGS) run ERDDAP servers to serve their data. Because of its widespread use and accessibility, the ERDDAP principal developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users. For more details, please see the Download Using ERDDAP page.
+	The ERDDAP (National Ocean and Atmospheric Administration’s Environmental Research Division’s Data Access Program) Server is a free and open-source Java “servlet” that converts and serves a variety of scientific datasets using common file formats. ERDDAP gives you a simple, consistent way to download subsets of datasets in common file formats, in addition to making graphs and maps. All information about every ERDAPP request is contained in the URL of each request, which makes it easy to automate searching for and using data in other applications. Proficient users can build their own custom interfaces. Many organizations (including NOAA, NASA, and USGS) run ERDDAP servers to serve their data. Because of its widespread use and accessibility, the ERDDAP principal developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users. 
 
 .. only:: not ooi
 

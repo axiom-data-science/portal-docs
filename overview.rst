@@ -91,7 +91,7 @@ Catalog Overview
 	********************
 	Common Terms Defined
 	********************
-	Common terms used to describe datasets are defined in the below table.
+	Common terms used to describe datasets are defined in the below table. More information about these terms can be found in the `OOI Glossary <https://oceanobservatories.org/glossary/>`_.
 	
 	.. list-table:: 
 		:widths: 25 75
@@ -119,7 +119,6 @@ Catalog Overview
 	***********
 	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
-	For assistance, please contact us via the Feedback button |feedback_button_icon| in the top right corner of the toolbar.
 
 	.. _different-chart-types-overview:
 	
@@ -129,14 +128,14 @@ Catalog Overview
 	
 	There are many options for interacting with the data in this display:
 	
-		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to Advanced Search Filters section.
-		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to Metadata and Download section.
-		* Download one or more datasets using the green Download button. Refer to Download section.
-		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to Customize Data Charts.
+		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to :ref:`Advanced Search Filters <advanced-search-filters>`.
+		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to :ref:`Metadata <metadata>`and ref:`Downloading <downloading>`.
+		* Download one or more datasets using the green Download button. Refer to ref:`Downloading <downloading>`.
+		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to ref:`Customize Data Charts <customize-data-charts>`.
 	
 	Different Chart Types
 	=====================
-	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart , or by using the custom Data Views interface.
+	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart, or by using the custom Data Views interface.
 	
 	Categorical Variables
 	---------------------

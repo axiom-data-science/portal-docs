@@ -22,6 +22,6 @@ Annotations are entered alongside the data by the data provider. Annotations for
 
 |data_charts_annotations_graphic_gif|
 
-  5. Annotation text is available in the tabular view under #Annotations list# for sorting or download as a CSV file.
+  5. Annotation text is available in the tabular view under ``Annotations list`` for sorting or download as a CSV file.
   
 |data_charts_annotations_list_view_gif|

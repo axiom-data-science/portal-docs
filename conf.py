@@ -119,7 +119,7 @@ def setup(app):
                 app.config.exclude_patterns.append('partner_content/%s/pages' % contentdir)
 
         #exclude catalog how-to pages from ioos build toc
-        if portal == 'ioos' and portal == 'ooi':
+        if portal == 'ioos':
             app.config.exclude_patterns.append('how-to/catalog')
             app.config.exclude_patterns.append('how-to/map/map-add-layers.rst')
             app.config.exclude_patterns.append('how-to/map/view-historical-gridded-data.rst')
@@ -128,6 +128,16 @@ def setup(app):
         if portal != 'secoora' and portal != 'cencoos':
             app.config.exclude_patterns.append('how-to/map/map-view-glider-data.rst')
 
+        #exclude main how-to pages from ooi build toc
+        if portal == 'ooi':
+            app.config.exclude_patterns.append('how-to/catalog')
+            app.config.exclude_patterns.append('how-to/map')
+            app.config.exclude_patterns.append('how-to/data-views')
+            
+        #exclude ooi how-to pages from not ooi build toc
+        if portal != 'ooi':
+            app.config.exclude_patterns.append('how-to/ooi')
+       
         #include portal include file if one exists
         portal_include_file = 'partner_content/%s/substitutions.txt' % portal
         if os.path.exists(portal_include_file):

@@ -4,7 +4,7 @@ Welcome
 
 Welcome to the help site for the |brand| |title|!
 
-..only:: ioos
+.. only:: ioos
 
 	****************
 	|title| Overview

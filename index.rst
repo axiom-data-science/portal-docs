@@ -16,11 +16,11 @@ The |title| is a data exploration tool with a customized public web interface th
 
 .. only:: not ioos
 
-[//]: #	(The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+<!-- The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
 
 	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
 
-	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats.)
+	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats. -->
 
 .. only:: mbon
 

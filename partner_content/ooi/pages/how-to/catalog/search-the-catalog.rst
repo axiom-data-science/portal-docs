@@ -31,7 +31,7 @@ Browse by Instrument Category
          
    #. Or, click on the category name to view a list of associated instruments. Click on the results in the left hand column to view available datasets. Datasets are organized in a gridded view of time series charts. For more information about OOI instruments visit  https://oceanobservatories.org/instruments/ .
                
-    |how_to_search_instrument_avialable_gif|
+    |how_to_search_instrument_available_gif|
          
 
 .. _advanced_search_filters:

@@ -20,94 +20,98 @@
 
 .. |add_new_view_gif| image:: /partner_content/ooi/images/add_new_view_gif_ooi.gif
 
-.. |ooi_gif_01| image:: /partner_content/ooi/images/ooi_gif_01.gif
+.. |how_to_search_catalog_gif| image:: /partner_content/ooi/images/how_to_search_catalog_gif.gif
 
-.. |ooi_gif_02| image:: /partner_content/ooi/images/ooi_gif_02.gif
+.. |how_to_search_instrument_category_gif| image:: /partner_content/ooi/images/how_to_search_instrument_category_gif.gif
 
-.. |ooi_gif_03| image:: /partner_content/ooi/images/ooi_gif_03.gif
+.. |how_to_search_instrument_available_gif| image:: /partner_content/ooi/images/how_to_search_instrument_available_gif.gif
 
-.. |ooi_gif_04| image:: /partner_content/ooi/images/ooi_gif_04.gif
+.. |advanced_search_by_depth_gif| image:: /partner_content/ooi/images/advanced_search_by_depth_gif.gif
 
-.. |ooi_gif_05| image:: /partner_content/ooi/images/ooi_gif_05.gif
+.. |advanced_search_no_filter_gif| image:: /partner_content/ooi/images/advanced_search_no_filter_gif.gif
 
-.. |ooi_gif_06| image:: /partner_content/ooi/images/ooi_gif_06.gif
+.. |advanced_search_details_gif| image:: /partner_content/ooi/images/advanced_search_details_gif.gif
 
-.. |ooi_gif_07| image:: /partner_content/ooi/images/ooi_gif_07.gif
+.. |advanced_search_data_chart_gif| image:: /partner_content/ooi/images/advanced_search_data_chart_gif.gif
 
-.. |ooi_gif_08| image:: /partner_content/ooi/images/ooi_gif_08.gif
+.. |advanced_search_toolbar_gif| image:: /partner_content/ooi/images/advanced_search_toolbar_gif.gif
 
-.. |ooi_gif_09| image:: /partner_content/ooi/images/ooi_gif_09.gif
+.. |advanced_search_all_data_gif| image:: /partner_content/ooi/images/advanced_search_all_data_gif.gif
 
-.. |ooi_gif_10| image:: /partner_content/ooi/images/ooi_gif_10.gif
+.. |customize_chart_type_gif| image:: /partner_content/ooi/images/customize_chart_type_gif.gif
 
-.. |ooi_gif_12| image:: /partner_content/ooi/images/ooi_gif_12.gif
+.. |customize_chart_yaxis_gif| image:: /partner_content/ooi/images/customize_chart_yaxis_gif.gif
 
-.. |ooi_gif_13| image:: /partner_content/ooi/images/ooi_gif_13.gif
+.. |customize_chart_xaxis_gif| image:: /partner_content/ooi/images/customize_chart_xaxis_gif.gif
 
-.. |ooi_gif_14| image:: /partner_content/ooi/images/ooi_gif_14.gif
+.. |customize_chart_rebin_gif| image:: /partner_content/ooi/images/customize_chart_rebin_gif.gif
 
-.. |ooi_gif_15| image:: /partner_content/ooi/images/ooi_gif_15.gif
+.. |customize_chart_minmax_mean_gif| image:: /partner_content/ooi/images/customize_chart_minmax_mean_gif.gif
 
-.. |ooi_gif_16| image:: /partner_content/ooi/images/ooi_gif_16.gif
+.. |data_charts_time_slider_gif| image:: /partner_content/ooi/images/data_charts_time_slider_gif.gif
 
-.. |ooi_gif_17| image:: /partner_content/ooi/images/ooi_gif_17.gif
+.. |data_charts_time_slider_int_gif| image:: /partner_content/ooi/images/data_charts_time_slider_int_gif.gif
 
-.. |ooi_gif_18| image:: /partner_content/ooi/images/ooi_gif_18.gif
+.. |data_charts_time_slider_adv_gif| image:: /partner_content/ooi/images/data_charts_time_slider_adv_gif.gif
 
-.. |ooi_gif_19| image:: /partner_content/ooi/images/ooi_gif_19.gif
+.. |data_charts_QARTOD_gif| image:: /partner_content/ooi/images/data_charts_QARTOD_gif.gif
 
-.. |ooi_gif_20| image:: /partner_content/ooi/images/ooi_gif_20.gif
+.. |data_charts_QARTOD_second_gif| image:: /partner_content/ooi/images/data_charts_QARTOD_second_gif.gif
 
-.. |ooi_gif_21| image:: /partner_content/ooi/images/ooi_gif_21.gif
+.. |data_charts_annotations_node_level_gif| image:: /partner_content/ooi/images/data_charts_annotations_node_level_gif.gif
 
-.. |ooi_gif_22| image:: /partner_content/ooi/images/ooi_gif_22.gif
+.. |data_charts_annotations_tabular_sort_gif| image:: /partner_content/ooi/images/data_charts_annotations_tabular_sort_gif.gif
 
-.. |ooi_gif_23| image:: /partner_content/ooi/images/ooi_gif_23.gif
+.. |data_charts_annotations_csv_download_gif| image:: /partner_content/ooi/images/data_charts_annotations_csv_download_gif.gif
 
-.. |ooi_gif_24| image:: /partner_content/ooi/images/ooi_gif_24.gif
+.. |data_charts_annotations_graphic_gif| image:: /partner_content/ooi/images/data_charts_annotations_graphic_gif.gif
 
-.. |ooi_gif_25| image:: /partner_content/ooi/images/ooi_gif_25.gif
+.. |data_charts_annotations_list_view_gif| image:: /partner_content/ooi/images/data_charts_annotations_list_view_gif.gif
 
-.. |ooi_gif_26| image:: /partner_content/ooi/images/ooi_gif_26.gif
+.. |data_charts_deployment_level_gif| image:: /partner_content/ooi/images/data_charts_deployment_level_gif.gif
 
-.. |ooi_gif_27| image:: /partner_content/ooi/images/ooi_gif_27.gif
+.. |data_charts_deployment_individual_sort_gif| image:: /partner_content/ooi/images/data_charts_deployment_individual_sort_gif.gif
 
-.. |ooi_gif_29| image:: /partner_content/ooi/images/ooi_gif_29.gif
+.. |data_charts_deployment_parameter_level_gif| image:: /partner_content/ooi/images/data_charts_deployment_parameter_level_gif.gif
 
-.. |ooi_gif_30| image:: /partner_content/ooi/images/ooi_gif_30.gif
+.. |data_charts_deployment_tabular_view_gif| image:: /partner_content/ooi/images/data_charts_deployment_tabular_view_gif.gif
 
-.. |ooi_gif_31| image:: /partner_content/ooi/images/ooi_gif_31.gif
+.. |metadata_more_information_gif| image:: /partner_content/ooi/images/metadata_more_information_gif.gif
 
-.. |ooi_gif_32| image:: /partner_content/ooi/images/ooi_gif_32.gif
+.. |how_to_download_data_gif| image:: /partner_content/ooi/images/how_to_download_data_gif.gif
 
-.. |ooi_gif_33| image:: /partner_content/ooi/images/ooi_gif_33.gif
+.. |download_data_queue_multiple_files_gif| image:: /partner_content/ooi/images/download_data_queue_multiple_files_gif.gif
 
-.. |ooi_gif_34| image:: /partner_content/ooi/images/ooi_gif_34.gif
+.. |download_data_share_multiple_files_gif| image:: /partner_content/ooi/images/download_data_share_multiple_files_gif.gif
 
-.. |ooi_gif_35| image:: /partner_content/ooi/images/ooi_gif_35.gif
+.. |download_data_by_deployment_gif| image:: /partner_content/ooi/images/download_data_by_deployment_gif.gif
 
-.. |ooi_gif_36| image:: /partner_content/ooi/images/ooi_gif_36.gif
+.. |download_data_by_individual_deployment_gif| image:: /partner_content/ooi/images/download_data_by_individual_deployment_gif.gif
 
-.. |ooi_gif_37| image:: /partner_content/ooi/images/ooi_gif_37.gif
+.. |how_to_map_view_location_gif| image:: /partner_content/ooi/images/how_to_map_view_location_gif.gif
 
-.. |ooi_gif_38| image:: /partner_content/ooi/images/ooi_gif_38.gif
+.. |how_to_map_view_depth_gif| image:: /partner_content/ooi/images/how_to_map_view_depth_gif.gif
 
-.. |ooi_gif_39| image:: /partner_content/ooi/images/ooi_gif_39.gif
+.. |how_to_map_details_gif| image:: /partner_content/ooi/images/how_to_map_details_gif.gif
 
-.. |ooi_gif_40| image:: /partner_content/ooi/images/ooi_gif_40.gif
+.. |map_change_default_settings_gif| image:: /partner_content/ooi/images/map_change_default_settings_gif.gif
 
-.. |ooi_gif_41| image:: /partner_content/ooi/images/ooi_gif_41.gif
+.. |map_access_data_views_gif| image:: /partner_content/ooi/images/map_access_data_views_gif.gif
 
-.. |ooi_gif_42| image:: /partner_content/ooi/images/ooi_gif_42.gif
+.. |add_new_view_gif| image:: /partner_content/ooi/images/add_new_view_gif.gif
 
-.. |ooi_gif_43| image:: /partner_content/ooi/images/ooi_gif_43.gif
+.. |map_comparison_chart_gif| image:: /partner_content/ooi/images/map_comparison_chart_gif.gif
 
-.. |ooi_gif_44| image:: /partner_content/ooi/images/ooi_gif_44.gif
+.. |map_comparison_chart_data_view_gif| image:: /partner_content/ooi/images/map_comparison_chart_data_view_gif.gif
 
-.. |ooi_gif_45| image:: /partner_content/ooi/images/ooi_gif_45.gif
+.. |map_data_charts_annotate_reorder_gif| image:: /partner_content/ooi/images/map_data_charts_annotate_reorder_gif.gif
 
-.. |ooi_gif_46| image:: /partner_content/ooi/images/ooi_gif_46.gif
+.. |map_edit_view_description_gif| image:: /partner_content/ooi/images/map_edit_view_description_gif.gif
 
-.. |ooi_gif_47| image:: /partner_content/ooi/images/ooi_gif_47.gif
+.. |map_share_data_view_gif| image:: /partner_content/ooi/images/map_share_data_view_gif.gif
 
-.. |ooi_gif_48| image:: /partner_content/ooi/images/ooi_gif_48.gif
+.. |map_delete_data_view_gif| image:: /partner_content/ooi/images/map_delete_data_view_gif.gif
+
+.. |map_save_and_share_gif| image:: /partner_content/ooi/images/map_save_and_share_gif.gif
+
+

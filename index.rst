@@ -14,29 +14,6 @@ The |title| is a data exploration tool with a customized public web interface th
 
 	The |title| integrates regional, national, and global real-time (past 4-hours) data across the IOOS enterprise. Data from observing systems operated by IOOS Regional Associations and local data providers within these regional footprints can be viewed and downloaded through this map.
 
-.. only:: not ioos not ooi
-
-test 1
-	not ioos not ooi
-
-.. only:: not ioos 
-.. only:: not ooi
-
-test 2
-	not ioos 
-	not ooi
-	
-.. only:: not ioos and not ooi
-
-test 3
-	not ioos and not ooi
-	
-.. only:: not ioos and ooi
-
-test 4
-	not ioos and ooi
-
-
 .. only:: not ioos
 
 	The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.

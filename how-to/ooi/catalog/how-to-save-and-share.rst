@@ -12,4 +12,3 @@ Use the Share button to capture your browser state and share it with others. The
 
 |map_save_and_share_gif|
 
-For more information, please see the :ref:`Customize Data in the Map <customize-data-map-overview>` section.

@@ -65,13 +65,13 @@ Catalog Overview
 	* **Global Southern Ocean Array** was located in the southwest of Chile was in place from February 2015-January 2020, when it was removed. Data from this array remain available for research.
 	* **Global Argentine Basin Array** was located in the South Atlantic was in place from March 2015 – January 2018, when it was removed. Data from this array remain available for research.
 	
-	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. For further information about the arrays, click _`here <https://oceanobservatories.org/research-arrays/>`_.
+	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. For further information about the arrays, click `here <https://oceanobservatories.org/research-arrays/>`_.
 	
 	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
 
-	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. For further information about the OOI infrastructure, click _`here <https://oceanobservatories.org/ooi-infrastructure/>`_.
+	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. For further information about the OOI infrastructure, click `here <https://oceanobservatories.org/ooi-infrastructure/>`_.
 
-	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. For further information about OOI instruments, click _`here <https://oceanobservatories.org/instruments/>`_.
+	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. For further information about OOI instruments, click `here <https://oceanobservatories.org/instruments/>`_.
 
 	*********
 	Interface
@@ -128,10 +128,10 @@ Catalog Overview
 	
 	There are many options for interacting with the data in this display:
 	
-		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to :ref:`Advanced Search Filters <advanced-search-filters>`.
-		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to :ref:`Metadata <metadata>`and :ref:`Downloading <downloading>`.
-		* Download one or more datasets using the green Download button. Refer to :ref:`Downloading <downloading>`.
-		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to :ref:`Customize Data Charts <customize-data-charts>`.
+		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to :ref:`Advanced Search Filters <advanced search filters>`.
+		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to :ref:`Metadata <how-to-metadata>`and :ref:`Downloading <download-how-tos>`.
+		* Download one or more datasets using the green Download button. Refer to :ref:`Downloading <download-how-tos>`.
+		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to :ref:`Customize Data Charts <search-project-data>`.
 	
 	Different Chart Types
 	=====================
@@ -262,11 +262,11 @@ Catalog Overview
 	************************
 	Quality Control (QARTOD)
 	************************
-	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) _`Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the _`IOOS QC library <https://github.com/ioos/ioos_qc>`_.The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
+	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) `Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the `IOOS QC library <https://github.com/ioos/ioos_qc/>`_.The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
 	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`_.
 	
-	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <quality-flags-(QARTOD)>`_ for interacting with data quality flags.
+	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <data-charts-qartod>`_ for interacting with data quality flags.
 	
 	.. this is a comment: The follow metadata section is specific to OOI
 	
@@ -275,20 +275,20 @@ Catalog Overview
 	********
 	Metadata
 	********
-	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the [OOI ERRDAP server](http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html), which is available under Downloads. Refer to :ref:'Metadata section <view-layer-metadata-how-to>'_ for more.
+	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the `OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>`_, which is available under Downloads. Refer to :ref:`Metadata section <_how-to-metadata>'_ for more.
 	
 	More Information
 	================
-	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
+	In addition to metadata, contextual information about the instrumentation may be found under the ``More Information`` tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
 	
 	Annotations
 	===========
-	Annotations are the primary means of communication between the instrument data team (aka ‘data provider’) and end users. Annotations are entered alongside the data by the data provider. Annotations for the instrument are available at the node, instrument, and data stream levels. Annotation time ranges and text summaries are shown in the data charts. In addition, annotation text appears under #Annotations# in the center toolbar, where they can be downloaded as a CSV file. Refer to :ref:' Annotations section <annotate-and-reorder-data-view-charts>' for more.
+	Annotations are the primary means of communication between the instrument data team (aka ‘data provider’) and end users. Annotations are entered alongside the data by the data provider. Annotations for the instrument are available at the node, instrument, and data stream levels. Annotation time ranges and text summaries are shown in the data charts. In addition, annotation text appears under ``Annotations`` in the center toolbar, where they can be downloaded as a CSV file. Refer to :ref:'Annotations section <_data-charts-annotations>' for more.
 	
 	***********
 	Deployments
 	***********
-	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments section <how-to-data-charts-deployments>'_ for more.
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments <_how-to-data-charts-deployments>'_ for more.
 	
 .. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 

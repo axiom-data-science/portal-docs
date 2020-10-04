@@ -10,27 +10,75 @@ Welcome to the help site for the |brand| |title|!
 
 The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data.
 
-.. only:: not ooi
+.. only:: ioos
 
-	.. only:: ioos
+	The |title| integrates regional, national, and global real-time (past 4-hours) data across the IOOS enterprise. Data from observing systems operated by IOOS Regional Associations and local data providers within these regional footprints can be viewed and downloaded through this map.
+	
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
-		The |title| integrates regional, national, and global real-time (past 4-hours) data across the IOOS enterprise. Data from observing systems operated by IOOS Regional Associations and local data providers within these regional footprints can be viewed and downloaded through this map.
+.. only:: aoos
 
-	.. only:: not ioos
+	The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
 
-		The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
 
-		Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
+	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats.
+	
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
-		Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats. 
+.. only:: aoos
 
-	.. only:: mbon
+	The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
 
-		For information about how to contribute biological data to the |title|, visit https://ioos.github.io/mbon-docs/.
+	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
 
-	.. only:: atn
+	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats.
+	
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
-		For information about how to contribute data to the |title|, visit https://atn.ioos.us/help/.
+.. only:: atn
+
+	The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+
+	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
+
+	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats.
+	
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
+
+	For information about how to contribute data to the |title|, visit https://atn.ioos.us/help/.
+
+.. only:: mbon
+
+The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+
+	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
+
+	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats.
+	
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
+
+	For information about how to contribute biological data to the |title|, visit https://ioos.github.io/mbon-docs/.
+	
+.. only:: cencoos
+
+	The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+
+	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
+
+	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats.
+	
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
+
+.. only:: secoora
+
+	The |title| integrates datasets from many different sources. You can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+
+	Datasets in the |title| can be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
+
+	Additionally, you can create and share custom compilations of sensor and model outputs to spotlight environmental events or geographic locations, access metadata and project contacts, and download datasets in a variety of formats.
+	
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
 .. only:: ooi
 	
@@ -48,14 +96,7 @@ The |title| is a data exploration tool with a customized public web interface th
 	
 	Additionally, you can create and share custom comparisons of datasets to spotlight environmental events or geographic locations, access instrument metadata and provenance information, and download datasets in a variety of formats, including ERDDAP. 
 
-
-.. only:: ooi
-
 	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://dataexplorer.oceanobservatories.org/#portal-updates
-	
-.. only:: not ooi
-
-	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
 **********************
 Documentation Overview

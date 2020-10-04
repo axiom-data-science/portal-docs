@@ -11,6 +11,4 @@ The pages below contain detailed instructions for using the |title|'s data catal
    :caption: Searching
 
    search-the-catalog
-   navigate-the-catalog
-   advanced-search-filters
-   advanced-all-data-search
+   save-and-share

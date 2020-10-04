@@ -65,20 +65,21 @@ Feedback
 
 If you have a question not answered by this documentation, please contact us via the Feedback button |feedback_button_icon|. Your feedback is important and will help us improve this documentation for future users!
 
-.. toctree::
-   :maxdepth: 0
-   :hidden:
-   :caption: Overview
-
-   overview
 
 .. toctree::
-   :hidden:
-   :caption: How-to
-   :glob:
+	:maxdepth: 0
+	:hidden:
+	:caption: Overview
 
-   how-to/**/index
-   partner_content/**/
+	overview
+
+.. toctree::
+	:hidden:
+	:caption: How-to
+	:glob:
+
+	how-to/**/index
+	partner_content/**/
 
 ..   how-to/catalog/index
 

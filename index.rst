@@ -25,6 +25,17 @@ test 1
 test 2
 	not ioos 
 	not ooi
+	
+.. only:: not ioos and not ooi
+
+test 3
+	not ioos and not ooi
+	
+.. only:: not ioos and ooi
+
+test 4
+	not ioos and ooi
+
 
 .. only:: not ioos
 

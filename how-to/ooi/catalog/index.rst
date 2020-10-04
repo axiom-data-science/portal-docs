@@ -11,4 +11,4 @@ The pages below contain detailed instructions for using the |title|'s data catal
    :caption: Searching
 
    search-the-catalog
-   save-and-share
+   how-to-save-and-share

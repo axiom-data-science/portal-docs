@@ -10,7 +10,7 @@ The pages below contain detailed instructions for using the |title|'s data catal
    :maxdepth: 2
    :caption: Searching
 
-   search-catalog
+   search-the-catalog
    navigate-the-catalog
    advanced-search-filters
    advanced-all-data-search

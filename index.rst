@@ -82,24 +82,6 @@ Welcome to the help site for the |brand| |title|!
 	
 	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
 
-.. only:: ooi
-	
-	****************
-	|title| Overview
-	****************
-	
-	The Ocean Observatories Initiative (OOI) is a science-driven ocean observing network that delivers real-time data from more than 800 instruments to address critical science questions regarding the world’s oceans. Funded by the National Science Foundation to encourage scientific investigations, OOI data are freely available online to anyone with an Internet connection. 
-	
-	The |title| is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access OOI data.
-	
-	Using the |title|, you can search or browse real-time conditions cabled, uncabled, and recovered data for in situ physical, chemical, geological, and biological observations.
-	
- 	Datasets can be interactively charted using advanced features, such as the ability to create comparisons between data streams, bin data by time, and plot climatologies and anomalies.
-	
-	Additionally, you can create and share custom comparisons of datasets to spotlight environmental events or geographic locations, access instrument metadata and provenance information, and download datasets in a variety of formats, including ERDDAP. 
-
-	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://dataexplorer.oceanobservatories.org/#portal-updates
-	
 .. only:: mbon
 
 	****************

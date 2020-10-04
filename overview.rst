@@ -396,13 +396,11 @@ The NetCDF Subset protocol looks through all the datasets NetCDF files stored on
 .. tip::
 	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if the dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
-For more details, please see the :ref:`Download Using NetCDF <netcdf-subset-how-to>` page.
-
 
 ERDDAP
 ------
 
-	The ERDDAP (National Ocean and Atmospheric Administration’s Environmental Research Division’s Data Access Program) Server is a free and open-source Java “servlet” that converts and serves a variety of scientific datasets using common file formats. ERDDAP gives you a simple, consistent way to download subsets of datasets in common file formats, in addition to making graphs and maps. All information about every ERDAPP request is contained in the URL of each request, which makes it easy to automate searching for and using data in other applications. Proficient users can build their own custom interfaces. Many organizations (including NOAA, NASA, and USGS) run ERDDAP servers to serve their data. Because of its widespread use and accessibility, the ERDDAP principal developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users. For more details, please see the Download Using ERDDAP page.
+	The ERDDAP (National Ocean and Atmospheric Administration’s Environmental Research Division’s Data Access Program) Server is a free and open-source Java “servlet” that converts and serves a variety of scientific datasets using common file formats. ERDDAP gives you a simple, consistent way to download subsets of datasets in common file formats, in addition to making graphs and maps. All information about every ERDAPP request is contained in the URL of each request, which makes it easy to automate searching for and using data in other applications. Proficient users can build their own custom interfaces. Many organizations (including NOAA, NASA, and USGS) run ERDDAP servers to serve their data. Because of its widespread use and accessibility, the ERDDAP principal developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users. 
 
 .. only:: not ooi
 

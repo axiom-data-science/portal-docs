@@ -65,13 +65,13 @@ Catalog Overview
 	* **Global Southern Ocean Array** was located in the southwest of Chile was in place from February 2015-January 2020, when it was removed. Data from this array remain available for research.
 	* **Global Argentine Basin Array** was located in the South Atlantic was in place from March 2015 – January 2018, when it was removed. Data from this array remain available for research.
 	
-	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. For further information about the arrays, click 'here <https://oceanobservatories.org/research-arrays/>'_.
+	The two coastal arrays expand existing observations off both U.S. coasts. A cabled array ‘wires’ a region in the Northeast Pacific Ocean with high-speed optical and high-power grid that powers data gathering and observation. And global components address planetary-scale changes using moored open-ocean infrastructure linked to shore via satellite. For further information about the arrays, click _`here <https://oceanobservatories.org/research-arrays/>`_.
 	
 	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
 
-	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. For further information about the OOI infrastructure, click 'here <https://oceanobservatories.org/ooi-infrastructure/>'_.
+	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. For further information about the OOI infrastructure, click _`here <https://oceanobservatories.org/ooi-infrastructure/>`_.
 
-	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. For further information about OOI instruments, click 'here <https://oceanobservatories.org/instruments/>'_.
+	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. For further information about OOI instruments, click _`here <https://oceanobservatories.org/instruments/>`_.
 
 	*********
 	Interface
@@ -129,9 +129,9 @@ Catalog Overview
 	There are many options for interacting with the data in this display:
 	
 		* Advanced search options in the center toolbar (Spatial filter, Filter time filter, Keyword search, Depth filter). Refer to :ref:`Advanced Search Filters <advanced-search-filters>`.
-		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to :ref:`Metadata <metadata>`and ref:`Downloading <downloading>`.
-		* Download one or more datasets using the green Download button. Refer to ref:`Downloading <downloading>`.
-		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to ref:`Customize Data Charts <customize-data-charts>`.
+		* Browse detailed information about datasets using the Inventory, Download, Annotations, Deployment, and More Information tabs. Refer to :ref:`Metadata <metadata>`and :ref:`Downloading <downloading>`.
+		* Download one or more datasets using the green Download button. Refer to :ref:`Downloading <downloading>`.
+		* Expand the individual data charts to customize the chart, including changing the chart type, adjusting the time scale and binning, viewing the data quality flags, and learning more information about the individual instrument deployment and annotations. Refer to :ref:`Customize Data Charts <customize-data-charts>`.
 	
 	Different Chart Types
 	=====================
@@ -149,7 +149,7 @@ Catalog Overview
 	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
 	* **Curtain plots:** show a visual summary of vertical profiling data. If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
 	
-	For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
+	For more details, please see the :ref:`Customize Data Charts <customize-data-charts>` page.
 	
 	.. _climatology-and-anomaly-charts:
 
@@ -242,7 +242,7 @@ Catalog Overview
 	.. note::
 		Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
 
-	For more information on hot to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
+	For more information on how to customize charts, refer to the :ref:`Customize Data Charts <customize-data-charts>` section.
 	
 	.. _data-products-overview:
 	
@@ -250,7 +250,6 @@ Catalog Overview
 	Data Products
 	*************
 	Through the Data Explorer, data products are processed at various levels for download and visual exploration.
-	Data Product Levels:
 	
 	* **Instrument deployment (Level 1)**: Unprocessed, parsed data parameter that is in instrument/sensor units and resolution. A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.There are multiple deployment files per instrument. Refer to Deployments section.
 
@@ -263,14 +262,11 @@ Catalog Overview
 	************************
 	Quality Control (QARTOD)
 	************************
-	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) [Quality Assurance of Real Time Ocean Data (QARTOD)](https://ioos.noaa.gov/project/qartod/) maintained through the [IOOS QC library](https://github.com/ioos/ioos_qc).The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
+	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) _`Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the _`IOOS QC library <https://github.com/ioos/ioos_qc>`_.The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
-	Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
+	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`_.
 	
-	|qartod_inventory|
-	
-	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to Quality Control (QARTOD) section for interacting with data quality flags.
-	|qartod_data_flags|
+	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <quality-flags-(QARTOD)>`_ for interacting with data quality flags.
 	
 	.. this is a comment: The follow metadata section is specific to OOI
 	

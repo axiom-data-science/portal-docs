@@ -257,7 +257,7 @@ Catalog Overview
 
 	* **Full-instrument time series (Level 1+)**: This time series is created by joining recovered and telemetered streams for non-cabled instrument deployments (see example illustration below). For high-resolution cabled and recovered data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads for users that do not need the full-resolution, goldy copy time series. **This is the primary product for visualization within the Data Explorer.**
 
-	* **Full-resolution, gold copy time series (Level 2)**:  This time series represents the full-resolution dataset that has been calibrated and is in scientific units. The gold copy version has been processed, pre-built, and served to the Data Explorer and end users in a series of ‘gold copy’ netCDF files for each instrument. There is one gold copy file for every instrument, stream, and deployment. Users have access to these ‘gold copy’ netCDF files via THREDDS and ERDDAP. Refer to :ref:'Data Download Section <download-data-map-overview>'
+	* **Full-resolution, gold copy time series (Level 2)**:  This time series represents the full-resolution dataset that has been calibrated and is in scientific units. The gold copy version has been processed, pre-built, and served to the Data Explorer and end users in a series of ‘gold copy’ netCDF files for each instrument. There is one gold copy file for every instrument, stream, and deployment. Users have access to these ‘gold copy’ netCDF files via THREDDS and ERDDAP. Refer to :ref:`Data Download Section <download-data-map-overview>`.
 	
 	.. _qartod-overview:
 	

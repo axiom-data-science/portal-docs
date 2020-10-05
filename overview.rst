@@ -266,9 +266,9 @@ Catalog Overview
 	************************
 	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) `Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the `IOOS QC library <https://github.com/ioos/ioos_qc/>`_.The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
-	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`_.
+	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`.
 	
-	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <data-charts-qartod>`_ for interacting with data quality flags.
+	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <data-charts-qartod>` for interacting with data quality flags.
 	
 	.. this is a comment: The follow metadata section is specific to OOI
 	
@@ -290,7 +290,7 @@ Catalog Overview
 	***********
 	Deployments
 	***********
-	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments <_how-to-data-charts-deployments>'_ for more.
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments <_how-to-data-charts-deployments>' for more.
 	
 .. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 

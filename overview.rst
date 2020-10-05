@@ -277,7 +277,7 @@ Catalog Overview
 	********
 	Metadata
 	********
-	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the `OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>_`, which is available under Downloads. Refer to :ref:`Metadata section <_how-to-metadata>` for more.
+	The metadata contain all the key knowledge about the data record (e.g., time of collection, location of collection, unique source and record description identifier, platform identification, etc.), to enable it to be understood by the system and its users. Any data that OOI collects are associated with appropriate metadata. OOI metadata follows the CF 1.6 standard, with additional metadata types and fields specific to OOI as necessary. The metadata can be found in the header of downloaded NetCDF files as well as in the Asset Management tables of the OOINet data portal. Additionally,  ISO-compliant versions of the metadata can be accessed via the `OOI ERRDAP server <http://erddap.dataexplorer.oceanobservatories.org/erddap/index.html>_`, which is available under Downloads. Refer to :ref:`Metadata section <how-to-metadata>` for more.
 	
 	More Information
 	================
@@ -285,12 +285,12 @@ Catalog Overview
 	
 	Annotations
 	===========
-	Annotations are the primary means of communication between the instrument data team (aka ‘data provider’) and end users. Annotations are entered alongside the data by the data provider. Annotations for the instrument are available at the node, instrument, and data stream levels. Annotation time ranges and text summaries are shown in the data charts. In addition, annotation text appears under ``Annotations`` in the center toolbar, where they can be downloaded as a CSV file. Refer to :ref:'Annotations section <_data-charts-annotations>' for more.
+	Annotations are the primary means of communication between the instrument data team (aka ‘data provider’) and end users. Annotations are entered alongside the data by the data provider. Annotations for the instrument are available at the node, instrument, and data stream levels. Annotation time ranges and text summaries are shown in the data charts. In addition, annotation text appears under ``Annotations`` in the center toolbar, where they can be downloaded as a CSV file. Refer to :ref:`Annotations section <data-charts-annotations>` for more.
 	
 	***********
 	Deployments
 	***********
-	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments <_how-to-data-charts-deployments>' for more.
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:`Deployments <how-to-data-charts-deployments>` for more.
 	
 .. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 
@@ -459,7 +459,7 @@ Map Overview
 
 .. only:: ooi
 
-	The map interface provides interactive exploration of the OOI infrastructure. The map is available at the Array, Platform, Node and Instrument levels to help orient users to the general locations of the instrumentation. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column. Refer to the :ref:'Map section. <map-how-tos>'
+	The map interface provides interactive exploration of the OOI infrastructure. The map is available at the Array, Platform, Node and Instrument levels to help orient users to the general locations of the instrumentation. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column. Refer to the :ref:`Map section. <map-how-tos>`
 
 .. only:: not ooi
 

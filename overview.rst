@@ -41,7 +41,9 @@ See the following sections of this help documentation for more information about
 Catalog Overview
 ################
 .. this is a comment: Lines 38 until 286 (the next comment about it) are the OOI specific 'Catalog Overview' information. The Lines afterwords are the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
+
 .. only:: ooi
+
 	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. 
 
 	**********

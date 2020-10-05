@@ -838,7 +838,7 @@ You can save a collection of data layers and visualize them together for compari
 
 Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
 
-The  view will open, displaying data comparison charts for you to explore. In the example image below, you can see the ``Hurricane Sandy`` view.
+The view will open, displaying data comparison charts for you to explore, as seen in the example below.  
 
 |data_view|
 

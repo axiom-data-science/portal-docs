@@ -8,10 +8,10 @@ Access and Explore Data
 =======================
       
 To begin exploring data, try these steps:
-   #. Click the Data Acccess on the landing page.
-   #. Or, you can also begin exploring by clicking on Access Array Data in the upper toolbar.
-   #. Selected a global array and one or more filters. Press the 'Go' button to see results.
-   #. You may also press 'Go' to navigate to the main map and data catalog.
+   #. Click ``Data Acccess`` on the landing page.
+   #. Or, you can also begin exploring by clicking on ``Access Array Data`` in the upper toolbar.
+   #. Selected a global array and one or more filters. Press the ``Go`` button to see results.
+   #. You may also press ``Go`` to navigate to the main map and data catalog.
         
 |how_to_search_catalog_gif|
       
@@ -50,12 +50,12 @@ Advanced Search Filters
         5. Click the reset filter button in the left hand corner to remove filters applied to the datasets.
             
         |advanced_search_no_filter_gif|
-            
-        6. Below the Advanced Search toolbar click on the Inventory, Download, Annotations, Deployment, and More Information tabs to find detailed information about datasets. This information is available for groups of datasets at the Platforms, Nodes, Instruments, and Parameters level. For more information see the :ref:`Data Charts <datacharts-how-tos>` section.
+
+         6. Below the Advanced Search toolbar click on the Inventory, Download, Annotations, Deployment, and More Information tabs to find detailed information about datasets. This information is available for groups of datasets at the Platforms, Nodes, Instruments, and Parameters level. For more information see the :ref:`Data Charts <data-charts-how-tos>` section.
             
         |advanced_search_details_gif|
             
-        7. To interact with individual datasets, click on the parameter name to expand the data chart. For more information see the :ref:`Data Charts <data-charts-how-tos>` section.
+        7. To interact with individual datasets, click on the parameter name to expand the data chart. For more information see the :ref:`Data Charts <data_charts-how-tos>` section.
         
         |advanced_search_data_chart_gif|
            

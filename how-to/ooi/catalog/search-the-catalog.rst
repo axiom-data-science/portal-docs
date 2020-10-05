@@ -8,10 +8,10 @@ Access and Explore Data
 =======================
       
 To begin exploring data, try these steps:
-   #. Click the Data Acccess on the landing page.
-   #. Or, you can also begin exploring by clicking on Access Array Data in the upper toolbar.
-   #. Selected a global array and one or more filters. Press the 'Go' button to see results.
-   #. You may also press 'Go' to navigate to the main map and data catalog.
+   #. Click ``Data Acccess`` on the landing page.
+   #. Or, you can also begin exploring by clicking on ``Access Array Data`` in the upper toolbar.
+   #. Selected a global array and one or more filters. Press the ``Go`` button to see results.
+   #. You may also press ``Go`` to navigate to the main map and data catalog.
         
 |how_to_search_catalog_gif|
       
@@ -42,7 +42,7 @@ Advanced Search Filters
  You can use the Advanced Search options in the center toolbar to apply custom filters to all datasets as follows: 
         #. Select the parameter or instrument of interest using the drop down menu.
         #. Click the search button to sort by keyword.
-        #. Select the time button to filter data temporally.  See :ref:`Time Sliders <_data-charts-time-slider>` section for more information.
+        #. Select the time button to filter data temporally.  See :ref:`Time Sliders <data-charts-time-slider>` section for more information.
         #. Sort results by minimum or maximum depth intervals.
          
         |advanced_search_by_depth_gif|
@@ -51,11 +51,11 @@ Advanced Search Filters
             
         |advanced_search_no_filter_gif|
             
-        6. Below the Advanced Search toolbar click on the Inventory, Download, Annotations, Deployment, and More Information tabs to find detailed information about datasets. This information is available for groups of datasets at the Platforms, Nodes, Instruments, and Parameters level. For more information see the :ref:`Data Charts <_data_charts-how-tos>` section.
+        6. Below the Advanced Search toolbar click on the Inventory, Download, Annotations, Deployment, and More Information tabs to find detailed information about datasets. This information is available for groups of datasets at the Platforms, Nodes, Instruments, and Parameters level. For more information see the :ref:`Data Charts <data_charts-how-tos>` section.
             
         |advanced_search_details_gif|
             
-        7. To interact with individual datasets, click on the parameter name to expand the data chart. For more information see the :ref:`Data Charts <_data_charts-how-tos>` section.
+        7. To interact with individual datasets, click on the parameter name to expand the data chart. For more information see the :ref:`Data Charts <data_charts-how-tos>` section.
         
         |advanced_search_data_chart_gif|
            

@@ -3,7 +3,7 @@ FROM sphinxdoc/sphinx:3.1.1 as docsbuilder
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y rename \
-    &&  apt-get clean \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip3 install --upgrade sphinx_rtd_theme pyyaml

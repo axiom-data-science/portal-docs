@@ -14,7 +14,7 @@ The deployment time ranges are shown graphically and in a tabular view for explo
     
 |data_charts_deployment_individual_sort_gif|
 
-    3. Files can be downloaded individually or bundled in the download queue. Refer to the :ref:`Queue Multiple Files for Download <download-queue-multiple-files>`_ section.
+    3. Files can be downloaded individually or bundled in the download queue. Refer to the :ref:`Queue Multiple Files for Download <download-queue-multiple-files>` section.
 
     4. At the parameter level, deployment time ranges and text summaries are shown graphically alongside the data chart.
     

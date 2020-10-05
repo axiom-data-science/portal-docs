@@ -21,6 +21,6 @@ RUN make html json \
 
 FROM nginx:1.18
 
-RUN rm -rf /usr/shane/nginx/html/*
+RUN rm -rf /usr/share/nginx/html/*
 
 COPY --from=builder /srv/app/_build/html /usr/share/nginx/html

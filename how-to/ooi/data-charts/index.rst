@@ -1,4 +1,4 @@
-.. _data_charts-how-tos:
+.. _data-charts-how-tos:
 
 ###########
 Data Charts

@@ -41,7 +41,9 @@ See the following sections of this help documentation for more information about
 Catalog Overview
 ################
 .. this is a comment: Lines 38 until 286 (the next comment about it) are the OOI specific 'Catalog Overview' information. The Lines afterwords are the 'all  but ioos' information for this section of documentation including explicit markup sections for AOOS, etc
+
 .. only:: ooi
+
 	The catalog provides searchable access to all datasets within the |title|. The catalog can be used to discover, browse, and download data files. 
 
 	**********
@@ -264,9 +266,9 @@ Catalog Overview
 	************************
 	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) `Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the `IOOS QC library <https://github.com/ioos/ioos_qc/>`_.The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
-	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`_.
+	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`.
 	
-	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <data-charts-qartod>`_ for interacting with data quality flags.
+	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <data-charts-qartod>` for interacting with data quality flags.
 	
 	.. this is a comment: The follow metadata section is specific to OOI
 	
@@ -288,7 +290,7 @@ Catalog Overview
 	***********
 	Deployments
 	***********
-	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments <_how-to-data-charts-deployments>'_ for more.
+	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:'Deployments <_how-to-data-charts-deployments>' for more.
 	
 .. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 
@@ -456,9 +458,11 @@ Map Overview
 ############
 
 .. only:: ooi
+
 	The map interface provides interactive exploration of the OOI infrastructure. The map is available at the Array, Platform, Node and Instrument levels to help orient users to the general locations of the instrumentation. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column. Refer to the :ref:'Map section. <map-how-tos>'
 
 .. only:: not ooi
+
 	The map interface provides interactive data exploration, mapping, and charting. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map.
 	The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`Data Views <data-views-overview>` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
 

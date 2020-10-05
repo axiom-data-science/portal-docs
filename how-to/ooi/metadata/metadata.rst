@@ -1,10 +1,8 @@
 .. _how-to-metadata:
 
-########
-Metadata
-########
-
-More Information about Metadata
+################
+More Information 
+################
 
 To learn more about a particular instrument and see a diagram:
 

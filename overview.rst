@@ -458,9 +458,11 @@ Map Overview
 ############
 
 .. only:: ooi
+
 	The map interface provides interactive exploration of the OOI infrastructure. The map is available at the Array, Platform, Node and Instrument levels to help orient users to the general locations of the instrumentation. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column. Refer to the :ref:'Map section. <map-how-tos>'
 
 .. only:: not ooi
+
 	The map interface provides interactive data exploration, mapping, and charting. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map.
 	The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`Data Views <data-views-overview>` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
 
@@ -836,7 +838,7 @@ You can save a collection of data layers and visualize them together for compari
 
 Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
 
-The  view will open, displaying data comparison charts for you to explore. In the example image below, you can see the ``Hurricane Sandy`` view.
+The view will open, displaying data comparison charts for you to explore, as seen in the example below.  
 
 |data_view|
 

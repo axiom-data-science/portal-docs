@@ -13,7 +13,8 @@ Follow these steps to download data:
 
 |how_to_download_data_gif|
 
-  4. Or, check ``Queue for download`` to add the data file to your downloads list. Refer to _`Queue Multiple Files for Download <download-queue-multiple-files>`_ section.
+  4. Or, check ``Queue for download`` to add the data file to your downloads list. Refer to :ref:`Queue Multiple Files for Download <download-queue-multiple-files>` section.
 
-.. Note:
+.. note:
+
   For some datasets you may be offered a choice to download calculated or raw data.

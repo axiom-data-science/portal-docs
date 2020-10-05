@@ -139,5 +139,5 @@ If you have a question not answered by this documentation, please contact us via
 ..   how-to/catalog/index
 
 
-These pages were last updated on |today|.
+These help docs were last updated on |today|.
 

@@ -11,7 +11,7 @@ To download multiple files, follow these steps:
 
 |download_data_queue_multiple_files_gif|
 
-.. tip: 
+.. tip:: 
 
     You can share your download list with others by clicking the Share button in the upper toolbar.
 

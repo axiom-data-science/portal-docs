@@ -1,4 +1,4 @@
-FROM sphinxdoc/sphinx:3.1.1 as builder
+FROM sphinxdoc/sphinx:3.1.1 as docsbuilder
 
 RUN apt-get update \
     && apt-get upgrade -y \
@@ -23,4 +23,4 @@ FROM nginx:1.18
 
 RUN rm -rf /usr/share/nginx/html/*
 
-COPY --from=builder /srv/app/_build/html /usr/share/nginx/html
+COPY --from=docsbuilder /srv/app/_build/html /usr/share/nginx/html

@@ -68,9 +68,10 @@ The data portal help docs will continue to look clean and professional if all im
 
 * Make GIFs with your browser window at 100% magnification
 * Adjust your browser window to get the best view of what you're trying to illustrate
-* Make GIFs with a height of ``1200px`` and a width of ``600px``
+* Make GIFs with a height of ``1000px`` and a width of ``1000px``
 * Use 10 frames per second caputre rate
 * Compress GIFs before adding them (e.g., use the "slight" setting on a GIF optimizer like [this one](http://gifgifs.com/optimizer/).
+* Gifsicle is also an option. Check it out [here](https://www.lcdf.org/gifsicle/man.html)
 
 ### How to add a new page for your portal only
 

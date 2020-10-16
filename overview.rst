@@ -461,26 +461,24 @@ Map Overview
 
 	The map interface provides interactive exploration of the OOI infrastructure. The map is available at the Array, Platform, Node and Instrument levels to help orient users to the general locations of the instrumentation. The main map (on the left) shows the locations of the OOI infrastructure. Fixed platforms are shown with a point, and glider platforms are shown with a track. The depth chart (on the right) shows the location of the infrastructure in the water column. Refer to the :ref:`Map section. <map-how-tos>`
 
-.. only:: not ioos
+.. only:: not (ioos or ooi)
 
 	The map interface provides interactive data exploration, mapping, and charting. All real-time and near real-time data within the |title| are accessible as interactive visualizations in the map.
 	The map is highly customizable via the ``Settings`` and ``Legend`` menus to enable deep exploration of the data. Advanced charting features allow you to view and summarize multiple datasets, and to create custom :ref:`Data Views <data-views-overview>` to compare data sources, bin by time, or plot climatologies and anomalies of timeseries datasets.
-
-.. only:: not (ioos or ooi)
 
 	Datasets listed in the catalog that can be viewed in the map are indicated by the globe icon |catalog_globe_icon|.
 
 	Additionally, you can use the map to create and share custom compilations of biological, sensor, and model outputs to spotlight environmental events or geographic locations.
 
-For more details, please see the :ref:`View Layer Metadata <view-layer-metadata-how-to>` page.
+	For more details, please see the :ref:`View Layer Metadata <view-layer-metadata-how-to>` page.
 
-The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
+	The data map is built around a familiar interactive map interface, with several important elements arranged around the screen:
 
-* Blue toolbar across the top
-* Legend displayed on the right
-* Grey time slider toolbar along the bottom
-* Data display window in the bottom left corner
-* Zoom navigation tools in the top left corner
+	* Blue toolbar across the top
+	* Legend displayed on the right
+	* Grey time slider toolbar along the bottom
+	* Data display window in the bottom left corner
+	* Zoom navigation tools in the top left corner
 
 |map_initial_view|
 

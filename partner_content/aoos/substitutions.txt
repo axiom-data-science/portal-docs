@@ -21,3 +21,16 @@
 
 .. |add_new_view_gif| image:: /partner_content/aoos/images/add_new_view_gif_aoos.gif
 
+.. |map_access_data_views_gif| image:: /partner_content/aoos/images/map_access_data_views.gif
+
+.. |add_new_view_gif| image:: /partner_content/aoos/images/add_new_view_gif_aoos.gif
+
+.. |map_comparison_chart_gif| image:: /partner_content/aoos/images/map_comparison_chart.gif
+
+.. |map_comparison_chart_data_view_gif| image:: /partner_content/aoos/images/map_comparison_chart_data_view.gif
+
+.. |map_edit_view_description_gif| image:: /partner_content/aoos/images/map_edit_view_description.gif
+
+.. |map_share_view_data_gif| image:: /partner_content/aoos/images/map_share_view_data.gif
+
+.. |map_delete_data_view_gif| image:: /partner_content/aoos/images/map_delete_data_view.gif

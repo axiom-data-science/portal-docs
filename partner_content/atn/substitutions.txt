@@ -19,5 +19,4 @@
 
 .. GIFS
 
-.. |add_new_view_gif| image:: /partner_content/atn/images/add_new_view_gif_atn.gif
 

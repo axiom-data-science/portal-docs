@@ -258,18 +258,7 @@ Catalog Overview
 	* **Full-instrument time series (Level 1+)**: This time series is created by joining recovered and telemetered streams for non-cabled instrument deployments (see example illustration below). For high-resolution cabled and recovered data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads for users that do not need the full-resolution, goldy copy time series. **This is the primary product for visualization within the Data Explorer.**
 
 	* **Full-resolution, gold copy time series (Level 2)**:  This time series represents the full-resolution dataset that has been calibrated and is in scientific units. The gold copy version has been processed, pre-built, and served to the Data Explorer and end users in a series of ‘gold copy’ netCDF files for each instrument. There is one gold copy file for every instrument, stream, and deployment. Users have access to these ‘gold copy’ netCDF files via THREDDS and ERDDAP. Refer to :ref:`Data Download Section <download-data-map-overview>`.
-	
-	.. _qartod-overview:
-	
-	************************
-	Quality Control (QARTOD)
-	************************
-	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) `Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the `IOOS QC library <https://github.com/ioos/ioos_qc/>`_.The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
 
-	Roll up quality flags summarizing pass, suspect, and failed values can be seen under :ref:`Inventory <data-inventory>`.
-	
-	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to :ref:`Quality Control (QARTOD) <data-charts-qartod>` for interacting with data quality flags.
-	
 	.. this is a comment: The follow metadata section is specific to OOI
 	
 	.. _metadata-overview:
@@ -798,33 +787,37 @@ Map Overview
 
 	For more information on how to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
 
-	.. _qartod_overview:
+.. _qartod-overview:
 
-	************************
-	Quality Control (QARTOD)
-	************************
-	Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) :ref:'Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>' maintained through the :ref:'IOOS QC library.<https://github.com/ioos/ioos_qc>' The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag “suspect” data points for visualization and deliver those flags as additional attributes in downloaded data.
+.. this is a comment: This section is linked to directly from the portals (/help/overview.html#qartod-overview), so please don't change the section name
 
-	Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
+************************
+Quality Control (QARTOD)
+************************
 
-	|qartod_inventory|
+Quality control algorithms are run on datasets and quality flag results are shown for visual exploration. The data quality procedures meet the U.S. Integrated Ocean Observing System (IOOS) `Quality Assurance of Real Time Ocean Data (QARTOD) <https://ioos.noaa.gov/project/qartod/>`_ maintained through the `IOOS QC library (ioos_qc) <https://github.com/ioos/ioos_qc>`_. The automated QC algorithms do not screen out or delete any data, or prevent it from being downloaded. The algorithms only flag "suspect" or "fail" data points for visualization and deliver those flags as additional variables in downloaded data.
 
-	Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart. Refer to Quality Control (QARTOD) section for interacting with data quality flags.
-	|qartod_data_flags|
+Roll up quality flags summarizing pass, suspect, and failed values can be seen under Inventory.
 
-	.. _download-data-map-overview:
+|qartod_inventory|
 
-	*************
-	Download Data
-	*************
+Data quality flags for individual data points can be seen within the data charts. Documentation of the test code and thresholds are linked to under QC information in the lower left of the chart.
 
-	.. only:: not ioos
+|qartod_data_flags|
 
-		Data may be downloaded through the data catalog, as described in the :ref:`Download Data <download-data-catalog-overview>` section.
+.. _download-data-map-overview:
 
-	.. only:: ioos
+*************
+Download Data
+*************
 
-		Data may be downloaded as described in the :ref:`Download Data <download-data-how-to>` how-to page.
+.. only:: not ioos
+
+    Data may be downloaded through the data catalog, as described in the :ref:`Download Data <download-data-catalog-overview>` section.
+
+.. only:: ioos
+
+    Data may be downloaded as described in the :ref:`Download Data <download-data-how-to>` how-to page.
 
 .. _data-views-overview:
 

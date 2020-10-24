@@ -137,6 +137,10 @@ def setup(app):
         #exclude ooi how-to pages from not ooi build toc
         if portal != 'ooi':
             app.config.exclude_patterns.append('how-to/ooi')
+
+        #exclude data views from ATN
+        if portal == 'atn':
+            app.config.exclude_patterns.append('how-to/data-views')
        
         #include portal include file if one exists
         portal_include_file = 'partner_content/%s/substitutions.txt' % portal

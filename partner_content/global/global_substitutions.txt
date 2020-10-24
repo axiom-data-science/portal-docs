@@ -164,4 +164,7 @@
 
 .. OTHER IMAGE ALIASES
 
+.. |qartod_inventory| image:: /partner_content/global/images/qartod_inventory.png
+
+.. |qartod_data_flags| image:: /partner_content/global/images/qartod_data_flags.png
 

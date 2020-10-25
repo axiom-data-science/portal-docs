@@ -785,7 +785,7 @@ Map Overview
 	.. note::
 		Percentiles are calculated by ordering all values in the time bin across all recorded years and selecting the value at the 10% and 90% locations in the array. I.e., the shaded percentile region is telling you what the *typical* temperature is at that time of year excluding the 10% most extreme values on either end.
 
-	For more information on how to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts>' section.
+	For more information on how to customize charts, refer to the :ref:'Customize Data Charts <customize-data-charts-how-to>' section.
 
 .. _qartod-overview:
 
@@ -813,7 +813,7 @@ Download Data
 
 .. only:: not ioos
 
-    Data may be downloaded through the data catalog, as described in the :ref:`Download Data <download-data-catalog-overview>` section.
+    Data may be downloaded through the data catalog, as described in the :ref:`Download Data <download-data-how-to>` section.
 
 .. only:: ioos
 

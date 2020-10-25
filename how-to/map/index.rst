@@ -28,3 +28,5 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    :caption: Data Charts
 
    charts-customize
+   data-charts-data-inventory
+   data-charts-QARTOD

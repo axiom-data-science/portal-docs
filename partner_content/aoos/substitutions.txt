@@ -34,3 +34,15 @@
 .. |map_share_view_data_gif| image:: /partner_content/aoos/images/map_share_view_data.gif
 
 .. |map_delete_data_view_gif| image:: /partner_content/aoos/images/map_delete_data_view.gif
+
+.. |how_to_search_catalog_gif| image:: /partner_content/aoos/images/how_to_search_catalog_aoos.gif
+
+.. |search_project_data_gif| image:: /partner_content/aoos/images/search_project_data_aoos.gif
+
+.. |catalog_download_data_netcdf_subset_gif| image:: /partner_content/aoos/images/catalog_download_data_netcdf_subset_aoos.gif
+
+.. |catalog_download_virtual_sensor_gif| image:: /partner_content/aoos/images/catalog_download_virtual_sensor_aoos.gif
+
+.. |catalog_download_data_wms_gif| image:: /partner_content/aoos/images/catalog_download_data_wms_aoos.gif
+
+.. |catalog_download_data_opendap_gif| image:: /partner_content/aoos/images/catalog_download_data_opendap_aoos.gif

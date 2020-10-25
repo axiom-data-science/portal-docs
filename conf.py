@@ -138,10 +138,17 @@ def setup(app):
         if portal != 'ooi':
             app.config.exclude_patterns.append('how-to/ooi')
 
-        #exclude data views from ATN
+        #exclude data views, QARTOD and Data Inventory from ATN
         if portal == 'atn':
             app.config.exclude_patterns.append('how-to/data-views')
-       
+            app.config.exclude_patterns.append('how-to/map/data-charts-QARTOD.rst')
+            app.config.exclude_patterns.append('how-to/map/data-charts-data-inventory.rst')
+
+        #exclude QARTOD and Data Inventory from MBON
+        if portal == 'mbon':
+            app.config.exclude_patterns.append('how-to/map/data-charts-QARTOD.rst')
+            app.config.exclude_patterns.append('how-to/map/data-charts-data-inventory.rst')
+
         #include portal include file if one exists
         portal_include_file = 'partner_content/%s/substitutions.txt' % portal
         if os.path.exists(portal_include_file):

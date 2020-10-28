@@ -167,6 +167,10 @@
 
 .. |metadata_more_information_gif| image:: /partner_content/global/images/metadata_more_information_gif.gif
 
+.. |download_data_queue_multiple_files_gif| image:// /partner_content/global/images/download_data_queue_multiple_files_gif.gif
+
+.. |download_data_share_multiple_files_gif| image:// /partner_content/global/images/download_data_share_multiple_files_gif.gif
+
 
 .. OTHER IMAGE ALIASES
 

@@ -1,4 +1,4 @@
-.. metadata_more_info :
+.. _metadata_more_info:
 
 ****************
 More Information

@@ -161,15 +161,15 @@
 
 .. |map_glider_data_cencoos_gif| image:: /partner_content/global/images/gifs/map_glider_data_cencoos.gif
 
-.. |data_charts_QARTOD_gif| image:: /partner_content/global/images/data_charts_QARTOD_gif.gif
+.. |data_charts_QARTOD_gif| image:: /partner_content/global/images/gifs/data_charts_QARTOD_gif.gif
 
-.. |data_charts_QARTOD_second_gif| image:: /partner_content/global/images/data_charts_QARTOD_second_gif.gif
+.. |data_charts_QARTOD_second_gif| image:: /partner_content/global/images/gifs/data_charts_QARTOD_second_gif.gif
 
-.. |metadata_more_information_gif| image:: /partner_content/global/images/metadata_more_information_gif.gif
+.. |metadata_more_information_gif| image:: /partner_content/global/images/gifs/metadata_more_information_gif.gif
 
-.. |download_data_queue_multiple_files_gif| image:// /partner_content/global/images/download_data_queue_multiple_files_gif.gif
+.. |download_data_queue_multiple_files_gif| image:// /partner_content/global/images/gifs/download_data_queue_multiple_files_gif.gif
 
-.. |download_data_share_multiple_files_gif| image:// /partner_content/global/images/download_data_share_multiple_files_gif.gif
+.. |download_data_share_multiple_files_gif| image:// /partner_content/global/images/gifs/download_data_share_multiple_files_gif.gif
 
 
 .. OTHER IMAGE ALIASES

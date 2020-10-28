@@ -161,10 +161,13 @@
 
 .. |map_glider_data_cencoos_gif| image:: /partner_content/global/images/gifs/map_glider_data_cencoos.gif
 
+.. |data_charts_QARTOD_gif| image:: /partner_content/global/images/data_charts_QARTOD_gif.gif
+
+.. |data_charts_QARTOD_second_gif| image:: /partner_content/global/images/data_charts_QARTOD_second_gif.gif
+
 
 .. OTHER IMAGE ALIASES
 
 .. |qartod_inventory| image:: /partner_content/global/images/qartod_inventory.png
 
 .. |qartod_data_flags| image:: /partner_content/global/images/qartod_data_flags.png
-

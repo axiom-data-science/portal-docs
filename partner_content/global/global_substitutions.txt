@@ -167,9 +167,9 @@
 
 .. |metadata_more_information_gif| image:: /partner_content/global/images/gifs/metadata_more_information_gif.gif
 
-.. |download_data_queue_multiple_files_gif| image: /partner_content/global/images/gifs/download_data_queue_multiple_files_gif.gif
+.. |download_data_queue_multiple_files_gif| image:: /partner_content/global/images/gifs/download_data_queue_multiple_files_gif.gif
 
-.. |download_data_share_multiple_files_gif| image: /partner_content/global/images/gifs/download_data_share_multiple_files_gif.gif
+.. |download_data_share_multiple_files_gif| image:: /partner_content/global/images/gifs/download_data_share_multiple_files_gif.gif
 
 
 .. OTHER IMAGE ALIASES

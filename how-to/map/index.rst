@@ -19,7 +19,7 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    map-filter-by-depth
    map-view-historical-data
    map-time-slider
-   map-save-and-share
+   how-to-save-and-share
    map-download-data
    download-queue-multiple-files
    map-use-polygon-tool

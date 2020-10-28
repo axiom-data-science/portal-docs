@@ -165,6 +165,8 @@
 
 .. |data_charts_QARTOD_second_gif| image:: /partner_content/global/images/data_charts_QARTOD_second_gif.gif
 
+.. |metadata_more_information_gif| image:: /partner_content/global/images/metadata_more_information_gif.gif
+
 
 .. OTHER IMAGE ALIASES
 

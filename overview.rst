@@ -383,7 +383,7 @@ NetCDF Subset
 -------------
 
 The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
-
+For more information, please see the :ref:`Download Using NetCDF page. <download-netcdf-subset>`
 .. tip::
 	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if the dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 
@@ -681,13 +681,11 @@ Map Overview
 
 	* **Histograms:** show the frequency of distribution for the observations. A histogram is constructed by representing the measurements or observations that are grouped on a horizontal scale, the interval frequencies on a vertical scale, and drawing rectangles whose bases equal the class intervals and whose heights are determined by the corresponding class frequencies.
 
-	.. tip:: In the |title|, histogram charts can be created across custom areas of interest using the polygon tool.
-
 	* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
 
 	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
 
-	* **Curtain plots:** show a visual summary of vertical profiling data. f data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
+	* **Curtain plots:** show a visual summary of vertical profiling data. If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
 
 	For more details, please see the :ref:`Customize Data Charts <customize-data-charts-how-to>` page.
 
@@ -708,7 +706,7 @@ Map Overview
 
 		* **Mean**: The mean line represents the average value of all observations within each time bin.
 
-		* **Min/max envelope**: The envelope represents the extent of observations within each time bin.
+		* **Min/Max envelope**: The envelope represents the extent of observations within each time bin.
 
 	Interannual Statistics
 	----------------------
@@ -770,7 +768,7 @@ Map Overview
 		:widths: 15, 50
 
 		**All**, "No binning."
-		**Hours**, "Data are binned by hour and daily statistic are displayed (see below)."
+		**Hours**, "Data are binned by hour and daily statistics are displayed (see below)."
 		**Days**, "Data are binned by day and statistics are by day number across years."
 		**Weeks**, "Data are binned by week, and statistics are by week number across years."
 		**Months**, "Data are binned by month, and statistics are by month number across years."

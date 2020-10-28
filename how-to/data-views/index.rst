@@ -14,5 +14,6 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    data-views-create-new
    data-views-use-comparison-chart
    data-views-description
+   annotate-and-reorder-data-views-charts
    data-views-share
    data-views-delete

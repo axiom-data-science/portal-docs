@@ -21,6 +21,7 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    map-time-slider
    map-save-and-share
    map-download-data
+   download-queue-multiple-files
    map-use-polygon-tool
    map-view-glider-data
 

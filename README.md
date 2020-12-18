@@ -133,7 +133,7 @@ Note that `<portal>` corresponds to a directory under `partner_content`.
 
 ```
 docker build -t portal-docs --build-arg PORTAL=<portal> .
-docker run --rm -p 8888:8888 portal-docs
+docker run --rm -p 8888:80 portal-docs
 ```
 
 Then open a browser to <http://localhost:8888>.

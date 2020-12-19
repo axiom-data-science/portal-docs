@@ -1,0 +1,13 @@
+/* custom Mariculture Map css */
+
+.wy-side-nav-search>a{
+    display:relative !important;
+    padding-top:50px !important;
+}
+
+.wy-side-nav-search>a img{
+    position:absolute !important;
+    top:0px !important;
+    left:0px !important;
+    right:0px !important;
+}

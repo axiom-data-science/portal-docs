@@ -118,6 +118,36 @@ Welcome to the help site for the |brand| |title|!
 
 	For information about how to contribute biological data to the |title|, visit https://ioos.github.io/mbon-docs/.
 
+.. only:: mariculture-map
+
+	****************
+	|title| Overview
+	****************
+
+	The |title| is a web-based tool offering investors, regulators, and operators the ability to discover and access environmental, oceanographic and social data to inform site selection and aquatic farm permit applications. 
+
+	The Mariculture Map integrates datasets from many different sources that are relevant to aquaculture farming in Alaska. Using this tool, customized maps can be created and printed for aquaculture permit applications, including:
+		* General Location Map
+		* Detailed Location Map
+		* Site plan Map
+	Additionally, users can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
+
+	Datasets in the Mariculture Map can also be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
+
+	Follow these links to get started.
+	*Tutorials*
+	See the :REF:`tutorials page <tutorials>` for step-by-step instructions on creating maps.
+
+	*How-To Basics*
+		* Create a custom map
+		* Save, edit, and print your maps
+		* Browse thematic aquaculture-related data layer types
+		* Add or remove data layers
+
+
+	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/
+
+
 
 **********************
 Documentation Overview

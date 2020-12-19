@@ -428,6 +428,7 @@ ERDDAP
 
 	This section of our documentation is still under development. For assistance, please contact us via the Feedback button |feedback_button_icon|.
 
+
 .. _netcdf-resources-overview:
 
 NetCDF Resources
@@ -649,11 +650,118 @@ Map Overview
 
 		For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
 
+	.. only:: mariculture-map
+
+		.. _draw-tools-overview:
+
+		Draw tools
+		==========
+		You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
+
+		.. _log-in-overview:
+
+		Log-in
+		======
+		You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
+
 	.. Instance State Saving
 	.. =====================
 
-	.. _data-charts-overview:
+	.. only:: mariculture-map
 
+		.. _create-custom-map-overview:
+
+		*****************
+		Create Custom Map
+		*****************
+
+		Create maps of your aquaculture site using pre-loaded data layers that follow the permit application requirements, including:
+			* General Location Map
+			* Detailed Location Map
+			* Site Plan Map
+		Within each of these map types, data layers that meet the permit requirements have been added by default. You can add or remove data layers. Customize your map by drawing and adding annotations of your proposed farm site. Print the final version for submission with your permit application. Or, save the map to be later edited. For more information, refer to the :ref:`Create Custom Map <create-custom-map-how-to>` page.
+
+		.. _default-data-layers-marm
+
+		Default Data Layers
+		*******************
+		For each of the map types, the following data layers are added by default onto the map. 
+
+		General Location Mapping
+		------------------------
+		This map is a larger scaled map showing the larger surrounding area with less detail. Default layers:
+			* USGS Topographic quadrangle map
+			* `Alaska Community Locations <https://mariculture.portal.aoos.org/#metadata/ad714578-ea24-11e0-bd1f-0019b9dae22b/ee8c78f2-ea24-11e0-9afd-0019b9dae22b>`_	
+
+		Detailed Location Map
+		---------------------
+		This map is a smaller scaled map showing more detail. Default layers:
+			* National Oceanic and Atmospheric Administration (NOAA) navigational chart
+			* `Alaska Community Locations <https://mariculture.portal.aoos.org/#metadata/ad714578-ea24-11e0-bd1f-0019b9dae22b/ee8c78f2-ea24-11e0-9afd-0019b9dae22b>`_
+
+
+		Site Plan Map
+		-------------
+		Draw an overhead view of the farm area parcel(s) and surrounding area, and include data layers for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
+			* Satellite base map
+		
+		.. csv-table:: Satellite Base Map Details
+			:header: "MM Category", "Map Grouping?", "Permit Map Type", "Layer Group", "Layer"
+
+			"""Anadromous Waters""","""yes""","""Site Plan Map""","""ADF&G Anadromous Waters Catalog (2016)""","""ADF&G Anadromous Waters Catalog (2016)"""
+			"""Anadromous Waters""","""yes""","""Site Plan Map""","""ADF&G Anadromous Waters Catalog (2016)""","""ADF&G Anadromous Waters Catalog, Species Data (2016)"""
+			"""Aquatic Farming Infrastructure""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Aquaculture Facility"""
+			"""Aquatic Farming Infrastructure""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Carcass Disposal Site"""
+			"""Aquatic Farming Infrastructure""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Net Pens"""
+			"""Aquatic Farming Infrastructure""","""yes""",,"""ADFG Active Aquatic Farming Operations""","""ADFG Active Aquatic Farming Operation Areas"""
+			"""Aquatic Farming Infrastructure""","""yes""",,"""ADFG Active Aquatic Farming Operations""","""ADFG Active Aquatic Farming Operation Details"""
+			"""Aquatic Farming Infrastructure""","""underway""","""Site Plan Map""","""Mariculture Infrastructure""","""Aquatic Farms"""
+			"""Biological Species""","""yes""","""Site Plan Map""","""Environmental Sensitivity Index Map - AK""","""Pacific Herring Spawning Areas"""
+			"""Biological Species""","""yes""","""Site Plan Map""","""Environmental Sensitivity Index Map - AK""","""Sea Otter Concentration"""
+			"""Biological Species""","""yes""","""Site Plan Map""","""Mariculture Biophysical""","""Seabird Colonies"""
+			"""Biological Species""","""underway""","""Site Plan Map""","""Bear concentration areas""","""Bear concentration areas"""
+			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Onshore Seafood Processors""","""Seafood Processing Facility Locations"""
+			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""ADEC Permitted Onshore Seafood Processors""","""Support Barges/Moored Vessels"""
+			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""ADEC Permitted Seafood Processing Vessels""","""Coastal Moored Vessels"""
+			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Seafood Processing Vessels""","""Offshore Seafood Processors Area of Operation"""
+			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Seafood Processing Vessels""","""Offshore Seafood Processors Line of Operation"""
+			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""Transportation""","""Alaska Harbors"""
+			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""Transportation and Energy Infrastructure""","""Alaska Marine Highway"""
+			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""Mariculture Infrastructure""","""Log Transfer Facilities"""
+			"""Infrastructure & Transport""","""yes""","""Detailed Location Map""","""Transportation""","""Alaska Communities"""
+			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Seafood Processing Vessels""","""Offshore Seafood Processors Permitted Vessels"""
+			"""Land Classification""","""yes""",,"""Alaska Governmental Boundaries""","""Borough Boundaries in Alaska"""
+			"""Land Classification""","""yes""",,"""Alaska Governmental Boundaries""","""City Boundaries in Alaska"""
+			"""Land Classification""","""yes""",,"""Land""","""General Land Status"""
+			"""Land Classification""","""yes""",,"""Mariculture Management Areas""","""Alaska State Game Refuges"""
+			"""Land Classification""","""yes""",,"""Mariculture Management Areas""","""Alaska State Parks"""
+			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""City and Borough of Juneau Tax Parcels"""
+			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""City and Borough of Sitka Tax Parcels"""
+			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""City and Borough of Wrangell Tax Parcels"""
+			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Haines Borough Tax Parcels"""
+			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Kenai Peninsula Borough Tax Parcels"""
+			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Ketchikan Gateway Borough Tax Parcels"""
+			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Municipality of Skagway Tax Parcels"""
+			"""Physical Oceanography- Sea Surface Temperature""","""yes""",,"""GHRSST Level 4 MUR Global Foundation Sea Surface Temperature Analysis (.01deg/1km)""","""Sea Surface Temperature"""
+			"""Protected Biological Species""","""yes""",,"""Environmental Sensitivity Index Map - AK""","""Bald Eagle Nests"""
+			"""Protected Biological Species""","""yes""",,"""Harbor Seals""","""Alaska Harbor Seal Haul-out 500m Buffers"""
+			"""Protected Biological Species""","""yes""",,"""Harbor Seals""","""Alaska Harbor Seal Haul-out Locations"""
+			"""Protected Biological Species""","""underway""",,"""NMFS Critical Habitat Areas""","""Steller Sea Lion Critical Habitat"""
+			"""Protected Biological Species""","""underway""",,"""NMFS Critical Habitat Areas""","""Steller Sea Lion Critical Habitat"""
+			"""Physical Oceanography- Sea Surface Temperature""","""yes""",,"""AOOS Real-time Sensor Catalog""","""AOOS Real-time Sensors"""
+			"""Site Plan Map""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Kelp Biobands"""
+			"""Site Plan Map""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Sea Grass Biobands"""
+			"""Shoreline""","""yes""",,"""Alaska ShoreZone""","""Biological Wave Exposure"""
+			"""Water Quality""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Outfall"""
+			"""Water Quality""","""yes""",,"""ADEC Permitted Onshore Seafood Processors""","""Seafood Processing Discharge Locations"""
+			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska Contaminated Sites""","""Alaska Contaminated Sites"""
+			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Oil Persistence"""
+
+
+
+
+	.. _data-charts-overview:
+	
 	***********
 	Data Charts
 	***********
@@ -835,4 +943,5 @@ The view will open, displaying data comparison charts for you to explore, as see
 	If you need assistance creating a particular view, please contact us via the feedback button |feedback_button_icon| in the top right corner of the upper toolbar.
 
 For more details, please see the Data Views section of the :ref:`data-views-how-tos` How-To page.
+
 

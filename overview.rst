@@ -650,7 +650,7 @@ Map Overview
 
 		For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
 
-	.. only:: mariculture-map
+.. only:: mariculture-map
 
 		.. _draw-tools-overview:
 

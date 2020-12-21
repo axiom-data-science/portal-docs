@@ -943,3 +943,6 @@ The view will open, displaying data comparison charts for you to explore, as see
 For more details, please see the Data Views section of the :ref:`data-views-how-tos` How-To page.
 
 
+.. only:: mariculture-map
+
+	This is a test.

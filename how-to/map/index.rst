@@ -25,9 +25,6 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    download-queue-multiple-files
    map-view-glider-data
    map-use-polygon-tool
-
-.. only::mariculture-map
-
    draw-tools-how-to
    create-custom-map-how-to
    create-account-how-to

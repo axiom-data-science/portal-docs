@@ -650,42 +650,42 @@ Map Overview
 
 		For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
 
-	.. Instance State Saving
-	.. =====================
-
+		.. Instance State Saving
+		.. =====================
+	
 	.. only:: mariculture-map
-
+	
 		.. _create-custom-map-overview:
-
+	
 		*****************
 		Create Custom Map
 		*****************
-
+	
 		Create maps of your aquaculture site using pre-loaded data layers that follow the permit application requirements, including:
 			* General Location Map
 			* Detailed Location Map
 			* Site Plan Map
 		Within each of these map types, data layers that meet the permit requirements have been added by default. You can add or remove data layers. Customize your map by drawing and adding annotations of your proposed farm site. Print the final version for submission with your permit application. Or, save the map to be later edited. For more information, refer to the :ref:`Create Custom Map <create-custom-map-how-to>` page.
-
+	
 		.. _default-data-layers-marm
-
+	
 		Default Data Layers
 		*******************
 		For each of the map types, the following data layers are added by default onto the map. 
-
+	
 		General Location Mapping
 		------------------------
 		This map is a larger scaled map showing the larger surrounding area with less detail. Default layers:
 			* USGS Topographic quadrangle map
 			* `Alaska Community Locations <https://mariculture.portal.aoos.org/#metadata/ad714578-ea24-11e0-bd1f-0019b9dae22b/ee8c78f2-ea24-11e0-9afd-0019b9dae22b>`_	
-
+	
 		Detailed Location Map
 		---------------------
 		This map is a smaller scaled map showing more detail. Default layers:
 			* National Oceanic and Atmospheric Administration (NOAA) navigational chart
 			* `Alaska Community Locations <https://mariculture.portal.aoos.org/#metadata/ad714578-ea24-11e0-bd1f-0019b9dae22b/ee8c78f2-ea24-11e0-9afd-0019b9dae22b>`_
-
-
+	
+	
 		Site Plan Map
 		-------------
 		Draw an overhead view of the farm area parcel(s) and surrounding area, and include data layers for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
@@ -693,7 +693,7 @@ Map Overview
 		
 		.. csv-table:: Satellite Base Map Details
 			:header: "MM Category", "Map Grouping?", "Permit Map Type", "Layer Group", "Layer"
-
+	
 			"""Anadromous Waters""","""yes""","""Site Plan Map""","""ADF&G Anadromous Waters Catalog (2016)""","""ADF&G Anadromous Waters Catalog (2016)"""
 			"""Anadromous Waters""","""yes""","""Site Plan Map""","""ADF&G Anadromous Waters Catalog (2016)""","""ADF&G Anadromous Waters Catalog, Species Data (2016)"""
 			"""Aquatic Farming Infrastructure""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Aquaculture Facility"""
@@ -742,20 +742,20 @@ Map Overview
 			"""Water Quality""","""yes""",,"""ADEC Permitted Onshore Seafood Processors""","""Seafood Processing Discharge Locations"""
 			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska Contaminated Sites""","""Alaska Contaminated Sites"""
 			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Oil Persistence"""
-
-
+	
+	
 		.. _draw-tools-overview:
-
+	
 		Draw tools
 		==========
 		You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
-
+	
 		.. _log-in-overview:
-
+	
 		Log-in
 		======
 		You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
-
+	
 
 
 	.. _data-charts-overview:

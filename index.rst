@@ -118,13 +118,14 @@ Welcome to the help site for the |brand| |title|!
 
 	For information about how to contribute biological data to the |title|, visit https://ioos.github.io/mbon-docs/.
 
-.. only:: mariculture-map
+.. only:: marm
 
 	****************
 	|title| Overview
 	****************
 
 	The |title| is a web-based tool offering investors, regulators, and operators the ability to discover and access environmental, oceanographic and social data to inform site selection and aquatic farm permit applications. 
+
 
 	The Mariculture Map integrates datasets from many different sources that are relevant to aquaculture farming in Alaska. Using this tool, customized maps can be created and printed for aquaculture permit applications, including:  
 		* General Location Map

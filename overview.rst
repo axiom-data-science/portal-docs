@@ -650,20 +650,6 @@ Map Overview
 
 		For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
 
-.. only:: mariculture-map
-
-		.. _draw-tools-overview:
-
-		Draw tools
-		==========
-		You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
-
-		.. _log-in-overview:
-
-		Log-in
-		======
-		You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
-
 	.. Instance State Saving
 	.. =====================
 
@@ -757,6 +743,18 @@ Map Overview
 			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska Contaminated Sites""","""Alaska Contaminated Sites"""
 			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Oil Persistence"""
 
+
+		.. _draw-tools-overview:
+
+		Draw tools
+		==========
+		You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
+
+		.. _log-in-overview:
+
+		Log-in
+		======
+		You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
 
 
 

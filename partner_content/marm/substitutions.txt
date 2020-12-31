@@ -7,58 +7,58 @@
 
 .. SCREENSHOTS
 
-.. |map_initial_view| image:: /partner_content/mariculture-map/images/map_initial_view_aoos.png
+.. |map_initial_view| image:: /partner_content/marm/images/map_initial_view_aoos.png
 
-.. |catalog_initial_view| image:: /partner_content/mariculture-map/images/catalog_initial_view_aoos.png
+.. |catalog_initial_view| image:: /partner_content/marm/images/catalog_initial_view_aoos.png
 
-.. |sensor_hover| image:: /partner_content/mariculture-map/images/sensor_hover_aoos.png
+.. |sensor_hover| image:: /partner_content/marm/images/sensor_hover_aoos.png
 
-.. |sensor_select| image:: /partner_content/mariculture-map/images/sensor_select_aoos.png
+.. |sensor_select| image:: /partner_content/marm/images/sensor_select_aoos.png
 
-.. |data_view| image:: /partner_content/mariculture-map/images/data_view_aoos.png
+.. |data_view| image:: /partner_content/marm/images/data_view_aoos.png
 
 .. GIFS
 
-.. |add_new_view_gif| image:: /partner_content/mariculture-map/images/add_new_view_gif_aoos.gif
+.. |add_new_view_gif| image:: /partner_content/marm/images/add_new_view_gif_aoos.gif
 
-.. |map_access_data_views_gif| image:: /partner_content/mariculture-map/images/map_access_data_views.gif
+.. |map_access_data_views_gif| image:: /partner_content/marm/images/map_access_data_views.gif
 
-.. |add_new_view_gif| image:: /partner_content/mariculture-map/images/add_new_view_gif_aoos.gif
+.. |add_new_view_gif| image:: /partner_content/marm/images/add_new_view_gif_aoos.gif
 
-.. |map_comparison_chart_gif| image:: /partner_content/mariculture-map/images/map_comparison_chart.gif
+.. |map_comparison_chart_gif| image:: /partner_content/marm/images/map_comparison_chart.gif
 
-.. |map_comparison_chart_data_view_gif| image:: /partner_content/mariculture-map/images/map_comparison_chart_data_view.gif
+.. |map_comparison_chart_data_view_gif| image:: /partner_content/marm/images/map_comparison_chart_data_view.gif
 
-.. |map_edit_view_description_gif| image:: /partner_content/mariculture-map/images/map_edit_view_description.gif
+.. |map_edit_view_description_gif| image:: /partner_content/marm/images/map_edit_view_description.gif
 
-.. |map_share_view_data_gif| image:: /partner_content/mariculture-map/images/map_share_view_data.gif
+.. |map_share_view_data_gif| image:: /partner_content/marm/images/map_share_view_data.gif
 
-.. |map_delete_data_view_gif| image:: /partner_content/mariculture-map/images/map_delete_data_view.gif
+.. |map_delete_data_view_gif| image:: /partner_content/marm/images/map_delete_data_view.gif
 
-.. |how_to_search_catalog_gif| image:: /partner_content/mariculture-map/images/how_to_search_catalog_aoos.gif
+.. |how_to_search_catalog_gif| image:: /partner_content/marm/images/how_to_search_catalog_aoos.gif
 
-.. |search_project_data_gif| image:: /partner_content/mariculture-map/images/search_project_data_aoos.gif
+.. |search_project_data_gif| image:: /partner_content/marm/images/search_project_data_aoos.gif
 
-.. |catalog_download_data_netcdf_subset_gif| image:: /partner_content/mariculture-map/images/catalog_download_data_netcdf_subset_aoos.gif
+.. |catalog_download_data_netcdf_subset_gif| image:: /partner_content/marm/images/catalog_download_data_netcdf_subset_aoos.gif
 
-.. |catalog_download_virtual_sensor_gif| image:: /partner_content/mariculture-map/images/catalog_download_virtual_sensor_aoos.gif
+.. |catalog_download_virtual_sensor_gif| image:: /partner_content/marm/images/catalog_download_virtual_sensor_aoos.gif
 
-.. |catalog_download_data_wms_gif| image:: /partner_content/mariculture-map/images/catalog_download_data_wms_aoos.gif
+.. |catalog_download_data_wms_gif| image:: /partner_content/marm/images/catalog_download_data_wms_aoos.gif
 
-.. |catalog_download_data_opendap_gif| image:: /partner_content/mariculture-map/images/catalog_download_data_opendap_aoos.gif
+.. |catalog_download_data_opendap_gif| image:: /partner_content/marm/images/catalog_download_data_opendap_aoos.gif
 
-.. |marm_map_view_layers_gif| image:: /partner_content/mariculture-map/images/marm_map_view_layers_gif.gif
+.. |marm_map_view_layers_gif| image:: /partner_content/marm/images/marm_map_view_layers_gif.gif
 
-.. |map_draw_line_shape_gif| image:: /partner_content/mariculture-map/images/map_draw_line_shape_gif.gif
+.. |map_draw_line_shape_gif| image:: /partner_content/marm/images/map_draw_line_shape_gif.gif
 
-.. |map_measure_distance_gif| image:: /partner_content/mariculture-map/images/map_measure_distance_gif.gif
+.. |map_measure_distance_gif| image:: /partner_content/marm/images/map_measure_distance_gif.gif
 
-.. |map_measure_area_gif| image:: /partner_content/mariculture-map/images/map_measure_area_gif.gif
+.. |map_measure_area_gif| image:: /partner_content/marm/images/map_measure_area_gif.gif
 
-.. |map_edit_lines_shapes_gif| image:: /partner_content/mariculture-map/images/map_edit_lines_shapes_gif.gif
+.. |map_edit_lines_shapes_gif| image:: /partner_content/marm/images/map_edit_lines_shapes_gif.gif
 
-.. |map_delete_lines_shapes_gif| image:: /partner_content/mariculture-map/images/map_delete_lines_shapes_gif.gif
+.. |map_delete_lines_shapes_gif| image:: /partner_content/marm/images/map_delete_lines_shapes_gif.gif
 
-.. |marm_map_create_new_option1_gif| image:: /partner_content/mariculture-map/images/marm_map_create_new_option1_gif.gif
+.. |marm_map_create_new_option1_gif| image:: /partner_content/marm/images/marm_map_create_new_option1_gif.gif
 
-.. |marm_map_create_new_option2_gif| image:: /partner_content/mariculture-map/images/marm_map_create_new_option2_gif.gif
+.. |marm_map_create_new_option2_gif| image:: /partner_content/marm/images/marm_map_create_new_option2_gif.gif

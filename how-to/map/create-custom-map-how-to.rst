@@ -15,6 +15,8 @@ Using the Create Custom Map button the General Location, Detailed Location, and 
 Custom Map Option 1
 ^^^^^^^^^^^^^^^^^^^
 
+|marm_map_create_new_option1_gif|
+
 #. From the home page, click the ‘Create custom map’ button.
     #. Enter the bounding coordinates for your site in decimal degrees (using positive east) as: Northwest Latitude, Northwest Longitude, Southeast Latitude, and Southeast Longitude. This will draw the farm site on the map. Or, you can skip this step and use the drawing tools within the map to approximate your farm site (refer to Option 2 below).
     #. Enter a description to appear in the map legend box. (Note: the description text can be edited before printing the map). The legend box should include:  
@@ -36,8 +38,13 @@ Custom Map Option 1
     #. Refer to the Default Data Layer section for more about the default data layers that are added to each of the map types (i.e. General Location, Detailed Location, Site Plan). 
     #. In the main map, you can now :ref:`add or remove data layers <add-layers-how-to>`, :ref:`draw additional shapes <draw-tools-how-to>`, :ref:`print your map print-map-how-to>`, or :ref:`save it to your account <create-account-how-to>` for later use.
 
+
+
 Custom Map Option 2
 ^^^^^^^^^^^^^^^^^^^
+
+marm_map_create_new_option2_gif| 
+
 #. In the main map, click the ‘Create custom map’ button.
     #. Enter a description of the site to appear in the map legend. (Note: the description text can be edited before printing the map). The legend box should include:  
         * Figure No and Map Type (General location, Detailed location, Site plan) 

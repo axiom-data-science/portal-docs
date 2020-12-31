@@ -8,6 +8,8 @@ Draw Tools
 Draw a Line or a Shape
 ======================
 
+|map_draw_line_shape_gif|
+
     #. Click one of the four drawing tools: Draw Marker, Draw Polyline, Draw Rectangle, Draw Polygons.
     #. Zoom into your area of interest and click where to start drawing.
     #. Click each corner or bend of your line or shape. For a rectangle, click on the starting point and drag the mouse to expand.
@@ -22,6 +24,8 @@ Draw a Line or a Shape
 Measure Distance
 ================
 
+|map_measure_distance_gif|
+
     #. Click on the Draw Polyline button.
     #. On the map, click a starting point for your measurement.
     #. Then, hover over a point and click an end point.
@@ -30,6 +34,8 @@ Measure Distance
 
 Measure Area
 ============
+
+|map_measure_area_gif|
 
     #. Click on the Draw Rectangle or Draw Polygons button.
     #. On the map, click a starting point for your measurement.
@@ -41,6 +47,8 @@ Measure Area
 Edit Lines or Shapes
 ====================
 
+|map_edit_lines_shapes_gif|
+
     #. To edit, click the Edit Layers button.
     #. Click each corner or bend of your line or shape to make adjustments.
     #. Then, go to the Edit Layers button and click ‘Finish’.
@@ -48,6 +56,9 @@ Edit Lines or Shapes
 
 Delete Lines or Shapes
 ======================
+
+|map_delete_lines_shapes_gif|
+
     #. To delete, click the Remove Layers button.
     #. Click on the line or shape you want to delete. You can select more than one. Or, click ‘Remove all’ next to the Remove Layers button to delete all lines or shapes.
     #. Then, go the Remove Layers button and click ‘Finish’.

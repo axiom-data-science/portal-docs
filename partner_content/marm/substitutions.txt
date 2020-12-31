@@ -46,3 +46,19 @@
 .. |catalog_download_data_wms_gif| image:: /partner_content/mariculture-map/images/catalog_download_data_wms_aoos.gif
 
 .. |catalog_download_data_opendap_gif| image:: /partner_content/mariculture-map/images/catalog_download_data_opendap_aoos.gif
+
+.. |marm_map_view_layers_gif| image:: /partner_content/mariculture-map/images/marm_map_view_layers_gif.gif
+
+.. |map_draw_line_shape_gif| image:: /partner_content/mariculture-map/images/map_draw_line_shape_gif.gif
+
+.. |map_measure_distance_gif| image:: /partner_content/mariculture-map/images/map_measure_distance_gif.gif
+
+.. |map_measure_area_gif| image:: /partner_content/mariculture-map/images/map_measure_area_gif.gif
+
+.. |map_edit_lines_shapes_gif| image:: /partner_content/mariculture-map/images/map_edit_lines_shapes_gif.gif
+
+.. |map_delete_lines_shapes_gif| image:: /partner_content/mariculture-map/images/map_delete_lines_shapes_gif.gif
+
+.. |marm_map_create_new_option1_gif| image:: /partner_content/mariculture-map/images/marm_map_create_new_option1_gif.gif
+
+.. |marm_map_create_new_option2_gif| image:: /partner_content/mariculture-map/images/marm_map_create_new_option2_gif.gif

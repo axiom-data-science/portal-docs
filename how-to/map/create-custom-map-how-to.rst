@@ -10,7 +10,7 @@ Create New Map
 Using the Create Custom Map button the General Location, Detailed Location, and Site Plan maps can be created for your permit application. For specific information on application mapping requirements refer to: Required Maps for Joint State Agency Application, and USACE Permit Application on the `Siting Information website. <https://www.google.com/url?q=https://docs.google.com/document/d/14Adl6b_97CXbuGJxapUUP8yIooLoX7UDJ0gRs6YgrVo/edit%23heading%3Dh.b9w6oydob1&sa=D&ust=1608510533730000&usg=AOvVaw3qT73D5gLVdnUBHvK6PLQH>`_
 
 
-*There are two ways to get started creating a custom map.*
+**There are two ways to get started creating a custom map.**
 
 Custom Map Option 1
 ^^^^^^^^^^^^^^^^^^^
@@ -20,6 +20,7 @@ Custom Map Option 1
 #. From the home page, click the ‘Create custom map’ button.
     #. Enter the bounding coordinates for your site in decimal degrees (using positive east) as: Northwest Latitude, Northwest Longitude, Southeast Latitude, and Southeast Longitude. This will draw the farm site on the map. Or, you can skip this step and use the drawing tools within the map to approximate your farm site (refer to Option 2 below).
     #. Enter a description to appear in the map legend box. (Note: the description text can be edited before printing the map). The legend box should include:  
+
         * Figure No and Map Type (General location, Detailed location, Site plan) 
         * Applicant Name (Business Name)
         * Waterbody
@@ -43,17 +44,20 @@ Custom Map Option 1
 Custom Map Option 2
 ^^^^^^^^^^^^^^^^^^^
 
-marm_map_create_new_option2_gif| 
+|marm_map_create_new_option2_gif| 
 
 #. In the main map, click the ‘Create custom map’ button.
-    #. Enter a description of the site to appear in the map legend. (Note: the description text can be edited before printing the map). The legend box should include:  
+
+    #. Enter a description of the site to appear in the map legend. (Note: the description text can be edited before printing the map). The legend box should include:
+
         * Figure No and Map Type (General location, Detailed location, Site plan) 
         * Applicant Name (Business Name)
         * Waterbody
         * Area/Region
         * Today's Date
-        * 
+    
         For Example:
+
         * FIGURE 1   Detailed Location Map
         * Alaska’S Best Oysters
         * Jerryton Bay

@@ -57,7 +57,9 @@ Edit Lines or Shapes
 Delete Lines or Shapes
 ======================
 
+
 |map_delete_lines_shapes_gif|
+
 
     #. To delete, click the Remove Layers button.
     #. Click on the line or shape you want to delete. You can select more than one. Or, click ‘Remove all’ next to the Remove Layers button to delete all lines or shapes.

@@ -17,7 +17,8 @@ Custom Map Option 1
 
 |marm_map_create_new_option1_gif|
 
-#. From the home page, click the ‘Create custom map’ button.
+#. From the home page, click the ‘Create custom map’ button.  
+
     #. Enter the bounding coordinates for your site in decimal degrees (using positive east) as: Northwest Latitude, Northwest Longitude, Southeast Latitude, and Southeast Longitude. This will draw the farm site on the map. Or, you can skip this step and use the drawing tools within the map to approximate your farm site (refer to Option 2 below).
     #. Enter a description to appear in the map legend box. (Note: the description text can be edited before printing the map). The legend box should include:  
 
@@ -25,9 +26,10 @@ Custom Map Option 1
         * Applicant Name (Business Name)
         * Waterbody
         * Area/Region
-        * Today's Date
+        * Today's Date  
 
         For Example:
+
         * FIGURE 1   Detailed Location Map
         * Alaska’S Best Oysters
         * Jerryton Bay
@@ -54,7 +56,7 @@ Custom Map Option 2
         * Applicant Name (Business Name)
         * Waterbody
         * Area/Region
-        * Today's Date
+        * Today's Date  
     
         For Example:
 

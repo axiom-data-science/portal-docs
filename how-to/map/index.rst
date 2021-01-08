@@ -14,7 +14,7 @@ The pages below contain detailed instructions for using the |title|'s data map. 
    map-change-default-settings
    map-view-layer-metadata
    map-view-station-metadata
-   view-layer-types-how-to
+   map-view-layer-types
    metadata-more-info
    map-customize-layers
    map-filter-by-depth

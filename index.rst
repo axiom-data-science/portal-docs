@@ -142,10 +142,10 @@ Welcome to the help site for the |brand| |title|!
 	See the :ref:`tutorials page <tutorials>` for step-by-step instructions on creating maps.
 
 	*How-To Basics*
-		* Create a custom map
-		* Save, edit, and print your maps
-		* Browse thematic aquaculture-related data layer types
-		* Add or remove data layers
+		* :ref:`Create a custom map  <create-custom-map-how-to>`
+		* :ref:`Save, edit, and print your maps <save-custom-map>`
+		* Browse thematic aquaculture-related :ref:`data layer types  <view-layer-types-how-to>`
+		* :ref:`Add  or remove <add-layers-how-to>` data layers
 
 
 	The |title| is being actively developed by `Axiom Data Science <https://www.axiomdatascience.com/>`_. For the notes about the latest portal version please visit: https://axiomdatascience.com/portal-updates/

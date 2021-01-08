@@ -6,6 +6,8 @@ Map
 
 The pages below contain detailed instructions for using the |title|'s data map. If you need more information or don't see what you're looking for in the list below, please contact us using the Feedback button |feedback_button_icon|.
 
+.. comment - these are the file names, not the internal reference names, and to exclude some of these from a particular brand or portal, use the conf.py file
+
 .. toctree::
    :maxdepth: 2
    :caption: Mapping

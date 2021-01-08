@@ -150,7 +150,7 @@ def setup(app):
             app.config.exclude_patterns.append('how-to/map/data-charts-data-inventory.rst')
 
         #include custom map how tos for only mariculture map portal
-        if portal != 'mariculture-map':
+        if portal != 'marm':
             app.config.exclude_patterns.append('how-to/map/draw-tools-how-to.rst')
             app.config.exclude_patterns.append('how-to/map/create-custom-map-how-to.rst')
             app.config.exclude_patterns.append('how-to/map/create-account-how-to.rst')

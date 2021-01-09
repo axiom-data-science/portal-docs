@@ -72,6 +72,10 @@ Custom Map Option 2
     #. Refer to the Default Data Layer section for more about the default data layers that are added to each of the map types (i.e. General Location, Detailed Location, Site Plan). 
     #. In the main map, you can now :ref:`add or remove data layers <add-layers-how-to>`, :ref:`draw additional shapes <draw-tools-how-to>`, :ref:`print your map print-map-how-to>`, or :ref:`save it to your account <create-account-how-to>` for later use.
 
+
+.. _save-custom-map:
+
+
 Save Map
 ========
 

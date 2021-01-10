@@ -13,6 +13,7 @@ Follow these steps to download data from within the data view window:
 #. For your desired format, click the clipboard icon to copy the dataset's URL.
 #. Or, click the down-arrow icon to download the dataset.
 #. Or, check “Queue for download” to add the data file to your downloads list. Refer to :ref:`Queue Multiple Files for Download <download-queue-multiple-files>` section.
+
 .. note:: For some datasets you may be offered a choice to download calculated or raw data.
 
 .. only:: not ioos

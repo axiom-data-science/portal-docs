@@ -128,7 +128,7 @@ Welcome to the help site for the |brand| |title|!
 
 
 	The Mariculture Map integrates datasets from many different sources that are relevant to aquaculture farming in Alaska. Using this tool, customized maps can be created and printed for aquaculture permit applications, including:  
-		
+	
 		* General Location Map
 		* Detailed Location Map
 		* Site plan Map
@@ -139,11 +139,13 @@ Welcome to the help site for the |brand| |title|!
 
 	Follow these links to get started.
 	
-	*Tutorials*
+	Tutorials
+	=========
 
 	See the :ref:`tutorials page <tutorials>` for step-by-step instructions on creating maps.
 
-	*How-To Basics*
+	How-To Basics
+	=============
 
 		* :ref:`Create a custom map  <create-custom-map-how-to>`
 		* :ref:`Save, edit, and print your maps <save-custom-map>`

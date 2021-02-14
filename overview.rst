@@ -616,15 +616,13 @@ Map Overview
 		For more details, please see the :ref:`Add Layers <add-layers-how-to>` page.
 
 	.. _time-slider-overview:
-
 	Time Slider
 	===========
+	The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will varydepending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layersloaded. By default, the time slider is set to display the most recent data that is available for that data layer.
 
-	The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer.
+	.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legendbeneath the data layer title.
 
-	.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legend beneath the data layer title.
-
-	The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name of the data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map.
+	The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name ofthe data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporalinformation will appear for all time-enabled datasets that are currently loaded in the map. For more details, please see the :ref:`How To Time Slider <map-time-slider>` page.
 
 	.. _depth-filter-overview:
 
@@ -662,9 +660,11 @@ Map Overview
 		*****************
 	
 		Create maps of your aquaculture site using pre-loaded data layers that follow the permit application requirements, including:
+
 			* General Location Map
 			* Detailed Location Map
 			* Site Plan Map
+		
 		Within each of these map types, data layers that meet the permit requirements have been added by default. You can add or remove data layers. Customize your map by drawing and adding annotations of your proposed farm site. Print the final version for submission with your permit application. Or, save the map to be later edited. For more information, refer to the :ref:`Create Custom Map <create-custom-map-how-to>` page.
 	
 		.. _default-data-layers-marm
@@ -676,74 +676,24 @@ Map Overview
 		General Location Mapping
 		------------------------
 		This map is a larger scaled map showing the larger surrounding area with less detail. Default layers:
+
 			* USGS Topographic quadrangle map
-			* `Alaska Community Locations <https://mariculture.portal.aoos.org/#metadata/ad714578-ea24-11e0-bd1f-0019b9dae22b/ee8c78f2-ea24-11e0-9afd-0019b9dae22b>`_	
+			* `Alaska Community Locations <https://mariculture.portal.aoos.org/?ls=zkhLDu2Z#map>`_	
 	
 		Detailed Location Map
 		---------------------
 		This map is a smaller scaled map showing more detail. Default layers:
+
 			* National Oceanic and Atmospheric Administration (NOAA) navigational chart
-			* `Alaska Community Locations <https://mariculture.portal.aoos.org/#metadata/ad714578-ea24-11e0-bd1f-0019b9dae22b/ee8c78f2-ea24-11e0-9afd-0019b9dae22b>`_
+			* `Alaska Community Locations <https://mariculture.portal.aoos.org/?ls=zkhLDu2Z#map>`_
 	
 	
 		Site Plan Map
 		-------------
 		Draw an overhead view of the farm area parcel(s) and surrounding area, and include data layers for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
+
 			* Satellite base map
 		
-		.. csv-table:: Satellite Base Map Details
-			:header: "MM Category", "Map Grouping?", "Permit Map Type", "Layer Group", "Layer"
-	
-			"""Anadromous Waters""","""yes""","""Site Plan Map""","""ADF&G Anadromous Waters Catalog (2016)""","""ADF&G Anadromous Waters Catalog (2016)"""
-			"""Anadromous Waters""","""yes""","""Site Plan Map""","""ADF&G Anadromous Waters Catalog (2016)""","""ADF&G Anadromous Waters Catalog, Species Data (2016)"""
-			"""Aquatic Farming Infrastructure""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Aquaculture Facility"""
-			"""Aquatic Farming Infrastructure""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Carcass Disposal Site"""
-			"""Aquatic Farming Infrastructure""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Net Pens"""
-			"""Aquatic Farming Infrastructure""","""yes""",,"""ADFG Active Aquatic Farming Operations""","""ADFG Active Aquatic Farming Operation Areas"""
-			"""Aquatic Farming Infrastructure""","""yes""",,"""ADFG Active Aquatic Farming Operations""","""ADFG Active Aquatic Farming Operation Details"""
-			"""Aquatic Farming Infrastructure""","""underway""","""Site Plan Map""","""Mariculture Infrastructure""","""Aquatic Farms"""
-			"""Biological Species""","""yes""","""Site Plan Map""","""Environmental Sensitivity Index Map - AK""","""Pacific Herring Spawning Areas"""
-			"""Biological Species""","""yes""","""Site Plan Map""","""Environmental Sensitivity Index Map - AK""","""Sea Otter Concentration"""
-			"""Biological Species""","""yes""","""Site Plan Map""","""Mariculture Biophysical""","""Seabird Colonies"""
-			"""Biological Species""","""underway""","""Site Plan Map""","""Bear concentration areas""","""Bear concentration areas"""
-			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Onshore Seafood Processors""","""Seafood Processing Facility Locations"""
-			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""ADEC Permitted Onshore Seafood Processors""","""Support Barges/Moored Vessels"""
-			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""ADEC Permitted Seafood Processing Vessels""","""Coastal Moored Vessels"""
-			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Seafood Processing Vessels""","""Offshore Seafood Processors Area of Operation"""
-			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Seafood Processing Vessels""","""Offshore Seafood Processors Line of Operation"""
-			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""Transportation""","""Alaska Harbors"""
-			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""Transportation and Energy Infrastructure""","""Alaska Marine Highway"""
-			"""Infrastructure & Transport""","""yes""","""Site Plan Map""","""Mariculture Infrastructure""","""Log Transfer Facilities"""
-			"""Infrastructure & Transport""","""yes""","""Detailed Location Map""","""Transportation""","""Alaska Communities"""
-			"""Infrastructure & Transport""","""yes""",,"""ADEC Permitted Seafood Processing Vessels""","""Offshore Seafood Processors Permitted Vessels"""
-			"""Land Classification""","""yes""",,"""Alaska Governmental Boundaries""","""Borough Boundaries in Alaska"""
-			"""Land Classification""","""yes""",,"""Alaska Governmental Boundaries""","""City Boundaries in Alaska"""
-			"""Land Classification""","""yes""",,"""Land""","""General Land Status"""
-			"""Land Classification""","""yes""",,"""Mariculture Management Areas""","""Alaska State Game Refuges"""
-			"""Land Classification""","""yes""",,"""Mariculture Management Areas""","""Alaska State Parks"""
-			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""City and Borough of Juneau Tax Parcels"""
-			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""City and Borough of Sitka Tax Parcels"""
-			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""City and Borough of Wrangell Tax Parcels"""
-			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Haines Borough Tax Parcels"""
-			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Kenai Peninsula Borough Tax Parcels"""
-			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Ketchikan Gateway Borough Tax Parcels"""
-			"""Land Classification""","""underway""",,"""Alaska Borough Tax Parcels""","""Municipality of Skagway Tax Parcels"""
-			"""Physical Oceanography- Sea Surface Temperature""","""yes""",,"""GHRSST Level 4 MUR Global Foundation Sea Surface Temperature Analysis (.01deg/1km)""","""Sea Surface Temperature"""
-			"""Protected Biological Species""","""yes""",,"""Environmental Sensitivity Index Map - AK""","""Bald Eagle Nests"""
-			"""Protected Biological Species""","""yes""",,"""Harbor Seals""","""Alaska Harbor Seal Haul-out 500m Buffers"""
-			"""Protected Biological Species""","""yes""",,"""Harbor Seals""","""Alaska Harbor Seal Haul-out Locations"""
-			"""Protected Biological Species""","""underway""",,"""NMFS Critical Habitat Areas""","""Steller Sea Lion Critical Habitat"""
-			"""Protected Biological Species""","""underway""",,"""NMFS Critical Habitat Areas""","""Steller Sea Lion Critical Habitat"""
-			"""Physical Oceanography- Sea Surface Temperature""","""yes""",,"""AOOS Real-time Sensor Catalog""","""AOOS Real-time Sensors"""
-			"""Site Plan Map""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Kelp Biobands"""
-			"""Site Plan Map""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Sea Grass Biobands"""
-			"""Shoreline""","""yes""",,"""Alaska ShoreZone""","""Biological Wave Exposure"""
-			"""Water Quality""","""yes""",,"""ADEC Permitted Aquaculture Facilities""","""Permitted Outfall"""
-			"""Water Quality""","""yes""",,"""ADEC Permitted Onshore Seafood Processors""","""Seafood Processing Discharge Locations"""
-			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska Contaminated Sites""","""Alaska Contaminated Sites"""
-			"""Water Quality""","""yes""","""Site Plan Map""","""Alaska ShoreZone""","""Oil Persistence"""
-	
-	
 		.. _draw-tools-overview:
 	
 		Draw tools
@@ -941,8 +891,3 @@ The view will open, displaying data comparison charts for you to explore, as see
 	If you need assistance creating a particular view, please contact us via the feedback button |feedback_button_icon| in the top right corner of the upper toolbar.
 
 For more details, please see the Data Views section of the :ref:`data-views-how-tos` How-To page.
-
-
-.. only:: marm
-
-	This is a test.

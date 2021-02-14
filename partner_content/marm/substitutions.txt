@@ -34,3 +34,18 @@
 .. |marm_map_create_new_option1_gif| image:: /partner_content/marm/images/marm_map_create_new_option1_gif.gif
 
 .. |marm_map_create_new_option2_gif| image:: /partner_content/marm/images/marm_map_create_new_option2_gif.gif
+
+.. |MM_gif_7| image:: /partner_content/marm/images/MM_gif_7.gif
+
+.. |MM_gif_9| image:: /partner_content/marm/images/MM_gif_9.gif
+
+.. |MM_gif_10| image:: /partner_content/marm/images/MM_gif_10.gif
+
+.. |MM_gif_11| image:: /partner_content/marm/images/MM_gif_11.gif
+
+.. |MM_gif_12| image:: /partner_content/marm/images/MM_gif_12.gif
+
+.. |MM_gif_13| image:: /partner_content/marm/images/MM_gif_13.gif
+
+.. |MM_gif_14| image:: /partner_content/marm/images/MM_gif_14.gif
+

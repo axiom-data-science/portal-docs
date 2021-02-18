@@ -384,6 +384,7 @@ NetCDF Subset
 
 The NetCDF Subset protocol looks through all the datasets NetCDF files stored on our server, and provides an human-readable or machine-readable interface to subset the data by time, geography, or variable.
 For more information, please see the :ref:`Download Using NetCDF page. <download-netcdf-subset>`
+
 .. tip::
 	When you initially request a dataset via NetCDF Subset, the server may take a long time to respond if the dataset is large (i.e., thousands of files). Be patient, it's not broken! If your web browser times out (e.g., after 10 minutes of waiting), you can try reloading or just giving it a few more minutes and then reload. This won't restart the server process, and once it's indexed all the files things will go pretty fast.
 

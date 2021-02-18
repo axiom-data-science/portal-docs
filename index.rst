@@ -195,7 +195,7 @@ If you have a question not answered by this documentation, please contact us via
 	:hidden:
 	:caption: Tutorials
 	:glob:
-	partner_content/**/
+	partner_content/**/pages/tutorials
 
 ..  how-to/catalog/index
 

@@ -191,14 +191,14 @@ If you have a question not answered by this documentation, please contact us via
 
 	how-to/**/index
 
+..  how-to/catalog/index
+
 .. toctree::
 	:hidden:
 	:caption: Tutorials
 	:glob:
+	
 	partner_content/**/pages
-
-..  how-to/catalog/index
-
 
 These pages were last updated on |today|.
 

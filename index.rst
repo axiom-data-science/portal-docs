@@ -190,7 +190,7 @@ If you have a question not answered by this documentation, please contact us via
 	:glob:
 
 	how-to/**/index
-	partner_content/**/pages
+	partner_content/**/
 
 ..  how-to/catalog/index
 

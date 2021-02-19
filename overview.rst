@@ -692,9 +692,8 @@ Map Overview
 	
 		Site Plan Map
 		-------------
-		Draw an overhead view of the farm area parcel(s) and surrounding area, and include data layers for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
+		In this map, an overhead view of the farm area parcel(s) and surrounding area is drawn, and data layers are included for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
 
-			* Satellite base map
 		
 		.. _draw-tools-overview:
 	
@@ -718,9 +717,6 @@ Map Overview
 
 	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
-	For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
-
-	.. _different-chart-types-overview:
 
 	Different Chart Types
 	=====================

@@ -1,14 +1,14 @@
 .. _download-using-opendap-how-to:
 
 ######################
-Download Using OpenDAP
+Download Using OPeNDAP
 ######################
 
 |catalog_download_data_opendap_gif|
 
 #. Click on the Download button |catalog_data_download_icon|.
-#. Select ``THREDDS OpeNDAP``.
-#. The OpeNDAP Dataset Access Form will open in a new browser tab.
+#. Select ``THREDDS OPeNDAP``.
+#. The OPeNDAP Dataset Access Form will open in a new browser tab.
 #. Select the variable(s) you'd like to download.
 #. Subset the dataset by latitude, longitude, and time range.
 #. Click ``Get ASCII`` at the top of the page.

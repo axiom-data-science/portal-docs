@@ -8,7 +8,7 @@ Access and Explore Data
 =======================
       
 To begin exploring data, try these steps:
-   #. Click ``Data Acccess`` on the landing page.
+   #. Click ``Data Access`` on the landing page.
    #. Or, you can also begin exploring by clicking on ``Access Array Data`` in the upper toolbar.
    #. Selected a global array and one or more filters. Press the ``Go`` button to see results.
    #. You may also press ``Go`` to navigate to the main map and data catalog.

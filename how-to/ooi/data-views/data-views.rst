@@ -4,7 +4,7 @@
 Access Highlighted Data Views
 #############################
 
-To access premade data views that highlight environmental events or locations of interest, follow these steps:
+To access pre-made data views that highlight environmental events or locations of interest, follow these steps:
 
 #. Click on the views button |views_button_icon|.
 #. Select the view you'd like to access from the dropdown menu.

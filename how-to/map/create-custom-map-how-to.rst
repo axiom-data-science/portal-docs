@@ -36,6 +36,7 @@ Once logged into your account, use the Create Custom Map button to create the Ge
 #. In the main map, you can now :ref:`add or remove data layers <add-layers-how-to>`, :ref:`draw additional shapes <draw-tools-how-to>`, or ref:`print your map <print-map-how-to>`.
 #. When you are finished with your session, you can log out or exit the browser. Your map contents will be saved automatically for later use.
 
+|MM_gif_7|
 
 .. _save-custom-map:
 
@@ -73,4 +74,4 @@ Print Map
     #. A pdf file will download in your web browser.  Please note, it may take 1-2 minutes to generate the pdf file.
     #. If you need to make changes to your map after downloading, refer to :ref:`Edit Saved Map <edit-custom-map>` to edit the map narrative or to :ref:`Draw Tools <draw-tools-how-to>` to change map labels.
 
-|MM_gif_11|`
+|MM_gif_11|

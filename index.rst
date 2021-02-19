@@ -190,15 +190,9 @@ If you have a question not answered by this documentation, please contact us via
 	:glob:
 
 	how-to/**/index
+	partner_content/**/pages
 
 ..  how-to/catalog/index
-
-.. toctree::
-	:hidden:
-	:caption: Tutorials
-	:glob:
-	
-	partner_content/**/pages
 
 These pages were last updated on |today|.
 

@@ -698,13 +698,13 @@ Map Overview
 		.. _draw-tools-overview:
 	
 		Draw tools
-		==========
+		**********
 		You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
 	
 		.. _log-in-overview:
 	
 		Log-in
-		======
+		******
 		You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
 	
 

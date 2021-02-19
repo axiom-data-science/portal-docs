@@ -324,7 +324,7 @@ Catalog Overview
 
 	If a dataset can be visualized in the |title|'s map interface, you will see a globe icon |catalog_globe_icon| to the left of the dataset's name. Clicking on the |catalog_add_to_map_icon| button will add it to the map.
 
-	For datasets with multiple layers, click the catalog_layers_icon button then select individual layers using the catalog_add_to_map_icon.
+	For datasets with multiple layers, click the |catalog_layers_icon| button then select individual layers using the |catalog_add_to_map_icon|.
 
 	Before visualizing, you can learn more about a dataset by clicking on the title to view the metadata page.
 
@@ -392,7 +392,7 @@ For more information, please see the :ref:`Download Using NetCDF page. <download
 ERDDAP
 ------
 
-	The ERDDAP (National Ocean and Atmospheric Administration’s Environmental Research Division’s Data Access Program) Server is a free and open-source Java “servlet” that converts and serves a variety of scientific datasets using common file formats. ERDDAP gives you a simple, consistent way to download subsets of datasets in common file formats, in addition to making graphs and maps. All information about every ERDAPP request is contained in the URL of each request, which makes it easy to automate searching for and using data in other applications. Proficient users can build their own custom interfaces. Many organizations (including NOAA, NASA, and USGS) run ERDDAP servers to serve their data. Because of its widespread use and accessibility, the ERDDAP principal developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users. 
+The ERDDAP (National Ocean and Atmospheric Administration’s Environmental Research Division’s Data Access Program) Server is a free and open-source Java “servlet” that converts and serves a variety of scientific datasets using common file formats. ERDDAP gives you a simple, consistent way to download subsets of datasets in common file formats, in addition to making graphs and maps. All information about every ERDAPP request is contained in the URL of each request, which makes it easy to automate searching for and using data in other applications. Proficient users can build their own custom interfaces. Many organizations (including NOAA, NASA, and USGS) run ERDDAP servers to serve their data. Because of its widespread use and accessibility, the ERDDAP principal developer and user community have created user guides, instruction videos, and code examples to facilitate access by new users. 
 
 .. only:: not ooi
 

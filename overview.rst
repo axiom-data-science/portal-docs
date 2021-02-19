@@ -169,6 +169,7 @@ Catalog Overview
 
 		* **Min/max envelope**: The envelope represents the extent of observations within each time bin.
 
+
 	Interannual Statistics
 	----------------------
 
@@ -281,7 +282,7 @@ Catalog Overview
 	***********
 	A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.The full-instrument time series data shown in the Data Explorer data charts are created by joining recovered and telemetered streams for non-cabled instrument deployments. Refer to the Data Products section. The deployment time ranges are shown graphically and in a tabular view for exploration and download. Refer to :ref:`Deployments <how-to-data-charts-deployments>` for more.
 	
-.. this is a comment: this ends the section of 'Overview' that is spectifc to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
+.. this is a comment: this ends the section of 'Overview' that is specific to OOI, catalog overview from interface to metadata.annotations - OOI includes a section called 'Deployments' not applicable to other docs
 
 .. only:: not (ioos or ooi)
 
@@ -361,7 +362,7 @@ There are several ways to download gridded data from the |title|:
 	* THREDDS
 	* NetCDF Subset
 	* ERDDAP
-	* OpeNDAP
+	* OPeNDAP
 	* WMS
 	
 
@@ -496,7 +497,7 @@ Map Overview
 
 	To view a summary of the station data contained within a hexagon, hover your mouse over the hexagon. The number of stations aggregated within that hexagon will be displayed as *n stations*. The average value for the selected sensor type will be also be shown, followed by the time range for which that value was measured. If there are not more than one station aggregated within a hexagon, the hover-over view will display the value for the selected parameter, followed by a list of the other sensor types associated with that station and the range of associated data. By default, only five of the sensors are shown in the hover window. More sensors are indicated by the *n more sensors* in the lower left of the window.
 
-	To view data for an individual station, zoom in on the map. The hexagons will soften into points that represent the individual stations that were aggregated into that hexagon. To view current readings from that station, hover over its point. As shown in the image below, a pop-up window will display some basic information about the station, including its name, data source affilitation(s), latitude and longitude, current readings, and available sensor parameters (e.g., air temperature, water level, and water temperature as in the example below).
+	To view data for an individual station, zoom in on the map. The hexagons will soften into points that represent the individual stations that were aggregated into that hexagon. To view current readings from that station, hover over its point. As shown in the image below, a pop-up window will display some basic information about the station, including its name, data source affiliation(s), latitude and longitude, current readings, and available sensor parameters (e.g., air temperature, water level, and water temperature as in the example below).
 
 	|sensor_hover|
 
@@ -619,11 +620,11 @@ Map Overview
 	.. _time-slider-overview:
 	Time Slider
 	===========
-	The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will varydepending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layersloaded. By default, the time slider is set to display the most recent data that is available for that data layer.
+	The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer.
 
-	.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legendbeneath the data layer title.
+	.. tip:: For quick reference, the time range for data being viewed in the map is shown in the right-hand map legend beneath the data layer title.
 
-	The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name ofthe data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporalinformation will appear for all time-enabled datasets that are currently loaded in the map. For more details, please see the :ref:`How To Time Slider <map-time-slider>` page.
+	The temporal extent for the data layers can be viewed by hovering your mouse over the time slider control. The name ofthe data layer, the begin and end dates for the data, and a line graph of the temporal range will appear. The temporal information will appear for all time-enabled datasets that are currently loaded in the map. For more details, please see the :ref:`How To Time Slider <map-time-slider>` page.
 
 	.. _depth-filter-overview:
 
@@ -882,7 +883,7 @@ Data Views Overview
 
 You can save a collection of data layers and visualize them together for comparison and analysis. These collections are called *data views*, and they are accessed by clicking on the views button |views_button_icon| in the toolbar along the top of the window.
 
-Within the portal there are several premade data views that highlight environmental events or locations of interest. You can access these premade views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
+Within the portal there are several pre-made data views that highlight environmental events or locations of interest. You can access these pre-made views from the portal landing page or by clicking on the views button |views_button_icon| and selecting a view from the dropdown menu
 
 The view will open, displaying data comparison charts for you to explore, as seen in the example below.  
 

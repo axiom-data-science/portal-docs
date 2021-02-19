@@ -6,7 +6,7 @@ Share Data View
 
 To get a shareable link, follow these steps:
 
-#. Click on the share button |share_button_icon| near the top right corner of the uppertoolbar.
+#. Click on the share button |share_button_icon| near the top right corner of the upper toolbar.
 #. Highlight the link that appears in the popup window.
 #. Copy that link and paste it anywhere you'd like to share it.
 

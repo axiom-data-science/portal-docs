@@ -29,7 +29,7 @@ To interact with a dataset in a more granular way, try these steps:
 To explore advanced time slider features, try these steps:
     #. Click on the calendar icon to open the time control menu.
     #. Select the ``Next Time Stamp`` button to step forward to the next time stamp. For example, if the data view has been set to show data from the prior month, the next time stamp would advance to show data from the current month.
-    #. Click the ``Previous Time Stamp`` buttom to step back to the previous time stamp. To show the full start or end time extent click on the ``Step Forward`` or ``Step Backward`` to move the time control to the full start or end extent.
+    #. Click the ``Previous Time Stamp`` button to step back to the previous time stamp. To show the full start or end time extent click on the ``Step Forward`` or ``Step Backward`` to move the time control to the full start or end extent.
     
 |data_charts_time_slider_adv_gif|
 

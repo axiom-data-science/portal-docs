@@ -131,13 +131,9 @@ Welcome to the help site for the |brand| |title|!
 	
 		* General Location Map
 		* Detailed Location Map
-		* Site plan Map
+		* Site Plan Map
 
-	Additionally, users can search or browse real-time conditions, operational and research forecasts, satellite observations, and other spatially referenced datasets that describe the regional biological, chemical, and physical characteristics.
-
-	Datasets in the Mariculture Map can also be interactively mapped or charted using advanced features, such as the ability to create comparisons between data sources, bin data by time, and plot climatologies and anomalies.
-
-	Follow these links to get started.
+	Within each of these map types, data layers that meet the permit requirements have been added by default. You can add or remove data layers. Customize your map by drawing and adding annotations of your proposed farm site. Print the final version for submission with your permit application. Or, save the map to be later edited. For more information, refer to the below section.
 	
 	Tutorials
 	=========
@@ -146,7 +142,9 @@ Welcome to the help site for the |brand| |title|!
 
 	How-To Basics
 	=============
-
+	
+	Follow these links to get started:
+	
 		* :ref:`Create a custom map  <create-custom-map-how-to>`
 		* :ref:`Save, edit, and print your maps <save-custom-map>`
 		* Browse thematic aquaculture-related :ref:`data layer types  <view-layer-types-how-to>`

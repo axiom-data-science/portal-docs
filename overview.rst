@@ -692,20 +692,19 @@ Map Overview
 	
 		Site Plan Map
 		-------------
-		Draw an overhead view of the farm area parcel(s) and surrounding area, and include data layers for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
+		In this map, an overhead view of the farm area parcel(s) and surrounding area is drawn, and data layers are included for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
 
-			* Satellite base map
 		
 		.. _draw-tools-overview:
 	
 		Draw tools
-		==========
+		**********
 		You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
 	
 		.. _log-in-overview:
 	
 		Log-in
-		======
+		******
 		You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
 	
 
@@ -718,9 +717,6 @@ Map Overview
 
 	The catalog and map offer multiple ways of comparing data within both the mapped interface and within a :ref:`Data Views <data-views-overview>`.
 
-	For assistance, please contact us via the red Feedback button |feedback_button_icon| in the top right corner of the toolbar.
-
-	.. _different-chart-types-overview:
 
 	Different Chart Types
 	=====================

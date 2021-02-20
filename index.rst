@@ -138,7 +138,7 @@ Welcome to the help site for the |brand| |title|!
 	Tutorials
 	=========
 
-	See the :ref:`tutorials page <tutorials>` for step-by-step instructions on creating maps.
+	See the :ref:`tutorials page <marm-tutorials>` for step-by-step instructions on creating maps.
 
 	How-To Basics
 	=============

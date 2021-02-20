@@ -171,6 +171,7 @@
 
 .. |download_data_share_multiple_files_gif| image:: /partner_content/global/images/gifs/download_data_share_multiple_files_gif.gif
 
+.. |add_new_view_gif| image:: /partner_content/global/images/gifs/add_new_view_gif.gif
 
 .. OTHER IMAGE ALIASES
 

@@ -4,7 +4,9 @@
 Create Custom View
 ##################
 
+
 |add_new_view_gif|
+
 
 #. Within the data display window, click on the |data_display_view_icon|.
 #. To add the data to an existing view, choose it from the dropdown menu. Or, to create a new view, click on the add icon |add_view_icon|.

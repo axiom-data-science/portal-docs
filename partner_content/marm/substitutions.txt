@@ -19,7 +19,7 @@
 
 .. GIFS
 
-.. |marm_map_view_layers_gif| image:: /partner_content/aoos/images/catalog_download_data_wms_aoos.gif
+.. |marm_map_view_layers_gif| image:: /partner_content/marm/images/MM_gif_1.gif
 
 .. |map_draw_line_shape_gif| image:: /partner_content/marm/images/map_draw_line_shape_gif.gif
 

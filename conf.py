@@ -140,7 +140,6 @@ def setup(app):
 
         #exclude data views, QARTOD and Data Inventory from ATN
         if portal == 'atn':
-            app.config.exclude_patterns.append('how-to/data-views')
             app.config.exclude_patterns.append('how-to/map/data-charts-QARTOD.rst')
             app.config.exclude_patterns.append('how-to/map/data-charts-data-inventory.rst')
 

@@ -1,0 +1,15 @@
+.. _glider-and-cruise-selector-how-tos:
+
+##########################
+Glider and Cruise Selector
+##########################
+
+The pages below contain detailed instructions for using the |title|'s data catalog. If you need more information or don't see what you're looking for in the list below, please contact us using the Feedback button |feedback_button_icon|.
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Searching
+
+   filter-by-instrument-type-or-parameter
+   filter-by-time
+   filter-using-polygon-tool

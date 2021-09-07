@@ -107,6 +107,8 @@ Catalog Overview
 		  - A fixed or mobile device that is outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring and a glider are examples of mobile platforms.
 		* - Node
 		  - A node is a section of a platform that contains one or more computers and power converters. Instruments on a platform are plugged into a node, which collects the instrument data internally and/or transmit the data externally. Some platforms contain a single node, like a glider. Other platforms have several nodes wired together. For example, a mooring that hosts a surface buoy, near-surface instrument frame, and seafloor multi-function node, each with a different set of instruments attached.
+		* - Cruise
+		  - During each maintenance cruise, CTD casts are performed prior to deployment and following recovery of most OOI assets (glider deployments may involve a single reference CTD cast). Water samples are collected in Niskin bottles at multiple depths and analyzed.
 		* - Instrument types
 		  - A scientific instrument is a piece of specialized equipment used to sample oceanographic attributes and collect data. There are 36 unique models of specialized instrumentation used throughout the OOI.
 		* - Parameter

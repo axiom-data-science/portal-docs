@@ -10,5 +10,5 @@ Find Nearby Sample and Glider Profiles
 #. Or, use the next/previous button to update the profile comparisons on the left side. 
 
 
-|map_save_and_share_gif|
+|how_to_catalog_find_nearby_sample_and_glider_profiles|
 

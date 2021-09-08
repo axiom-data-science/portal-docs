@@ -116,6 +116,6 @@
 
 .. |how_to_glider_use_polygon_tool| image:: /partner_content/ooi/images/how_to_glider_use_polygon_tool.gif
 
-.. |how_to_glider_filter_by_timel| image:: /partner_content/ooi/images/how_to_glider_filter_by_time.gif
+.. |how_to_glider_filter_by_time| image:: /partner_content/ooi/images/how_to_glider_filter_by_time.gif
 
 .. |how_to_glider_filter_by_parameter| image:: /partner_content/ooi/images/how_to_glider_filter_by_parameter.gif

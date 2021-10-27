@@ -8,8 +8,6 @@
 
 .. |map_initial_view| image:: /partner_content/ooi/images/map_initial_view_ooi.png
 
-.. |catalog_initial_view| image:: /partner_content/ooi/images/catalog_initial_view_ooi.png
-
 .. |sensor_hover| image:: /partner_content/ooi/images/sensor_hover_ooi.png
 
 .. |sensor_select| image:: /partner_content/ooi/images/sensor_select_ooi.png

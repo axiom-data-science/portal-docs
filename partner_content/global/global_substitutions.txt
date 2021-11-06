@@ -173,8 +173,12 @@
 
 .. |add_new_view_gif| image:: /partner_content/global/images/gifs/add_new_view_gif.gif
 
+
 .. OTHER IMAGE ALIASES
 
 .. |qartod_inventory| image:: /partner_content/global/images/qartod_inventory.png
 
 .. |qartod_data_flags| image:: /partner_content/global/images/qartod_data_flags.png
+
+
+.. |catalog_initial_view| image:: /partner_content/global/images/catalog_initial_view.png

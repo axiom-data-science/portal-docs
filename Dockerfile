@@ -6,7 +6,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN pip3 install --upgrade sphinx_rtd_theme pyyaml
+RUN pip3 install --upgrade sphinx_rtd_theme "pyyaml<6"
 
 WORKDIR /srv/app
 

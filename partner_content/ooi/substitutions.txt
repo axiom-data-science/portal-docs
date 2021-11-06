@@ -8,8 +8,6 @@
 
 .. |map_initial_view| image:: /partner_content/ooi/images/map_initial_view_ooi.png
 
-.. |catalog_initial_view| image:: /partner_content/ooi/images/catalog_initial_view_ooi.png
-
 .. |sensor_hover| image:: /partner_content/ooi/images/sensor_hover_ooi.png
 
 .. |sensor_select| image:: /partner_content/ooi/images/sensor_select_ooi.png
@@ -116,6 +114,6 @@
 
 .. |how_to_glider_use_polygon_tool| image:: /partner_content/ooi/images/how_to_glider_use_polygon_tool.gif
 
-.. |how_to_glider_filter_by_timel| image:: /partner_content/ooi/images/how_to_glider_filter_by_time.gif
+.. |how_to_glider_filter_by_time| image:: /partner_content/ooi/images/how_to_glider_filter_by_time.gif
 
 .. |how_to_glider_filter_by_parameter| image:: /partner_content/ooi/images/how_to_glider_filter_by_parameter.gif

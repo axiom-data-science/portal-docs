@@ -8,8 +8,6 @@
 
 .. |map_initial_view| image:: /partner_content/cencoos/images/map_initial_view_cencoos.png
 
-.. |catalog_initial_view| image:: /partner_content/cencoos/images/catalog_initial_view_cencoos.png
-
 .. |sensor_hover| image:: /partner_content/cencoos/images/sensor_hover_cencoos.png
 
 .. |sensor_select| image:: /partner_content/cencoos/images/sensor_select_cencoos.png

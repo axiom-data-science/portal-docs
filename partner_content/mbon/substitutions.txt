@@ -8,8 +8,6 @@
 
 .. |map_initial_view| image:: /partner_content/mbon/images/map_initial_view_mbon.png
 
-.. |catalog_initial_view| image:: /partner_content/mbon/images/catalog_initial_view_mbon.png
-
 .. |sensor_hover| image:: /partner_content/mbon/images/sensor_hover_mbon.png
 
 .. |sensor_select| image:: /partner_content/mbon/images/sensor_select_mbon.png

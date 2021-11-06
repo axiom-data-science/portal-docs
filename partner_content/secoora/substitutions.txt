@@ -9,8 +9,6 @@
 
 .. |map_initial_view| image:: /partner_content/global/images/map_initial_view.png
 
-.. |catalog_initial_view| image:: /partner_content/global/images/catalog_initial_view.png
-
 .. |sensor_hover| image:: /partner_content/global/images/sensor_hover.png
 
 .. |sensor_select| image:: /partner_content/global/images/sensor_select.png

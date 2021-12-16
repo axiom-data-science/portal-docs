@@ -352,7 +352,7 @@ Catalog Overview
 	Submitting and Formatting Data
 	******************************
 
-	Details for submitting data to be included in the IOOS MBON Data Portal can be found here: `MBON Data and File Formatting <https://ioos.github.io/mbon-docs/index.html>`.
+	Details for submitting data to be included in the IOOS MBON Data Portal can be found here: `MBON Data and File Formatting <https://ioos.github.io/mbon-docs/index.html>`_.
 
 
 .. _downloading-data-overview:

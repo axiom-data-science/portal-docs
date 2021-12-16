@@ -344,6 +344,17 @@ Catalog Overview
 	================
 	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
 
+.. only:: mbon
+
+	.. _submitting-formating-mbon-data:
+
+	******************************
+	Submitting and Formatting Data
+	******************************
+
+	Details for submitting data to be included in the IOOS MBON Data Portal can be found here: `MBON Data and File Formatting <https://ioos.github.io/mbon-docs/index.html>`.
+
+
 .. _downloading-data-overview:
 	
 *************
@@ -620,6 +631,7 @@ Map Overview
 		For more details, please see the :ref:`Add Layers <add-layers-how-to>` page.
 
 	.. _time-slider-overview:
+
 	Time Slider
 	===========
 	The time slider bar at the bottom of the map allows you to view temporal data. The time intervals available will vary depending on which data layer you are viewing. The bar is unavailable if there is not any time-enabled data layers loaded. By default, the time slider is set to display the most recent data that is available for that data layer.

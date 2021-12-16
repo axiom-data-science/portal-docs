@@ -1,4 +1,4 @@
-.. _how-to-metadata:
+.. _metadata-more-info:
 
 ################
 More Information 

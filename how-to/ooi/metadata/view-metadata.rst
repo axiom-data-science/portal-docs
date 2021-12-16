@@ -6,6 +6,6 @@ View Metadata
 
 Try these steps to access standards-compliant instrument metadata:
 
-    #. Download the netCDF version of the data file. Refer to :ref:`Download Time Series Data <how-to-download-data>` section.
-    #. Access the ISO metadata via ERDDAP. Refer to :ref:`Download Time Series Data <how-to-download-data>` section.
-    #. Access contextual information using the More Information and :ref:`Annotations <data-charts-annotations>` tabs.
+#. Download the netCDF version of the data file. Refer to :ref:`Download Time Series Data <how-to-download-data>` section.
+#. Access the ISO metadata via ERDDAP. Refer to :ref:`Download Time Series Data <how-to-download-data>` section.
+#. Access contextual information using the More Information and :ref:`Annotations <data-charts-annotations>` tabs.

@@ -117,3 +117,5 @@
 .. |how_to_glider_filter_by_time| image:: /partner_content/ooi/images/how_to_glider_filter_by_time.gif
 
 .. |how_to_glider_filter_by_parameter| image:: /partner_content/ooi/images/how_to_glider_filter_by_parameter.gif
+
+.. |ooi_deployment_metadata_serial_number_gif| image:: /partner_content/ooi/images/ooi-deployment-metadata-serial-number.gif

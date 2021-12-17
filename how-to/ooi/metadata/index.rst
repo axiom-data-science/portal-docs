@@ -12,4 +12,4 @@ The pages below contain detailed instructions for using the |title|'s Metadata. 
    
    view-metadata
    deployment-level-metadata
-   metadata-more-information
+   metadata-more-info

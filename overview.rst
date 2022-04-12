@@ -256,11 +256,13 @@ Catalog Overview
 	*************
 	Through the Data Explorer, data products are processed at various levels for download and visual exploration.
 	
-	* **Instrument deployment (Level 1)**: Unprocessed, parsed data parameter that is in instrument/sensor units and resolution. A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.There are multiple deployment files per instrument. Refer to Deployments section.
+	Data Product Levels:
 
-	* **Full-instrument time series (Level 1+)**: This time series is created by joining recovered and telemetered streams for non-cabled instrument deployments (see example illustration below). For high-resolution cabled and recovered data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads for users that do not need the full-resolution, goldy copy time series. **This is the primary product for visualization within the Data Explorer.**
+	* **Instrument deployment (Level 1)**: Unprocessed, parsed data parameter that is in instrument/sensor units and resolution. A deployment is the act of putting infrastructure in the water, or the length of time between a platform going in the water and being recovered and brought back to shore.There are multiple deployment files per instrument. Refer to :ref:`Deployments section <how-to-data-charts-deployments>`.
 
-	* **Full-resolution, gold copy time series (Level 2)**:  This time series represents the full-resolution dataset that has been calibrated and is in scientific units. The gold copy version has been processed, pre-built, and served to the Data Explorer and end users in a series of ‘gold copy’ netCDF files for each instrument. There is one gold copy file for every instrument, stream, and deployment. Users have access to these ‘gold copy’ netCDF files via THREDDS and ERDDAP. Refer to :ref:`Data Download Section <download-data-map-overview>`.
+	* **Time series (Level 1+)**: This time series is created by merging recovered and telemetered streams for un-cabled instrument deployments (see example illustration below). For high-temporal resolution data, this product is binned to 1-minute resolution to allow for efficient visualization and downloads. **This is the primary product for visualization within the Data Explorer.**
+
+	* **Full-resolution time series (Level 2)**:  Full-resolution datasets are provided without temporal binning in a series of ‘gold copy’ netCDF files organized by instrument stream and deployment. You may need to concatenate deployments. Full-resolution datasets may contain more variables than have been visualized in the Data Explorer.For best performance, THREDDS is recommended for data download of full-resolution data. Refer to :ref:`Data Download Section <download-data-map-overview>`.
 
 	.. this is a comment: The follow metadata section is specific to OOI
 	

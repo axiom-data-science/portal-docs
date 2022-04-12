@@ -143,10 +143,11 @@ def setup(app):
             app.config.exclude_patterns.append('how-to/map/data-charts-QARTOD.rst')
             app.config.exclude_patterns.append('how-to/map/data-charts-data-inventory.rst')
 
-        #exclude QARTOD and Data Inventory from MBON
+        #exclude QARTOD, Data Inventory and Contribute Data from MBON
         if portal == 'mbon':
             app.config.exclude_patterns.append('how-to/map/data-charts-QARTOD.rst')
             app.config.exclude_patterns.append('how-to/map/data-charts-data-inventory.rst')
+            app.config.exclude_patterns.append('how-to/catalog/contribute-data.rst')
 
         #include custom map how tos for only mariculture map portal
         if portal != 'marm':

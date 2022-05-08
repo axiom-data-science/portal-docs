@@ -34,7 +34,6 @@ See the following sections of this help documentation for more information about
 	* :ref:`Data Map <map-overview>`
 	* :ref:`Data Views <data-views-overview>`
 
-
 .. _catalog-overview:
 
 ################
@@ -347,6 +346,11 @@ Catalog Overview
 	In addition to metadata, contextual information about the instrumentation may be found under the ‘More Information’ tab. This may include information such as: instrument location, deployment depth, technical specifications, calibration, and instrument photos or diagrams. 
 
 .. only:: mbon
+
+	Biodiversity Data
+	=================
+
+	More on biodiversity data can be found :ref:`Biodiversity Data Introduction. <mbon-biodiversity-intro>`
 
 	.. _submitting-formating-mbon-data:
 

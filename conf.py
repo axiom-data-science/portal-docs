@@ -124,8 +124,8 @@ def setup(app):
             app.config.exclude_patterns.append('how-to/map/map-add-layers.rst')
             app.config.exclude_patterns.append('how-to/map/view-historical-gridded-data.rst')
        
-        #include glider data pages only for secoora and cencoos
-        if portal != 'secoora' and portal != 'cencoos':
+        #include glider data pages only for secoora and caloos
+        if portal != 'secoora' and portal != 'caloos':
             app.config.exclude_patterns.append('how-to/map/map-view-glider-data.rst')
 
         #exclude main how-to pages from ooi build toc

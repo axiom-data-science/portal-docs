@@ -41,6 +41,17 @@ The data portal help docs repository is organized into 3 directories, which you 
 1. The ``custom`` subfolder, where a global CSS file lives that we don't have to worry about
 1. The ``how-to`` subfolder, which has ``catalog`` and ``map`` subdirectories where individual files for the how-to pages live
 
+## Prerequisites for working with this repo
+
+This repo requires the following tools/resources to 'build' in sphinx or produce local previews. 
+If you are not concerned with creating a local preview before submitting changes, you can skip these prereqs.
+
+1. [Read The Docs sphinx theme](https://github.com/readthedocs/sphinx_rtd_theme) 
+1. [Setup for sphinx](https://www.sphinx-doc.org/en/master/) 
+1. [Ready for restructured text](https://docutils.sourceforge.io/rst.html) 
+1. [git and github](https://docs.github.com/en/get-started), of course. 
+
+
 ## How to add content for your data portal
 
 If your organization has a data portal with its own branding (e.g., logo, data portal name), you can add custom content for your data portal's help docs. To do this, you must first **fork** (make a copy of) the master [portal docs repo](https://github.com/axiom-data-science/portal-docs).

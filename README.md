@@ -46,10 +46,10 @@ The data portal help docs repository is organized into 3 directories, which you 
 This repo requires the following tools/resources to 'build' in sphinx or produce local previews. 
 If you are not concerned with creating a local preview before submitting changes, you can skip these prereqs.
 
-	1. [Read The Docs sphinx theme](https://github.com/readthedocs/sphinx_rtd_theme) 
-	1. [Setup for sphinx](https://www.sphinx-doc.org/en/master/) 
-	1. [Ready for restructured text](https://docutils.sourceforge.io/rst.html) 
-	1. [git and github](https://docs.github.com/en/get-started), of course. 
+1. [Read The Docs sphinx theme](https://github.com/readthedocs/sphinx_rtd_theme) 
+1. [Setup for sphinx](https://www.sphinx-doc.org/en/master/) 
+1. [Ready for restructured text](https://docutils.sourceforge.io/rst.html) 
+1. [git and github](https://docs.github.com/en/get-started), of course. 
 
 
 ## How to add content for your data portal

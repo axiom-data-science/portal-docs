@@ -1,6 +1,6 @@
 .. TEXT
 
-.. |brand| replace:: CeNCOOS
+.. |brand| replace:: CalOOS
 
 .. |title| replace:: Data Portal
 

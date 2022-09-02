@@ -50,7 +50,7 @@ Welcome to the help site for the |brand| |title|!
 
 	For information about how to contribute data to the |title|, visit https://atn.ioos.us/help/.
 	
-.. only:: cencoos
+.. only:: caloos
 
 	****************
 	|title| Overview

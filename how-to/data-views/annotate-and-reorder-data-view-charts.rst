@@ -4,6 +4,8 @@
 Annotate and Reorder Data View Charts
 #####################################
 
+|CALOOS_annotate_reorder_data_views|
+
 You can further customize your data view following these steps:
 
   #. Click the ``edit chart description`` button to write a short annotation for data charts.

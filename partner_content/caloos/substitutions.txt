@@ -16,5 +16,7 @@
 
 .. GIFS
 
-.. |add_new_view_gif| image:: /partner_content/caloos/images/add_new_view_gif_cencoos.gif
+.. |add_new_view_gif| image:: /partner_content/caloos/images/CALOOS_create_custom_data_views.gif
+
+.. ||map_access_data_views_gif| image:: /partner_content/caloos/images/CALOOS_access_data_views.gif
 

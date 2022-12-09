@@ -4,7 +4,7 @@
 Annotate and Reorder Data View Charts
 #####################################
 
-|CALOOS_annotate_reorder_data_views|
+|annotate_reorder_data_views|
 
 You can further customize your data view following these steps:
 

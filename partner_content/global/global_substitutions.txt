@@ -173,7 +173,7 @@
 
 .. |add_new_view_gif| image:: /partner_content/global/images/gifs/add_new_view_gif.gif
 
-.. |annotate_reorder_data_views| image:: partner_content/global/images/gifs/CALOOS_annotate_reorder_data_views.gif
+.. |annotate_reorder_data_views_gif| image:: partner_content/global/images/gifs/CALOOS_annotate_reorder_data_views.gif
 
 
 .. OTHER IMAGE ALIASES

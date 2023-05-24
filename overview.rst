@@ -70,7 +70,7 @@ Catalog Overview
 	
 	Each of the arrays consists of both fixed and mobile platforms outfitted with scientific instrumentation. A surface mooring is an example of a stable, fixed platform. A profiler mooring, which has an instrumented component that moves up and down in the water column, and a glider, which is free to move in three dimensions, are examples of mobile platforms. OOI supports more than 80 platforms.
 
-	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column. For further information about the OOI infrastructure, click `here <https://oceanobservatories.org/ooi-infrastructure/>`_.
+	Each platform can contain multiple “nodes” that provide power and connectivity. Non-cabled nodes contain one or more computers and power converters, where cabled instruments are plugged in and their data are collected and transmitted to shore. The Regional Cabled Array has seven primary nodes that provide power and connectivity to the array, and also serve as distribution centers for extension cables that provide power and communication to sensors, instrument platforms, and moorings for continuous, real-time interactive science experiments at the seafloor and throughout the water column; select Chart Type Real-time streaming to view these Cabled Array data in real time. For further information about the OOI infrastructure, click `here <https://oceanobservatories.org/ooi-infrastructure/>`_.
 
 	Arrays, platforms, nodes, and junction boxes provide the framework for instrumentation and sensors used to collect and transmit data to shore. More than 800 instruments are deployed on OOI, consisting of 36 different types, measuring more than 200 different ocean parameters. Each instrument is equipped with a sensor or multiple sensors that measure specific elements (parameters) of the environment. For further information about OOI instruments, click `here <https://oceanobservatories.org/instruments/>`_.
 
@@ -138,7 +138,7 @@ Catalog Overview
 	
 	Different Chart Types
 	=====================
-	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart, or by using the custom Data Views interface.
+	This section includes descriptions for the common charts used to display data. Data charts can be accessed both by clicking a data chart, or by using the custom Data Views interface. For more details, please see the :ref:`Customize Data Charts <customize-data-charts>` page.
 	
 	Categorical Variables
 	---------------------
@@ -151,8 +151,10 @@ Catalog Overview
 	* **Box plots:** are useful for identifying outliers and for comparing distributions. The boxplot is a graph of a five-number summary: the minimum score, first quartile (Q1-the median of the lower half of all scores), the median, third quartile (Q3-the median of the upper half of all scores), and the maximum score. The boxplot consists of a rectangular box, which represents the middle half of all scores (between Q1 and Q3). Approximately one-fourth of the values should fall between the minimum and Q1, and approximately one-fourth should fall between Q3 and the maximum. A line in the box marks the median. Lines called whiskers extend from the box out to the minimum and maximum scores.
 	* **Dot plots:** consist of data points plotted on a fairly simple scale. Dot plots are suitable for small to moderate sized data sets to highlight clusters and gaps, as well as outliers. When dealing with larger data sets (around 20–30 or more data points) the box plot or histogram may be more efficient, as dot plots may become too cluttered after this point.
 	* **Curtain plots:** show a visual summary of vertical profiling data. If data is available at depth, the chart will show depth on the y-axis with the values represented by colors.
-	
-	For more details, please see the :ref:`Customize Data Charts <customize-data-charts>` page.
+
+	Real-time Streaming
+	---------------------
+	* **Real-time streaming:** Line charts displaying real-time streaming are available for some Cabled Array data. Real-time data are displayed in two panels, with the upper panel zoomed into the real-time streaming data and the lower panel displaying the past 24 hours.These charts cannot be customized, and this chart type does not include Download. To access the most recent data for download, click on the “Data” tab to open the regular Data chart.
 	
 	.. _climatology-and-anomaly-charts:
 

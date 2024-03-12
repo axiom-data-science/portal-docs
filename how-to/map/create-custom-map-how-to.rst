@@ -13,6 +13,9 @@ Once logged into your account, use the Create Custom Map button to create the Ge
 #. From the home page, log into your account and then click the 'Create custom map' button.  
 
 #. Enter the bounding coordinates for your site in decimal degrees (using positive east) as: Northwest Latitude, Northwest Longitude, Southeast Latitude, and Southeast Longitude. This will draw the farm site on the map. Or, you can skip this step and use the drawing tools within the map to approximate your farm site (refer to Option 2 below).
+
+If you need to convert from a different coordinate system, conversion help is available here: https://www.pgc.umn.edu/apps/convert/
+
 #. Enter farm site description information to appear in the map legend box. Note: the description text can be edited before printing the map. The legend box should include:  
 
     * Figure No and Map Type (General location, Detailed location, Site plan) 

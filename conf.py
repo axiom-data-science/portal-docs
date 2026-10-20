@@ -22,7 +22,6 @@
 
 import datetime
 import os
-import sphinx_rtd_theme
 import yaml
 
 # -- General configuration ------------------------------------------------
@@ -65,7 +64,7 @@ release = u''
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -80,8 +79,6 @@ todo_include_todos = False
 #
 
 html_theme = 'sphinx_rtd_theme'
-
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 #disable "View Source Link"
 html_show_sourcelink = False
@@ -104,7 +101,7 @@ def setup(app):
         'favicon':'partner_content/global/images/axiom_favicon.png'
     }
 
-    app.add_stylesheet('css/my_theme.css')
+    app.add_css_file('css/my_theme.css')
     app.config.html_static_path = ['custom']
     app.config.rst_prolog = '.. include:: /partner_content/global/global_substitutions.txt'
     app.config.exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -172,12 +169,13 @@ def setup(app):
         portal_config_file = 'partner_content/%s/config.yml' % portal
         if os.path.exists(portal_config_file):
             #override config defaults with yaml config values
-            config.update(yaml.load(open(portal_config_file)))
+            with open(portal_config_file) as config_file:
+                config.update(yaml.safe_load(config_file))
 
         #load css
         portal_css_file = 'partner_content/%s/static/css/partner_theme.css' % portal
         if os.path.exists(portal_css_file):
-            app.add_stylesheet('css/partner_theme.css')
+            app.add_css_file('css/partner_theme.css')
 
     else:
         app.config.rst_prolog += '\n.. include:: /partner_content/global/default_substitutions.txt'
@@ -243,6 +241,5 @@ texinfo_documents = [
      author, 'IOOSNextGenSensorMap', 'One line description of project.',
      'Miscellaneous'),
 ]
-
 
 

@@ -524,28 +524,30 @@ Map Overview
 
 	|sensor_select|
 
-	.. only:: not ioos
+.. only:: not (ioos or ooi)
 
-		.. _near-real-time-data-overview:
+	.. _near-real-time-data-overview:
 
-		*******************
-		Near-Real-Time Data
-		*******************
+	*******************
+	Near-Real-Time Data
+	*******************
 
-		Near-real-time data are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
+	Near-real-time data are ingested by the |title| at the same frequency that the data are made available; however, there is some delay (hours to days) between data collection and when the data provider makes it available. Examples of near real-time assets include model outputs, satellite images, and derived satellite products.
 
-		.. _model-and-satellite-data:
+	.. _model-and-satellite-data:
 
-		Model and Satellite Data
-		========================
+	Model and Satellite Data
+	========================
 
-		Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
+	Model outputs or satellite imagery have been visually abstracted in the portal to include a schematic representation of the data attributes or variables. The variable currently being displayed is shown as a title in the right hand legend bar. The variable being displayed can be changed by clicking the caret icon and selecting from the other variables that may be available (note: the variables available will vary depending on which data layer you are viewing). The current date and time for the data being displayed is shown in the right hand legend bar beneath the data layer title.
 
-		To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`Data Charts <data-charts-overview>` section of this document.
+	To select your area of interest, use the pan and zoom features on the map. To display values within your area of interest, hover your mouse over the map. The name of the data layers, latitude/longitude, date, time, and the value at the given location will appear. If you click on the map in any location covered by a multi-dimensional model or grid, a data chart window showing the data trends over time will appear. More information can be found in the :ref:`Data Charts <data-charts-overview>` section of this document.
 
-		The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`Time Slider <time-slider-overview>` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
+	The timer slider bar at the bottom of the map can be used to view the various time intervals of data available. The interval available will vary depending on which data layer you are viewing. More information about using the time slider can be found in the :ref:`Time Slider <time-slider-overview>` section of this documentation. Depending on your zoom level and internet speed, these time intervals layers could take awhile to appear so be patient as these layers load. Once you do have them in the cache they will load more quickly as you step forward and backwards through the time.
 
-		The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
+	The data layer legend on the right hand shows the color scale that is used to represent the unit of measurement. You can change the palette and scale settings by clicking on the color bar. Select among the different color palettes using the drop down menu. The legend scale can be changed by either adjusting the scale slider, or by clicking on the gear icon and entering or advancing the bounds control interval. When the map is zoomed in, the scale and color for that area can be automatically set for the data in view by clicking the `Autoset for data view` button.
+
+.. only:: not ooi
 
 	.. _historical-data-overview:
 
@@ -625,16 +627,18 @@ Map Overview
 
 	For more details, please see the :ref:`Customize Layers <customize-layers-how-to>` page.
 
-	.. only:: not ioos
+.. only:: not (ioos or ooi)
 
-		.. _search-and-add-layers-overview:
+	.. _search-and-add-layers-overview:
 
-		Search and Add Layers
-		=====================
+	Search and Add Layers
+	=====================
 
-		From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
+	From the map, you can search for and add additional data layers to the map. Click on the catalog button in top right to return to the catalog page you most recently visited. You can also search for additional data layers to add to the map using the search bar at the top left corner. When you have selected additional layers, click ``Map`` to return to the map.
 
-		For more details, please see the :ref:`Add Layers <add-layers-how-to>` page.
+	For more details, please see the :ref:`Add Layers <add-layers-how-to>` page.
+
+.. only:: not ooi
 
 	.. _time-slider-overview:
 
@@ -659,75 +663,76 @@ Map Overview
 
 	For other ways to filter data in the map, please see the :ref:`Filter Data <filter-data-how-to>` page.
 
-	.. only:: not ioos
+.. only:: not (ioos or ooi)
 
-		.. _polygon-tool-overview:
+	.. _polygon-tool-overview:
 
-		Polygon Tool
-		============
+	Polygon Tool
+	============
 
-		To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
+	To further interact with data in the map, the polygon tool can be used to create summary statistics across spatial areas of interest.
 
-		For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
+	For more details, please see the :ref:`Polygon Tool <use-polygon-tool-how-to>` page.
 
-		.. Instance State Saving
-		.. =====================
+	.. Instance State Saving
+	.. =====================
 	
-	.. only:: marm
+.. only:: marm and not ooi
 	
-		.. _create-custom-map-overview:
+	.. _create-custom-map-overview:
 	
-		*****************
-		Create Custom Map
-		*****************
+	*****************
+	Create Custom Map
+	*****************
 	
-		Create maps of your aquaculture site using pre-loaded data layers that follow the permit application requirements, including:
+	Create maps of your aquaculture site using pre-loaded data layers that follow the permit application requirements, including:
 
-			* General Location Map
-			* Detailed Location Map
-			* Site Plan Map
+		* General Location Map
+		* Detailed Location Map
+		* Site Plan Map
 		
-		Within each of these map types, data layers that meet the permit requirements have been added by default. You can add or remove data layers. Customize your map by drawing and adding annotations of your proposed farm site. Print the final version for submission with your permit application. Or, save the map to be later edited. For more information, refer to the :ref:`Create Custom Map <create-custom-map-how-to>` page.
+	Within each of these map types, data layers that meet the permit requirements have been added by default. You can add or remove data layers. Customize your map by drawing and adding annotations of your proposed farm site. Print the final version for submission with your permit application. Or, save the map to be later edited. For more information, refer to the :ref:`Create Custom Map <create-custom-map-how-to>` page.
 	
-		.. _default-data-layers-marm
+	.. _default-data-layers-marm
 	
-		Default Data Layers
-		*******************
-		For each of the map types, the following data layers are added by default onto the map. 
+	Default Data Layers
+	*******************
+	For each of the map types, the following data layers are added by default onto the map.
 	
-		General Location Mapping
-		------------------------
-		This map is a larger scaled map showing the larger surrounding area with less detail. Default layers:
+	General Location Mapping
+	------------------------
+	This map is a larger scaled map showing the larger surrounding area with less detail. Default layers:
 
-			* USGS Topographic quadrangle map
-			* `Alaska Community Locations <https://mariculture.portal.aoos.org/?ls=zkhLDu2Z#map>`_	
+		* USGS Topographic quadrangle map
+		* `Alaska Community Locations <https://mariculture.portal.aoos.org/?ls=zkhLDu2Z#map>`_
 	
-		Detailed Location Map
-		---------------------
-		This map is a smaller scaled map showing more detail. Default layers:
+	Detailed Location Map
+	---------------------
+	This map is a smaller scaled map showing more detail. Default layers:
 
-			* National Oceanic and Atmospheric Administration (NOAA) navigational chart
-			* `Alaska Community Locations <https://mariculture.portal.aoos.org/?ls=zkhLDu2Z#map>`_
+		* National Oceanic and Atmospheric Administration (NOAA) navigational chart
+		* `Alaska Community Locations <https://mariculture.portal.aoos.org/?ls=zkhLDu2Z#map>`_
 	
 	
-		Site Plan Map
-		-------------
-		In this map, an overhead view of the farm area parcel(s) and surrounding area is drawn, and data layers are included for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
+	Site Plan Map
+	-------------
+	In this map, an overhead view of the farm area parcel(s) and surrounding area is drawn, and data layers are included for areas of eelgrass beds (intertidal zone), areas of kelp beds (subtidal zone), fuel and chemical storage, nearby anadromous streams (salmon) major natural and man-made features (on site or nearby), bottom characteristics (sand, mud, silt, clay, bedrock, cobble, shells, rockweed, algae/seaweed), and locations of all known existing uses.
 
 		
-		.. _draw-tools-overview:
+	.. _draw-tools-overview:
 	
-		Draw tools
-		**********
-		You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
+	Draw tools
+	**********
+	You can draw custom shapes, add annotations, and measure distances on the map using the draw toolbar. For more information, refer to the :ref:`Draw Tools <draw-tools-how-to>` page.
 	
-		.. _log-in-overview:
+	.. _log-in-overview:
 	
-		Log-in
-		******
-		You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
+	Log-in
+	******
+	You can create an account and log-in in order to save custom maps for later use. Your custom maps can be shared with others. You can also edit your maps to add or remove data layers, edit shape drawings and labels, or change the narrative in the map legend. For more information on creating an account, refer to the :ref:`Create a Log-In Account <create-account-how-to>` page.
 	
 
+.. only:: not ooi
 
 	.. _data-charts-overview:
 	
